@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="type"
+            type="Integer" />
+
+        <import type="com.halo.widget.reactions.ReactionNumber" />
+    </data>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/activity_normal_s"
+            android:paddingTop="@dimen/activity_small_s"
+            android:paddingEnd="@dimen/activity_normal_s"
+            android:paddingBottom="@dimen/activity_small_s"
+            app:justifyContent="center">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/all_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.UNHAHA}"
+                android:text="@string/chat_message_reaction_detail_all"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/haha_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.HAHA}"
+                android:textAlignment="center"
+                tools:text="haha" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/love_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.LOVE}"
+                android:textAlignment="center"
+                tools:text="love" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/lolo_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.LOLO}"
+                android:textAlignment="center"
+                tools:text="lolo" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/wow_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.WOW}"
+                android:textAlignment="center"
+                tools:text="wow" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/cry_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.SAD}"
+                android:textAlignment="center"
+                tools:text="cry" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/angry_bt"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:checked="@{type == ReactionNumber.ANGRY}"
+                android:textAlignment="center"
+                tools:text="angry" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+</layout>

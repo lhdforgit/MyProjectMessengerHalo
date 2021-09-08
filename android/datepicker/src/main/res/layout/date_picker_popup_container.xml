@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<!-- Layout of date picker-->
+
+<!-- The width of this container is manually set a little bigger than the one of the children
+     contained in it. This helps to prevent rounding errors when toggling the "Show year" option -->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E9E9E9"
+    app:cardCornerRadius="16dp"
+    android:layout_marginTop="-16dp"
+    app:cardElevation="0dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- Warning: everything within the parent is removed and re-ordered depending
+         on the date format selected by the user. -->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/close_bt"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/parent_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" />
+</androidx.cardview.widget.CardView>

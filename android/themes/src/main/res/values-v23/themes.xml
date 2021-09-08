@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Hahalolo Version 2.0-->
+    <style name="MessengerTheme" parent="DayNightThemeApp">
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#cccccc</item>
+    </style>
+    <style name="MessengerTheme.Launcher">
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@drawable/preview_window</item>
+    </style>
+    <style name="MessengerTheme.Login">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">#00ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#00ffffff</item>
+    </style>
+    <!--End Hahalolo Version 2.0-->
+    <style name="MessengerTheme.MediaViewer" parent="@style/MessengerTheme.Slidr">
+        <item name="colorPrimaryDark">#1d212d</item>
+        <item name="android:navigationBarColor">#1d212d</item>
+    </style>
+    <style name="HahaloloTheme.QRCode" parent="MessengerTheme">
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>

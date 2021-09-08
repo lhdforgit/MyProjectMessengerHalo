@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="Widget.LinkView" parent="android:Widget.TextView">
+        <item name="hashtagColor">?colorAccent</item>
+        <item name="mentionColor">?colorAccent</item>
+        <item name="hyperlinkColor">?colorAccent</item>
+    </style>
+
+    <style name="BottomDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="BottomDialogThemeV3">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!--    start calender -->
+    <!--
+       Base application theme, dependent on API level. This theme is replaced
+       by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+   -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="WeekDayTitleStyle" parent="Messenger.Character.H5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">15sp</item>
+        <item name="android:paddingBottom">15sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+
+
+    <style name="ContainerDayOfWeek">
+        <item name="android:layout_width">@dimen/dayOfMonthBoxSize</item>
+        <item name="android:layout_height">@dimen/dayOfMonthBoxSize</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="StripRange">
+        <item name="android:background">@color/primary_light</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!--    end calender-->
+
+    <style name="full_screen_dialog" parent="Theme.MaterialComponents.Light">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="full_screen_dialogs" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="Plain_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+    </style>
+
+    <style name="Pull_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">16dp</item>
+    </style>
+
+    <style name="Rotate_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">16dp</item>
+        <item name="should_draw_content_under_handle_view_v3">true</item>
+    </style>
+
+    <style name="NothingTop_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+        <item name="bottom_sheet_corner_radius_v3">0dp</item>
+    </style>
+
+    <style name="OtpWidget"/>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

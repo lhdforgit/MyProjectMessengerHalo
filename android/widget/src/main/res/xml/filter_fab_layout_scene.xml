@@ -1,0 +1,133 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        android:id="@+id/dragFabScene"
+        motion:constraintSetEnd="@+id/setAfterInitEnd"
+        motion:constraintSetStart="@+id/setAfterInit"
+        motion:duration="1000"
+        motion:motionInterpolator="easeInOut">
+        <KeyFrameSet>
+            <KeyTrigger
+                motion:framePosition="2"
+                motion:motionTarget="@+id/filterBtn"
+                motion:onPositiveCross="hideFab"
+                motion:triggerId="@+id/hideFilterBtn" />
+            <KeyTrigger
+                motion:framePosition="0"
+                motion:motionTarget="@+id/filterBtn"
+                motion:onNegativeCross="showFab"
+                motion:triggerId="@+id/showFilterBtn" />
+        </KeyFrameSet>
+        <OnSwipe
+            motion:dragDirection="dragUp"
+            motion:dragScale="100.5"
+            motion:maxAcceleration="1000.0"
+            motion:maxVelocity="1000.0"
+            motion:onTouchUp="autoComplete"
+            motion:touchAnchorSide="top"
+            motion:touchRegionId="@+id/bottomView" />
+    </Transition>
+
+    <Transition
+        android:id="@+id/dragGone"
+        motion:constraintSetEnd="@+id/setDragGone"
+        motion:constraintSetStart="@+id/setAfterInit"
+        motion:duration="100"
+        motion:motionInterpolator="easeInOut">
+        <!--<OnSwipe
+            motion:dragDirection="dragDown"
+            motion:dragScale="100"
+            motion:maxAcceleration="100"
+            motion:maxVelocity="100"
+            motion:onTouchUp="autoCompleteToEnd"
+            motion:touchAnchorSide="middle"
+            motion:touchRegionId="@+id/bottomView" />-->
+    </Transition>
+    <Transition
+        android:id="@+id/transitionStart"
+        motion:constraintSetEnd="@+id/setAfterInit"
+        motion:constraintSetStart="@+id/setInit"
+        motion:duration="400"
+        motion:motionInterpolator="easeInOut" />
+    <!--
+          start
+          -->
+    <ConstraintSet android:id="@+id/setAfterInit">
+        <Constraint
+            android:id="@+id/contentFilterFabId"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+    <!--
+       end
+       -->
+    <ConstraintSet android:id="@+id/setAfterInitEnd">
+        <Constraint
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet
+        android:id="@+id/setStateExpand"
+        motion:deriveConstraintsFrom="@+id/setAfterInitEnd">
+        <Constraint android:id="@+id/filterBtn">
+            <PropertySet android:visibility="gone" />
+        </Constraint>
+    </ConstraintSet>
+
+    <!--
+    setDragGone
+    -->
+    <ConstraintSet
+        android:id="@+id/setDragGone"
+        motion:deriveConstraintsFrom="@+id/setAfterInit">
+        <Constraint
+            android:id="@+id/filterBtn"
+            android:layout_width="@dimen/fabSize"
+            android:layout_height="@dimen/fabSize"
+            motion:layout_constraintBottom_toTopOf="@+id/bottomView"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/bottomView">
+            <PropertySet android:alpha="0.5" />
+            <Transform
+                android:rotation="180"
+                android:scaleX="0"
+                android:scaleY="0" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet
+        android:id="@+id/setInit"
+        motion:deriveConstraintsFrom="@+id/setAfterInit">
+        <Constraint
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+</MotionScene>

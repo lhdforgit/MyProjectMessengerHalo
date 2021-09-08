@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <plurals name="posts">
+        <item quantity="one">%,d post</item>
+        <item quantity="other">%,d posts</item>
+    </plurals>
+</resources>

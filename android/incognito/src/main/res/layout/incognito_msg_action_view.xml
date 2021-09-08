@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hahalolo.incognito.presentation.conversation.dialog.view.reaction.IncognitoMessageEmotionsView
+            android:id="@+id/emotions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_background"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@id/emotions"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E9E9E9"
+            />
+
+        <LinearLayout
+            android:id="@+id/action_gr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_background"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            tools:ignore="MissingConstraints,UselessLeaf">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_reply"
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_reply"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_reply" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_copy"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_copy"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_copy" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_forward"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_forward"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_forward" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_edit"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_edit"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_edit" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_save"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_save"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_save" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_tick"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_tick"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_tick" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_delete"
+                style="@style/Incognito.TextView.H6.Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_delete"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/app_background"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/action_gr">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_cancel"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_incognito_cancel"
+                android:drawablePadding="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
+                android:text="@string/bottom_sheet_menu_incognito_cancel" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

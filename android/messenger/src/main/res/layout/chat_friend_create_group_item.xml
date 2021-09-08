@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/activity_normal_s"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/avatar_img"
+                android:layout_width="@dimen/messenger_avatar_small_size"
+                android:layout_height="@dimen/messenger_avatar_small_size"
+                android:background="@drawable/avatar_holder" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/onlineIndicator"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignEnd="@+id/avatar_img"
+                android:layout_alignBottom="@+id/avatar_img"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_bubble_online"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/username_tv"
+                style="@style/Messenger.TextView.ConversationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_tv"
+                style="@style/Messenger.Character.H7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/check_bt"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:button="@drawable/bg_message_checkbox"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</layout>

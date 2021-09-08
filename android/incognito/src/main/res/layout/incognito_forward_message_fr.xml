@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.hahalolo.incognito.presentation.create.forward.header.IncognitoForwardHeaderView
+            android:id="@+id/forward_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.halo.widget.HaloEditText
+            style="@style/Incognito.EditText.BackgroundWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_small_s"
+            android:background="@color/divider"
+            android:hint="Nhập tin nhắn..."
+            android:maxLines="3"
+            android:padding="@dimen/activity_normal_s" />
+
+        <View
+            style="@style/Incognito.Divider.BottomSheet"/>
+
+        <com.halo.widget.HaloSearchView
+            android:id="@+id/country_search_view"
+            style="@style/Incognito.SearchView.Background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            app:queryHint="Tìm kiếm"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            style="@style/Incognito.TabLayoutText"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_gravity="center"
+            app:tabSelectedTextColor="@color/incognito_text_primary"
+            app:tabTextColor="@color/text_dark" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</layout>

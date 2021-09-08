@@ -1,0 +1,22 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34.967dp"
+    android:height="27.028dp"
+    android:viewportWidth="34.967"
+    android:viewportHeight="27.028">
+  <path
+      android:pathData="M22.197,14.258m-12.769,0a12.769,12.769 0,1 1,25.538 0a12.769,12.769 0,1 1,-25.538 0"
+      android:fillColor="#c2f9ff"/>
+  <path
+      android:pathData="M25.2371,1.9211 L17.2838,6.7053 8.6035,2.779 6.5269,4.0274l6.2786,5.3739L7.7458,12.4414 3.0681,10.6824 1.4352,12.0268 7.4366,15.6794 17.6534,11.0558l11.9762,-7.1997A0.9735,0.9735 128.976,0 0,29.7851 2.2883,3.9231 3.9231,128.976 0,0 25.2371,1.9211Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+</vector>

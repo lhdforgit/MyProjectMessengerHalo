@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/wrapper"
+        style="@style/Incognito.Wrapper">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Incognito.AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Incognito.Toolbar.White.Nav"
+                app:title="Thông tin cá nhân" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/activity_normal_s">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/avatar_img"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/activity_normal_s"
+                        android:padding="4dp"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                        app:srcCompat="@drawable/ic_dummy_page"
+                        app:strokeColor="@color/green_500"
+                        app:strokeWidth="2dp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/username_tv"
+                        style="@style/Incognito.TextView.H4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="Luôn Vui Tươi" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/email_tv"
+                        style="@style/Incognito.TextView.H6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="Thanggreen78@hahalolo.com" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Tên hiển thị" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/name_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Luôn Vui Tươi" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Giới tính" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/sex_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Nam" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Ngày sinh" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="10-02-1997" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Số điện thoại" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="0351489421" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Email" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Thanggreen78@hahalolo.com" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Địa chỉ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Thành phố Cô Lô Nhuê" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/share_code"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_qr"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Chia sẻ mã QR" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/update_info"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_user"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Thay đổi hồ sơ" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_status"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Trạng thái" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/message_waiting"
+                        style="@style/Incognito.TextView.H6.Bold"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableStart="@drawable/ic_incognito_message_waiting"
+                        android:drawableEnd="@drawable/ic_incognito_message_wait_red"
+                        android:drawablePadding="@dimen/activity_normal_s"
+                        android:padding="@dimen/activity_normal_s"
+                        android:layout_weight="1"
+                        android:visibility="visible"
+                        android:text="Tin nhắn đang chờ" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/activity_normal_s"
+                        android:background="@drawable/ic_incognito_navigate_right"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mail_box"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_mail"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Hộp thư lưu trữ" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/setting"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_setting"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Tùy chọn cài đặt" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/setting_noti"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_noti"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Cài đặt thông báo" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/display"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_display"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Giao diện" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/log_out"
+                    style="@style/Incognito.TextView.H6.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_logout"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:textColor="@color/incognito_icon_tint_notice"
+                    android:text="Đăng xuất" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

@@ -1,0 +1,40 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="0.8dp"
+                android:color="#888" />
+        </shape>
+    </item>
+    <item
+        android:bottom="8dp"
+        android:end="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:start="8dp"
+        android:top="8dp"
+        tools:ignore="UnusedAttribute">
+        <vector
+            android:width="18dp"
+            android:height="18dp"
+            android:viewportWidth="18"
+            android:viewportHeight="18">
+            <path
+                android:fillColor="#00000000"
+                android:pathData="M0.5,8.595l8.095,-8.095v5.174c5.929,0.571 8.239,4.685 8.905,11.826 -2.7,-3.7 -5.524,-5.923 -8.905,-5.913v5.1Z"
+                android:strokeWidth="1"
+                android:strokeColor="#888"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+        </vector>
+    </item>
+</layer-list>

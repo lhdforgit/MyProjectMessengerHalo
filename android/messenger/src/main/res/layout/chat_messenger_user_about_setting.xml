@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background_divider">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/login_top_bg" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.6" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/tool_bar"
+                    style="@style/Messenger.ImageIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:padding="@dimen/activity_small_s"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_back_navigation_light" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/avatar_iv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <com.halo.widget.shapeimageview.CircleImageView
+                    android:id="@+id/avatar_iv"
+                    android:layout_width="@dimen/ic_wall_avatar_size"
+                    android:layout_height="@dimen/ic_wall_avatar_size"
+                    android:elevation="6dp"
+                    app:srcCompat="@drawable/ic_avatar_holder"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_overlay="true"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tool_bar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <FrameLayout
+                    android:id="@+id/group_fr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/_cartGroupCoverId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_vertical_margin"
+                        android:layout_marginLeft="@dimen/activity_vertical_margin"
+                        android:layout_marginEnd="@dimen/activity_vertical_margin"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:layout_marginBottom="8dp"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:minHeight="0dp"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/username_tv"
+                                style="@style/Messenger.Character.H2.Dark"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="61dp"
+                                android:text="Đức Thắng" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="?actionBarItemBackground"
+                                android:orientation="horizontal"
+                                android:layout_marginStart="@dimen/activity_normal_s"
+                                android:layout_marginBottom="@dimen/activity_normal_s"
+                                android:layout_marginEnd="@dimen/activity_normal_s"
+                                android:layout_marginTop="@dimen/activity_lage_s">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    style="@style/Chat.TextView.H5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:text="Tên hiển thị" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/name_tv"
+                                    style="@style/Chat.TextView.H6"
+                                    android:singleLine="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/activity_normal_s"
+                                    android:text="Đức Thắng" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="?actionBarItemBackground"
+                                android:orientation="horizontal"
+                                android:layout_marginStart="@dimen/activity_normal_s"
+                                android:layout_marginEnd="@dimen/activity_normal_s">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    style="@style/Chat.TextView.H5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:text="giới tính" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/gender_tv"
+                                    style="@style/Chat.TextView.H6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Nam" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="?actionBarItemBackground"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="@dimen/activity_normal_s"
+                                android:layout_marginStart="@dimen/activity_normal_s"
+                                android:layout_marginEnd="@dimen/activity_normal_s">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    style="@style/Chat.TextView.H5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:text="Ngày sinh" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/birthday_tv"
+                                    style="@style/Chat.TextView.H6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="00-00-1997" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="?actionBarItemBackground"
+                                android:orientation="horizontal"
+                                android:layout_marginStart="@dimen/activity_normal_s"
+                                android:layout_marginEnd="@dimen/activity_normal_s"
+                                android:layout_marginTop="@dimen/activity_normal_s"
+                                android:layout_marginBottom="@dimen/activity_normal_s">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    style="@style/Chat.TextView.H5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:text="Địa chỉ" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/address_tv"
+                                    style="@style/Chat.TextView.H6"
+                                    android:singleLine="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/activity_normal_s"
+                                    android:text="Thái Bình, Việt Nam" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:layout_marginStart="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    app:layout_constraintTop_toBottomOf="@+id/group_fr"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/white">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/share_qr_tv"
+                            style="@style/Chat.TextView.H6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableStart="@drawable/ic_chat_share_qr"
+                            android:drawableEnd="@drawable/ic_chat_navigate_right_two"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Chia sẻ mã QR" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:background="@color/divider" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/status_tv"
+                            style="@style/Chat.TextView.H6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableStart="@drawable/ic_chat_status_active"
+                            android:drawableEnd="@drawable/ic_chat_navigate_right_two"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Trạng thái" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:background="@color/divider" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/display_tv"
+                            style="@style/Chat.TextView.H6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableStart="@drawable/ic_chat_display"
+                            android:drawableEnd="@drawable/ic_chat_navigate_right_two"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Giao diện" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:background="@color/divider" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/log_out_tv"
+                            style="@style/Chat.TextView.H6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableStart="@drawable/ic_chat_log_out"
+                            android:drawableEnd="@drawable/ic_chat_navigate_right_two"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Đăng xuất" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card_setting" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

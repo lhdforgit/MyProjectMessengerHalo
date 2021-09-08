@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <declare-styleable name="MutiImageView">
+        <attr name="circle_type" format="boolean"/>
+    </declare-styleable>
+</resources>

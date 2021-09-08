@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.glideutils">
+
+    <application>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <dimen name="message_incoming_bubble_margin_right">88dp</dimen>
+    <dimen name="message_outcoming_bubble_margin_left">128dp</dimen>
+</resources>

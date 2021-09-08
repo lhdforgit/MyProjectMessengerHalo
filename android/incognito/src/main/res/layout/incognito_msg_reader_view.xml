@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_incognito_reaction_view"
+            android:padding="4dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/incognito_msg_emoji_size"
+                android:layout_height="@dimen/incognito_msg_emoji_size"
+                android:padding="2dp"
+                android:src="@drawable/ic_incognito_msg_readed" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/user_1"
+                android:layout_width="@dimen/incognito_msg_emoji_size"
+                android:layout_height="@dimen/incognito_msg_emoji_size"
+                android:layout_toEndOf="@id/icon"
+                android:src="@drawable/ic_emoji_love_social" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/user_2"
+                android:layout_width="@dimen/incognito_msg_emoji_size"
+                android:layout_height="@dimen/incognito_msg_emoji_size"
+                android:layout_alignStart="@id/user_1"
+                android:layout_marginStart="@dimen/incognito_msg_emoji_margin"
+                android:src="@drawable/ic_emoji_haha_social" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/count_tv"
+                style="@style/Incognito.TextView.H7"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/incognito_msg_emoji_size"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@id/user_2"
+                android:gravity="center"
+                android:text="+99" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Notification -->
+    <string name="notification_accept_friend">%1$s confirmed your friend request. Write something on %2$s\'s timeline</string>
+    <string name="notification_comment_post">%s commented on your post %s</string>
+    <string name="notification_like_post">%s reacted to your post %s</string>
+    <string name="notification_share_post"> %s shared your post </string>
+    <string name="notification_title">Notifications</string>
+    <string name="notification_comment_comment_post">%1$s responded to your comment %2$s</string>
+    <string name="post">post</string>
+    <string name="notification_like_a_comment">%s reacted to your comment %s </string>
+    <string name="notification_create_post">%s mentioned you in a post</string>
+    <string name="notification_user_react_tour">"%1$s reacted to %2$s "</string>
+    <string name="notification_user_react_shop">"%1$s reacted to %2$s "</string>
+    <string name="notification_user_react_hotel">"%1$s reacted to %2$s "</string>
+    <string name="notification_user_react_page">"%1$s reacted to %2$s "</string>
+    <string name="notification_user_grad_post">You have given 10 points to %s\'s post</string>
+    <string name="notification_user_receive_grad">%s has given 10 points to your post</string>
+    <string name="notification_user_receive_grad_wallet_not_exists">%s has given 10 points to your post. Please create a personal payment account to receive</string>
+    <string name="noti_page_request_cancel_order_user">Order %s has been requested to cancel by %s, and is waiting for confirmation from the system</string>
+    <string name="notification_invite_like_page">%1$s invited you to Haha %2$s</string>
+    <string name="noti_usr_req_join_pag">%1$s sent a request to join your site %2$s</string>
+    <string name="noti_pag_inv_usr">Site %s invited you to be a member</string>
+    <string name="noti_usr_acce_inv">%1$s agreed to join your site %2$s</string>
+    <string name="noti_pag_appr_req_join">%s accepted your request to join as a member</string>
+    <string name="notification_friend_mention_user_in_comment">%s mentioned you in a comment</string>
+    <string name="notification_user_react_comment_user_tagged">%s reacted to a comment you are mentioned %s</string>
+    <string name="notification_user_react_post_user_tagged">%s reacted to a post you are mentioned</string>
+    <string name="notification_perple_react_user_photo">%s reacted to your photo</string>
+    <string name="notification_perple_react_user_video">%s reacted to your video</string>
+    <string name="notification_perple_comment_user_photo">%s commented on your photo</string>
+    <string name="notification_perple_comment_user_video">%s commented on your video</string>
+    <string name="notification_business_verity_has_devy">Verification request for %s business account has been rejected</string>
+    <string name="noti_business_send_verify_info">"%s business account has sent a request for business verification "</string>
+    <string name="noti_business_has_verified">Business verification request of %s has been approved</string>
+    <string name="noti_request_verify_business_infor_has_approved">Verification request for %s business account has been approved</string>
+    <string name="noti_request_verify_business_infor_has_denied">Verification request for %s business account has been rejected</string>
+    <string name="noti_business_change_role_employee">Your role in page %s has been changed.</string>
+    <string name="notify_business_accept">You accepted join the business</string>
+    <string name="noti_accept_invite_like_page">You Haha this page</string>
+    <string name="notify_page_accept">You accepted Haha this page</string>
+    <string name="noti_ti_deny_invite_like_page">You declined the invitation</string>
+    <string name="noti_order_has_confirmed_by_page">Order %1$s has been confirmed successfully by %2$s.</string>
+    <string name="noti_user_request_cancel_order">Order %1$s of %2$s has been requested to cancel. Please wait for notification of cancelation confirmation from the page</string>
+    <string name="noti_user_request_cancel_order_of_page">Order %1$s of %2$s has been requested to cancel. Please confirm cancelation request</string>
+    <string name="noti_page_request_cancel_order_need_info_refund">Order %1$s has been requested to cancel by %2$s. Please enter your information to get a refund</string>
+    <string name="noti_page_request_cancel_order">Order %1$s has been requested to cancel by %2$s.</string>
+    <string name="noti_request_cancel_has_confirmed">Request to cancel order %1$s has been confirmed</string>
+    <string name="noti_request_cancel_has_confirmed_by_page">Request to cancel order %1$s has been confirmed by %2$s</string>
+    <string name="noti_halo_confirmed_cancel_order">Order %1$s of %2$s has been confirmed to be canceled successfully, and is in the process of completion</string>
+    <string name="noti_halo_confirmed_cancel_order_of_page">Order %1$s of %2$s has been confirmed to be canceled successfully, and is in the process of completion</string>
+    <string name="noti_order_has_cancelled">The cancelation for order %s has been completed</string>
+    <string name="noti_order_of_page_has_cancelled">Your order %1$s has been canceled by %2$s</string>
+    <string name="noti_system_request_cancel_order_need_info_refund">Order %1$s of %2$s page has been requested to cancel by Hahalolo. Please enter your information to get a refund</string>
+    <string name="noti_system_request_cancel_order">Order %1$s has been requested to cancel by Hahalolo</string>
+    <string name="noti_system_has_canceled_order">Order %1$s has been canceled by the system because the confirmation deadline is over on %2$s, is in the process of completion.</string>
+    <string name="noti_system_has_canceled_order_of_page">Order %1$s has been canceled by the system because the confirmation deadline is over on %2$s.</string>
+    <string name="noti_order_has_confirmed_need_pay">Order %s has been confirmed successfully by %s. Please pay your order</string>
+    <string name="noti_guider_decline_page_invite">%1$s declined the invitation to be a Guide for %2$s</string>
+    <string name="noti_guider_accept_page_invite">%1$s accepted the invitation to be a Guide for %2$s</string>
+    <string name="noti_add_user_into_business">"%s invited you to work for their business account on Hahalolo "</string>
+    <string name="noti_employee_accept_busi_invite">%s accepted the invitation to join your business account</string>
+    <string name="noti_employee_reject_busi_invite">%s rejected the invitation to join your business account</string>
+    <string name="halo_noti_share_post">%s shared your post</string>
+    <string name="noti_page_invite_guider">Page %s has sent a tour guide invitation for you</string>
+    <string name="notification_hide">Hide notifications</string>
+    <string name="notification_chanelId">HaloChanelId</string>
+    <string name="noti_accept">You have accepted</string>
+    <string name="noti_deny">You have declined</string>
+    <string name="noti_btn_deny">Decline</string>
+    <string name="noti_btn_accept">Confirm</string>
+    <string name="noti_action_accpted">"You accepted the request"</string>
+    <string name="noti_user_comment_prod">Có một bình luận mới vào sản phẩm của trang %s</string>
+    <string name="noti_order_has_confirmed">Order %1$s has been confirmed successfully by %2$s</string>
+    <string name="noti_user_review_page"> %1$s page have just got a new review from %2$s</string>
+    <string name="noti_user_react_review">%1$s has just expressed feelings about your review</string>
+    <string name="noti_user_comm_review">%1$s just commented on your review</string>
+    <string name="noti_stopped_livestream_success">LiveStream has stopped</string>
+    <string name="noti_started_livestream_success">LiveStream played</string>
+    <string name="noti_user_started_livestream">%1$s had live stream</string>
+    <string name="noti_user_stopped_livestream">%1$s stop live stream</string>
+    <string name="noti_inst_tour_prepay_success">Bạn đã đặt và trả trước %1$s cho đơn hàng tour trả góp %2$s</string>
+    <string name="noti_usr_inv_usr_join_pag_evt">%1$s đã mời bạn tham dự sự kiện %2$s</string>
+    <string name="noti_usr_join_pag_evt">%1$s đã tham dự sự kiện %2$s</string>
+    <string name="noti_usr_acce_inv_pag_evt">%1$s đã đồng ý tham dự sự kiện %2$s</string>
+    <string name="noti_usr_intersted_pag_evt">%1$s đã quan tâm sự kiện %2$s</string>
+    <string name="noti_usr_inv_join_pag">%1$s đã mời bạn làm thành viên của trang %2$s</string>
+    <string name="noti_user_react_user_vid">%1$s đã bày tỏ cảm xúc về video của bạn</string>
+    <string name="noti_user_comment_user_vid">"%1$s đã bình luận về video của bạn "</string>
+    <string name="noti_user_react_user_img">%1$s đã bày tỏ cảm xúc về hình ảnh của bạn</string>
+    <string name="noti_user_comment_user_img">"%1$s đã bình luận về hình ảnh của bạn "</string>
+    <string name="noti_halo_create_order_success">"Order %s has been created successfully "</string>
+    <string name="noti_halo_create_order_success_of_page">"Order %1$s of %2$s has been created successfully "</string>
+    <string name="noti_halo_paid_order_success">"Order %s has been paid successfully "</string>
+    <string name="noti_halo_paid_order_success_page">"Order %1$s of %2$s has been paid successfully "</string>
+    <string name="friend_sent_request">friend request sent</string>
+    <string name="friend_request_confirm">Confirm</string>
+    <!-- End Notification -->
+</resources>

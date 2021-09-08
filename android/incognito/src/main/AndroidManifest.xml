@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hahalolo.incognito">
+
+    <application>
+        <!--LOGIN-->
+        <activity
+            android:name=".presentation.login.IncognitoLoginAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme.Login"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.login.confirm.IncognitoConfirmLoginAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme.Login"
+            android:windowSoftInputMode="adjustPan" />
+        <!--LOGIN END-->
+
+        <!--MAIN-->
+        <activity
+            android:name=".presentation.main.IncognitoMainAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme.Main"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.search.IncognitoSearchAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--MAIN END-->
+
+        <!--CONTACT-->
+        <activity
+            android:name=".presentation.main.contact.detail.IncognitoContactDetailAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--CONTACT END-->
+
+        <!--CHANNEL-->
+        <activity
+            android:name=".presentation.create.channel.IncognitoCreateChannelAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".presentation.create.conversation.IncognitoCreateConversationAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity
+            android:name=".presentation.setting.member.IncognitoMemberSettingAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.setting.channel.IncognitoChannelSettingAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.setting.managerfile.IncognitoManagerFileAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.setting.member.list.IncognitoMemberListAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.setting.invite.IncognitoInviteFriendAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--CHANNEL END-->
+
+        <!--MESSAGE-->
+        <activity
+            android:name=".presentation.conversation.IncognitoConversationAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.conversation.thread.IncognitoMsgThreadAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--MESSAGE END-->
+
+
+        <!--NOTIFICATION-->
+        <activity
+            android:name=".presentation.setting.notification.IncognitoSettingNotificationAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--NOTIFICATION END-->
+
+        <!--OWNER-->
+        <activity
+            android:name=".presentation.setting.general.IncognitoSettingGeneralAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.main.owner.message.mailbox.IncognitoOwnerMailBoxAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.main.owner.IncognitoOwnerProfileAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.main.owner.message.spam.IncognitoOwnerMessageSpamAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.main.owner.message.waiting.IncognitoOwnerMessageWaitingAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.main.owner.message.tick.IncognitoOwnerMessageTickAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.main.owner.update.IncognitoOwnerUpdateProfileAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/IncognitoTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <!--OWNER END-->
+    </application>
+</manifest>

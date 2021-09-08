@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.hahalolo.android.ysesgo",
+  "variantName": "mockRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 114,
+      "versionName": "2.1.4",
+      "enabled": true,
+      "outputFile": "app-mock-release.apk"
+    }
+  ]
+}

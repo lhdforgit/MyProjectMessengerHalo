@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="media_giphy_url" translatable="false">https://media.giphy.com/media/%s/giphy.gif</string>
+    <string name="key_giphy" translatable="false">ZQKVKijME66bI6CLriBtjXgT26g3dQEd</string>
+    <string name="halo_url" translatable="false">https://www.hahalolo.com/</string>
+</resources>

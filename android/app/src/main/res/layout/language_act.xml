@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.halo.data.common.resource.StatusNetwork" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/Messenger.Wrapper">
+
+        <com.halo.widget.uistates.ProgressFrameLayout
+            android:id="@+id/progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/language_rec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                />
+        </com.halo.widget.uistates.ProgressFrameLayout>
+
+        <com.google.android.material.appbar.AppBarLayout style="@style/Messenger.AppBar.NoElevation">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Messenger.Toolbar"
+                app:navigationIcon="@drawable/ic_back_navigation">
+
+                <com.halo.widget.HaloSearchView
+                    android:id="@+id/language_search_view"
+                    style="@style/Messenger.SearchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:queryHint="@string/common_search_language_hint" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

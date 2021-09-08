@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <item name="contentFilterFabId" type="id"/>
+    <item name="handle_view" type="id" />
+    <item name="calligraphy_tag_id" type="id"/>
+    <item name="viewpump_tag_id" type="id"/>
+    <item name="viewpump_layout_res" type="id"/>
+
+    <item name="messageReactionView" type="id"/>
+</resources>

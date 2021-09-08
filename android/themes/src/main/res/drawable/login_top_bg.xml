@@ -1,0 +1,41 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="375dp"
+    android:height="553dp"
+    android:viewportWidth="375"
+    android:viewportHeight="553"
+    tools:ignore="VectorRaster">
+  <group>
+    <clip-path android:pathData="M0,0h375v553h-375z" />
+    <path android:pathData="M187.5,148.5m-393.5,0a393.5,393.5 0,1 1,787 0a393.5,393.5 0,1 1,-787 0">
+      <aapt:attr name="android:fillColor">
+        <gradient
+            android:endX="187.5"
+            android:endY="-245"
+            android:startX="187.5"
+            android:startY="542"
+            android:type="linear">
+          <item
+              android:color="#FFC2F9FF"
+              android:offset="0" />
+          <item
+              android:color="#FF24A8D8"
+              android:offset="0.801" />
+          <item
+              android:color="#FF24A8D8"
+              android:offset="0.985" />
+          <item
+              android:color="#FF24A8D8"
+              android:offset="1" />
+        </gradient>
+      </aapt:attr>
+    </path>
+  </group>
+</vector>

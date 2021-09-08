@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Author Send code-->
+    <string name="input_sms_title">Verify phone number</string>
+    <string name="input_sms_caption">We have just sent a verification code to your phone number. Please check and enter the code sent to:</string>
+    <string name="input_sms_hint_">H-</string>
+    <string name="input_sms_hint">Enter the code you received</string>
+    <string name="input_sms_handle">VERIFY</string>
+    <string name="send_code_error_wait_few_minutes">You have sent the code too quickly, please wait a few minutes.</string>
+    <string name="send_code_error_send_body_3_time">You have sent the code more than 3 times, please try again after 24 hours</string>
+    <string name="send_code_error_block_account">Your account has been locked because the number of attempts to send a code exceeds the specified number of times</string>
+    <string name="send_code_error_expires">Failed to send code, please try again later</string>
+    <string name="send_code_caption">You have not received a confirmation code yet?</string>
+    <string name="auto_start_alter">To ensure do not miss the event. Please enable auto sart permission for hahalolo application</string>
+    <string name="auto_start_alter_title">Auto start</string>
+    <string name="Notifify_alter_can_be_deleted">This message may have been deleted.</string>
+    <!--End Author Send code-->
+</resources>

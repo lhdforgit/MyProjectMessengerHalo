@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Sign Up -->
+    <string name="sign_up_country_empty_error">Bạn cần phải chọn quốc gia</string>
+    <string name="sign_up_first_name_empty_error">Bạn cần phải nhập tên</string>
+    <string name="sign_up_last_name_empty_error">Bạn cần phải nhập họ</string>
+    <string name="sign_up_email_empty_error">Bạn cần phải nhập số di động hoặc Email</string>
+    <string name="sign_up_email_pattern_error">Tài khoản không hợp lệ</string>
+    <string name="sign_up_country_code_error">Bạn cần phải chọn mã quốc gia</string>
+    <string name="sign_up_account_invalid">Tài khoản không hợp lệ.</string>
+    <string name="sign_up_password_empty_error">Bạn cần phải nhập mật khẩu</string>
+    <string name="sign_up_password_length_error">Mật khẩu phải ít nhất 6 kí tự</string>
+    <string name="sign_up_password_length_more_128_error">Giới hạn tối đa của Mật khẩu là 128 kí tự</string>
+    <string name="sign_up_password_confirm_empty_error">Bạn cần phải nhập xác nhận mật khẩu</string>
+    <string name="sign_up_password_confirm_equal_error">Mật khẩu không khớp</string>
+    <string name="sign_up_birthday_empty_error">Bạn cần phải nhập ngày sinh</string>
+    <string name="sign_up_birthday_error">Bạn phải lớn hơn 13 tuổi</string>
+    <string name="sign_up_birthday_age_error">Bạn phải lớn hơn 13 tuổi</string>
+    <string name="sign_up_first_name_Invalid_error">Tên không hợp lệ</string>
+    <string name="sign_up_last_name_Invalid_error">Họ không hợp lệ</string>
+    <string name="sign_up_term0">Bằng việc đăng ký, bạn đã đồng ý với các</string>
+    <string name="sign_up_term1">Điều khoản</string>
+    <string name="sign_up_term2">Chính sách dữ liệu</string>
+    <string name="sign_up_term3">Cookie của chúng tôi</string>
+    <string name="sign_up_term4">và</string>
+    <string name="sign_up_term5">Tiêu chuẩn cộng đồng</string>
+    <string name="sign_up_first_name_hint">Tên</string>
+    <string name="sign_up_last_name_hint">Họ</string>
+    <string name="sign_up_email_or_phone_number_hint">Số di động hoặc Email</string>
+    <string name="sign_up_new_password_hint">Mật khẩu</string>
+    <string name="sign_up_confirm_password">Xác nhận mật khẩu</string>
+    <string name="sign_up_birthday">Ngày sinh</string>
+    <string name="sign_up_country">Quốc gia</string>
+    <string name="sign_up_login_handler_button0">Bạn đã có tài khoản?</string>
+    <string name="sign_up_login_handler_button1"> Đăng nhập</string>
+    <string name="sign_up_handler_button"><u>Đăng nhập</u></string>
+    <string name="sign_up_verify_success">Xác minh thành công</string>
+    <string name="sign_up_more_step">Chỉ còn vài bước nữa thôi, bạn sẽ có thể trải nghiệm cùng Hahalolo</string>
+    <string name="sign_up_account_blocked">Tài khoản này đã bị khóa! Chúng tôi nhận thấy một số hoạt động bất thường trên tài khoản này. Để giúp bảo vệ bạn trước hành vi gian lận hoặc lạm dụng, chúng tôi đã tạm thời khóa tài khoản này.</string>
+    <!--End Sign Up -->
+</resources>

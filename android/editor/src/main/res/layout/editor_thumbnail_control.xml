@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="editable"
+            type="Boolean" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/remove_iv"
+            style="@style/Messenger.ImageIcon"
+            android:layout_gravity="end|right|top"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_remove_media"
+            tools:ignore="RtlHardcoded" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/edit_iv"
+            style="@style/Messenger.ImageIcon"
+            android:layout_gravity="left|start|bottom"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle_holder"
+            android:visibility="@{editable?View.VISIBLE:View.GONE}"
+            app:srcCompat="@drawable/ic_edit"
+            tools:ignore="RtlHardcoded" />
+    </FrameLayout>
+</layout>

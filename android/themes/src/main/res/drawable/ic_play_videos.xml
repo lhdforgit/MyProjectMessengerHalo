@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="#50000000" />
+
+    <padding
+        android:bottom="@dimen/img_border_padding"
+        android:left="@dimen/img_border_padding"
+        android:right="@dimen/img_border_padding"
+        android:top="@dimen/img_border_padding" />
+</shape>

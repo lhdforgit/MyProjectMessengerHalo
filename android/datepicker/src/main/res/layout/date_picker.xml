@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Month -->
+        <NumberPicker
+            android:id="@+id/month"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_marginEnd="1dip"
+            android:layout_marginRight="1dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <!-- Day -->
+        <NumberPicker
+            android:id="@+id/day"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_marginEnd="1dip"
+            android:layout_marginRight="1dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <!-- Year -->
+        <NumberPicker
+            android:id="@+id/year"
+            android:layout_width="95dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_marginEnd="1dip"
+            android:layout_marginRight="1dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+    </LinearLayout>
+</LinearLayout>

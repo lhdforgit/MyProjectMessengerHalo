@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.widget.customtab">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application>
+        <activity
+            android:name=".WebviewActivity"
+            android:launchMode="singleTop"></activity>
+    </application>
+</manifest>

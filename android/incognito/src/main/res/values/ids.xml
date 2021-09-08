@@ -1,0 +1,46 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <item name="messageGroup" type="id" />
+
+    <!--Message User-->
+    <item name="messageUserName" type="id" />
+    <item name="messageUserOnline" type="id" />
+    <item name="messageUserAvatar" type="id" />
+
+    <!--Message Item-->
+    <item name="messageBubble" type="id" />
+    <item name="messageOverlay" type="id" />
+
+    <item name="messageText" type="id" />
+    <item name="messageMedia" type="id"/>
+    <item name="messageStatus" type="id" />
+
+    <item name="messageSending" type="id" />
+
+    <item name="messageTime" type="id" />
+
+    <!--Message Item Reader, Reaction-->
+    <item name="messageReaderItem" type="id" />
+    <item name="messageReactionItem" type="id" />
+
+    <item name="messageSwipe" type="id"/>
+    <item name="messageSwipeQuote" type="id"/>
+
+    <!-- Forward message-->
+    <item name="forward_user_avatar" type="id" />
+    <item name="forward_user_name" type="id" />
+    <item name="forward_message_content" type="id" />
+    <item name="forward_message_time" type="id" />
+    <item name="forward_message_file_container" type="id" />
+    <item name="forward_message_file_title" type="id" />
+    <item name="forward_message_file_size" type="id" />
+    <item name="forward_message_file_icon" type="id" />
+    <item name="forward_message_media_group" type="id" />
+    <!-- Forward message-->
+</resources>

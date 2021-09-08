@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<defaultsMap>
+    <entry>
+        <key>android_last_version</key>
+        <value>-1.0</value>
+    </entry>
+    <entry>
+        <key>android_force_version</key>
+        <value>-1.0</value>
+    </entry>
+</defaultsMap>

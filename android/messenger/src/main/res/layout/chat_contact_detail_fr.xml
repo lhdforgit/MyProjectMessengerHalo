@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isContact"
+            type="Boolean" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/cover_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/chat_cover_holder"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintDimensionRatio="2:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.halo.widget.shapeimageview.CircleImageView
+                    android:id="@+id/avatar_iv"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_overlay="true"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover_iv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cover_iv"
+                    app:srcCompat="@drawable/community_avatar_holder" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/new_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="@+id/avatar_iv"
+                    app:layout_constraintEnd_toEndOf="@+id/avatar_iv"
+                    app:srcCompat="@drawable/ic_chat_status_live_two" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/username_tv"
+                    style="@style/Chat.TextView.H3.Dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:singleLine="true"
+                    android:text="Luôn Vui Tươi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/avatar_iv" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/change_name"
+                    style="@style/Chat.TextView.H6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_small_s"
+                    app:layout_constraintTop_toBottomOf="@+id/username_tv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:drawableStart="@drawable/ic_chat_edit_name"
+                    android:drawablePadding="@dimen/activity_small_s"
+                    android:textColor="@color/chat_primary_two"
+                    android:text="Đổi tên gợi nhớ"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/info_contact_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_lage_s"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:weightSum="4">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/chat_tv"
+                    style="@style/Chat.TextView.H7.Bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_small_s"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_chat_message_detail_user"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="Nhắn tin" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="@dimen/activity_small_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/add_name"
+                    style="@style/Chat.TextView.H7.Bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_small_s"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_chat_call"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="Gọi Audio" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="@dimen/activity_small_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/profile"
+                    style="@style/Chat.TextView.H7.Bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_small_s"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_chat_personal"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="Trang cá nhân" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="@dimen/activity_small_s"
+                    android:background="@color/divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/off_noti"
+                    style="@style/Chat.TextView.H7.Bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_small_s"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_chat_call_video"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="Gọi Video" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/name_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Chat.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Tên hiển thị" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/name_tv"
+                style="@style/Chat.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gender_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Chat.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Giới tính" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/gender_tv"
+                style="@style/Chat.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/birthday_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Chat.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Ngày sinh" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/birthday_tv"
+                style="@style/Chat.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/address_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Chat.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Địa chỉ" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/address_tv"
+                style="@style/Chat.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

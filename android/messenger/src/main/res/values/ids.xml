@@ -1,0 +1,63 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <item name="loader_id_media_store_data" type="id" />
+
+    <!-- MESSAGE LIST ITEM -->
+
+    <item name="messageGroup" type="id" />
+
+    <!--Message User-->
+    <item name="messageUserName" type="id" />
+    <item name="messageUserOnline" type="id" />
+    <item name="messageUserAvatar" type="id" />
+
+    <!--Message Item-->
+    <item name="messageBubble" type="id" />
+    <item name="messageOverlay" type="id" />
+
+    <item name="messageText" type="id" />
+    <item name="messageMedia" type="id"/>
+    <item name="messageSticker" type="id"/>
+    <item name="messageGif" type="id"/>
+    <item name="messageStatus" type="id" />
+
+    <item name="messageSending" type="id" />
+
+    <item name="messageTime" type="id" />
+
+    <!--Message Item Reader, Reaction-->
+    <item name="messageReaderItem" type="id" />
+    <item name="messageReactionItem" type="id" />
+
+    <item name="messageSwipe" type="id"/>
+    <item name="messageSwipeQuote" type="id"/>
+
+    <!-- MESSAGE INPUT -->
+    <item name="attachmentButton" type="id" />
+    <item name="messageSendButton" type="id" />
+    <item name="attachmentButtonSpace" type="id" />
+    <item name="sendButtonSpace" type="id" />
+    <item name="messageInput" type="id" />
+    <item name="messageHahaButton" type="id" />
+    <item name="messageEmojiButton" type="id" />
+    <item name="message_button_gr" type="id" />
+
+    <!-- DIALOGS LIST ITEM -->
+    <item name="dialogRootLayout" type="id" />
+    <item name="dialogContainer" type="id" />
+    <item name="dialogName" type="id" />
+    <item name="dialogDate" type="id" />
+    <item name="dialogLastMessage" type="id" />
+    <item name="dialogUnreadBubble" type="id" />
+    <item name="dialogAvatar" type="id" />
+    <item name="dialogLastMessageUserAvatar" type="id" />
+    <item name="dialogDividerContainer" type="id" />
+    <item name="dialogDivider" type="id" />
+
+</resources>

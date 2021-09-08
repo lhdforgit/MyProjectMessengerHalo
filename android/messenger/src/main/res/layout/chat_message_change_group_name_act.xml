@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nested_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="46dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="@string/chat_message_change_your_group_name"
+                    android:textSize="26sp" />
+
+                <com.halo.widget.HaloEditText
+                    android:id="@+id/input_group_name"
+                    style="@style/Messenger.EditText.Background.OneLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLength="255"
+                    android:padding="16dp"
+                    android:textColor="@color/text_dark"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            style="@style/Messenger.AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Messenger.Toolbar.Small"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="enterAlways|scroll|snap"
+                app:navigationIcon="@drawable/ic_message_back">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:text="@string/chat_message_change_group_name" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_bar"
+            style="@style/Messenger.BottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/confirm_bt"
+                    style="@style/Messenger.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_normal_s"
+                    android:gravity="center"
+                    android:text="@string/chat_message_name_the_group" />
+            </LinearLayout>
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

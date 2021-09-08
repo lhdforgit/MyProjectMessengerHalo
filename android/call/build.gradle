@@ -1,0 +1,127 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        buildConfigField 'int', 'VERSION_CODE', "${build_versions.version_code}"
+        buildConfigField 'String', 'VERSION_NAME', "\"${build_versions.version_name}\""
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility',"-XXLanguage:+InlineClasses"]
+    }
+}
+
+dependencies {
+    /*Hahalolo Module*/
+    implementation project(':di')
+    implementation project(':data')
+    implementation project(':autobahn')
+
+    /*Google Android*/
+    implementation deps.androidx.app_compat
+    implementation deps.androidx.annotations
+    implementation deps.androidx.recyclerview
+    implementation deps.material
+    implementation deps.gson
+    implementation deps.guava.android
+
+    /*Dagger Android*/
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    /*Lifecycle Android Jetpack*/
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.runtime_ktx
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.java8
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.reactivestreams_ktx
+    implementation deps.lifecycle.viewmodel_savedstate
+    implementation deps.lifecycle.viewmodel_service
+    implementation deps.lifecycle.viewmodel_process
+
+    annotationProcessor deps.lifecycle.compiler
+    kapt deps.lifecycle.compiler
+
+    /*Square Android*/
+    implementation deps.okhttp.okhttp_logging_interceptor
+    implementation deps.okhttp.okhttp
+    implementation deps.timber
+
+    /*Webrtc Android*/
+    implementation deps.webrtc
+
+    implementation group: 'org.igniterealtime.smack', name: 'smack-xmlparser', version: '4.4.2'
+    implementation group: 'org.igniterealtime.smack', name: 'smack-core', version: '4.4.2'
+    implementation group: 'org.igniterealtime.smack', name: 'smack-extensions', version: '4.4.2'
+
+    /*Glide Android*/
+    implementation(deps.glide.glide) {
+        exclude group: "com.android.support"
+    }
+    implementation deps.glide.annotations
+    annotationProcessor deps.glide.compiler
+    kapt deps.glide.compiler
+
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+tasks.withType(Javadoc) {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
+}

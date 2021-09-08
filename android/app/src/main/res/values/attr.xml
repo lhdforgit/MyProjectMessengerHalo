@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <declare-styleable name="BookingHotelV2DetailItem">
+        <attr name="show_count_guest" format="boolean" />
+        <attr name="show_delete" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BookingRoomV2GuestDetailItem">
+        <attr name="title" format="string" />
+        <attr name="enable_edit" format="boolean"/>
+        <attr name="show_error" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="HandNoteItem">
+        <attr name="item_layout" format="enum">
+            <enum name="item_all" value="0" />
+            <enum name="item_detail" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="item.checkCircle.borderColor" format="reference|color" />
+    <attr name="item.checkCircle.backgroundColor" format="reference|color" />
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="empty"
+            type="Boolean" />
+
+        <variable
+            name="loading"
+            type="Boolean" />
+
+        <variable
+            name="status"
+            type="int" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Messenger.AppBar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/messenger_action_bar_small"
+                android:background="@color/app_background">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatar_iv"
+                    android:layout_width="@dimen/messenger_avatar_small_size"
+                    android:layout_height="@dimen/messenger_avatar_small_size"
+                    android:background="@drawable/circle_holder"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/search_mess_iv"
+                    style="@style/Messenger.ActionBarButton"
+                    android:layout_marginStart="@dimen/messenger_vertical_margin"
+                    android:layout_marginLeft="@dimen/messenger_vertical_margin"
+                    android:layout_marginEnd="@dimen/messenger_vertical_margin"
+                    android:layout_marginRight="@dimen/messenger_vertical_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_search_mess" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/progress_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_background">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/conversation_rec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <RelativeLayout
+                android:id="@+id/state_gr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_background"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/loading_gr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/pbHeaderProgress"
+                        style="@style/Widget.AppCompat.ProgressBar"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/activity_normal_s"
+                        android:progressTint="?colorPrimary"
+                        android:shadowColor="?colorPrimary" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/socket_state_tv"
+                        style="@style/Messenger.Character.H5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="@string/chat_message_connecting"
+                        android:textColor="@color/text_primary" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/socket_error_state_tv"
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/chat_message_no_connection"
+                    android:textColor="@color/text_notice"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/socket_connected_state_tv"
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/chat_message_connected"
+                    android:textColor="@color/text_focus"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="@{empty?View.VISIBLE:View.GONE, default=gone}"
+                tools:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/empty_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="45dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/mess_empty" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/empty_tv"
+                    style="@style/Messenger.TextView.Notify"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/messenger_vertical_margin"
+                    android:text="@string/chat_message_conversation_list_empty"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/empty_iv"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/create_mess_bt"
+                    android:visibility="gone"
+                    style="@style/Messenger.Button.Suggestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chat_message_conversation_list_empty_action"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/empty_tv" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.halo.widget.spinkit.SpinKitView
+                app:SpinKit_Style="ThreeBounce"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:layout_marginTop="24dp"
+                app:SpinKit_Color="@color/primary"
+                android:visibility="@{loading?View.VISIBLE:View.GONE}" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

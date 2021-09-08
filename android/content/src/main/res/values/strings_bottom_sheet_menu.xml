@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Bottom Sheet Menu-->
+    <string name="bottom_sheet_menu_media_save_video">Save</string>
+    <string name="bottom_sheet_menu_media_save_video_caption">Add to saved list</string>
+    <string name="bottom_sheet_menu_media_send_comment">Send comment to this post</string>
+    <string name="bottom_sheet_menu_media_send_comment_caption">You can report this post when your review is sent</string>
+    <string name="bottom_sheet_menu_media_hide_post">Hide this post</string>
+    <string name="bottom_sheet_menu_media_hide_post_caption">Hide same post</string>
+    <string name="bottom_sheet_menu_media_follow">Follow</string>
+    <string name="bottom_sheet_menu_media_follow_caption">See more videos and posts</string>
+    <string name="bottom_sheet_menu_media_copy_path">Copy link</string>
+    <string name="bottom_sheet_menu_media_delete_media">Delete</string>
+    <string name="bottom_sheet_menu_media_save_to_phone">Save to phone</string>
+    <!--End Bottom Sheet Menu-->
+
+    <!--Bottom Sheet Menu incognito-->
+    <string name="bottom_sheet_menu_incognito_reply">Reply</string>
+    <string name="bottom_sheet_menu_incognito_copy">Copy</string>
+    <string name="bottom_sheet_menu_incognito_forward">Forward</string>
+    <string name="bottom_sheet_menu_incognito_edit">Edit</string>
+    <string name="bottom_sheet_menu_incognito_save">Save message</string>
+    <string name="bottom_sheet_menu_incognito_tick">Mark message</string>
+    <string name="bottom_sheet_menu_incognito_delete">Delete message</string>
+    <string name="bottom_sheet_menu_incognito_cancel">Cancel</string>
+    <!--End Bottom Sheet Menu Incognito-->
+</resources>

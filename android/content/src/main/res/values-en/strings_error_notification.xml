@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Error notification -->
+    <string name="error_positive_action_ok">OK</string>
+    <string name="error_bad_request_title">Request was interrupted</string>
+    <string name="error_bad_request_message">The server cannot or will not respond to the request because of dubious client information error</string>
+    <string name="error_unauthorized_title">Authentication failed</string>
+    <string name="error_unauthorized_message">Your login session has expired. Please log in again</string>
+    <string name="error_forbidden_title">Block</string>
+    <string name="error_forbidden_message">The request is valid but not approved by the server. The user is not granted enough necessary permissions to access, or another account with sufficient permissions is required to access</string>
+    <string name="error_not_found_title">Not Found</string>
+    <string name="error_not_found_message">The requested data could not be found but may be available in the future</string>
+    <string name="error_not_allowed_title">Method Not Allowed</string>
+    <string name="error_not_allowed_message">A request method is not supported for the requested data field</string>
+    <string name="error_not_accepttable_title">Not acceptable</string>
+    <string name="error_not_accepttable_message">The requested data field may only create content that does not allow the header of  \"Agree\" to send requests</string>
+    <string name="error_error_invalid_tour_installment_booking">Tour departure time of your chosen tour is shorter or longer than our regulations, please choose the Tour with suitable departure time</string>
+    <string name="error_proxy_require_title">Proxy Authentication Required</string>
+    <string name="error_proxy_require_message">The client must first authenticate itself with the proxy.</string>
+    <string name="error_request_timeout_message">Request Timeout</string>
+    <string name="error_network_request_failed_message">A connection error has occurred</string>
+    <string name="error_internal_message">An error occurred. Please try again.</string>
+    <string name="error_email_exist_message">The email address or phone number is already used by another account</string>
+    <string name="error_phone_exist_message">The phone number is already used by another account</string>
+    <string name="error_message">An error occurred. Please try again</string>
+    <string name="retry">Retry</string>
+    <string name="error_occurred">Sorry, something went wrong. Please try again</string>
+    <string name="error">Error</string>
+    <string name="back">Go Back</string>
+    <string name="error_absurd_name_title">Invalid name</string>
+    <string name="error_absurd_name_message">Name contains invalid words.</string>
+    <string name="error_forgot_pass_wait_24h">You have requested more than the specified time. Try again after 24 hours</string>
+
+    <!-- End Error notification -->
+</resources>

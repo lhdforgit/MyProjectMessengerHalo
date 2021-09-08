@@ -1,0 +1,86 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/attachmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <Space
+        android:id="@id/attachmentButtonSpace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_toEndOf="@id/attachmentButton" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toStartOf="@id/sendButtonSpace"
+        android:layout_toEndOf="@id/attachmentButtonSpace"
+        android:background="@drawable/message_input_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.hahalolo.messager.chatkit.view.input.MentionEditText
+            android:id="@id/messageInput"
+            style="@style/Messenger.EditText.BackgroundWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textAutoCorrect|textAutoComplete|textMultiLine|textCapSentences|textShortMessage"
+            android:paddingStart="16dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="6dp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/messageEmojiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <Space
+        android:id="@id/sendButtonSpace"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@id/message_button_gr" />
+
+    <RelativeLayout
+        android:id="@id/message_button_gr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/messageSendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/messageHahaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+</merge>

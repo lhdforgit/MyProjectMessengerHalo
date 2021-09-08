@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_message_bt"
+        android:icon="@drawable/message_chat_avatar_holder"
+        android:title="@string/chat_message_message"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_infor_bt"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_personal_wall"
+        app:showAsAction="never" />
+
+</menu>

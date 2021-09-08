@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s">
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:background="@drawable/ic_incognito_avatar_status_online"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_dummy_personal_circle"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Đặt tên nhóm" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                app:srcCompat="@drawable/ic_incognito_profile_edit" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_small_s"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_incognito_profile_change_photo"
+                android:drawablePadding="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:text="Đổi ảnh đại diện"
+                android:textColor="@color/text_dark" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_small_s"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_incognito_profile_add_member"
+                android:drawablePadding="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:text="Thêm thành viên"
+                android:textColor="@color/text_dark" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_small_s"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_incognito_profile_turn_of_noti_bg"
+                android:drawablePadding="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:text="Tắt thông báo"
+                android:textColor="@color/text_dark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_set_nickname"
+        android:icon="@drawable/message_chat_avatar_holder"
+        android:title="@string/chat_message_member_change_nickname"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_admin"
+        android:icon="@drawable/message_chat_avatar_holder"
+        android:title="@string/chat_message_member_specify_an_administrator"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_admin"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_member_remove_administrator_status"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_from_group"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_member_remove_from_the_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_send_message"
+        android:icon="@drawable/message_chat_avatar_holder"
+        android:title="@string/chat_message_member_send_message"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_personal_wall"
+        android:icon="@drawable/message_chat_avatar_holder"
+        android:title="@string/chat_message_member_personal_wall"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_leave_group"
+        android:title="@string/chat_message_member_leave_group"
+        app:showAsAction="never"
+        android:actionMenuTextColor="@color/badges"
+        />
+</menu>

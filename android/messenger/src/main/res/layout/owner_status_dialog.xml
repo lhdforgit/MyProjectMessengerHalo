@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_online_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_status_online_two"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đang trực tuyến" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_absent_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_status_absent"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đăng vắng mặt" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_busy_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_status_busy"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đang bận" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_update_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_status_update_status"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đăng dòng trạng thái" />
+    </LinearLayout>
+</layout>

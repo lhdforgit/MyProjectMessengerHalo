@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="12.635dp"
+    android:height="22.298dp"
+    android:viewportWidth="12.635"
+    android:viewportHeight="22.298">
+  <path
+      android:pathData="M12.6,7.647a0.372,0.372 0,0 0,-0.337 -0.215h-4.4L12.206,0.57a0.372,0.372 0,0 0,-0.314 -0.57h-5.946a0.372,0.372 0,0 0,-0.333 0.206l-5.574,11.149a0.372,0.372 0,0 0,0.333 0.538h3.821l-4.164,9.89a0.372,0.372 0,0 0,0.627 0.384L12.547,8.044A0.372,0.372 0,0 0,12.6 7.647Z"
+      android:fillColor="#fff"/>
+</vector>

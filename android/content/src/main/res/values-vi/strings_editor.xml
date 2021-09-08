@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="MediaPickerActivity__menu_open_camera">Mở máy ảnh</string>
+    <plurals name="MediaSendActivity_cant_share_more_than_n_items">
+        <item quantity="one">Bạn không thể chia sẻ nhiều hơn %d mục.</item>
+        <item quantity="other">Bạn không thể chia sẻ nhiều hơn %d mục.</item>
+    </plurals>
+    <string name="Permissions_continue">Tiếp tục</string>
+    <string name="Permissions_not_now">Không phải bây giờ</string>
+    <string name="Permissions_permission_required">Đã yêu cầu quyền truy cập</string>
+    <string name="MediaRepository_all_media">Tất cả phương tiện</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_hahalolo_access_to_the_camera">Để chụp ảnh và quay video, hãy cho phép Hahalolo truy cập vào máy ảnh.</string>
+    <string name="ConversationActivity_hahalolo_needs_the_camera_permission_to_take_photos_or_video">Hahalolo cần quyền truy cập Máy ảnh để chụp ảnh hoặc quay video, nhưng điều này đã bị từ chối vĩnh viễn. Vui lòng đi đến cài đặt ứng dụng, chọn \ "Quyền \" và bật \ "Máy ảnh\".</string>
+    <string name="ConversationActivity_hahalolo_needs_camera_permissions_to_take_photos_or_video">Hahalolo cần quyền truy cập Máy ảnh để chụp ảnh hoặc quay video</string>
+    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Một mục đã bị xóa vì vượt quá kích thước giới hạn</string>
+    <string name="MediaSendActivity_tap_here_to_make_this_message_disappear_after_it_is_viewed">Nhấn vào đây để làm cho thông báo này biến mất sau khi được xem.</string>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="one">Đang lưu tệp đính kèm</item>
+        <item quantity="other">Đang lưu %1$d tệp đính kèm</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="one">Lỗi khi lưu tệp đính kèm vào bộ nhớ!</item>
+        <item quantity="other">Lỗi khi lưu các tệp đính kèm vào bộ nhớ!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="one">Lưu tệp đính kèm vào bộ nhớ…</item>
+        <item quantity="other">Lưu %1$d tệp đính kèm vào bộ nhớ…</item>
+    </plurals>
+    <!-- SaveAttachmentTask -->
+    <string name="SaveAttachmentTask_saved_to">Đã lưu vào %s</string>
+    <string name="SaveAttachmentTask_saved">Đã lưu</string>
+    <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">Không thể ghi vào bộ nhớ!</string>
+    <string name="ConversationFragment_save_to_sd_card">Lưu vào bộ nhớ?</string>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="one">Việc lưu phương tiện này vào bộ nhớ sẽ cho phép mọi ứng dụng khác trên thiết bị của bạn đều truy cập được. Tiếp tục?</item>
+        <item quantity="other">Lưu tất cả %1$d phương tiện lưu trữ sẽ cho phép mọi ứng dụng khác trên thiết bị của bạn đều truy cập được. Tiếp tục?</item>
+    </plurals>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <!-- MediaPreviewActivity -->
+    <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Không thể lưu vào bộ nhớ ngoài mà không có quyền truy cập</string>
+    <!-- Slide -->
+    <string name="Slide_image">Hình ảnh</string>
+    <string name="Slide_sticker">Nhãn dán</string>
+    <string name="Slide_audio">Âm thanh</string>
+    <string name="Slide_video">Video</string>
+
+    <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Cho phép quyền truy cập micrô để quay video có âm thanh.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Tín hiệu cần quyền truy cập micrô để quay video, nhưng chúng đã bị từ chối. Vui lòng tiếp tục cài đặt ứng dụng, chọn \ "Quyền \" và bật \ "Micrô \" và \ "Máy ảnh \".</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Tín hiệu cần quyền truy cập micrô để quay video.</string>
+    <string name="CameraXFragment_tap_for_photo_hold_for_video">Nhấn để chụp ảnh, giữ để quay phim.</string>
+    <string name="MediaSendActivity_camera_unavailable">Máy ảnh không có sẵn.</string>
+    <string name="ImageEditorHud_blur_faces">Làm mờ mặt</string>
+    <string name="ImageEditorHud_new_blur_faces_or_draw_anywhere_to_blur">Mới: Làm mờ mặt hoặc vẽ để làm mờ</string>
+    <string name="ImageEditorHud_draw_anywhere_to_blur">Vẽ để làm mờ bất cứ đâu</string>
+    <string name="ImageEditorHud_draw_to_blur_additional_faces_or_areas">Vẽ để làm mờ thêm mặt hoặc khu vực</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Hahalolo cần quyền truy cập Bộ nhớ để lưu tệp vào bộ nhớ, nhưng đã bị từ chối vĩnh viễn. Vui lòng mở cài đặt ứng dụng, chọn \"Quyền\" và bật \"Bộ nhớ\".</string>
+
+    <string name="live_stream_start_button">Bắt đầu</string>
+    <string name="live_stream_stop_button">Kết thúc</string>
+    <string name="live_stream_done_button">Xong</string>
+    <string name="live_stream_editor_hint">Nhấn để thêm mô tả…</string>
+    <string name="editor_media_footer_title">Thêm hình ảnh/ video</string>
+    <string name="editor_permission_media_request_denied">Yêu cầu bị từ chối</string>
+    <string name="taging_coppy_complete">Hoàn thành</string>
+
+</resources>

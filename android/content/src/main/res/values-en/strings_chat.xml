@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Chat -->
+    <string name="chat_message_qoute_right" translatable="false">\"</string>
+    <string name="chat_message_input_hint" translatable="false">Aa</string>
+    <string name="chat_message_icon_haha" translatable="false">https://media-cdn.hahalolo.com/sticker/general/haha.gif</string>
+    <string name="chat_message_icon_say_hello" translatable="false">https://media-cdn.hahalolo.com/sticker/animation/waving_hand_sign_256.gif</string>
+    <string name="chat_message_cover_default" translatable="false">cover-default.jpg</string>
+    <string name="chat_message_all_type" translatable="false">*/*</string>
+    <string name="chat_message_file_unknow" translatable="false">Unknow</string>
+    <string name="chat_message_size_byte" translatable="false">%.2f Byte</string>
+    <string name="chat_message_size_kb" translatable="false">%.2f KB</string>
+    <string name="chat_message_size_mb" translatable="false">%.2f MB</string>
+    <string name="chat_message_view_mutil_count" translatable="false">%d+</string>
+    <string name="chat_message_is_image">sent photo</string>
+    <string name="chat_message_is_media">send media</string>
+    <string name="chat_message_is_multi_image">sent %d photos</string>
+    <string name="chat_message_user">You </string>
+    <string name="chat_message_is_video">sent video</string>
+    <string name="chat_message_is_gif">sent a gif</string>
+    <string name="chat_message_is_sticker">sent a sticker</string>
+    <string name="chat_message_is_web">sent a link</string>
+    <string name="chat_message_is_file">sent a file</string>
+    <string name="chat_message_is_wave">was waving</string>
+    <string name="chat_message_is_remove">has removed a message</string>
+    <string name="chat_message_user_oline">Online</string>
+    <string name="chat_message_user_offline">Offline</string>
+    <string name="chat_message_home_create_group">Create New Group</string>
+    <string name="chat_message_group_members">Group members</string>
+    <string name="chat_message_added">added</string>
+    <string name="chat_message_has_left">has left the conversation</string>
+    <string name="chat_message_new_message">New message</string>
+    <string name="chat_message_changed_the_chat_colors">changed the chat color</string>
+    <string name="chat_message_change_displayname">Rename group</string>
+    <string name="chat_message_error">Error</string>
+    <string name="chat_message_no_connection">No connection</string>
+    <string name="chat_message_connecting">Connecting…</string>
+    <string name="chat_message_connected">Connected</string>
+    <string name="chat_message_home_group_title">Group</string>
+    <string name="chat_message_home_message_title">Message</string>
+    <string name="chat_message_group_details">Group details</string>
+    <string name="chat_message_notification">Notifications</string>
+    <string name="chat_message_color">Color</string>
+    <string name="chat_message_add_people">Add member</string>
+    <string name="chat_message_share_link">Share link</string>
+    <string name="chat_message_members">Members</string>
+    <string name="chat_message_setting_title">Setting</string>
+    <string name="chat_message_change_group_image">Change group image</string>
+    <string name="chat_message_change_name">Rename conversation</string>
+    <string name="chat_message_change_avatar_group_title">Change conversation avatar</string>
+    <string name="chat_message_delete_conversation">Delete the conversation</string>
+    <string name="chat_message_ignore_the_group">Ignore group</string>
+    <string name="chat_message_report_problem">Report a problem</string>
+    <string name="chat_message_leave_group">Leave group</string>
+    <string name="chat_message_aller_file_not_available">File not supported!</string>
+    <string name="chat_message_aller_max_size">File size should not exceed %dMB</string>
+    <string name="chat_message_save_to">Save to %s</string>
+    <string name="chat_message_downloading">Downloading…</string>
+    <string name="chat_message_open">Open</string>
+    <string name="chat_message_download">Download</string>
+    <string name="chat_message_file_not_exit">The file does not exist</string>
+    <string name="chat_message_uploading">Uploading…</string>
+    <string name="chat_message_sending">Sending…</string>
+    <string name="chat_message_select_a_file_to_upload">Select a file to upload</string>
+    <string name="chat_message_please_install_a_file_manager">Please install File Manager.</string>
+    <string name="chat_message_lear_group">Leave group</string>
+    <string name="chat_message_leave_group_owner_title">You are the group owner</string>
+    <string name="chat_message_leave_group_owner_description">Leaving the group will delete all messages. Group ownership will be randomly given to other members, or you can choose a new owner</string>
+    <string name="chat_message_leave_group_owner_random_description">Leaving the group will delete all messages. Group ownership will be randomly given to other members.</string>
+    <string name="chat_message_you_really_want_to_leave_group">Are you sure you want to leave this conversation?</string>
+    <string name="chat_message_set_new_owner_title">Update group owner</string>
+    <string name="chat_message_delete_group_title">Delete group</string>
+    <string name="chat_message_delete_group_description">Invite all members to leave the group and delete the message? Deleted groups will NOT be restored.</string>
+    <string name="chat_message_set_new_owner_select_title">Select %s as the new group owner?</string>
+    <string name="chat_message_set_new_owner_des">You need to reassign your group ownership to another member before leaving the group.</string>
+    <string name="chat_message_ok_leave_group">Ok, Leave group</string>
+    <string name="chat_message_leave_group_title">Leave group</string>
+    <string name="chat_message_cancel">Cancel</string>
+    <string name="chat_message_admin_remove_user">removed %s from the conversation.</string>
+    <string name="chat_message_message">Message</string>
+    <string name="chat_message_personal_wall">Personal wall</string>
+    <string name="chat_message_download_failed">Download failed! Please check your connection!</string>
+    <string name="chat_message_set_admin">added %s as a group admin!</string>
+    <string name="chat_message_join_in_conversation">%s joined the conversation!</string>
+    <string name="chat_message_remove_admin">remove %s as a group admin!</string>
+    <string name="chat_message_change_group_name">Name the group</string>
+    <string name="chat_message_change_group_name_description">After setting, the group name will be displayed publicly, other members will see this change.</string>
+    <string name="chat_message_change_your_group_name">Rename your group</string>
+    <string name="chat_message_quote">Quote</string>
+    <string name="chat_message_coppy">Copy</string>
+    <string name="chat_message_forward">Forward</string>
+    <string name="chat_message_replay">Reply:</string>
+    <string name="chat_message_forward_title">Send to</string>
+    <string name="chat_message_forward_crate_group">Create group</string>
+    <string name="chat_message_complete">Complete</string>
+    <string name="chat_message_remove">Remove</string>
+    <string name="chat_message_qoute">Quote</string>
+    <string name="chat_message_an_error_occurred_please_try_again">An error occurred, please check and try again!</string>
+    <string name="chat_message_connection_lost_please_try_again">Connection lost, please check and try again!</string>
+    <string name="chat_message_file_not_found">File not found. Your file was not enclosed to the attachment!</string>
+    <string name="chat_message_user_deleted_message">Message removed by %s</string>
+    <string name="chat_message_member_admin">Admin</string>
+    <string name="chat_message_member_admin_rights">Admin rights</string>
+    <string name="chat_message_member">Member</string>
+    <string name="chat_message_owner">Owner</string>
+    <string name="chat_message_member_remove_complete">%1$s has removed %2$s from this group chat!</string>
+    <string name="chat_message_member_specify_an_administrator">Assign an administrator</string>
+    <string name="chat_message_member_remove_administrator_status">Remove admin rights</string>
+    <string name="chat_message_member_remove_from_the_group">Remove member</string>
+    <string name="chat_message_member_send_message">Send message</string>
+    <string name="chat_message_member_personal_wall">Personal wall</string>
+    <string name="chat_message_members_list">Members</string>
+    <string name="chat_message_input_sticker">Sticker</string>
+    <string name="chat_message_input_gif">GIF</string>
+    <string name="chat_message_name_the_group">Rename group</string>
+    <string name="chat_message_room_change">Change</string>
+    <string name="chat_message_room_change_name_save_title">Save changes</string>
+    <string name="chat_message_room_you">You</string>
+    <string name="chat_message_room_changed_group_name_is">Rename group to %s</string>
+    <string name="chat_message_remove_message_complete">Message successfully removed!</string>
+    <string name="chat_message_remove_message_false">Failed to remove message, please try again!</string>
+    <string name="chat_message_max_lenght_group_name">Group name cannot exceed %d characters!</string>
+    <string name="chat_message_max_member">The maximum number of members in a group chat is %d people</string>
+    <string name="chat_message_you_not_a_member_in_group">You are not a group member!</string>
+    <string name="chat_message_group_name">Group name</string>
+    <string name="chat_message_input_name">Enter names…</string>
+    <string name="chat_message_media_share_title">Shared photos</string>
+    <string name="chat_message_upload_error">Failed to send media!</string>
+    <string name="chat_message_there_is_no_chat_group">Waving to say hello!</string>
+    <string name="chat_message_member_leave_group">Leave group</string>
+    <string name="chat_message_you_have_been_removed">You have been removed from the group!</string>
+    <string name="chat_message_no_shared_media">No shared photo</string>
+    <string name="chat_message_no_shared_file">No shared file</string>
+    <string name="chat_message_no_shared_link">No shared link</string>
+    <string name="chat_message_share_media">Media sharing</string>
+    <string name="chat_message_share_file">File sharing</string>
+    <string name="chat_message_file_share_title">File sharing</string>
+    <string name="chat_message_search_group">Group Chat</string>
+    <string name="chat_message_search_user">Friends</string>
+    <string name="chat_message_you_add_user_to_group">You added %s to the group chat</string>
+    <string name="chat_message_add_user_to_group">"%1$s added %2$s to the group chat "</string>
+    <string name="chat_message_you_add_user_multi_to_group">You added %1$s and %2$d others to the group chat</string>
+    <string name="chat_message_add_user_multi_to_group">%1$s added %2$s and %3$d others to the group chat</string>
+    <string name="chat_message_you_assigned_as_admin">You are assigned an administrator by %s</string>
+    <string name="chat_message_you_specified_user_as_admin">You have assigned %s an admin</string>
+    <string name="chat_message_user_specified_user_as_admin">%1$s has assigned %2$s an admin</string>
+    <string name="chat_message_user_deleted_you_admin">%s has removed your admin rights</string>
+    <string name="chat_message_user_deleted_user_admin">%1$s has removed %2$s\'s admin rights</string>
+    <string name="chat_message_you_deleted_user_admin">You have removed %s\'s admin rights</string>
+    <string name="chat_message_header_file_detail">File details</string>
+    <string name="chat_message_file_detail_name">File name:</string>
+    <string name="chat_message_file_detail_type">Type:</string>
+    <string name="chat_message_file_detail_size">Size:</string>
+    <string name="chat_message_file_detail_path">Link:</string>
+    <string name="chat_message_reload">Reload</string>
+    <string name="chat_message_file_detail">"Detailed information "</string>
+    <string name="chat_message_file_detail_date">Received date:</string>
+    <string name="chat_message_home_add_member">Add members</string>
+    <string name="chat_message_there_is_no_chat_room">There is no conversation!</string>
+    <string name="chat_message_there_is_no_activities">There are no active friends!</string>
+    <string name="chat_message_there_is_no_contacts">There are no recent contacts!</string>
+    <string name="chat_message_conversation_details">Conversation details</string>
+    <string name="chat_message_create_group_with">Create group with %s</string>
+    <string name="chat_message_private_action">Actions</string>
+    <string name="chat_message_orther_user_typing">Someone is typing</string>
+    <string name="chat_message_say_hello_to_user">Say hello to %s! ✋</string>
+    <string name="chat_message_say_hello_to_everyone">Say hello to everyone! ✋</string>
+    <string name="chat_message_wave_hello">Wave</string>
+    <string name="chat_message_name_group_only_you">Only you</string>
+    <string name="chat_message_name_group_you_with_user">You, %s</string>
+    <string name="chat_message_name_group_you_with_user_and_user">You, %1$s and %2$s</string>
+    <string name="chat_message_name_group_you_with_three_user">You, %1$s, %2$s and %3$d others</string>
+    <string name="chat_message_status_group_no_one">No one is active</string>
+    <string name="chat_message_status_group_one_user">%s people active</string>
+    <string name="chat_message_status_group_two_user">%1$s and %2$s are active</string>
+    <string name="chat_message_status_group_many_user">%s, %s and %d others are active</string>
+    <string name="chat_message_search_group_not_found">No conversation found!</string>
+    <string name="chat_message_search_friend_not_found">No friends found!</string>
+    <string name="chat_message_search_friend_error">An error occurred. Please try again!</string>
+    <string name="chat_message_search_group_title">Group</string>
+    <string name="chat_message_search_friend_title">Friends</string>
+    <string name="chat_message_send_message_error">Message sending failed!</string>
+    <string name="chat_message_user_typing">%s is typing</string>
+    <string name="chat_message_user_and_user_typing">%1$s and %2$s are typing</string>
+    <string name="chat_message_user_and_other_typing">%1s and %d others are typing</string>
+    <string name="chat_message_media">Media</string>
+    <string name="chat_message_input_no_media">There is no media file</string>
+    <string name="chat_message_name_group_with_many_user">and %d others</string>
+    <string name="chat_message_type_room_group">Group</string>
+    <string name="chat_message_user_changed_room_name">%1$s has renamed group to %2$s!</string>
+    <string name="chat_message_holder_time_today">Today,  %s</string>
+    <string name="chat_message_holder_time_yesterday">Yesterday, %s</string>
+    <string name="chat_message_cannot_reply_message_at_time">You cannot reply to the message at this time!</string>
+    <string name="chat_message_send_hello_to_group">Say hello to everyone</string>
+    <string name="chat_message_send_hello_to_user">Say hello to %s</string>
+    <string name="chat_message_change_nick_name_title">Nickname</string>
+    <string name="chat_message_change_nick_name_description">People in the conversation who also see this nickname</string>
+    <string name="chat_message_change_nick_name_cancel">Cancel</string>
+    <string name="chat_message_change_nick_name_save">Save</string>
+    <string name="chat_message_change_nick_name_remove">Remove</string>
+    <string name="chat_message_change_nick_name_success">Renamed successful</string>
+    <string name="chat_message_change_avatar_success">Group avatar change successful</string>
+    <string name="chat_message_revoke_title">Revoke message</string>
+    <string name="chat_message_revoke_description">For all members of the conversation, this message will be remove. They will see that you have revoked it</string>
+    <string name="chat_message_hide_title">Hide message</string>
+    <string name="chat_message_hide_description">We will hide this message for you. Other members of the chat can still see it.</string>
+    <string name="chat_message_open_bubble_title">Open chat bubble</string>
+    <string name="chat_message_notification_title">Notification</string>
+    <string name="chat_message_nickname_title">Nickname</string>
+    <string name="chat_message_remove_member_title">Delete member</string>
+    <string name="chat_message_remove_member_description">Are you sure you want to delete this person from the conversation? They will not be able to send or receive new messages</string>
+    <string name="chat_message_set_admin_role_title">Assign as Administrator</string>
+    <string name="chat_message_set_admin_role_description">As an Administrator, they can delete members and customize this conversation</string>
+    <string name="chat_message_remove_admin_role_title">Remove Administrator rights</string>
+    <string name="chat_message_remove_admin_role_description">Do you want to remove administrator rights?</string>
+    <string name="chat_message_status_revoke">The message has been revoked</string>
+    <string name="chat_message_status_delete">The message has been deleted</string>
+    <string name="chat_message_create_group_friend_title">Offer</string>
+    <string name="chat_message_react_menu_remove">Revoke</string>
+    <string name="chat_message_react_menu_quote">Quote</string>
+    <string name="chat_message_react_menu_hide">Delete</string>
+    <string name="chat_message_react_menu_forward">Forward</string>
+    <string name="chat_message_react_menu_revoke">Revoke</string>
+    <string name="chat_message_react_menu_download">Download</string>
+    <string name="chat_message_react_menu_copy">Copy</string>
+    <string name="chat_message_react_menu_edit">Edit</string>
+    <string name="chat_message_loading">Loading....</string>
+    <string name="chat_message_delete_conversation_title">Delete the conversation</string>
+    <string name="chat_message_delete_conversation_des">Are you sure you want to delete this conversation? If you delete it, you will not be able to restore this conversation!</string>
+    <string name="chat_message_reaction_detail_title">Reaction</string>
+    <string name="chat_message_reader_detail_title">Seen</string>
+    <string name="chat_message_reaction_detail_remove_title">Remove reaction</string>
+    <string name="chat_message_reaction_detail_remove_des">Are you sure you want to remove this reaction?</string>
+    <string name="chat_message_reaction_detail_all">All</string>
+    <string name="chat_message_delete_conversation_success">Deleted conversation</string>
+    <string name="chat_message_status_notify_on_title">Turn on message notifications</string>
+    <string name="chat_message_status_notify_on_toast">Turn on</string>
+    <string name="chat_message_status_notify_off_title">Turn off message notifications</string>
+    <string name="chat_message_status_notify_off_toast">Turn off</string>
+    <string name="chat_message_conversation_title">Conversation</string>
+    <!-- End Chat -->
+    <!-- Message system -->
+    <string name="chat_message_add_group_by_role"> %1$s assigned %2$s as a group admin</string>
+    <string name="chat_message_add_group">%1$s added %2$s to this group</string>
+    <string name="chat_message_remove_group_by_role">%1$s has removed admin role of %2$s</string>
+    <string name="chat_message_remove_group">%1$s removed %2$s from the group</string>
+    <string name="chat_message_create_group">%1$s created this conversation</string>
+    <string name="chat_message_set_nickname">%1$s has changed the nickname for %2$s to %3$s</string>
+    <string name="chat_message_left_group">%1$s has left the conversation</string>
+    <string name="chat_message_rename_group">%1$s has renamed group to %2$s</string>
+    <string name="chat_message_remove_nickname">%1$s removed the nickname for %2$s</string>
+    <string name="chat_message_remove_group_name">%1$s removed the name from the conversation</string>
+    <string name="chat_message_change_avatar_group">%1$s has changed the conversation picture</string>
+    <string name="chat_message_change_color_group">%1$s change the conversation color theme to %2$s</string>
+    <string name="chat_message_send_sticker">%1$s send a sticker</string>
+    <string name="chat_message_send_photo">send %1$s photo</string>
+    <string name="chat_message_send_file">send %1$s file</string>
+    <string name="chat_message_send_gif">%1$s sent a gif</string>
+    <string name="chat_message_seen_by">Seen by %1$s </string>
+    <string name="chat_message_changed_group_photo">%1$s changed the conversation photo</string>
+    <string name="chat_message_send_wave_friend">Say hello to</string>
+    <string name="chat_message_send_wave_group">Say hello to all member</string>
+    <string name="chat_message_last_msg_new_status">You have new messages</string>
+    <string name="chat_message_last_msg_delete_conversation">%1$s deleted this conversation</string>
+
+    <string name="chat_message_gallery_menu_download">Download</string>
+    <string name="chat_message_gallery_menu_copy">Copy link</string>
+    <string name="chat_message_gallery_menu_view">View website</string>
+    <string name="chat_message_gallery_menu_delete">Delete</string>
+    <string name="chat_message_gallery_tab_media" >Media</string>
+    <string name="chat_message_gallery_toolbar">Gallery</string>
+    <string name="chat_message_settings">Setting</string>
+
+    <string name="chat_message_member_change_nickname">Change nickname</string>
+    <string name="chat_message_create_new_group_btn">Create a new group</string>
+    <string name="chat_message_write_message_title">Compose a message</string>
+    <string name="chat_message_write_message_send_to">Send to:</string>
+    <string name="chat_message_write_message_input_name_or_group">Enter the contact name</string>
+    <string name="chat_message_write_message_offer">Offer</string>
+
+    <string name="chat_message_friend_list_empty">The list of friends is empty</string>
+    <string name="chat_message_search_friend_list_empty">There were no matches</string>
+
+    <string name="chat_message_group_list_empty">Group list empty</string>
+    <string name="chat_message_search_group_list_empty">There were no matches</string>
+    <string name="chat_message_search_group_list_empty_add_friend">Thêm bạn</string>
+
+    <string name="chat_message_conversation_list_empty">You have no messages</string>
+    <string name="chat_message_conversation_list_empty_action">New messages</string>
+    <string name="chat_message_group_title">Groups</string>
+    <string name="chat_message_group_empty">You have not joined any groups</string>
+    <string name="chat_message_group_empty_action">Create group</string>
+    <string name="chat_message_contact_title">Contacts</string>
+    <string name="chat_message_contact_empty">The contacts are currently empty</string>
+    <string name="chat_message_contact_empty_action">Add friend</string>
+    <string name="chat_message_contact_suggest_title">Add friend</string>
+    <string name="chat_message_contact_suggest_action">Add</string>
+    <string name="chat_message_group_count_member">Have %d members in group</string>
+    <string name="chat_message_group_status_create">created this group</string>
+
+    <string name="chat_message_gallery_empty">Empty</string>
+
+    <string name="chat_message_gallery_input_header_title">Gallery</string>
+    <string name="chat_message_gallery_input_send_max_item">SEND (%d - MAX)</string>
+    <string name="chat_message_gallery_input_sent_item">SEND (%d)</string>
+    <string name="chat_message_gallery_input_send_one_item">SEND</string>
+
+    <string name="chat_message_holder_action_change_group_name">Change</string>
+    <string name="chat_message_holder_action_change_group_avatar">Change</string>
+    <string name="chat_message_holder_action_change_nickname">Change</string>
+    <string name="chat_message_change_group_name_complete">Successful group name change!</string>
+
+
+    <string name="chat_message_group_no_members">The group has no members</string>
+    <string name="chat_message_group_only_you">The group has only you</string>
+    <string name="chat_message_group_only_one_member">The group has only 1 member</string>
+    <string name="chat_message_group_count_members">Group% d members</string>
+
+    <string name="chat_message_bubble_permission_title">Chat bubble</string>
+    <string name="chat_message_bubble_permission_des">To display Chat bubble, Hahalolo needs permission to draw over other apps.</string>
+    <string name="chat_message_bubble_permission_skip_des">You can go to the Settings to allow permissions for Hahalolo.</string>
+    <string name="chat_message_bubble_permission_primary_text">Agree</string>
+    <string name="chat_message_bubble_permission_cancel_text">Skip</string>
+    <string name="chat_message_bubble_accept_open_des">Chat bubble mode is not enabled yet, go to Settings to enable bubble chat mode.</string>
+    <string name="chat_message_notify_title">Chat bubble is displaying</string>
+    <string name="chat_message_notify_count_title">Chat bubble is displaying %d conversations</string>
+    <string name="chat_message_setting_permission_title">Permissions</string>
+    <string name="chat_message_setting_permission_des">You need to give Hahalolo permission to draw over other apps.</string>
+    <string name="chat_message_setting_permission_dismiss_des">Chat bubble mode is not enabled yet, please check and allow permissions for the app.</string>
+
+    <string name="chat_message_bubble_menu_copy">Copy</string>
+    <string name="chat_message_bubble_menu_cut">Cut</string>
+    <string name="chat_message_bubble_menu_paste">Paste</string>
+    <string name="chat_message_bubble_menu_select_all">Select All</string>
+    <string name="chat_friends_empty_title">No friends matching!</string>
+    <string name="chat_avatar_menu_view_avatar">View avatar</string>
+
+
+    <string name="chat_message_owner_status_online">Online</string>
+    <string name="chat_message_owner_status_absent">Absent</string>
+    <string name="chat_message_owner_status_busy">Busy</string>
+    <string name="chat_message_owner_status_update">Update status</string>
+    <string name="chat_message_owner_save">Save</string>
+    <string name="chat_message_owner_cancel">Cancel</string>
+    <string name="chat_message_owner_status">Status</string>
+    <string name="chat_message_owner_update_name_reminiscent">Change the name reminiscent</string>
+</resources>

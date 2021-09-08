@@ -1,0 +1,41 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="27.686dp"
+    android:height="29.861dp"
+    android:viewportWidth="27.686"
+    android:viewportHeight="29.861">
+  <path
+      android:pathData="M14.917,17.091m-12.769,0a12.769,12.769 0,1 1,25.538 0a12.769,12.769 0,1 1,-25.538 0"
+      android:fillColor="#c2f9ff"/>
+  <path
+      android:pathData="M3.294,14.431h7.45c1.863,-2.786 2.794,-3.715 2.794,-7.43A6.519,6.519 0,0 0,0.5 7C0.5,10.7159 1.431,11.645 3.294,14.431Z"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M5.161,14.431h3.715c0.464,-3.715 1.393,-2.786 1.393,-7.43 0,-3.59 -3.251,-6.5 -3.251,-6.5s-3.25,2.911 -3.25,6.5C3.768,11.645 4.697,11.645 5.161,14.431Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M4.697,18.205h4.644v3.715h-4.644z"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M2.98,14.492L5.451,17.787"
+      android:strokeWidth="1"
+      android:fillColor="#163567"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M10.412,14.492L8.764,17.787"
+      android:strokeWidth="1"
+      android:fillColor="#163567"
+      android:strokeColor="#000"/>
+</vector>

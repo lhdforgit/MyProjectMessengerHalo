@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_small_s" />
+
+        <include
+            android:id="@+id/doc_item"
+            layout="@layout/incognito_manager_doc_item" />
+
+        <View
+            android:layout_marginTop="@dimen/activity_normal_s"
+            style="@style/Incognito.Divider.BottomSheet"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/download_tv"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_incognito_manager_download"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Tải về" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/forward_tv"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_incognito_manager_forward"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Chuyển tiếp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/delete_tv"
+            style="@style/Incognito.TextView.H5.Notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_incognito_manager_remove"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Xóa tin nhắn" />
+
+        <View
+            style="@style/Incognito.Divider.BottomSheet"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_tv"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_incognito_bottom_sheet_close"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Huỷ" />
+
+    </LinearLayout>
+</layout>

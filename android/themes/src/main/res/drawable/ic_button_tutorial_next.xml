@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75.296dp"
+    android:height="69.296dp"
+    android:viewportWidth="75.296"
+    android:viewportHeight="69.296">
+  <path
+      android:pathData="M14.4853,26.1627L32.163,8.485A12,12 85.0207,0 1,49.1335 8.485L66.8112,26.1627A12,12 100.9336,0 1,66.8112 43.1333L49.1335,60.8109A12,12 0,0 1,32.163 60.8109L14.4853,43.1333A12,12 78.5747,0 1,14.4853 26.1627z"
+      android:fillColor="#c2f9ff"/>
+  <path
+      android:pathData="M8.4853,26.1627L26.163,8.485A12,12 85.0207,0 1,43.1335 8.485L60.8112,26.1627A12,12 0,0 1,60.8112 43.1333L43.1335,60.8109A12,12 0,0 1,26.163 60.8109L8.4853,43.1333A12,12 68.959,0 1,8.4853 26.1627z"
+      android:fillColor="@color/primary"/>
+  <path
+      android:pathData="M39.149,42.2l7.409,-7.1 -7.409,-7.1"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#fff"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M23.648,35L46.648,35"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#fff"/>
+</vector>

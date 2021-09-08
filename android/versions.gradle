@@ -1,0 +1,316 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+/**
+ *  ------------------------------------ Android config build version ------------------------------------
+ */
+
+def build_versions = [:]
+build_versions.min_sdk = 21
+build_versions.target_sdk = 30
+build_versions.compile_sdk = 30
+build_versions.version_code = 1
+build_versions.version_name = "1.1.0"
+ext.build_versions = build_versions
+
+ext.deps = [:]
+
+def versions = [:]
+
+/**
+ * Gradle {@see https://gradle.org/}
+ */
+versions.android_gradle_plugin = '4.2.2'
+
+/**
+ * Add repositories {@see build.gradle}
+ * @param handler
+ * @return repositories
+ */
+static def addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.jcenter()
+    handler.mavenCentral()
+    handler.maven { url 'https://maven.google.com' }
+    handler.maven { url 'https://plugins.gradle.org/m2/' }
+}
+
+ext.addRepos = this.&addRepos
+
+def deps = [:]
+
+deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
+
+/**
+ * https://developer.android.com/jetpack/androidx/versions
+ * https://mvnrepository.com/artifact/androidx.appcompat/appcompat
+ */
+def androidx = [:]
+androidx.annotations = "androidx.annotation:annotation:1.1.0"
+androidx.app_compat = "androidx.appcompat:appcompat:1.3.0-alpha02"
+androidx.activity = "androidx.activity:activity:1.2.0-alpha08"
+androidx.recyclerview = "androidx.recyclerview:recyclerview:1.2.0-alpha06"
+androidx.swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
+androidx.core_utils = "androidx.legacy:legacy-support-core-utils:1.0.0"
+androidx.emoji = "androidx.emoji:emoji:1.0.0"
+androidx.emoji_appcompat = "androidx.emoji:emoji-appcompat:1.0.0"
+androidx.emoji_bundled = "androidx.emoji:emoji-bundled:1.0.0"
+androidx.exifinterface = "androidx.exifinterface:exifinterface:1.3.0-alpha01"
+androidx.viewpager2 = "androidx.viewpager2:viewpager2:1.1.0-alpha01"
+androidx.concurrent = "androidx.concurrent:concurrent-futures:1.1.0-alpha01"
+deps.androidx = androidx
+
+deps.material = "com.google.android.material:material:1.4.0-alpha02"
+deps.constraint_layout = "androidx.constraintlayout:constraintlayout:2.1.0-alpha1"
+
+deps.xzing_core = "com.google.zxing:core:3.4.1"
+
+deps.multidex = "androidx.multidex:multidex:2.0.1"
+
+deps.gson = "com.google.code.gson:gson:2.8.7"
+
+deps.customtabs = "androidx.browser:browser:1.3.0"
+
+deps.flexbox = "com.google.android:flexbox:2.0.1"
+
+deps.autodispose = "com.uber.autodispose:autodispose:0.7.0"
+
+deps.lottie = "com.airbnb.android:lottie:3.0.7"
+
+def firebase = [:]
+firebase.bom = "com.google.firebase:firebase-bom:28.0.1"
+firebase.firebase_messaging = "com.google.firebase:firebase-messaging-ktx"
+firebase.firebase_config = "com.google.firebase:firebase-config-ktx"
+firebase.firebase_analytics = "com.google.firebase:firebase-analytics-ktx"
+firebase.firebase_crashlytics = "com.google.firebase:firebase-crashlytics-ktx"
+deps.firebase = firebase
+
+def google_service = [:]
+google_service.play_services_location = "com.google.android.gms:play-services-location:18.0.0"
+google_service.play_services_base = "com.google.android.gms:play-services-base:17.2.1"
+google_service.play_services_gcm = "com.google.android.gms:play-services-gcm:17.0.0"
+google_service.play_services_basement = "com.google.android.gms:play-services-basement:17.2.0"
+google_service.play_services_maps = "com.google.android.gms:play-services-maps:17.0.0"
+google_service.play_services_places = "com.google.android.libraries.places:places:2.0.0"
+google_service.maps_utils = "com.google.maps.android:android-maps-utils-sdk-v3-compat:0.1"
+google_service.play_core = "com.google.android.play:core:1.10.0"
+google_service.play_core_ktx = "com.google.android.play:core-ktx:1.8.1"
+google_service.installreferrer = "com.android.installreferrer:installreferrer:1.1"
+google_service.instantapps = "com.google.android.gms:play-services-instantapps:17.0.1"
+deps.google_service = google_service
+
+deps.face_detection = "com.google.mlkit:face-detection:16.0.7"
+deps.barcode_scanning = "com.google.mlkit:barcode-scanning:16.1.1"
+deps.object_detection = "com.google.mlkit:object-detection:16.2.4"
+deps.object_detection_custom = "com.google.mlkit:object-detection-custom:16.3.1"
+
+/**
+ * Architecture Components
+ */
+
+deps.paging = "androidx.paging:paging-runtime:3.0.0"
+deps.paging_ktx = "androidx.paging:paging-runtime-ktx:3.0.0"
+
+/**
+ * Android Architecture Components
+ * {@see https://developer.android.com/topic/libraries/architecture/}
+ * {@see https://developer.android.com/topic/libraries/architecture/adding-components}
+ */
+def room = [:]
+room.runtime = "androidx.room:room-runtime:2.4.0-alpha02"
+room.compiler = "androidx.room:room-compiler:2.4.0-alpha02"
+room.rxjava2 = "androidx.room:room-rxjava2:2.4.0-alpha02"
+room.guava = "androidx.room:room-guava:2.4.0-alpha02"
+room.ktx = "androidx.room:room-ktx:2.4.0-alpha02"
+room.coroutines = "androidx.room:room-coroutines:2.1.0-alpha04"
+deps.room = room
+
+def lifecycle = [:]
+lifecycle.runtime = "androidx.lifecycle:lifecycle-runtime:2.4.0-alpha01"
+lifecycle.runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha01"
+lifecycle.extensions = "androidx.lifecycle:lifecycle-extensions:2.2.0"
+lifecycle.java8 = "androidx.lifecycle:lifecycle-common-java8:2.4.0-alpha01"
+lifecycle.compiler = "androidx.lifecycle:lifecycle-compiler:2.4.0-alpha01"
+lifecycle.livedata_ktx = "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0-alpha01"
+lifecycle.viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0-alpha01"
+lifecycle.reactivestreams_ktx = "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.4.0-alpha01"
+lifecycle.viewmodel_savedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0-alpha01"
+lifecycle.viewmodel_service = "androidx.lifecycle:lifecycle-service:2.4.0-alpha01"
+lifecycle.viewmodel_process = "androidx.lifecycle:lifecycle-process:2.4.0-alpha01"
+deps.lifecycle = lifecycle
+
+def navigation = [:]
+navigation.navigation_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:2.3.0"
+navigation.navigation_ui_ktx = "androidx.navigation:navigation-ui-ktx:2.3.0"
+deps.navigation = navigation
+
+def work = [:]
+work.work_runtime = "androidx.work:work-runtime:2.5.0"
+work.work_runtime_ktx = "androidx.work:work-runtime-ktx:2.5.0"
+work.work_rxjava2 = "androidx.work:work-rxjava2:2.5.0"
+work.work_gcm = "androidx.work:work-gcm:2.5.0"
+work.work_multiprocess = "androidx.work:work-multiprocess:2.5.0"
+deps.work = work
+
+deps.exoplayer = "com.google.android.exoplayer:exoplayer:2.11.7"
+deps.exoplayer_rtmp = "com.google.android.exoplayer:extension-rtmp:2.11.7"
+deps.exoplayer_ffmpeg = "com.google.android.exoplayer:extension-ffmpeg:2.11.7"
+
+/**
+ * Guava {@see https://github.com/google/guava}
+ */
+def guava = [:]
+guava.android = "com.google.guava:guava:28.2-android"
+guava.jre = "com.google.guava:guava:28.2-jre"
+deps.guava = guava
+
+/**
+ * Retrofit A type-safe HTTP client for Android and Java {@see http://square.github.io/retrofit/}
+ */
+def retrofit = [:]
+retrofit.runtime = "com.squareup.retrofit2:retrofit:2.9.0"
+retrofit.gson = "com.squareup.retrofit2:converter-gson:2.9.0"
+retrofit.mock = "com.squareup.retrofit2:retrofit-mock:2.9.0"
+deps.retrofit = retrofit
+
+/**
+ * Okhttp An HTTP & HTTP/2 client for Android and Java applications {@see http://square.github.io/okhttp/}
+ */
+def okhttp = [:]
+okhttp.okhttp_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2"
+okhttp.okhttp = "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
+deps.okhttp = okhttp
+
+deps.timber = "com.jakewharton.timber:timber:4.7.1"
+
+deps.commons_net = "commons-net:commons-net:3.6"
+
+/**
+ * ReactiveX An API for asynchronous programming with observable streams
+ * {@see https://github.com/ReactiveX/RxJava}
+ * {@see https://github.com/ReactiveX/RxAndroid}
+ */
+def rx = [:]
+rx.java2 = "io.reactivex.rxjava2:rxjava:2.2.13"
+rx.android = "io.reactivex.rxjava2:rxandroid:2.1.1"
+deps.rx = rx
+
+def rxbinding = [:]
+rxbinding.rxbinding = "com.jakewharton.rxbinding3:rxbinding:3.1.0"
+rxbinding.rxbinding_core = "com.jakewharton.rxbinding3:rxbinding-core:3.1.0"
+rxbinding.rxbinding_appcompat = "com.jakewharton.rxbinding3:rxbinding-appcompat:3.1.0"
+rxbinding.rxbinding_drawerlayout = "com.jakewharton.rxbinding3:rxbinding-drawerlayout:3.1.0"
+rxbinding.rxbinding_leanback = "com.jakewharton.rxbinding3:rxbinding-leanback:3.1.0"
+rxbinding.rxbinding_recyclerview = "com.jakewharton.rxbinding3:rxbinding-recyclerview:3.1.0"
+rxbinding.rxbinding_slidingpanelayout = "com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:3.1.0"
+rxbinding.rxbinding_swiperefreshlayout = "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:3.1.0"
+rxbinding.rxbinding_viewpage = "com.jakewharton.rxbinding3:rxbinding-viewpager:3.1.0"
+rxbinding.rxbinding_viewpager2 = "com.jakewharton.rxbinding3:rxbinding-viewpager2:3.1.0"
+rxbinding.rxbinding_material = "com.jakewharton.rxbinding3:rxbinding-material:3.1.0"
+deps.rxbinding = rxbinding
+
+/**
+ * Dagger is a fully static, compile-time dependency injection framework for both Java and Android.
+ * It is an adaptation of an earlier version created by Square and now maintained by Google.
+ * {@see https://google.github.io/dagger/}
+ */
+def dagger = [:]
+dagger.runtime = "com.google.dagger:dagger:2.36"
+dagger.android = "com.google.dagger:dagger-android:2.36"
+dagger.android_support = "com.google.dagger:dagger-android-support:2.36"
+dagger.compiler = "com.google.dagger:dagger-compiler:2.36"
+dagger.android_support_compiler = "com.google.dagger:dagger-android-processor:2.36"
+deps.dagger = dagger
+
+/**
+ * Glide is a fast and efficient image loading library for Android focused on smooth scrolling.
+ * Glide offers an easy to use API, a performance and extensible resource decoding pipeline and automatic resource pooling.
+ * {@see https://bumptech.github.io/glide/}
+ */
+def glide = [:]
+glide.glide = "com.github.bumptech.glide:glide:4.12.0"
+glide.annotations = "com.github.bumptech.glide:annotations:4.12.0"
+glide.compiler = "com.github.bumptech.glide:compiler:4.12.0"
+deps.glide = glide
+
+/**
+ * Facebook
+ * https://developers.facebook.com/docs/facebook-login/android?locale=vi_VN
+ */
+def facebook = [:]
+facebook.fresco = "com.facebook.fresco:fresco:2.3.0"
+facebook.stetho = "com.facebook.stetho:stetho:1.5.1"
+facebook.rebound = "com.facebook.rebound:rebound:0.3.8"
+deps.facebook = facebook
+
+def leakcanary = [:]
+leakcanary.debug = "com.squareup.leakcanary:leakcanary-android:1.6.3"
+leakcanary.release = "com.squareup.leakcanary:leakcanary-android-no-op:1.6.3"
+// Optional, if you use support library fragments:
+leakcanary.support_fragment = "com.squareup.leakcanary:leakcanary-support-fragment:1.6.3"
+deps.leakcanary = leakcanary
+
+deps.kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+
+deps.core_ktx = "androidx.core:core-ktx:1.2.0"
+deps.activity_ktx = "androidx.activity:activity-ktx:1.0.0"
+deps.collection_ktx = "androidx.collection:collection-ktx:1.1.0"
+deps.fragment_ktx = "androidx.fragment:fragment-ktx:1.3.0-alpha08"
+deps.fragment = "androidx.fragment:fragment:1.3.0-alpha08"
+
+deps.kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:1.3.61"
+
+deps.joda_time_no_tzdb = "joda-time:joda-time:2.10.2:no-tzdb"
+deps.joda_time = "joda-time:joda-time:2.10.2"
+
+def camera = [:]
+camera.camera2 = "androidx.camera:camera-camera2:1.0.0-beta01"
+camera.core = "androidx.camera:camera-core:1.0.0-beta01"
+camera.view = "androidx.camera:camera-view:1.0.0-alpha08"
+camera.lifecycle = "androidx.camera:camera-lifecycle:1.0.0-beta01"
+deps.camera = camera
+
+deps.eventbus = "org.greenrobot:eventbus:3.2.0"
+
+deps.libphonenumber = "com.googlecode.libphonenumber:libphonenumber:8.12.3"
+
+def media2 =[:]
+media2.session = "androidx.media2:media2-session:1.0.3"
+media2.widget = "androidx.media2:media2-widget:1.0.3"
+media2.player = "androidx.media2:media2-player:1.0.3"
+deps.media2 = media2
+
+
+def mqtt = [:]
+mqtt.client = "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.1"
+mqtt.service = "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"
+deps.mqtt = mqtt
+
+def jackson = [:]
+jackson.core = "com.fasterxml.jackson.core:jackson-core:2.12.3"
+jackson.databind = "com.fasterxml.jackson.core:jackson-databind:2.12.3"
+jackson.dataformat_cbor =  "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.12.3"
+jackson.dataformat_msgpack = "org.msgpack:jackson-dataformat-msgpack:0.8.22"
+deps.jackson = jackson
+
+deps.libsodium = "com.github.joshjdevl.libsodiumjni:libsodium-jni-aar:2.0.2"
+
+def web3j = [:]
+web3j.core = "org.web3j:core:4.6.0-android"
+web3j.abi = "org.web3j:abi:4.6.0-android"
+web3j.utils = "org.web3j:utils:4.6.0-android"
+deps.web3j = web3j
+
+deps.streamsupport = "net.sourceforge.streamsupport:streamsupport:1.7.3"
+
+def netty = [:]
+netty.codec_http = "io.netty:netty-codec-http:4.1.63.Final"
+netty.handler = "io.netty:netty-handler:4.1.63.Final"
+deps.netty = netty
+
+deps.webrtc = "org.webrtc:google-webrtc:1.0.+"
+
+ext.deps = deps

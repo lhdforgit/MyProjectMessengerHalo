@@ -1,0 +1,165 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@id/messageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/messageTime"
+            style="@style/Messenger.ChatKit.IncomingText.Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_normal_s">
+
+            <com.hahalolo.messager.chatkit.holder.view.ChatMessageUserAvatar
+                android:id="@+id/messageUserAvatarGr"
+                android:layout_width="@dimen/message_avatar_gr_size"
+                android:layout_height="@dimen/message_avatar_gr_size"
+                android:layout_alignBottom="@id/messageBubble"
+                android:layout_marginEnd="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/messageUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/messageBubble"
+                android:textSize="12sp"
+                style="@style/Messenger.ChatKit.IncomingText.UserName"
+                app:layout_alignSelf="center" />
+
+            <RelativeLayout
+                android:id="@id/messageBubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/messageUserName"
+                android:layout_marginEnd="@dimen/message_incoming_bubble_margin_right"
+                android:layout_marginRight="@dimen/message_incoming_bubble_margin_right"
+                android:layout_toEndOf="@id/messageUserAvatarGr"
+                android:layout_toRightOf="@id/messageUserAvatarGr"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <LinearLayout
+                    android:id="@+id/file_gr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@id/messageText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Messenger.ChatKit.IncomingText"
+                        android:visibility="gone"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/file_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Messenger.ChatKit.IncomingText.File" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:padding="8dp"
+                            app:srcCompat="@drawable/ic_chat_message_file_upload" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/file_type_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                style="@style/Messenger.ChatKit.IncomingText"
+                                android:singleLine="true"
+                                android:textSize="12sp"
+                                app:layout_alignSelf="center" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/file_size_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Messenger.ChatKit.IncomingText"
+                                app:layout_alignSelf="center" />
+
+                        </LinearLayout>
+
+                        <ProgressBar
+                            android:id="@+id/progress_download"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:foregroundTint="@color/app_background"
+                            android:indeterminate="false"
+                            android:indeterminateTint="@color/app_background"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/chat_message_progress_circle_file"
+                            android:progressTint="@color/dark_gray"
+                            android:secondaryProgress="100"
+                            android:secondaryProgressTint="@color/app_background" />
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/download_bt"
+                        style="@style/Messenger.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/halo_btn_height_small"
+                        android:layout_gravity="center|start"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:text="@string/chat_message_download"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.hahalolo.messager.chatkit.view.ChatReactionView
+                android:id="@+id/messageReactionItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="-8dp"
+                android:layout_below="@id/messageBubble"
+                android:layout_alignStart="@id/messageBubble"
+                />
+
+        </RelativeLayout>
+
+        <com.hahalolo.messager.chatkit.view.MessageReaderItem
+            android:id="@+id/messageReaderItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
+</layout>

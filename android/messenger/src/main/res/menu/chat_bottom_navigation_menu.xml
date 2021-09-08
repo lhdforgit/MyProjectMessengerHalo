@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/home_item"
+        android:icon="@drawable/ic_mess_home_state_list"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/contact_item"
+        android:icon="@drawable/ic_mess_contact_state_list"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/group_item"
+        android:icon="@drawable/ic_mess_group_state_list"
+        tools:ignore="MenuTitle" />
+</menu>

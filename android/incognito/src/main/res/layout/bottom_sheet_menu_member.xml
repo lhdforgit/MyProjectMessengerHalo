@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Nhắn tin" />
+
+        <View
+            style="@style/Incognito.Divider.BottomSheet"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Xem trang cá nhân" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đổi biệt danh" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Gở quyền quản trị viên" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Chỉ định làm quản trị viên" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Vai trò" />
+
+        <View
+            style="@style/Incognito.Divider.BottomSheet"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5.Notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Rời khỏi nhóm" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5.Notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Xóa nhóm" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5.Notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Xóa khỏi workspace" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5.Notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="start"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Cấn thành viên" />
+
+
+    </LinearLayout>
+</layout>

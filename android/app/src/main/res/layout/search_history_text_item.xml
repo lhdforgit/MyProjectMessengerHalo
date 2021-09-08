@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/activity_normal_s"
+        android:paddingTop="@dimen/activity_small_s"
+        android:paddingEnd="@dimen/activity_normal_s"
+        android:paddingBottom="@dimen/activity_small_s">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/avatar_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_search"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/name_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            tools:text="Lê Hải Đăng" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/remove_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="@dimen/activity_small_s"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/ic_remove" />
+    </LinearLayout>
+</layout>

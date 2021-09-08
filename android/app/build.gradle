@@ -1,0 +1,277 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        applicationId "com.hahalolo.android.halome"
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        versionCode build_versions.version_code
+        versionName build_versions.version_name
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard/proguard-rules.pro',
+                    'proguard/proguard-appcompat-v7.pro',
+                    'proguard/proguard-google-play-services.pro',
+                    'proguard/gson.pro',
+                    'proguard/retrofit.pro',
+                    'proguard/okhttp3.pro',
+                    'proguard/okio.pro',
+                    'proguard/reactive.pro',
+                    'proguard/coroutines.pro',
+                    'proguard/fabric.pro',
+                    'proguard/giphy.pro',
+                    'proguard/dagger.pro',
+                    'proguard/glide.pro',
+                    'proguard/guava.pro',
+                    'proguard/eventbus.pro',
+                    'proguard/mqtt.pro',
+                    'proguard/worker.pro',
+                    'proguard/webkit.pro'
+        }
+
+        /*debug {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles = buildTypes.release.proguardFiles
+        }*/
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility'
+                            , "-XXLanguage:+InlineClasses"
+                            , "-Xopt-in=kotlin.RequiresOptIn"]
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    packagingOptions {
+        pickFirst "META-INF/INDEX.LIST"
+        pickFirst "META-INF/io.netty.versions.properties"
+    }
+}
+
+dependencies {
+
+    /*Project Hahalolo*/
+    implementation project(':di')
+    implementation project(':data')
+    implementation project(':cache')
+    implementation project(':widget')
+    implementation project(':common')
+    implementation project(':frag_nav')
+    implementation project(':constant')
+    implementation project(':giphycoresdk')
+    implementation(project(':okdownload')) {
+        exclude group: 'javax.annotation'
+    }
+
+    implementation project(':glideutils')
+    implementation project(':network')
+    implementation project(':permission')
+    implementation project(':customtabs')
+    implementation project(':gallery')
+    implementation project(':materialdialog')
+    implementation project(':imageviewer')
+    implementation project(':sticker')
+    implementation project(':slidr')
+    implementation project(':spinkit')
+    implementation project(':datepicker')
+    implementation project(':editor')
+    implementation project(':themes')
+    implementation project(':content')
+    implementation project(':stream')
+    api project(':player')
+    implementation project(':messenger')
+    implementation project(':swipe')
+    implementation project(':incognito')
+    implementation project(':socket')
+    implementation project(':pickercolor')
+    implementation project(':qrcode')
+    implementation project(':notification')
+    implementation project(':call')
+    implementation project(':playcore')
+
+    /*Android Support*/
+    implementation deps.androidx.app_compat
+    implementation deps.androidx.recyclerview
+    implementation deps.androidx.swiperefreshlayout
+    implementation deps.material
+    implementation deps.constraint_layout
+    implementation deps.androidx.annotations
+    implementation deps.androidx.exifinterface
+    implementation deps.androidx.core_utils
+
+    /*Google Emoji*/
+    implementation deps.androidx.emoji
+    implementation deps.androidx.emoji_appcompat
+    implementation deps.androidx.emoji_bundled
+
+    /*Extension*/
+    implementation deps.fragment
+    implementation deps.fragment_ktx
+    implementation deps.core_ktx
+    implementation deps.activity_ktx
+    implementation deps.collection_ktx
+
+    /*Lifecycle Android Jetpack*/
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.runtime_ktx
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.java8
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.reactivestreams_ktx
+    implementation deps.lifecycle.viewmodel_savedstate
+    implementation deps.lifecycle.viewmodel_service
+    implementation deps.lifecycle.viewmodel_process
+
+    annotationProcessor deps.lifecycle.compiler
+    kapt deps.lifecycle.compiler
+
+    /*Paging Android Jetpack*/
+    implementation deps.paging
+
+    /*Room Android Jetpack*/
+    implementation deps.room.runtime
+    annotationProcessor deps.room.compiler
+    kapt deps.room.compiler
+
+    /*Work Manager Android Jetpack*/
+    implementation deps.work.work_runtime
+    implementation deps.work.work_runtime_ktx
+    implementation deps.work.work_rxjava2
+    implementation deps.work.work_gcm
+    implementation deps.work.work_multiprocess
+
+    /*Firebase*/
+    implementation platform(deps.firebase.bom)
+    implementation deps.firebase.firebase_messaging
+    implementation deps.firebase.firebase_config
+    implementation deps.firebase.firebase_analytics
+
+    /*Google Play Service*/
+    implementation deps.google_service.play_core
+    implementation deps.google_service.play_core_ktx
+    implementation deps.google_service.play_services_maps
+    implementation deps.google_service.play_services_places
+    implementation deps.google_service.play_services_location
+    implementation deps.google_service.play_services_base
+    implementation deps.google_service.play_services_gcm
+    implementation deps.google_service.play_services_basement
+
+    /*Glide*/
+    implementation(deps.glide.glide) {
+        exclude group: "com.android.support"
+    }
+    implementation deps.glide.annotations
+
+    annotationProcessor deps.glide.compiler
+    kapt deps.glide.compiler
+
+    /*Dagger*/
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    /*ReactiveX*/
+    implementation deps.rx.java2
+    implementation deps.rx.android
+
+    /*Square Open Source*/
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.okhttp.okhttp_logging_interceptor
+    implementation deps.okhttp.okhttp
+    implementation deps.timber
+    implementation deps.rxbinding.rxbinding
+    implementation deps.rxbinding.rxbinding_core
+    implementation deps.rxbinding.rxbinding_appcompat
+    implementation deps.rxbinding.rxbinding_recyclerview
+    implementation deps.rxbinding.rxbinding_swiperefreshlayout
+    implementation deps.rxbinding.rxbinding_viewpage
+    implementation deps.rxbinding.rxbinding_material
+    debugImplementation deps.leakcanary.debug
+    releaseImplementation deps.leakcanary.release
+    debugImplementation deps.leakcanary.support_fragment
+
+    /*Navigation*/
+    implementation deps.navigation.navigation_fragment_ktx
+    implementation deps.navigation.navigation_ui_ktx
+
+    /*Facebook Open Source*/
+    implementation deps.facebook.fresco
+    implementation deps.facebook.stetho
+
+    /*Kotlin*/
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation deps.kotlin_reflect
+    implementation deps.kotlinx_coroutines_core
+
+    /*Others*/
+    implementation deps.multidex
+    implementation deps.guava.android
+    implementation deps.gson
+    implementation deps.exoplayer
+    implementation deps.flexbox
+    implementation deps.lottie
+    implementation deps.libphonenumber
+    implementation 'org.conscrypt:conscrypt-android:2.2.1'
+}

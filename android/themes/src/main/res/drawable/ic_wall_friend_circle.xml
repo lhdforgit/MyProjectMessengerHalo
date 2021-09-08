@@ -1,0 +1,43 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+  <path
+      android:pathData="M18,18m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+      android:fillColor="#f6f6f6"/>
+  <path
+      android:pathData="M13,14a3.5,4 0,1 0,7 0a3.5,4 0,1 0,-7 0z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#555"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M22.677,25.494L10,25.494a4.93,4.93 0,0 1,4.93 -4.93h2.817a4.93,4.93 0,0 1,4.93 4.93Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#555"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M24,10L24,14"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#555"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M22,12L26,12"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="#555"
+      android:strokeLineCap="round"/>
+</vector>

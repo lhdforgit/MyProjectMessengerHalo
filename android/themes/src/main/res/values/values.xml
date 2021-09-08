@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <integer name="halo_btn_anim_delay_ms">100</integer>
+    <integer name="halo_btn_anim_duration_ms">100</integer>
+    <item type="id" name="chat_warning_submit_bt"/>
+</resources>

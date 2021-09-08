@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/Messenger.Character.H6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:drawableTop="@drawable/ic_chat_call_audio"
+        android:drawablePadding="@dimen/activity_normal_s"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s"
+        android:text="Gọi Audio" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/divider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/Messenger.Character.H6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:drawableTop="@drawable/ic_chat_call_video"
+        android:drawablePadding="@dimen/activity_normal_s"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s"
+        android:text="Gọi Video" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/divider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/Messenger.Character.H6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:drawableTop="@drawable/ic_chat_about"
+        android:drawablePadding="@dimen/activity_normal_s"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s"
+        android:text="Trang cá nhân" />
+</LinearLayout>

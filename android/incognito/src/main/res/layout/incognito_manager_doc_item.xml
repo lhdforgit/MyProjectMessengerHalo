@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="?actionBarItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_normal_s"
+        android:paddingTop="@dimen/activity_small_s"
+        android:paddingEnd="@dimen/activity_normal_s"
+        android:paddingBottom="@dimen/activity_small_s">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/ic_incognito_manager_file_pdf" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_tv"
+            style="@style/Incognito.TextView.H6.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toTopOf="@+id/avatar_img"
+            android:text="Thông tin đăng ký_fix.doc" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/username_tv"
+            style="@style/Incognito.TextView.H7.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:textColor="@color/text_dark"
+            app:layout_constraintBottom_toBottomOf="@+id/avatar_img"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toBottomOf="@+id/title_tv"
+            android:text="Doremi Phan" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/size_file_tv"
+            style="@style/Incognito.TextView.H7.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:drawableStart="@drawable/ic_incognito_manager_file_dot"
+            android:drawablePadding="@dimen/activity_small_s"
+            app:layout_constraintBottom_toBottomOf="@+id/avatar_img"
+            app:layout_constraintStart_toEndOf="@+id/username_tv"
+            app:layout_constraintTop_toBottomOf="@+id/title_tv"
+            android:text="500KB" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/menu_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="@dimen/activity_small_s"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_incognito_manager_file_menu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="@dimen/boder_overlay_coner_pading"
+        android:left="@dimen/boder_overlay_coner_pading"
+        android:right="@dimen/boder_overlay_coner_pading"
+        android:bottom="@dimen/boder_overlay_coner_pading"
+        >
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/overlay_coner_size_large"
+                android:bottomLeftRadius="@dimen/overlay_coner_size_large"
+                android:bottomRightRadius="@dimen/overlay_coner_size_large"
+                android:topLeftRadius="@dimen/overlay_coner_size"
+                android:topRightRadius="@dimen/overlay_coner_size_large"
+                />
+            <stroke android:color="@color/border"
+                android:width="@dimen/overlay_coner_width"
+                />
+        </shape>
+    </item>
+    <item
+        android:top="@dimen/overlay_coner_pading"
+        android:left="@dimen/overlay_coner_pading"
+        android:right="@dimen/overlay_coner_pading"
+        android:bottom="@dimen/overlay_coner_pading"
+        >
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/overlay_coner_size_large"
+                android:bottomLeftRadius="@dimen/overlay_coner_size_large"
+                android:bottomRightRadius="@dimen/overlay_coner_size_large"
+                android:topLeftRadius="@dimen/overlay_coner_size"
+                android:topRightRadius="@dimen/overlay_coner_size_large"
+                />
+            <stroke android:color="@color/app_background"
+                android:width="@dimen/overlay_coner_width"
+                />
+        </shape>
+    </item>
+</layer-list>
+

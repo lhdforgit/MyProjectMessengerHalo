@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?actionBarItemBackground"
+        android:paddingStart="@dimen/activity_normal_s"
+        android:paddingTop="@dimen/activity_small_s"
+        android:paddingEnd="@dimen/activity_normal_s"
+        android:paddingBottom="@dimen/activity_small_s">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+            tools:srcCompat="@drawable/ic_dummy_page" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/link_tv"
+            style="@style/Incognito.TextView.H7.Secondary.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toTopOf="@+id/avatar_img"
+            tools:text="wwww.hahalolo.com" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_tv"
+            style="@style/Incognito.TextView.H6.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:textColor="@color/incognito_text_primary"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toBottomOf="@+id/link_tv"
+            tools:text="Đà Lạt | Timeline - Personal page" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/des_tv"
+            style="@style/Incognito.TextView.H6.OneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toBottomOf="@+id/title_tv"
+            tools:text="Đà Lạt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

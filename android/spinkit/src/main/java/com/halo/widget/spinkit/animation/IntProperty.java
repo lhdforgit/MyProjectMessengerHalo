@@ -1,0 +1,36 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+package com.halo.widget.spinkit.animation;
+
+import android.util.Property;
+
+/**
+ * An implementation of {@link Property} to be used specifically with fields of type
+ * <code>int</code>. This type-specific subclass enables performance benefit by allowing
+ * calls to a {@link #set(Object, Integer) set()} function that takes the primitive
+ * <code>int</code> type and avoids autoboxing and other overhead associated with the
+ * <code>Integer</code> class.
+ *
+ * @param <T> The class on which the Property is declared.
+ */
+public abstract class IntProperty<T> extends Property<T, Integer> {
+
+    public IntProperty(String name) {
+        super(Integer.class, name);
+    }
+
+    /**
+     * A type-specific override of the {@link #set(Object, Integer)} that is faster when dealing
+     * with fields of type <code>int</code>.
+     */
+    public abstract void setValue(T object, int value);
+
+    @Override
+    final public void set(T object, Integer value) {
+        setValue(object, value);
+    }
+
+}

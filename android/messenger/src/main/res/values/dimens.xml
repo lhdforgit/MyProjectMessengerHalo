@@ -1,0 +1,74 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <dimen name="input_button_width">36dp</dimen>
+    <dimen name="input_button_height">36dp</dimen>
+    <dimen name="input_button_margin">16dp</dimen>
+    <dimen name="input_text_size">17sp</dimen>
+    <dimen name="input_padding_left">   0dp</dimen>
+    <dimen name="input_padding_right">  0dp</dimen>
+    <dimen name="input_padding_top">    4dp</dimen>
+    <dimen name="input_padding_bottom"> 4dp</dimen>
+
+    <dimen name="message_bubble_corners_radius">24dp</dimen>
+    <dimen name="message_bubble_corners_radius_min">4dp</dimen>
+
+    <dimen name="dialog_avatar_width">88dp</dimen>
+    <dimen name="dialog_avatar_height">88dp</dimen>
+    <dimen name="dialog_last_message_avatar_width">24dp</dimen>
+    <dimen name="dialog_last_message_avatar_height">24dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_message_text_size">16sp</dimen>
+    <dimen name="dialog_date_text_size">14sp</dimen>
+    <dimen name="dialog_unread_bubble_text_size">13sp</dimen>
+    <dimen name="dialog_divider_margin_left">88dp</dimen>
+    <dimen name="dialog_divider_margin_right">0dp</dimen>
+
+    <dimen name="message_avatar_width">40dp</dimen>
+    <dimen name="message_avatar_height">40dp</dimen>
+    <dimen name="message_padding_left">16dp</dimen>
+    <dimen name="message_padding_right">16dp</dimen>
+    <dimen name="message_padding_top">8dp</dimen>
+    <dimen name="message_padding_bottom">8dp</dimen>
+    <dimen name="message_text_size">17sp</dimen>
+    <dimen name="message_time_text_size">12sp</dimen>
+    <dimen name="message_date_header_text_size">16sp</dimen>
+    <dimen name="message_date_header_padding">16dp</dimen>
+
+    <dimen name="message_avatar_gr_size">36dp</dimen>
+    <dimen name="message_avatar_size">34dp</dimen>
+    <dimen name="message_avatar_radius">17dp</dimen>
+    <dimen name="message_avatar_online_size">10dp</dimen>
+
+    <dimen name="message_incoming_bubble_margin_right">40dp</dimen>
+    <dimen name="message_outcoming_bubble_margin_left">88dp</dimen>
+
+    <dimen name="haha_button_width">36dp</dimen>
+    <dimen name="haha_button_height">36dp</dimen>
+    <dimen name="emoji_button_height">36dp</dimen>
+    <dimen name="emoji_button_width">36dp</dimen>
+
+    <dimen name="overlay_coner_size_large">28dp</dimen>
+
+    <dimen name="overlay_coner_size">12dp</dimen>
+    <dimen name="overlay_coner_width">12dp</dimen>
+    <dimen name="overlay_coner_pading">-12dp</dimen>
+
+    <dimen name="boder_overlay_coner_pading">-11.8dp</dimen>
+
+    <!--Bubble-->
+    <dimen name="dp_48">48</dimen>
+
+    <dimen name="bottom_sheet_handle_width">30dp</dimen>
+    <dimen name="bottom_sheet_handle_height">5dp</dimen>
+    <dimen name="bottom_sheet_handle_top_margin">8dp</dimen>
+
+    <dimen name="sample_bottom_sheet_handle_width">36dp</dimen>
+    <dimen name="sample_bottom_sheet_handle_height">12dp</dimen>
+    <dimen name="sample_bottom_sheet_handle_top_margin">8dp</dimen>
+
+</resources>

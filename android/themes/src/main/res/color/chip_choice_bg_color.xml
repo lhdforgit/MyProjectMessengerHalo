@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/primary" android:state_enabled="true" android:state_selected="true" />
+    <item android:color="@color/primary" android:state_checked="true" android:state_enabled="true" />
+    <item android:color="#EBEBEB" android:state_enabled="true" />
+    <item android:color="#F7F7F7" />
+</selector>

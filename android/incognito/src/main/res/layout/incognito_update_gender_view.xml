@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:text="Giới tính" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:background="@drawable/ic_incognito_button_sex"
+                android:gravity="center"
+                android:text="Nam"
+                android:textAllCaps="false"
+                android:textSize="@dimen/activity_normal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:background="@drawable/ic_incognito_button_sex"
+                android:gravity="center"
+                android:text="Nữ"
+                android:textAllCaps="false"
+                android:textSize="@dimen/activity_normal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_incognito_button_sex"
+                android:gravity="center"
+                android:text="Khác"
+                android:textAllCaps="false"
+                android:textSize="@dimen/activity_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/save_btn"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:gravity="center"
+            android:text="Lưu"
+            android:textColor="#1767FD"
+            android:textSize="@dimen/activity_normal_plus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_tv"
+            style="@style/Incognito.TextView.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hủy"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:textSize="@dimen/activity_normal_plus"/>
+
+    </LinearLayout>
+
+</layout>

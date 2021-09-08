@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners
+        android:bottomLeftRadius="@dimen/incognito_msg_bubble_corners_radius"
+        android:bottomRightRadius="@dimen/incognito_msg_bubble_corners_radius_min"
+        android:topLeftRadius="@dimen/incognito_msg_bubble_corners_radius"
+        android:topRightRadius="@dimen/incognito_msg_bubble_corners_radius_min" />
+
+    <solid android:color="@color/incognitoMsgBubbleOutComing" />
+
+</shape>

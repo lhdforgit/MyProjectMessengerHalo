@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/wrapper"
+            style="@style/Incognito.Wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout style="@style/Incognito.AppBar">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Incognito.Toolbar.White.Nav"
+                    app:title="Tùy chọn cài đặt" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trạng thái hoạt động" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trạng thái “đã xem”" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trạng thái “đang nhập”" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tự động phát Gif và video" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Gửi tin nhắn bằng phím Enter" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Hiển thị mô tả trang liên kết" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Làm nổi bật tin nhắn khi đọc" />
+
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hiển thị emoji lớn" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Hiển thị gợi ý sticker theo nội dung" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nhấp đúp vào vùng bên cạnh tin nhắn" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Xác nhập đối với lời mời tham gia nhóm" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/activity_small_s"
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/app_background_divider" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/Incognito.TextView.H6.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/activity_normal_s"
+                        android:text="Cho phép mọi người tìm thấy bạn thông qua:" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Số điện thoại" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tên hiển thị" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/activity_small_s"
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/app_background_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Ngôn ngữ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_incognito_border_common_all"
+                            android:drawableEnd="@drawable/ic_incognito_extend"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Tiếng Việt" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Cỡ chữ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_incognito_border_common_all"
+                            android:drawableEnd="@drawable/ic_incognito_extend"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:padding="@dimen/activity_normal_s"
+                            android:text="Trung bình (size 15pt)" />
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    </LinearLayout>
+
+</layout>

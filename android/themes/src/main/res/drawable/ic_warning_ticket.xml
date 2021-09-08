@@ -1,0 +1,33 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:pathData="M20.5,24h-17c-2.6,0 -4.3,-2.7 -3.1,-5.1l8.5,-17c1.3,-2.6 5,-2.6 6.3,0l8.5,17C24.8,21.3 23.1,24 20.5,24z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="33.39706"
+                android:endY="37.643414"
+                android:startX="6.0188975"
+                android:startY="10.265353"
+                android:type="linear">
+                <item
+                    android:color="#FF7E3B"
+                    android:offset="0" />
+                <item
+                    android:color="#FF7E3B"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10.7,19.2c0,-0.3 0.1,-0.6 0.4,-0.8c0.3,-0.2 0.6,-0.3 1,-0.3c0.3,0 0.6,0.1 0.9,0.3c0.2,0.2 0.4,0.5 0.4,0.8c0,0.3 -0.1,0.6 -0.4,0.8c-0.2,0.2 -0.5,0.4 -0.9,0.4c-0.4,0 -0.7,-0.1 -1,-0.4C10.8,19.7 10.7,19.5 10.7,19.2zM10.8,7.6c0,-0.3 0.1,-0.6 0.3,-0.8c0.2,-0.2 0.5,-0.3 0.9,-0.3c0.4,0 0.6,0.1 0.8,0.3c0.2,0.2 0.3,0.4 0.3,0.8c0,1 0,1.5 -0.1,3.9c0,2.4 -0.1,3.1 -0.1,4.2c0,0.2 -0.1,0.4 -0.3,0.5c-0.2,0.1 -0.4,0.2 -0.6,0.2c-0.6,0 -1,-0.2 -1,-0.7c0,-1 0,-1.8 -0.1,-4.2C10.9,9.2 10.8,8.7 10.8,7.6z" />
+</vector>

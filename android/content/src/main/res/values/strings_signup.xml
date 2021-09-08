@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Sign Up -->
+    <string name="sign_up_country_empty_error">Country is required</string>
+    <string name="sign_up_first_name_empty_error">First name is required</string>
+    <string name="sign_up_last_name_empty_error">Last name is required</string>
+    <string name="sign_up_email_empty_error">Phone number or Email address is required</string>
+    <string name="sign_up_email_pattern_error">This account is invalid</string>
+    <string name="sign_up_country_code_error">Please choose your Country Codes</string>
+    <string name="sign_up_account_invalid">This account is invalid.</string>
+    <string name="sign_up_password_empty_error">Password is required</string>
+    <string name="sign_up_password_length_error">Password must be at least 6 characters</string>
+    <string name="sign_up_password_length_more_128_error">The maxiumun limit of Password is 128 characters</string>
+    <string name="sign_up_password_confirm_empty_error">Password confirmation is required</string>
+    <string name="sign_up_password_confirm_equal_error">Password does not match</string>
+    <string name="sign_up_birthday_empty_error">Date of birth is required</string>
+    <string name="sign_up_birthday_error">You must be older than 13 years old</string>
+    <string name="sign_up_birthday_age_error">You must be older than 13 years old</string>
+    <string name="sign_up_first_name_Invalid_error">Invalid first name</string>
+    <string name="sign_up_last_name_Invalid_error">Invalid last name</string>
+    <string name="sign_up_term0">By registering you agree to our</string>
+    <string name="sign_up_term1">Terms of Service</string>
+    <string name="sign_up_term2">Data Policy</string>
+    <string name="sign_up_term3">Cookies</string>
+    <string name="sign_up_term4">and</string>
+    <string name="sign_up_term5">Community Standards</string>
+    <string name="sign_up_first_name_hint">First name</string>
+    <string name="sign_up_last_name_hint">Last name</string>
+    <string name="sign_up_email_or_phone_number_hint">"Phone number or Email "</string>
+    <string name="sign_up_new_password_hint">Password</string>
+    <string name="sign_up_confirm_password">Confirm password</string>
+    <string name="sign_up_birthday">Birthday</string>
+    <string name="sign_up_country">Country</string>
+    <string name="sign_up_login_handler_button0">Already have an account?</string>
+    <string name="sign_up_login_handler_button1"> Log In</string>
+    <string name="sign_up_handler_button"><u>Đăng nhập</u></string>
+    <string name="sign_up_verify_success">Verify Success</string>
+    <string name="sign_up_more_step">Just a few more steps, you will be able to experiment with Hahalolo</string>
+    <string name="sign_up_account_blocked">This account has been blocked! We noticed some unusual activities on your account. To help protect you from fraud or abuse, we\'ve temporarily blocked this account.</string>
+
+    <!--End Sign Up -->
+</resources>

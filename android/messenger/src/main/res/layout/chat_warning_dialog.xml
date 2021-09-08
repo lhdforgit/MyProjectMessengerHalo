@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_tv"
+                style="@style/Messenger.Character.H5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_small_s"
+                android:gravity="center"
+                android:padding="@dimen/activity_normal_s"
+                tools:text="@string/chat_message_change_nick_name_description" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_sub_tv"
+                style="@style/Messenger.Character.H3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:padding="@dimen/activity_normal_s"
+                tools:text="0934497483" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/content_edt"
+                style="@style/Messenger.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_normal_s"
+                android:maxLength="50"
+                android:textColor="@color/text_dark"
+                android:textSize="20sp"
+                tools:text="đùiùidsùifdfjfsjgkfsjgkdfjgjdgjdg" />
+
+            <LinearLayout
+                android:id="@+id/group_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

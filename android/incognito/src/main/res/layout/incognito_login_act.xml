@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="indicator"
+            type="Boolean" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:fillViewport="true">
+
+        <LinearLayout
+            style="@style/Incognito.Wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58dp"
+                android:src="@drawable/ic_incognito_login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                style="@style/Incognito.TextView.H2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Tán gẫu cùng nhau"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/icon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_tv"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:text="Nhập số điện thoại để bắt đầu sử dụng"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title" />
+
+            <LinearLayout
+                android:id="@+id/phone_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin_large"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/activity_vertical_margin_large"
+                android:background="@drawable/halo_edt_form_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/description_tv">
+
+                <com.hahalolo.countrycode.CountryCodePicker
+                    android:id="@+id/country_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    app:ccp_showFlag="false"
+                    app:ccp_defaultPhoneCode="84"
+                    app:ccp_defaultLanguage="VIETNAMESE"
+                    app:ccpDialog_showCloseIcon="true"
+                    app:ccp_defaultNameCode="vn"
+                    app:ccp_showNameCode="false"
+                    app:ccp_textSize="@dimen/halo_body2_text_size"
+                    app:ccp_hintExampleNumber="true"
+                    app:ccp_arrowColor="@color/icon_tint_dark"
+                    app:ccp_selectionMemoryTag="getFullNumber"
+                    app:ccpDialog_textColor="@color/text_body" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/phone_edt"
+                    style="@style/Incognito.EditText.Background.OneLine"
+                    android:inputType="phone"
+                    tools:ignore="RtlSymmetry"
+                    tools:text="905930890" />
+            </LinearLayout>
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                isVisible="@{indicator}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin_large"
+                android:layout_marginEnd="@dimen/activity_vertical_margin_large"
+                android:indeterminate="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/activity_vertical_margin_large"
+                android:paddingLeft="@dimen/activity_vertical_margin_large"
+                android:paddingTop="32dp"
+                android:paddingEnd="@dimen/activity_vertical_margin_large"
+                android:paddingRight="@dimen/activity_vertical_margin_large"
+                android:paddingBottom="48dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/start_btn"
+                    style="@style/Incognito.Button"
+                    android:layout_width="match_parent"
+                    android:text="Bắt đầu" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/not_me_bt"
+                    style="@style/Messenger.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Tài khoản khác"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

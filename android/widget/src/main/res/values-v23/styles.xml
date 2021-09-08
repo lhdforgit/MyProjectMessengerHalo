@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="BottomDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#80FFFFFF</item>
+    </style>
+
+    <style name="BottomDialogThemeV3">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#80FFFFFF</item>
+    </style>
+
+    <style name="Plain_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+    </style>
+
+    <style name="Pull_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">16dp</item>
+    </style>
+
+    <style name="Rotate_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">16dp</item>
+        <item name="should_draw_content_under_handle_view_v3">true</item>
+    </style>
+
+    <style name="NothingTop_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+        <item name="bottom_sheet_corner_radius_v3">0dp</item>
+    </style>
+
+</resources>

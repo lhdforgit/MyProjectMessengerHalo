@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/icon_tint_body" />
+    <corners android:radius="24dp" />
+    <padding
+        android:bottom="0dp"
+        android:left="12dp"
+        android:right="6dp"
+        android:top="0dp" />
+</shape>

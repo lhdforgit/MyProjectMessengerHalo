@@ -1,0 +1,4188 @@
+[
+  {
+    "id": "stic_0016",
+    "image": "file:///android_asset/editor/sticker/rat/a1.png",
+    "name": "rat",
+    "stickers": [
+      {
+        "description": "a1.png",
+        "id": "stic_0016000",
+        "image": "file:///android_asset/editor/sticker/rat/a1.png",
+        "code": ":rat_a1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a1.png"
+      },
+      {
+        "description": "a2.png",
+        "id": "stic_0016005",
+        "image": "file:///android_asset/editor/sticker/rat/a2.png",
+        "code": ":rat_a2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a2.png"
+      },
+      {
+        "description": "a3.png",
+        "id": "stic_0016006",
+        "image": "file:///android_asset/editor/sticker/rat/a3.png",
+        "code": ":rat_a3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a3.png"
+      },
+      {
+        "description": "a4.png",
+        "id": "stic_0016007",
+        "image": "file:///android_asset/editor/sticker/rat/a4.png",
+        "code": ":rat_a4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a4.png"
+      },
+      {
+        "description": "a5.png",
+        "id": "stic_0016008",
+        "image": "file:///android_asset/editor/sticker/rat/a5.png",
+        "code": ":rat_a5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a5.png"
+      },
+      {
+        "description": "a6.png",
+        "id": "stic_0016009",
+        "image": "file:///android_asset/editor/sticker/rat/a6.png",
+        "code": ":rat_a6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a6.png"
+      },
+      {
+        "description": "a7.png",
+        "id": "stic_0016010",
+        "image": "file:///android_asset/editor/sticker/rat/a7.png",
+        "code": ":rat_a7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a7.png"
+      },
+      {
+        "description": "a8.png",
+        "id": "stic_0016011",
+        "image": "file:///android_asset/editor/sticker/rat/a8.png",
+        "code": ":rat_a8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a8.png"
+      },
+      {
+        "description": "a9.png",
+        "id": "stic_0016012",
+        "image": "file:///android_asset/editor/sticker/rat/a9.png",
+        "code": ":rat_a9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a9.png"
+      },
+      {
+        "description": "a10.png",
+        "id": "stic_0016001",
+        "image": "file:///android_asset/editor/sticker/rat/a10.png",
+        "code": ":rat_a10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a10.png"
+      },
+      {
+        "description": "a11.png",
+        "id": "stic_0016002",
+        "image": "file:///android_asset/editor/sticker/rat/a11.png",
+        "code": ":rat_a11.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a11.png"
+      },
+      {
+        "description": "a12.png",
+        "id": "stic_0016003",
+        "image": "file:///android_asset/editor/sticker/rat/a12.png",
+        "code": ":rat_a12.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a12.png"
+      },
+      {
+        "description": "a13.png",
+        "id": "stic_0016004",
+        "image": "file:///android_asset/editor/sticker/rat/a13.png",
+        "code": ":rat_a13.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/a13.png"
+      },
+      {
+        "description": "b1.png",
+        "id": "stic_0016013",
+        "image": "file:///android_asset/editor/sticker/rat/b1.png",
+        "code": ":rat_b1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/b1.png"
+      },
+      {
+        "description": "b2.png",
+        "id": "stic_0016014",
+        "image": "file:///android_asset/editor/sticker/rat/b2.png",
+        "code": ":rat_b2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/b2.png"
+      },
+      {
+        "description": "b3.png",
+        "id": "stic_0016015",
+        "image": "file:///android_asset/editor/sticker/rat/b3.png",
+        "code": ":rat_b3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/b3.png"
+      },
+      {
+        "description": "b4.png",
+        "id": "stic_0016016",
+        "image": "file:///android_asset/editor/sticker/rat/b4.png",
+        "code": ":rat_b4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/b4.png"
+      },
+      {
+        "description": "b5.png",
+        "id": "stic_0016017",
+        "image": "file:///android_asset/editor/sticker/rat/b5.png",
+        "code": ":rat_b5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/b5.png"
+      },
+      {
+        "description": "c1.png",
+        "id": "stic_0016018",
+        "image": "file:///android_asset/editor/sticker/rat/c1.png",
+        "code": ":rat_c1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c1.png"
+      },
+      {
+        "description": "c2.png",
+        "id": "stic_0016021",
+        "image": "file:///android_asset/editor/sticker/rat/c2.png",
+        "code": ":rat_c2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c2.png"
+      },
+      {
+        "description": "c3.png",
+        "id": "stic_0016022",
+        "image": "file:///android_asset/editor/sticker/rat/c3.png",
+        "code": ":rat_c3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c3.png"
+      },
+      {
+        "description": "c4.png",
+        "id": "stic_0016023",
+        "image": "file:///android_asset/editor/sticker/rat/c4.png",
+        "code": ":rat_c4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c4.png"
+      },
+      {
+        "description": "c5.png",
+        "id": "stic_0016024",
+        "image": "file:///android_asset/editor/sticker/rat/c5.png",
+        "code": ":rat_c5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c5.png"
+      },
+      {
+        "description": "c6.png",
+        "id": "stic_0016025",
+        "image": "file:///android_asset/editor/sticker/rat/c6.png",
+        "code": ":rat_c6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c6.png"
+      },
+      {
+        "description": "c7.png",
+        "id": "stic_0016026",
+        "image": "file:///android_asset/editor/sticker/rat/c7.png",
+        "code": ":rat_c7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c7.png"
+      },
+      {
+        "description": "c8.png",
+        "id": "stic_0016027",
+        "image": "file:///android_asset/editor/sticker/rat/c8.png",
+        "code": ":rat_c8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c8.png"
+      },
+      {
+        "description": "c9.png",
+        "id": "stic_0016028",
+        "image": "file:///android_asset/editor/sticker/rat/c9.png",
+        "code": ":rat_c9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c9.png"
+      },
+      {
+        "description": "c10.png",
+        "id": "stic_0016019",
+        "image": "file:///android_asset/editor/sticker/rat/c10.png",
+        "code": ":rat_c10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c10.png"
+      },
+      {
+        "description": "c11.png",
+        "id": "stic_0016020",
+        "image": "file:///android_asset/editor/sticker/rat/c11.png",
+        "code": ":rat_c11.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/c11.png"
+      },
+      {
+        "description": "d1.png",
+        "id": "stic_0016029",
+        "image": "file:///android_asset/editor/sticker/rat/d1.png",
+        "code": ":rat_d1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d1.png"
+      },
+      {
+        "description": "d2.png",
+        "id": "stic_0016030",
+        "image": "file:///android_asset/editor/sticker/rat/d2.png",
+        "code": ":rat_d2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d2.png"
+      },
+      {
+        "description": "d3.png",
+        "id": "stic_0016031",
+        "image": "file:///android_asset/editor/sticker/rat/d3.png",
+        "code": ":rat_d3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d3.png"
+      },
+      {
+        "description": "d4.png",
+        "id": "stic_0016032",
+        "image": "file:///android_asset/editor/sticker/rat/d4.png",
+        "code": ":rat_d4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d4.png"
+      },
+      {
+        "description": "d5.png",
+        "id": "stic_0016033",
+        "image": "file:///android_asset/editor/sticker/rat/d5.png",
+        "code": ":rat_d5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d5.png"
+      },
+      {
+        "description": "d6.png",
+        "id": "stic_0016034",
+        "image": "file:///android_asset/editor/sticker/rat/d6.png",
+        "code": ":rat_d6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d6.png"
+      },
+      {
+        "description": "d7.png",
+        "id": "stic_0016035",
+        "image": "file:///android_asset/editor/sticker/rat/d7.png",
+        "code": ":rat_d7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d7.png"
+      },
+      {
+        "description": "d8.png",
+        "id": "stic_0016036",
+        "image": "file:///android_asset/editor/sticker/rat/d8.png",
+        "code": ":rat_d8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/d8.png"
+      },
+      {
+        "description": "e1.png",
+        "id": "stic_0016037",
+        "image": "file:///android_asset/editor/sticker/rat/e1.png",
+        "code": ":rat_e1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/e1.png"
+      },
+      {
+        "description": "e2.png",
+        "id": "stic_0016038",
+        "image": "file:///android_asset/editor/sticker/rat/e2.png",
+        "code": ":rat_e2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/e2.png"
+      },
+      {
+        "description": "e3.png",
+        "id": "stic_0016039",
+        "image": "file:///android_asset/editor/sticker/rat/e3.png",
+        "code": ":rat_e3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/e3.png"
+      },
+      {
+        "description": "e4.png",
+        "id": "stic_0016040",
+        "image": "file:///android_asset/editor/sticker/rat/e4.png",
+        "code": ":rat_e4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/e4.png"
+      },
+      {
+        "description": "f1.png",
+        "id": "stic_0016041",
+        "image": "file:///android_asset/editor/sticker/rat/f1.png",
+        "code": ":rat_f1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f1.png"
+      },
+      {
+        "description": "f2.png",
+        "id": "stic_0016052",
+        "image": "file:///android_asset/editor/sticker/rat/f2.png",
+        "code": ":rat_f2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f2.png"
+      },
+      {
+        "description": "f3.png",
+        "id": "stic_0016055",
+        "image": "file:///android_asset/editor/sticker/rat/f3.png",
+        "code": ":rat_f3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f3.png"
+      },
+      {
+        "description": "f4.png",
+        "id": "stic_0016056",
+        "image": "file:///android_asset/editor/sticker/rat/f4.png",
+        "code": ":rat_f4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f4.png"
+      },
+      {
+        "description": "f5.png",
+        "id": "stic_0016057",
+        "image": "file:///android_asset/editor/sticker/rat/f5.png",
+        "code": ":f5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f5.png"
+      },
+      {
+        "description": "f6.png",
+        "id": "stic_0016058",
+        "image": "file:///android_asset/editor/sticker/rat/f6.png",
+        "code": ":rat_f6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f6.png"
+      },
+      {
+        "description": "f7.png",
+        "id": "stic_0016059",
+        "image": "file:///android_asset/editor/sticker/rat/f7.png",
+        "code": ":rat_f7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f7.png"
+      },
+      {
+        "description": "f8.png",
+        "id": "stic_0016060",
+        "image": "file:///android_asset/editor/sticker/rat/f8.png",
+        "code": ":rat_f8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f8.png"
+      },
+      {
+        "description": "f9.png",
+        "id": "stic_0016061",
+        "image": "file:///android_asset/editor/sticker/rat/f9.png",
+        "code": ":rat_f9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f9.png"
+      },
+      {
+        "description": "f10.png",
+        "id": "stic_0016042",
+        "image": "file:///android_asset/editor/sticker/rat/f10.png",
+        "code": ":f10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f10.png"
+      },
+      {
+        "description": "f11.png",
+        "id": "stic_0016043",
+        "image": "file:///android_asset/editor/sticker/rat/f11.png",
+        "code": ":rat_f11.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f11.png"
+      },
+      {
+        "description": "f12.png",
+        "id": "stic_0016044",
+        "image": "file:///android_asset/editor/sticker/rat/f12.png",
+        "code": ":rat_f12.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f12.png"
+      },
+      {
+        "description": "f13.png",
+        "id": "stic_0016045",
+        "image": "file:///android_asset/editor/sticker/rat/f13.png",
+        "code": ":rat_f13.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f13.png"
+      },
+      {
+        "description": "f14.png",
+        "id": "stic_0016046",
+        "image": "file:///android_asset/editor/sticker/rat/f14.png",
+        "code": ":rat_f14.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f14.png"
+      },
+      {
+        "description": "f15.png",
+        "id": "stic_0016047",
+        "image": "file:///android_asset/editor/sticker/rat/f15.png",
+        "code": ":rat_f15.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f15.png"
+      },
+      {
+        "description": "f16.png",
+        "id": "stic_0016048",
+        "image": "file:///android_asset/editor/sticker/rat/f16.png",
+        "code": ":rat_f16.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f16.png"
+      },
+      {
+        "description": "f17.png",
+        "id": "stic_0016049",
+        "image": "file:///android_asset/editor/sticker/rat/f17.png",
+        "code": ":f17.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f17.png"
+      },
+      {
+        "description": "f18.png",
+        "id": "stic_0016050",
+        "image": "file:///android_asset/editor/sticker/rat/f18.png",
+        "code": ":rat_f18.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f18.png"
+      },
+      {
+        "description": "f19.png",
+        "id": "stic_0016051",
+        "image": "file:///android_asset/editor/sticker/rat/f19.png",
+        "code": ":rat_f19.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f19.png"
+      },
+      {
+        "description": "f20.png",
+        "id": "stic_0016053",
+        "image": "file:///android_asset/editor/sticker/rat/f20.png",
+        "code": ":rat_f20.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f20.png"
+      },
+      {
+        "description": "f21.png",
+        "id": "stic_0016054",
+        "image": "file:///android_asset/editor/sticker/rat/f21.png",
+        "code": ":rat_f21.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/f21.png"
+      },
+      {
+        "description": "g1.png",
+        "id": "stic_0016062",
+        "image": "file:///android_asset/editor/sticker/rat/g1.png",
+        "code": ":rat_g1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/g1.png"
+      },
+      {
+        "description": "g2.png",
+        "id": "stic_0016063",
+        "image": "file:///android_asset/editor/sticker/rat/g2.png",
+        "code": ":g2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/g2.png"
+      },
+      {
+        "description": "g3.png",
+        "id": "stic_0016064",
+        "image": "file:///android_asset/editor/sticker/rat/g3.png",
+        "code": ":rat_g3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/g3.png"
+      },
+      {
+        "description": "g4.png",
+        "id": "stic_0016065",
+        "image": "file:///android_asset/editor/sticker/rat/g4.png",
+        "code": ":rat_g4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/g4.png"
+      },
+      {
+        "description": "i2.png",
+        "id": "stic_0016080",
+        "image": "file:///android_asset/editor/sticker/rat/i2.png",
+        "code": ":rat_i2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i2.png"
+      },
+      {
+        "description": "i3.png",
+        "id": "stic_0016081",
+        "image": "file:///android_asset/editor/sticker/rat/i3.png",
+        "code": ":rat_i3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i3.png"
+      },
+      {
+        "description": "i4.png",
+        "id": "stic_0016082",
+        "image": "file:///android_asset/editor/sticker/rat/i4.png",
+        "code": ":rat_i4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i4.png"
+      },
+      {
+        "description": "i5.png",
+        "id": "stic_0016083",
+        "image": "file:///android_asset/editor/sticker/rat/i5.png",
+        "code": ":rat_i5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i5.png"
+      },
+      {
+        "description": "i6.png",
+        "id": "stic_0016084",
+        "image": "file:///android_asset/editor/sticker/rat/i6.png",
+        "code": ":rat_i6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i6.png"
+      },
+      {
+        "description": "i7.png",
+        "id": "stic_0016085",
+        "image": "file:///android_asset/editor/sticker/rat/i7.png",
+        "code": ":rat_i7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i7.png"
+      },
+      {
+        "description": "i8.png",
+        "id": "stic_0016086",
+        "image": "file:///android_asset/editor/sticker/rat/i8.png",
+        "code": ":rat_i8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i8.png"
+      },
+      {
+        "description": "i9.png",
+        "id": "stic_0016087",
+        "image": "file:///android_asset/editor/sticker/rat/i9.png",
+        "code": ":rat_i9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i9.png"
+      },
+      {
+        "description": "i10.png",
+        "id": "stic_0016076",
+        "image": "file:///android_asset/editor/sticker/rat/i10.png",
+        "code": ":rat_i10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i10.png"
+      },
+      {
+        "description": "i11.png",
+        "id": "stic_0016077",
+        "image": "file:///android_asset/editor/sticker/rat/i11.png",
+        "code": ":rat_i11.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i11.png"
+      },
+      {
+        "description": "i12.png",
+        "id": "stic_0016078",
+        "image": "file:///android_asset/editor/sticker/rat/i12.png",
+        "code": ":rat_i12.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i12.png"
+      },
+      {
+        "description": "i13.png",
+        "id": "stic_0016079",
+        "image": "file:///android_asset/editor/sticker/rat/i13.png",
+        "code": ":rat_i13.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/i13.png"
+      },
+      {
+        "description": "j1.png",
+        "id": "stic_0016088",
+        "image": "file:///android_asset/editor/sticker/rat/j1.png",
+        "code": ":rat_j1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j1.png"
+      },
+      {
+        "description": "j2.png",
+        "id": "stic_0016093",
+        "image": "file:///android_asset/editor/sticker/rat/j2.png",
+        "code": ":rat_j2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j2.png"
+      },
+      {
+        "description": "j3.png",
+        "id": "stic_0016094",
+        "image": "file:///android_asset/editor/sticker/rat/j3.png",
+        "code": ":rat_j3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j3.png"
+      },
+      {
+        "description": "j4.png",
+        "id": "stic_0016095",
+        "image": "file:///android_asset/editor/sticker/rat/j4.png",
+        "code": ":rat_j4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j4.png"
+      },
+      {
+        "description": "j5.png",
+        "id": "stic_0016096",
+        "image": "file:///android_asset/editor/sticker/rat/j5.png",
+        "code": ":rat_j5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j5.png"
+      },
+      {
+        "description": "j6.png",
+        "id": "stic_0016097",
+        "image": "file:///android_asset/editor/sticker/rat/j6.png",
+        "code": ":rat_j6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j6.png"
+      },
+      {
+        "description": "j7.png",
+        "id": "stic_0016098",
+        "image": "file:///android_asset/editor/sticker/rat/j7.png",
+        "code": ":rat_j7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j7.png"
+      },
+      {
+        "description": "j9.png",
+        "id": "stic_0016100",
+        "image": "file:///android_asset/editor/sticker/rat/j9.png",
+        "code": ":rat_j9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/j9.png"
+      },
+      {
+        "description": "k5.png",
+        "id": "stic_0016105",
+        "image": "file:///android_asset/editor/sticker/rat/k5.png",
+        "code": ":rat_k5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/k5.png"
+      },
+      {
+        "description": "k6.png",
+        "id": "stic_0016106",
+        "image": "file:///android_asset/editor/sticker/rat/k6.png",
+        "code": ":rat_k6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/k6.png"
+      },
+      {
+        "description": "k8.png",
+        "id": "stic_0016108",
+        "image": "file:///android_asset/editor/sticker/rat/k8.png",
+        "code": ":rat_k8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/k8.png"
+      },
+      {
+        "description": "k9.png",
+        "id": "stic_0016109",
+        "image": "file:///android_asset/editor/sticker/rat/k9.png",
+        "code": ":rat_k9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/k9.png"
+      },
+      {
+        "description": "l1.png",
+        "id": "stic_0016110",
+        "image": "file:///android_asset/editor/sticker/rat/l1.png",
+        "code": ":rat_l1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/l1.png"
+      },
+      {
+        "description": "l2.png",
+        "id": "stic_0016111",
+        "image": "file:///android_asset/editor/sticker/rat/l2.png",
+        "code": ":rat_l2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/l2.png"
+      },
+      {
+        "description": "m1.png",
+        "id": "stic_0016112",
+        "image": "file:///android_asset/editor/sticker/rat/m1.png",
+        "code": ":rat_m1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/m1.png"
+      },
+      {
+        "description": "m2.png",
+        "id": "stic_0016113",
+        "image": "file:///android_asset/editor/sticker/rat/m2.png",
+        "code": ":rat_m2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/m2.png"
+      },
+      {
+        "description": "m3.png",
+        "id": "stic_0016114",
+        "image": "file:///android_asset/editor/sticker/rat/m3.png",
+        "code": ":rat_m3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/m3.png"
+      },
+      {
+        "description": "n1.png",
+        "id": "stic_0016115",
+        "image": "file:///android_asset/editor/sticker/rat/n1.png",
+        "code": ":rat_n1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n1.png"
+      },
+      {
+        "description": "n2.png",
+        "id": "stic_0016126",
+        "image": "file:///android_asset/editor/sticker/rat/n2.png",
+        "code": ":rat_n2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n2.png"
+      },
+      {
+        "description": "n3.png",
+        "id": "stic_0016130",
+        "image": "file:///android_asset/editor/sticker/rat/n3.png",
+        "code": ":rat_n3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n3.png"
+      },
+      {
+        "description": "n4.png",
+        "id": "stic_0016131",
+        "image": "file:///android_asset/editor/sticker/rat/n4.png",
+        "code": ":rat_n4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n4.png"
+      },
+      {
+        "description": "n5.png",
+        "id": "stic_0016132",
+        "image": "file:///android_asset/editor/sticker/rat/n5.png",
+        "code": ":rat_n5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n5.png"
+      },
+      {
+        "description": "n6.png",
+        "id": "stic_0016133",
+        "image": "file:///android_asset/editor/sticker/rat/n6.png",
+        "code": ":rat_n6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n6.png"
+      },
+      {
+        "description": "n7.png",
+        "id": "stic_0016134",
+        "image": "file:///android_asset/editor/sticker/rat/n7.png",
+        "code": ":rat_n7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n7.png"
+      },
+      {
+        "description": "n8.png",
+        "id": "stic_0016135",
+        "image": "file:///android_asset/editor/sticker/rat/n8.png",
+        "code": ":rat_n8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n8.png"
+      },
+      {
+        "description": "n9.png",
+        "id": "stic_0016136",
+        "image": "file:///android_asset/editor/sticker/rat/n9.png",
+        "code": ":rat_n9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n9.png"
+      },
+      {
+        "description": "n10.png",
+        "id": "stic_0016116",
+        "image": "file:///android_asset/editor/sticker/rat/n10.png",
+        "code": ":rat_n10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n10.png"
+      },
+      {
+        "description": "n11.png",
+        "id": "stic_0016117",
+        "image": "file:///android_asset/editor/sticker/rat/n11.png",
+        "code": ":rat_n11.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n11.png"
+      },
+      {
+        "description": "n12.png",
+        "id": "stic_0016118",
+        "image": "file:///android_asset/editor/sticker/rat/n12.png",
+        "code": ":rat_n12.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n12.png"
+      },
+      {
+        "description": "n13.png",
+        "id": "stic_0016119",
+        "image": "file:///android_asset/editor/sticker/rat/n13.png",
+        "code": ":rat_n13.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n13.png"
+      },
+      {
+        "description": "n14.png",
+        "id": "stic_0016120",
+        "image": "file:///android_asset/editor/sticker/rat/n14.png",
+        "code": ":rat_n14.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n14.png"
+      },
+      {
+        "description": "n15.png",
+        "id": "stic_0016121",
+        "image": "file:///android_asset/editor/sticker/rat/n15.png",
+        "code": ":rat_n15.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n15.png"
+      },
+      {
+        "description": "n16.png",
+        "id": "stic_0016122",
+        "image": "file:///android_asset/editor/sticker/rat/n16.png",
+        "code": ":rat_n16.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n16.png"
+      },
+      {
+        "description": "n17.png",
+        "id": "stic_0016123",
+        "image": "file:///android_asset/editor/sticker/rat/n17.png",
+        "code": ":rat_n17.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n17.png"
+      },
+      {
+        "description": "n18.png",
+        "id": "stic_0016124",
+        "image": "file:///android_asset/editor/sticker/rat/n18.png",
+        "code": ":rat_n18.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n18.png"
+      },
+      {
+        "description": "n19.png",
+        "id": "stic_0016125",
+        "image": "file:///android_asset/editor/sticker/rat/n19.png",
+        "code": ":rat_n19.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n19.png"
+      },
+      {
+        "description": "n20.png",
+        "id": "stic_0016127",
+        "image": "file:///android_asset/editor/sticker/rat/n20.png",
+        "code": ":rat_n20.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n20.png"
+      },
+      {
+        "description": "n21.png",
+        "id": "stic_0016128",
+        "image": "file:///android_asset/editor/sticker/rat/n21.png",
+        "code": ":rat_n21.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n21.png"
+      },
+      {
+        "description": "n22.png",
+        "id": "stic_0016129",
+        "image": "file:///android_asset/editor/sticker/rat/n22.png",
+        "code": ":rat_n22.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/n22.png"
+      },
+      {
+        "description": "o1.png",
+        "id": "stic_0016137",
+        "image": "file:///android_asset/editor/sticker/rat/o1.png",
+        "code": ":rat_o1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o1.png"
+      },
+      {
+        "description": "o2.png",
+        "id": "stic_0016139",
+        "image": "file:///android_asset/editor/sticker/rat/o2.png",
+        "code": ":rat_o2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o2.png"
+      },
+      {
+        "description": "o3.png",
+        "id": "stic_0016140",
+        "image": "file:///android_asset/editor/sticker/rat/o3.png",
+        "code": ":rat_o3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o3.png"
+      },
+      {
+        "description": "o4.png",
+        "id": "stic_0016141",
+        "image": "file:///android_asset/editor/sticker/rat/o4.png",
+        "code": ":rat_o4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o4.png"
+      },
+      {
+        "description": "o5.png",
+        "id": "stic_0016142",
+        "image": "file:///android_asset/editor/sticker/rat/o5.png",
+        "code": ":rat_o5.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o5.png"
+      },
+      {
+        "description": "o6.png",
+        "id": "stic_0016143",
+        "image": "file:///android_asset/editor/sticker/rat/o6.png",
+        "code": ":rat_o6.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o6.png"
+      },
+      {
+        "description": "o7.png",
+        "id": "stic_0016144",
+        "image": "file:///android_asset/editor/sticker/rat/o7.png",
+        "code": ":rat_o7.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o7.png"
+      },
+      {
+        "description": "o8.png",
+        "id": "stic_0016145",
+        "image": "file:///android_asset/editor/sticker/rat/o8.png",
+        "code": ":rat_o8.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o8.png"
+      },
+      {
+        "description": "o9.png",
+        "id": "stic_0016146",
+        "image": "file:///android_asset/editor/sticker/rat/o9.png",
+        "code": ":rat_o9.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o9.png"
+      },
+      {
+        "description": "o10.png",
+        "id": "stic_0016138",
+        "image": "file:///android_asset/editor/sticker/rat/o10.png",
+        "code": ":rat_o10.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/o10.png"
+      },
+      {
+        "description": "p1.png",
+        "id": "stic_0016147",
+        "image": "file:///android_asset/editor/sticker/rat/p1.png",
+        "code": ":rat_p1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/p1.png"
+      },
+      {
+        "description": "p2.png",
+        "id": "stic_0016148",
+        "image": "file:///android_asset/editor/sticker/rat/p2.png",
+        "code": ":rat_p2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/p2.png"
+      },
+      {
+        "description": "p3.png",
+        "id": "stic_0016149",
+        "image": "file:///android_asset/editor/sticker/rat/p3.png",
+        "code": ":rat_p3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/p3.png"
+      },
+      {
+        "description": "p4.png",
+        "id": "stic_0016150",
+        "image": "file:///android_asset/editor/sticker/rat/p4.png",
+        "code": ":rat_p4.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/p4.png"
+      },
+      {
+        "description": "q1.png",
+        "id": "stic_0016151",
+        "image": "file:///android_asset/editor/sticker/rat/q1.png",
+        "code": ":rat_q1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/q1.png"
+      },
+      {
+        "description": "q2.png",
+        "id": "stic_0016152",
+        "image": "file:///android_asset/editor/sticker/rat/q2.png",
+        "code": ":rat_q2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/q2.png"
+      },
+      {
+        "description": "q3.png",
+        "id": "stic_0016153",
+        "image": "file:///android_asset/editor/sticker/rat/q3.png",
+        "code": ":rat_q3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/q3.png"
+      },
+      {
+        "description": "r1.png",
+        "id": "stic_0016154",
+        "image": "file:///android_asset/editor/sticker/rat/r1.png",
+        "code": ":rat_r1.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/r1.png"
+      },
+      {
+        "description": "r2.png",
+        "id": "stic_0016155",
+        "image": "file:///android_asset/editor/sticker/rat/r2.png",
+        "code": ":rat_r2.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/r2.png"
+      },
+      {
+        "description": "r3.png",
+        "id": "stic_0016156",
+        "image": "file:///android_asset/editor/sticker/rat/r3.png",
+        "code": ":rat_r3.png:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/rat/r3.png"
+      }
+    ]
+  },
+  {
+    "id": "stic_003",
+    "name": "Piggy_2019",
+    "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_FatPiggy.png",
+    "stickers": [
+      {
+        "id": "stic_0042",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Caishen_HoldPiggy_01.png",
+        "code": ":piggy_CNY2019_Caishen_HoldPiggy_01:",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Caishen_HoldPiggy_01.png",
+        "description": "HoldPiggy"
+      },
+      {
+        "id": "stic_0045",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_FatPiggy.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_FatPiggy.png",
+        "code": ":piggy_CNY2019_FatPiggy:",
+        "description": "CNY2019_FatPiggy"
+      },
+      {
+        "id": "stic_0046",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_FatPiggy_ScrollFU.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_FatPiggy_ScrollFU.png",
+        "code": ":piggy_CNY2019_FatPiggy_ScrollFU:",
+        "description": "CNY2019_FatPiggy_ScrollFU"
+      },
+      {
+        "id": "stic_0047",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_LuckyPiggy.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_LuckyPiggy.png",
+        "code": ":piggy_CNY2019_LuckyPiggy:",
+        "description": "CNY2019_LuckyPiggy"
+      },
+      {
+        "id": "stic_0048",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Balloon.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Balloon.png",
+        "code": ":piggy_CNY2019_Piggy_Balloon:",
+        "description": "CNY2019_Piggy_Balloon"
+      },
+      {
+        "id": "stic_0049",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Beauty.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Beauty.png",
+        "code": ":piggy_CNY2019_Piggy_Beauty:",
+        "description": "CNY2019_Piggy_Beauty"
+      },
+      {
+        "id": "stic_0050",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Bottom.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Bottom.png",
+        "code": ":piggy_CNY2019_Piggy_Bottom:",
+        "description": "CNY2019_Piggy_Bottom"
+      },
+      {
+        "id": "stic_0052",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Costume.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Costume.png",
+        "code": ":piggy_CNY2019_Piggy_Costume:",
+        "description": "CNY2019_Piggy_Costume"
+      },
+      {
+        "id": "stic_0053",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_GongXi.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_GongXi.png",
+        "code": ":piggy_CNY2019_Piggy_GongXi:",
+        "description": "CNY2019_Piggy_GongXi"
+      },
+      {
+        "id": "stic_0054",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Handstand.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Handstand.png",
+        "code": ":piggy_CNY2019_Piggy_Handstand:",
+        "description": "CNY2019_Piggy_Handstand"
+      },
+      {
+        "id": "stic_0055",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_HugGold.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_HugGold.png",
+        "code": ":piggy_CNY2019_Piggy_HugGold:",
+        "description": "CNY2019_Piggy_HugGold"
+      },
+      {
+        "id": "stic_0056",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_Jump.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_Jump.png",
+        "code": ":piggy_CNY2019_Piggy_Jump:",
+        "description": "CNY2019_Piggy_Jump"
+      },
+      {
+        "id": "stic_0057",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_King.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_King.png",
+        "code": ":piggy_CNY2019_Piggy_King:",
+        "description": "CNY2019_Piggy_King"
+      },
+      {
+        "id": "stic_0058",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_LiftGold.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_LiftGold.png",
+        "code": ":piggy_CNY2019_Piggy_LiftGold:",
+        "description": "CNY2019_Piggy_LiftGold"
+      },
+      {
+        "id": "stic_0059",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_LionHead_02.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_LionHead_02.png",
+        "code": ":piggy_CNY2019_Piggy_LionHead_02:",
+        "description": "CNY2019_Piggy_LionHead_02"
+      },
+      {
+        "id": "stic_0060",
+        "type": "stic",
+        "image": "file:///android_asset/editor/sticker/Piggy_2019/CNY2019_Piggy_OpenArm.png",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/cny2019/CNY2019_Piggy_OpenArm.png",
+        "code": ":piggy_CNY2019_Piggy_OpenArm:",
+        "description": "CNY2019_Piggy_OpenArm"
+      }
+    ]
+  },
+  {
+    "id": "stic_0015",
+    "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6463.png",
+    "name": "Sweet_Sassy",
+    "stickers": [
+      {
+        "description": "6162",
+        "id": "stic_0015000",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6162.png",
+        "code": ":sweet_6162:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6162.png"
+      },
+      {
+        "description": "6167",
+        "id": "stic_0015001",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6167.png",
+        "code": ":sweet_6167:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6167.png"
+      },
+      {
+        "description": "6169",
+        "id": "stic_0015002",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6169.png",
+        "code": ":sweet_6169:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6169.png"
+      },
+      {
+        "description": "6212",
+        "id": "stic_0015003",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6212.png",
+        "code": ":sweet_6212:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6212.png"
+      },
+      {
+        "description": "6217",
+        "id": "stic_0015004",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6217.png",
+        "code": ":sweet_6217:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6217.png"
+      },
+      {
+        "description": "6299",
+        "id": "stic_0015005",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6299.png",
+        "code": ":sweet_6299:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6299.png"
+      },
+      {
+        "description": "6305",
+        "id": "stic_0015006",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6305.png",
+        "code": ":sweet_6305:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6305.png"
+      },
+      {
+        "description": "6306",
+        "id": "stic_0015007",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6306.png",
+        "code": ":sweet_6306:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6306.png"
+      },
+      {
+        "description": "6307",
+        "id": "stic_0015008",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6307.png",
+        "code": ":sweet_6307:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6307.png"
+      },
+      {
+        "description": "6309",
+        "id": "stic_0015009",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6309.png",
+        "code": ":sweet_6309:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6309.png"
+      },
+      {
+        "description": "6310",
+        "id": "stic_0015010",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6310.png",
+        "code": ":sweet_6310:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6310.png"
+      },
+      {
+        "description": "6311",
+        "id": "stic_0015011",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6311.png",
+        "code": ":sweet_6311:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6311.png"
+      },
+      {
+        "description": "6312",
+        "id": "stic_0015012",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6312.png",
+        "code": ":sweet_6312:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6312.png"
+      },
+      {
+        "description": "6315",
+        "id": "stic_0015013",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6315.png",
+        "code": ":sweet_6315:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6315.png"
+      },
+      {
+        "description": "6316",
+        "id": "stic_0015014",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6316.png",
+        "code": ":sweet_6316:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6316.png"
+      },
+      {
+        "description": "6319",
+        "id": "stic_0015015",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6319.png",
+        "code": ":sweet_6319:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6319.png"
+      },
+      {
+        "description": "6320",
+        "id": "stic_0015016",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6320.png",
+        "code": ":sweet_6320:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6320.png"
+      },
+      {
+        "description": "6324",
+        "id": "stic_0015017",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6324.png",
+        "code": ":sweet_6324:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6324.png"
+      },
+      {
+        "description": "6325",
+        "id": "stic_0015018",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6325.png",
+        "code": ":sweet_6325:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6325.png"
+      },
+      {
+        "description": "6332",
+        "id": "stic_0015019",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6332.png",
+        "code": ":sweet_6332:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6332.png"
+      },
+      {
+        "description": "6333",
+        "id": "stic_0015020",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6333.png",
+        "code": ":sweet_6333:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6333.png"
+      },
+      {
+        "description": "6387",
+        "id": "stic_0015021",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6387.png",
+        "code": ":sweet_6387:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6387.png"
+      },
+      {
+        "description": "6390",
+        "id": "stic_0015022",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6390.png",
+        "code": ":sweet_6390:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6390.png"
+      },
+      {
+        "description": "6391",
+        "id": "stic_0015023",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6391.png",
+        "code": ":sweet_6391:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6391.png"
+      },
+      {
+        "description": "6394",
+        "id": "stic_0015024",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6394.png",
+        "code": ":sweet_6394:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6394.png"
+      },
+      {
+        "description": "6395",
+        "id": "stic_0015025",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6395.png",
+        "code": ":sweet_6395:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6395.png"
+      },
+      {
+        "description": "6398",
+        "id": "stic_0015026",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6398.png",
+        "code": ":sweet_6398:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6398.png"
+      },
+      {
+        "description": "6400",
+        "id": "stic_0015027",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6400.png",
+        "code": ":sweet_6400:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6400.png"
+      },
+      {
+        "description": "6401",
+        "id": "stic_0015028",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6401.png",
+        "code": ":sweet_6401:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6401.png"
+      },
+      {
+        "description": "6402",
+        "id": "stic_0015029",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6402.png",
+        "code": ":sweet_6402:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6402.png"
+      },
+      {
+        "description": "6404",
+        "id": "stic_0015030",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6404.png",
+        "code": ":sweet_6404:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6404.png"
+      },
+      {
+        "description": "6405",
+        "id": "stic_0015031",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6405.png",
+        "code": ":sweet_6405:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6405.png"
+      },
+      {
+        "description": "6406",
+        "id": "stic_0015032",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6406.png",
+        "code": ":sweet_6406:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6406.png"
+      },
+      {
+        "description": "6407",
+        "id": "stic_0015033",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6407.png",
+        "code": ":sweet_6407:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6407.png"
+      },
+      {
+        "description": "6421",
+        "id": "stic_0015034",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6421.png",
+        "code": ":sweet_6421:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6421.png"
+      },
+      {
+        "description": "6422",
+        "id": "stic_0015035",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6422.png",
+        "code": ":sweet_6422:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6422.png"
+      },
+      {
+        "description": "6423",
+        "id": "stic_0015036",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6423.png",
+        "code": ":sweet_6423:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6423.png"
+      },
+      {
+        "description": "6426",
+        "id": "stic_0015037",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6426.png",
+        "code": ":sweet_6426:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6426.png"
+      },
+      {
+        "description": "6427",
+        "id": "stic_0015038",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6427.png",
+        "code": ":sweet_6427:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6427.png"
+      },
+      {
+        "description": "6524",
+        "id": "stic_0015040",
+        "image": "file:///android_asset/editor/sticker/Sweet_Sassy/6524.png",
+        "code": ":sweet_6524:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/sweet_sassy/6524.png"
+      }
+    ]
+  },
+  {
+    "id": "stic_0014",
+    "image": "file:///android_asset/editor/sticker/Summer_Fun/00_summer-fun-logo.png",
+    "name": "Summer_Fun",
+    "stickers": [
+      {
+        "description": "01_beach-ball",
+        "id": "stic_0014000",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/01_beach-ball.png",
+        "code": ":summer_01_beach-ball:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/01_beach-ball.png"
+      },
+      {
+        "description": "02_smiley-licking-ice-cream-cone",
+        "id": "stic_0014001",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/02_smiley-licking-ice-cream-cone.png",
+        "code": ":summer_02_smiley-licking-ice-cream-cone:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/02_smiley-licking-ice-cream-cone.png"
+      },
+      {
+        "description": "03_summer-nights",
+        "id": "stic_0014002",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/03_summer-nights.png",
+        "code": ":summer_03_summer-nights:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/03_summer-nights.png"
+      },
+      {
+        "description": "04_beach-bum",
+        "id": "stic_0014003",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/04_beach-bum.png",
+        "code": ":summer_04_beach-bum:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/04_beach-bum.png"
+      },
+      {
+        "description": "05_summer-camp",
+        "id": "stic_0014004",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/05_summer-camp.png",
+        "code": ":summer_05_summer-camp:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/05_summer-camp.png"
+      },
+      {
+        "description": "06_beach-heart",
+        "id": "stic_0014005",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/06_beach-heart.png",
+        "code": ":summer_06_beach-heart:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/06_beach-heart.png"
+      },
+      {
+        "description": "07_vacay-mode",
+        "id": "stic_0014006",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/07_vacay-mode.png",
+        "code": ":summer_07_vacay-mode:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/07_vacay-mode.png"
+      },
+      {
+        "description": "08_good-times",
+        "id": "stic_0014007",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/08_good-times.png",
+        "code": ":summer_08_good-times:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/08_good-times.png"
+      },
+      {
+        "description": "09_hearts-on-beach",
+        "id": "stic_0014008",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/09_hearts-on-beach.png",
+        "code": ":summer_09_hearts-on-beach:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/09_hearts-on-beach.png"
+      },
+      {
+        "description": "10_happy-pineapple",
+        "id": "stic_0014009",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/10_happy-pineapple.png",
+        "code": ":summer_10_happy-pineapple:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/10_happy-pineapple.png"
+      },
+      {
+        "description": "11_summer-smileys",
+        "id": "stic_0014010",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/11_summer-smileys.png",
+        "code": ":summer_11_summer-smileys:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/11_summer-smileys.png"
+      },
+      {
+        "description": "12_seashells",
+        "id": "stic_0014011",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/12_seashells.png",
+        "code": ":summer_12_seashells:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/12_seashells.png"
+      },
+      {
+        "description": "13_smores",
+        "id": "stic_0014012",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/13_smores.png",
+        "code": ":summer_13_smores:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/13_smores.png"
+      },
+      {
+        "description": "14_splash",
+        "id": "stic_0014013",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/14_splash.png",
+        "code": ":summer_14_splash:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/14_splash.png"
+      },
+      {
+        "description": "15_shell-yeah",
+        "id": "stic_0014014",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/15_shell-yeah.png",
+        "code": ":summer_15_shell-yeah:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/15_shell-yeah.png"
+      },
+      {
+        "description": "16_lit",
+        "id": "stic_0014015",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/16_lit.png",
+        "code": ":summer_16_lit:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/16_lit.png"
+      },
+      {
+        "description": "17_smile-camera",
+        "id": "stic_0014016",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/17_smile-camera.png",
+        "code": ":summer_17_smile-camera:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/17_smile-camera.png"
+      },
+      {
+        "description": "18_picnic-basket",
+        "id": "stic_0014017",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/18_picnic-basket.png",
+        "code": ":summer_18_picnic-basket:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/18_picnic-basket.png"
+      },
+      {
+        "description": "19_coconut-drink",
+        "id": "stic_0014018",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/19_coconut-drink.png",
+        "code": ":summer_19_coconut-drink:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/19_coconut-drink.png"
+      },
+      {
+        "description": "20_hot",
+        "id": "stic_0014019",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/20_hot.png",
+        "code": ":summer_20_hot:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/20_hot.png"
+      },
+      {
+        "description": "21_hello-summer",
+        "id": "stic_0014020",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/21_hello-summer.png",
+        "code": ":summer_21_hello-summer:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/21_hello-summer.png"
+      },
+      {
+        "description": "22_sweet",
+        "id": "stic_0014021",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/22_sweet.png",
+        "code": ":summer_22_sweet:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/22_sweet.png"
+      },
+      {
+        "description": "23_chill",
+        "id": "stic_0014022",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/23_chill.png",
+        "code": ":summer_23_chill:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/23_chill.png"
+      },
+      {
+        "description": "24_cool",
+        "id": "stic_0014023",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/24_cool.png",
+        "code": ":summer_24_cool:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/24_cool.png"
+      },
+      {
+        "description": "25_hello-sunshine",
+        "id": "stic_0014024",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/25_hello-sunshine.png",
+        "code": ":summer_25_hello-sunshine:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/25_hello-sunshine.png"
+      },
+      {
+        "description": "26_aloha",
+        "id": "stic_0014025",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/26_aloha.png",
+        "code": ":summer_26_aloha:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/26_aloha.png"
+      },
+      {
+        "description": "27_surfs-up",
+        "id": "stic_0014026",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/27_surfs-up.png",
+        "code": ":summer_27_surfs-up:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/27_surfs-up.png"
+      },
+      {
+        "description": "28_beach-please",
+        "id": "stic_0014027",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/28_beach-please.png",
+        "code": ":summer_28_beach-please:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/28_beach-please.png"
+      },
+      {
+        "description": "29_relax",
+        "id": "stic_0014028",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/29_relax.png",
+        "code": ":summer_29_relax:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/29_relax.png"
+      },
+      {
+        "description": "30_no-bad-days",
+        "id": "stic_0014029",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/30_no-bad-days.png",
+        "code": ":summer_30_no-bad-days:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/30_no-bad-days.png"
+      },
+      {
+        "description": "31_good-vibes",
+        "id": "stic_0014030",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/31_good-vibes.png",
+        "code": ":summer_31_good-vibes:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/31_good-vibes.png"
+      },
+      {
+        "description": "32_chillin-grillin",
+        "id": "stic_0014031",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/32_chillin-grillin.png",
+        "code": ":summer_32_chillin-grillin:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/32_chillin-grillin.png"
+      },
+      {
+        "description": "33_happy-4th-of-july",
+        "id": "stic_0014032",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/33_happy-4th-of-july.png",
+        "code": ":summer_33_happy-4th-of-july:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/33_happy-4th-of-july.png"
+      },
+      {
+        "description": "34_lifes-a-beach",
+        "id": "stic_0014033",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/34_lifes-a-beach.png",
+        "code": ":summer_34_lifes-a-beach:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/34_lifes-a-beach.png"
+      },
+      {
+        "description": "35_fun-in-the-sun",
+        "id": "stic_0014034",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/35_fun-in-the-sun.png",
+        "code": ":summer_35_fun-in-the-sun:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/35_fun-in-the-sun.png"
+      },
+      {
+        "description": "36_pool-party",
+        "id": "stic_0014035",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/36_pool-party.png",
+        "code": ":summer_36_pool-party:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/36_pool-party.png"
+      },
+      {
+        "description": "37_sandcastle",
+        "id": "stic_0014036",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/37_sandcastle.png",
+        "code": ":summer_37_sandcastle:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/37_sandcastle.png"
+      },
+      {
+        "description": "38_beach-hair-dont-care",
+        "id": "stic_0014037",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/38_beach-hair-dont-care.png",
+        "code": ":summer_38_beach-hair-dont-care:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/38_beach-hair-dont-care.png"
+      },
+      {
+        "description": "39_palm-tree-surf-board",
+        "id": "stic_0014038",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/39_palm-tree-surf-board.png",
+        "code": ":summer_39_palm-tree-surf-board:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/39_palm-tree-surf-board.png"
+      },
+      {
+        "description": "40_camper",
+        "id": "stic_0014039",
+        "image": "file:///android_asset/editor/sticker/Summer_Fun/40_camper.png",
+        "code": ":summer_40_camper:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/summer_fun/40_camper.png"
+      }
+    ]
+  },
+  {
+    "id": "stic_0013",
+    "image": "file:///android_asset/editor/sticker/Smiley/00_smiley-guy-logo.png",
+    "name": "Smiley",
+    "stickers": [
+      {
+        "description": "01_no",
+        "id": "stic_0013000",
+        "image": "file:///android_asset/editor/sticker/Smiley/01_no.png",
+        "code": ":smiley_01_no:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/01_no.png"
+      },
+      {
+        "description": "02_tgif",
+        "id": "stic_0013001",
+        "image": "file:///android_asset/editor/sticker/Smiley/02_tgif.png",
+        "code": ":smiley_02_tgif:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/02_tgif.png"
+      },
+      {
+        "description": "03_fomo",
+        "id": "stic_0013002",
+        "image": "file:///android_asset/editor/sticker/Smiley/03_fomo.png",
+        "code": ":smiley_03_fomo:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/03_fomo.png"
+      },
+      {
+        "description": "04_love-ya",
+        "id": "stic_0013003",
+        "image": "file:///android_asset/editor/sticker/Smiley/04_love-ya.png",
+        "code": ":smiley_04_love-ya:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/04_love-ya.png"
+      },
+      {
+        "description": "05_fml",
+        "id": "stic_0013004",
+        "image": "file:///android_asset/editor/sticker/Smiley/05_fml.png",
+        "code": ":smiley_05_fml:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/05_fml.png"
+      },
+      {
+        "description": "06_miss-you",
+        "id": "stic_0013005",
+        "image": "file:///android_asset/editor/sticker/Smiley/06_miss-you.png",
+        "code": ":smiley_06_miss-you:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/06_miss-you.png"
+      },
+      {
+        "description": "07_whats-up",
+        "id": "stic_0013006",
+        "image": "file:///android_asset/editor/sticker/Smiley/07_whats-up.png",
+        "code": ":smiley_07_whats-up:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/07_whats-up.png"
+      },
+      {
+        "description": "08_feed-me",
+        "id": "stic_0013007",
+        "image": "file:///android_asset/editor/sticker/Smiley/08_feed-me.png",
+        "code": ":smiley_08_feed-me:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/08_feed-me.png"
+      },
+      {
+        "description": "09_winning",
+        "id": "stic_0013008",
+        "image": "file:///android_asset/editor/sticker/Smiley/09_winning.png",
+        "code": ":smiley_09_winning:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/09_winning.png"
+      },
+      {
+        "description": "10_peace-out",
+        "id": "stic_0013009",
+        "image": "file:///android_asset/editor/sticker/Smiley/10_peace-out.png",
+        "code": ":smiley_10_peace-out:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/10_peace-out.png"
+      },
+      {
+        "description": "11_ttyl",
+        "id": "stic_0013010",
+        "image": "file:///android_asset/editor/sticker/Smiley/11_ttyl.png",
+        "code": ":smiley_11_ttyl:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/11_ttyl.png"
+      },
+      {
+        "description": "12_please",
+        "id": "stic_0013011",
+        "image": "file:///android_asset/editor/sticker/Smiley/12_please.png",
+        "code": ":smiley_12_please:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/12_please.png"
+      },
+      {
+        "description": "13_thank-you",
+        "id": "stic_0013012",
+        "image": "file:///android_asset/editor/sticker/Smiley/13_thank-you.png",
+        "code": ":smiley_13_thank-you:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/13_thank-you.png"
+      },
+      {
+        "description": "14_squad",
+        "id": "stic_0013013",
+        "image": "file:///android_asset/editor/sticker/Smiley/14_squad.png",
+        "code": ":smiley_14_squad:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/14_squad.png"
+      },
+      {
+        "description": "15_oops",
+        "id": "stic_0013014",
+        "image": "file:///android_asset/editor/sticker/Smiley/15_oops.png",
+        "code": ":smiley_15_oops:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/15_oops.png"
+      },
+      {
+        "description": "16_rofl",
+        "id": "stic_0013015",
+        "image": "file:///android_asset/editor/sticker/Smiley/16_rofl.png",
+        "code": ":smiley_16_rofl:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/16_rofl.png"
+      },
+      {
+        "description": "17_just-sayin",
+        "id": "stic_0013016",
+        "image": "file:///android_asset/editor/sticker/Smiley/17_just-sayin.png",
+        "code": ":smiley_17_just-sayin:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/17_just-sayin.png"
+      },
+      {
+        "description": "18_awesome",
+        "id": "stic_0013017",
+        "image": "file:///android_asset/editor/sticker/Smiley/18_awesome.png",
+        "code": ":smiley_18_awesome:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/18_awesome.png"
+      },
+      {
+        "description": "19_barf",
+        "id": "stic_0013018",
+        "image": "file:///android_asset/editor/sticker/Smiley/19_barf.png",
+        "code": ":smiley_19_barf:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/19_barf.png"
+      },
+      {
+        "description": "20_sealed",
+        "id": "stic_0013019",
+        "image": "file:///android_asset/editor/sticker/Smiley/20_sealed.png",
+        "code": ":smiley_20_sealed:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/20_sealed.png"
+      },
+      {
+        "description": "21_sorry",
+        "id": "stic_0013020",
+        "image": "file:///android_asset/editor/sticker/Smiley/21_sorry.png",
+        "code": ":smiley_21_sorry:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/21_sorry.png"
+      },
+      {
+        "description": "22_sleeping",
+        "id": "stic_0013021",
+        "image": "file:///android_asset/editor/sticker/Smiley/22_sleeping.png",
+        "code": ":smiley_22_sleeping:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/22_sleeping.png"
+      },
+      {
+        "description": "23_hello",
+        "id": "stic_0013022",
+        "image": "file:///android_asset/editor/sticker/Smiley/23_hello.png",
+        "code": ":smiley_23_hello:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/23_hello.png"
+      },
+      {
+        "description": "24_seriously",
+        "id": "stic_0013023",
+        "image": "file:///android_asset/editor/sticker/Smiley/24_seriously.png",
+        "code": ":smiley_24_seriously:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/24_seriously.png"
+      },
+      {
+        "description": "25_lol",
+        "id": "stic_0013024",
+        "image": "file:///android_asset/editor/sticker/Smiley/25_lol.png",
+        "code": ":smiley_25_lol:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/25_lol.png"
+      },
+      {
+        "description": "26_omg",
+        "id": "stic_0013025",
+        "image": "file:///android_asset/editor/sticker/Smiley/26_omg.png",
+        "code": ":smiley_26_omg:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/26_omg.png"
+      },
+      {
+        "description": "27_tmi",
+        "id": "stic_0013026",
+        "image": "file:///android_asset/editor/sticker/Smiley/27_tmi.png",
+        "code": ":smiley_27_tmi:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/27_tmi.png"
+      },
+      {
+        "description": "28_see-ya",
+        "id": "stic_0013027",
+        "image": "file:///android_asset/editor/sticker/Smiley/28_see-ya.png",
+        "code": ":smiley_28_see-ya:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/28_see-ya.png"
+      },
+      {
+        "description": "29_smooches",
+        "id": "stic_0013028",
+        "image": "file:///android_asset/editor/sticker/Smiley/29_smooches.png",
+        "code": ":smiley_29_smooches:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/29_smooches.png"
+      },
+      {
+        "description": "30_what",
+        "id": "stic_0013029",
+        "image": "file:///android_asset/editor/sticker/Smiley/30_what.png",
+        "code": ":smiley_30_what:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/30_what.png"
+      },
+      {
+        "description": "31_good-morning",
+        "id": "stic_0013030",
+        "image": "file:///android_asset/editor/sticker/Smiley/31_good-morning.png",
+        "code": ":smiley_31_good-morning:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/31_good-morning.png"
+      },
+      {
+        "description": "32_yolo",
+        "id": "stic_0013031",
+        "image": "file:///android_asset/editor/sticker/Smiley/32_yolo.png",
+        "code": ":smiley_32_yolo:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/32_yolo.png"
+      },
+      {
+        "description": "33_cutie-pie",
+        "id": "stic_0013032",
+        "image": "file:///android_asset/editor/sticker/Smiley/33_cutie-pie.png",
+        "code": ":smiley_33_cutie-pie:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/33_cutie-pie.png"
+      },
+      {
+        "description": "34_blessed",
+        "id": "stic_0013033",
+        "image": "file:///android_asset/editor/sticker/Smiley/34_blessed.png",
+        "code": ":smiley_34_blessed:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/34_blessed.png"
+      },
+      {
+        "description": "35_meh",
+        "id": "stic_0013034",
+        "image": "file:///android_asset/editor/sticker/Smiley/35_meh.png",
+        "code": ":smiley_35_meh:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/35_meh.png"
+      },
+      {
+        "description": "36_cool-bro",
+        "id": "stic_0013035",
+        "image": "file:///android_asset/editor/sticker/Smiley/36_cool-bro.png",
+        "code": ":smiley_36_cool-bro:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/36_cool-bro.png"
+      },
+      {
+        "description": "37_sweet",
+        "id": "stic_0013036",
+        "image": "file:///android_asset/editor/sticker/Smiley/37_sweet.png",
+        "code": ":smiley_37_sweet:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/37_sweet.png"
+      },
+      {
+        "description": "38_you-so-cray",
+        "id": "stic_0013037",
+        "image": "file:///android_asset/editor/sticker/Smiley/38_you-so-cray.png",
+        "code": ":smiley_38_you-so-cray:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/38_you-so-cray.png"
+      },
+      {
+        "description": "39_brb",
+        "id": "stic_0013038",
+        "image": "file:///android_asset/editor/sticker/Smiley/39_brb.png",
+        "code": ":smiley_39_brb:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/39_brb.png"
+      },
+      {
+        "description": "40_orly",
+        "id": "stic_0013039",
+        "image": "file:///android_asset/editor/sticker/Smiley/40_orly.png",
+        "code": ":smiley_40_orly:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/smiley/40_orly.png"
+      }
+    ]
+  },
+  {
+    "id": "stic_0012",
+    "image": "file:///android_asset/editor/sticker/Panda_Pack/13_panda-pack-logo.png",
+    "name": "Panda_Pack",
+    "stickers": [
+      {
+        "description": "01_frowning-panda-face",
+        "id": "stic_0012000",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/01_frowning-panda-face.png",
+        "code": ":panda_01_frowning-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/01_frowning-panda-face.png"
+      },
+      {
+        "description": "02_smiling-panda-face-w-open-mouth-closed-eyes",
+        "id": "stic_0012001",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/02_smiling-panda-face-w-open-mouth-closed-eyes.png",
+        "code": ":panda_02_smiling-panda-face-w-open-mouth-closed-eyes:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/02_smiling-panda-face-w-open-mouth-closed-eyes.png"
+      },
+      {
+        "description": "03_sleeping-panda-face",
+        "id": "stic_0012002",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/03_sleeping-panda-face.png",
+        "code": ":panda_03_sleeping-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/03_sleeping-panda-face.png"
+      },
+      {
+        "description": "04_nerd-panda-face",
+        "id": "stic_0012003",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/04_nerd-panda-face.png",
+        "code": ":panda_04_nerd-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/04_nerd-panda-face.png"
+      },
+      {
+        "description": "05_loudly-crying-panda-face",
+        "id": "stic_0012004",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/05_loudly-crying-panda-face.png",
+        "code": ":panda_05_loudly-crying-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/05_loudly-crying-panda-face.png"
+      },
+      {
+        "description": "06_halo-panda-face",
+        "id": "stic_0012005",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/06_halo-panda-face.png",
+        "code": ":panda_06_halo-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/06_halo-panda-face.png"
+      },
+      {
+        "description": "07_kissing-panda-face-w-closed-eyes",
+        "id": "stic_0012006",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/07_kissing-panda-face-w-closed-eyes.png",
+        "code": ":panda_07_kissing-panda-face-w-closed-eyes:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/07_kissing-panda-face-w-closed-eyes.png"
+      },
+      {
+        "description": "08_heart-eyes-panda-face",
+        "id": "stic_0012007",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/08_heart-eyes-panda-face.png",
+        "code": ":panda_08_heart-eyes-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/08_heart-eyes-panda-face.png"
+      },
+      {
+        "description": "09_grinning-panda-face-w-smiling-eyes",
+        "id": "stic_0012008",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/09_grinning-panda-face-w-smiling-eyes.png",
+        "code": ":panda_09_grinning-panda-face-w-smiling-eyes:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/09_grinning-panda-face-w-smiling-eyes.png"
+      },
+      {
+        "description": "10_grinning-panda-face",
+        "id": "stic_0012009",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/10_grinning-panda-face.png",
+        "code": ":panda_10_grinning-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/10_grinning-panda-face.png"
+      },
+      {
+        "description": "11_stuck-out-tongue-and-winking-eye-panda-face",
+        "id": "stic_0012010",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/11_stuck-out-tongue-and-winking-eye-panda-face.png",
+        "code": ":panda_11_stuck-out-tongue-and-winking-eye-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/11_stuck-out-tongue-and-winking-eye-panda-face.png"
+      },
+      {
+        "description": "12_panda-face-with-floating-hearts-around-headface",
+        "id": "stic_0012011",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/12_panda-face-with-floating-hearts-around-headface.png",
+        "code": ":panda_12_panda-face-with-floating-hearts-around-headface:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/12_panda-face-with-floating-hearts-around-headface.png"
+      },
+      {
+        "description": "13_panda-face-w-sunglasses",
+        "id": "stic_0012012",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/13_panda-face-w-sunglasses.png",
+        "code": ":panda_13_panda-face-w-sunglasses:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/13_panda-face-w-sunglasses.png"
+      },
+      {
+        "description": "14_panda-face-w-one-eye-open-blowing-heart",
+        "id": "stic_0012013",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/14_panda-face-w-one-eye-open-blowing-heart.png",
+        "code": ":panda_14_panda-face-w-one-eye-open-blowing-heart:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/14_panda-face-w-one-eye-open-blowing-heart.png"
+      },
+      {
+        "description": "15_crying-panda-face",
+        "id": "stic_0012014",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/15_crying-panda-face.png",
+        "code": ":panda_15_crying-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/15_crying-panda-face.png"
+      },
+      {
+        "description": "16_confounded-panda-face",
+        "id": "stic_0012015",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/16_confounded-panda-face.png",
+        "code": ":panda_16_confounded-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/16_confounded-panda-face.png"
+      },
+      {
+        "description": "17_blushing-panda-face",
+        "id": "stic_0012016",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/17_blushing-panda-face.png",
+        "code": ":panda_17_blushing-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/17_blushing-panda-face.png"
+      },
+      {
+        "description": "18_pouting-panda-face",
+        "id": "stic_0012017",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/18_pouting-panda-face.png",
+        "code": ":panda_18_pouting-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/18_pouting-panda-face.png"
+      },
+      {
+        "description": "19_star-struck-panda-face",
+        "id": "stic_0012018",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/19_star-struck-panda-face.png",
+        "code": ":panda_19_star-struck-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/19_star-struck-panda-face.png"
+      },
+      {
+        "description": "20_peace-sign-panda-face",
+        "id": "stic_0012019",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/20_peace-sign-panda-face.png",
+        "code": ":panda_20_peace-sign-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/20_peace-sign-panda-face.png"
+      },
+      {
+        "description": "21_ninja-panda-face",
+        "id": "stic_0012020",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/21_ninja-panda-face.png",
+        "code": ":panda_21_ninja-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/21_ninja-panda-face.png"
+      },
+      {
+        "description": "22_panda-face-screaming-in-fear",
+        "id": "stic_0012021",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/22_panda-face-screaming-in-fear.png",
+        "code": ":panda_22_panda-face-screaming-in-fear:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/22_panda-face-screaming-in-fear.png"
+      },
+      {
+        "description": "23_hugging-panda-face",
+        "id": "stic_0012022",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/23_hugging-panda-face.png",
+        "code": ":panda_23_hugging-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/23_hugging-panda-face.png"
+      },
+      {
+        "description": "24_astronaut-panda-face",
+        "id": "stic_0012023",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/24_astronaut-panda-face.png",
+        "code": ":panda_24_astronaut-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/24_astronaut-panda-face.png"
+      },
+      {
+        "description": "25_crazy-panda-face",
+        "id": "stic_0012024",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/25_crazy-panda-face.png",
+        "code": ":panda_25_crazy-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/25_crazy-panda-face.png"
+      },
+      {
+        "description": "26_panda-face-w-head-bandage",
+        "id": "stic_0012025",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/26_panda-face-w-head-bandage.png",
+        "code": ":panda_26_panda-face-w-head-bandage:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/26_panda-face-w-head-bandage.png"
+      },
+      {
+        "description": "27_panda-face-w-monocle",
+        "id": "stic_0012026",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/27_panda-face-w-monocle.png",
+        "code": ":panda_27_panda-face-w-monocle:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/27_panda-face-w-monocle.png"
+      },
+      {
+        "description": "28_panda-face-w-wry-smile",
+        "id": "stic_0012027",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/28_panda-face-w-wry-smile.png",
+        "code": ":panda_28_panda-face-w-wry-smile:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/28_panda-face-w-wry-smile.png"
+      },
+      {
+        "description": "29_eyerolling-panda-face",
+        "id": "stic_0012028",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/29_eyerolling-panda-face.png",
+        "code": ":panda_29_eyerolling-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/29_eyerolling-panda-face.png"
+      },
+      {
+        "description": "30_nauseated-panda-face",
+        "id": "stic_0012029",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/30_nauseated-panda-face.png",
+        "code": ":panda_30_nauseated-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/30_nauseated-panda-face.png"
+      },
+      {
+        "description": "31_hot-panda-face",
+        "id": "stic_0012030",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/31_hot-panda-face.png",
+        "code": ":panda_31_hot-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/31_hot-panda-face.png"
+      },
+      {
+        "description": "32_party-hat-panda-face",
+        "id": "stic_0012031",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/32_party-hat-panda-face.png",
+        "code": ":panda_32_party-hat-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/32_party-hat-panda-face.png"
+      },
+      {
+        "description": "33_pirate-panda-face",
+        "id": "stic_0012032",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/33_pirate-panda-face.png",
+        "code": ":panda_33_pirate-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/33_pirate-panda-face.png"
+      },
+      {
+        "description": "34_santa-hat-panda-face",
+        "id": "stic_0012033",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/34_santa-hat-panda-face.png",
+        "code": ":panda_34_santa-hat-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/34_santa-hat-panda-face.png"
+      },
+      {
+        "description": "35_spy-panda-face",
+        "id": "stic_0012034",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/35_spy-panda-face.png",
+        "code": ":panda_35_spy-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/35_spy-panda-face.png"
+      },
+      {
+        "description": "36_shushing-panda-face",
+        "id": "stic_0012035",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/36_shushing-panda-face.png",
+        "code": ":panda_36_shushing-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/36_shushing-panda-face.png"
+      },
+      {
+        "description": "37_thinking-panda-face",
+        "id": "stic_0012036",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/37_thinking-panda-face.png",
+        "code": ":panda_37_thinking-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/37_thinking-panda-face.png"
+      },
+      {
+        "description": "38_vomiting-panda-face",
+        "id": "stic_0012037",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/38_vomiting-panda-face.png",
+        "code": ":panda_38_vomiting-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/38_vomiting-panda-face.png"
+      },
+      {
+        "description": "39_weary-panda-face",
+        "id": "stic_0012038",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/39_weary-panda-face.png",
+        "code": ":panda_39_weary-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/39_weary-panda-face.png"
+      },
+      {
+        "description": "40_tears-of-joy-panda-face",
+        "id": "stic_0012039",
+        "image": "file:///android_asset/editor/sticker/Panda_Pack/40_tears-of-joy-panda-face.png",
+        "code": ":panda_40_tears-of-joy-panda-face:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/panda_pack/40_tears-of-joy-panda-face.png"
+      }
+    ]
+  },
+  {
+    "id": "stic_0011",
+    "image": "file:///android_asset/editor/sticker/Eggplant_Life/00_eggplant-life-logo.png",
+    "name": "Eggplant_Life",
+    "stickers": [
+      {
+        "description": "01_o-rly",
+        "id": "stic_0011000",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/01_o-rly.png",
+        "code": ":eggplant_01_o-rly:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/01_o-rly.png"
+      },
+      {
+        "description": "02_censored",
+        "id": "stic_0011001",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/02_censored.png",
+        "code": ":eggplant_02_censored:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/02_censored.png"
+      },
+      {
+        "description": "03_poke",
+        "id": "stic_0011002",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/03_poke.png",
+        "code": ":eggplant_03_poke:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/03_poke.png"
+      },
+      {
+        "description": "04_thinking-of-you",
+        "id": "stic_0011003",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/04_thinking-of-you.png",
+        "code": ":eggplant_04_thinking-of-you:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/04_thinking-of-you.png"
+      },
+      {
+        "description": "05_aw-yeah",
+        "id": "stic_0011004",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/05_aw-yeah.png",
+        "code": ":eggplant_05_aw-yeah:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/05_aw-yeah.png"
+      },
+      {
+        "description": "06_regrets",
+        "id": "stic_0011005",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/06_regrets.png",
+        "code": ":eggplant_06_regrets:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/06_regrets.png"
+      },
+      {
+        "description": "07_pics",
+        "id": "stic_0011006",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/07_pics.png",
+        "code": ":eggplant_07_pics:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/07_pics.png"
+      },
+      {
+        "description": "08_looking-good",
+        "id": "stic_0011007",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/08_looking-good.png",
+        "code": ":eggplant_08_looking-good:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/08_looking-good.png"
+      },
+      {
+        "description": "09_hurry-up",
+        "id": "stic_0011008",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/09_hurry-up.png",
+        "code": ":eggplant_09_hurry-up:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/09_hurry-up.png"
+      },
+      {
+        "description": "10_thank-you",
+        "id": "stic_0011009",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/10_thank-you.png",
+        "code": ":eggplant_10_thank-you:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/10_thank-you.png"
+      },
+      {
+        "description": "11_twinning",
+        "id": "stic_0011010",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/11_twinning.png",
+        "code": ":eggplant_11_twinning:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/11_twinning.png"
+      },
+      {
+        "description": "12_xoxo",
+        "id": "stic_0011011",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/12_xoxo.png",
+        "code": ":eggplant_12_xoxo:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/12_xoxo.png"
+      },
+      {
+        "description": "13_ride-or-die",
+        "id": "stic_0011012",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/13_ride-or-die.png",
+        "code": ":eggplant_13_ride-or-die:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/13_ride-or-die.png"
+      },
+      {
+        "description": "14_oops",
+        "id": "stic_0011013",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/14_oops.png",
+        "code": ":eggplant_14_oops:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/14_oops.png"
+      },
+      {
+        "description": "15_meh",
+        "id": "stic_0011014",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/15_meh.png",
+        "code": ":eggplant_15_meh:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/15_meh.png"
+      },
+      {
+        "description": "16_drinks",
+        "id": "stic_0011015",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/16_drinks.png",
+        "code": ":eggplant_16_drinks:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/16_drinks.png"
+      },
+      {
+        "description": "17_done-and-done",
+        "id": "stic_0011016",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/17_done-and-done.png",
+        "code": ":eggplant_17_done-and-done:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/17_done-and-done.png"
+      },
+      {
+        "description": "18_how-you-doin",
+        "id": "stic_0011017",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/18_how-you-doin.png",
+        "code": ":eggplant_18_how-you-doin:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/18_how-you-doin.png"
+      },
+      {
+        "description": "19_relax",
+        "id": "stic_0011018",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/19_relax.png",
+        "code": ":eggplant_19_relax:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/19_relax.png"
+      },
+      {
+        "description": "20_u-right",
+        "id": "stic_0011019",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/20_u-right.png",
+        "code": ":eggplant_20_u-right:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/20_u-right.png"
+      },
+      {
+        "description": "21_call-me",
+        "id": "stic_0011020",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/21_call-me.png",
+        "code": ":eggplant_21_call-me:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/21_call-me.png"
+      },
+      {
+        "description": "22_lol",
+        "id": "stic_0011021",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/22_lol.png",
+        "code": ":eggplant_22_lol:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/22_lol.png"
+      },
+      {
+        "description": "23_wtf",
+        "id": "stic_0011022",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/23_wtf.png",
+        "code": ":eggplant_23_wtf:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/23_wtf.png"
+      },
+      {
+        "description": "24_fml",
+        "id": "stic_0011023",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/24_fml.png",
+        "code": ":eggplant_24_fml:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/24_fml.png"
+      },
+      {
+        "description": "25_yolo",
+        "id": "stic_0011024",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/25_yolo.png",
+        "code": ":eggplant_25_yolo:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/25_yolo.png"
+      },
+      {
+        "description": "26_couch-cuddle",
+        "id": "stic_0011025",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/26_couch-cuddle.png",
+        "code": ":eggplant_26_couch-cuddle:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/26_couch-cuddle.png"
+      },
+      {
+        "description": "27_romantic-kiss",
+        "id": "stic_0011026",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/27_romantic-kiss.png",
+        "code": ":eggplant_27_romantic-kiss:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/27_romantic-kiss.png"
+      },
+      {
+        "description": "28_dancing",
+        "id": "stic_0011027",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/28_dancing.png",
+        "code": ":eggplant_28_dancing:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/28_dancing.png"
+      },
+      {
+        "description": "29_please",
+        "id": "stic_0011028",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/29_please.png",
+        "code": ":eggplant_29_please:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/29_please.png"
+      },
+      {
+        "description": "30_bromance",
+        "id": "stic_0011029",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/30_bromance.png",
+        "code": ":eggplant_30_bromance:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/30_bromance.png"
+      },
+      {
+        "description": "31_brb",
+        "id": "stic_0011030",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/31_brb.png",
+        "code": ":eggplant_31_brb:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/31_brb.png"
+      },
+      {
+        "description": "32_later",
+        "id": "stic_0011031",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/32_later.png",
+        "code": ":eggplant_32_later:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/32_later.png"
+      },
+      {
+        "description": "33_sup",
+        "id": "stic_0011032",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/33_sup.png",
+        "code": ":eggplant_33_sup:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/33_sup.png"
+      },
+      {
+        "description": "34_lit",
+        "id": "stic_0011033",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/34_lit.png",
+        "code": ":eggplant_34_lit:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/34_lit.png"
+      },
+      {
+        "description": "35_heyyy",
+        "id": "stic_0011034",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/35_heyyy.png",
+        "code": ":eggplant_35_heyyy:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/35_heyyy.png"
+      },
+      {
+        "description": "36_sweet-dreams",
+        "id": "stic_0011035",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/36_sweet-dreams.png",
+        "code": ":eggplant_36_sweet-dreams:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/36_sweet-dreams.png"
+      },
+      {
+        "description": "37_sorry",
+        "id": "stic_0011036",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/37_sorry.png",
+        "code": ":eggplant_37_sorry:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/37_sorry.png"
+      },
+      {
+        "description": "38_lets-eat",
+        "id": "stic_0011037",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/38_lets-eat.png",
+        "code": ":eggplant_38_lets-eat:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/38_lets-eat.png"
+      },
+      {
+        "description": "39_hell-nah",
+        "id": "stic_0011038",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/39_hell-nah.png",
+        "code": ":eggplant_39_hell-nah:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/39_hell-nah.png"
+      },
+      {
+        "description": "40_on-my-way",
+        "id": "stic_0011039",
+        "image": "file:///android_asset/editor/sticker/Eggplant_Life/40_on-my-way.png",
+        "code": ":eggplant_40_on-my-way:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/eggplant_life/40_on-my-way.png"
+      }
+    ]
+  },
+
+  {
+    "id": "stic_0017",
+    "image": "file:///android_asset/editor/sticker/Sticker_2021/sticker_2021.png",
+    "name": "Sticker_2021",
+    "stickers": [
+      {
+        "description": "1",
+        "id": "stic_00171",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/1.png",
+        "code": ":1:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/1.png"
+      },
+      {
+        "description": "2",
+        "id": "stic_00172",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/2.png",
+        "code": ":2:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/2.png"
+      },
+      {
+        "description": "3",
+        "id": "stic_00173",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/3.png",
+        "code": ":3:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/3.png"
+      },
+      {
+        "description": "4",
+        "id": "stic_00174",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/4.png",
+        "code": ":4:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/4.png"
+      },
+      {
+        "description": "5",
+        "id": "stic_00175",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/11.png",
+        "code": ":5:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/11.png"
+      },
+      {
+        "description": "6",
+        "id": "stic_00176",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/13.png",
+        "code": ":6:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/13.png"
+      },
+      {
+        "description": "7",
+        "id": "stic_00177",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/14.png",
+        "code": ":7:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/14.png"
+      },
+      {
+        "description": "8",
+        "id": "stic_00178",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/15.png",
+        "code": ":8:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/15.png"
+      },
+      {
+        "description": "9",
+        "id": "stic_00179",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/16.png",
+        "code": ":9:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/16.png"
+      },
+      {
+        "description": "10",
+        "id": "stic_001710",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/18.png",
+        "code": ":10:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/18.png"
+      },
+      {
+        "description": "11",
+        "id": "stic_001711",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/19.png",
+        "code": ":11:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/19.png"
+      },
+      {
+        "description": "12",
+        "id": "stic_001712",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/20.png",
+        "code": ":12:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/20.png"
+      },
+      {
+        "description": "13",
+        "id": "stic_001713",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/21.png",
+        "code": ":13:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/21.png"
+      },
+      {
+        "description": "14",
+        "id": "stic_001714",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/22.png",
+        "code": ":14:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/22.png"
+      },
+      {
+        "description": "15",
+        "id": "stic_001715",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/23.png",
+        "code": ":15:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/23.png"
+      },
+      {
+        "description": "16",
+        "id": "stic_001716",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/24.png",
+        "code": ":16:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/24.png"
+      },
+      {
+        "description": "17",
+        "id": "stic_001717",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/25.png",
+        "code": ":17:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/25.png"
+      },
+      {
+        "description": "18",
+        "id": "stic_001718",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/26.png",
+        "code": ":18:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/26.png"
+      },
+      {
+        "description": "19",
+        "id": "stic_001719",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/27.png",
+        "code": ":19:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/27.png"
+      },
+      {
+        "description": "20",
+        "id": "stic_001720",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/28.png",
+        "code": ":20:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/28.png"
+      },
+      {
+        "description": "21",
+        "id": "stic_001721",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/29.png",
+        "code": ":21:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/29.png"
+      },
+      {
+        "description": "22",
+        "id": "stic_001722",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/30.png",
+        "code": ":22:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/30.png"
+      },
+      {
+        "description": "23",
+        "id": "stic_001723",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/31.png",
+        "code": ":23:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/31.png"
+      },
+      {
+        "description": "24",
+        "id": "stic_001724",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/32.png",
+        "code": ":24:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/32.png"
+      },
+      {
+        "description": "25",
+        "id": "stic_001725",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/33.png",
+        "code": ":25:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/33.png"
+      },
+      {
+        "description": "26",
+        "id": "stic_001726",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/34.png",
+        "code": ":26:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/34.png"
+      },
+      {
+        "description": "27",
+        "id": "stic_001727",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/35.png",
+        "code": ":27:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/35.png"
+      },
+      {
+        "description": "28",
+        "id": "stic_001728",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/36.png",
+        "code": ":28:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/36.png"
+      },
+      {
+        "description": "29",
+        "id": "stic_001729",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/37.png",
+        "code": ":29:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/37.png"
+      },
+      {
+        "description": "30",
+        "id": "stic_001730",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/38.png",
+        "code": ":30:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/38.png"
+      },
+      {
+        "description": "31",
+        "id": "stic_001731",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/124.png",
+        "code": ":31:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/124.png"
+      },
+      {
+        "description": "32",
+        "id": "stic_001732",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/127.png",
+        "code": ":32:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/127.png"
+      },
+      {
+        "description": "33",
+        "id": "stic_001733",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/136.png",
+        "code": ":33:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/136.png"
+      },
+      {
+        "description": "34",
+        "id": "stic_001734",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/137.png",
+        "code": ":34:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/137.png"
+      },
+      {
+        "description": "35",
+        "id": "stic_001735",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/138.png",
+        "code": ":35:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/138.png"
+      },
+      {
+        "description": "36",
+        "id": "stic_001736",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/148.png",
+        "code": ":36:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/148.png"
+      },
+      {
+        "description": "37",
+        "id": "stic_001737",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/153.png",
+        "code": ":37:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/153.png"
+      },
+      {
+        "description": "38",
+        "id": "stic_001738",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/162.png",
+        "code": ":38:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/162.png"
+      },
+      {
+        "description": "164",
+        "id": "stic_0017164",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/164.png",
+        "code": ":164:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/164.png"
+      },
+      {
+        "description": "40",
+        "id": "stic_001740",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/165.png",
+        "code": ":40:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/165.png"
+      },
+      {
+        "description": "41",
+        "id": "stic_001741",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/166.png",
+        "code": ":41:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/166.png"
+      },
+      {
+        "description": "42",
+        "id": "stic_001742",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/167.png",
+        "code": ":42:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/167.png"
+      },
+      {
+        "description": "43",
+        "id": "stic_001743",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/169.png",
+        "code": ":43:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/169.png"
+      },
+      {
+        "description": "170",
+        "id": "stic_0017170",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/170.png",
+        "code": ":170:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/170.png"
+      },
+      {
+        "description": "171",
+        "id": "stic_0017171",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/171.png",
+        "code": ":171:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/171.png"
+      },
+      {
+        "description": "172",
+        "id": "stic_0017172",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/172.png",
+        "code": ":172:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/172.png"
+      },
+      {
+        "description": "173",
+        "id": "stic_0017173",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/173.png",
+        "code": ":173:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/173.png"
+      },
+      {
+        "description": "174",
+        "id": "stic_0017174",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/174.png",
+        "code": ":174:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/174.png"
+      },
+      {
+        "description": "175",
+        "id": "stic_0017175",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/175.png",
+        "code": ":175:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/175.png"
+      },
+      {
+        "description": "176",
+        "id": "stic_0017176",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/176.png",
+        "code": ":176:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/176.png"
+      },
+      {
+        "description": "177",
+        "id": "stic_0017177",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/177.png",
+        "code": ":177:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/177.png"
+      },
+      {
+        "description": "178",
+        "id": "stic_0017178",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/178.png",
+        "code": ":178:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/178.png"
+      },
+      {
+        "description": "179",
+        "id": "stic_0017179",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/179.png",
+        "code": ":179:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/179.png"
+      },
+      {
+        "description": "180",
+        "id": "stic_0017180",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/180.png",
+        "code": ":180:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/180.png"
+      },
+      {
+        "description": "181",
+        "id": "stic_0017181",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/181.png",
+        "code": ":181:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/181.png"
+      },
+      {
+        "description": "182",
+        "id": "stic_0017182",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/182.png",
+        "code": ":182:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/182.png"
+      },
+      {
+        "description": "183",
+        "id": "stic_0017183",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/183.png",
+        "code": ":183:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/183.png"
+      },
+      {
+        "description": "184",
+        "id": "stic_0017184",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/184.png",
+        "code": ":184:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/184.png"
+      },
+      {
+        "description": "185",
+        "id": "stic_0017185",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/185.png",
+        "code": ":185:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/185.png"
+      },
+      {
+        "description": "186",
+        "id": "stic_0017186",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/186.png",
+        "code": ":186:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/186.png"
+      },
+      {
+        "description": "187",
+        "id": "stic_0017187",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/187.png",
+        "code": ":187:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/187.png"
+      },
+      {
+        "description": "188",
+        "id": "stic_0017188",
+        "image": "https://media-cdn.hahalolo.com/sticker/2021/188.png",
+        "code": ":188:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/2021/188.png"
+      }
+    ]
+  },
+
+  {
+    "id": "stic_0010",
+    "image": "file:///android_asset/editor/sticker/Anim/beaming_face_with_smiling_eyes_128.png",
+    "name": "Anim",
+    "stickers": [
+      {
+        "description": "100_128",
+        "id": "stic_0010000",
+        "image": "file:///android_asset/editor/sticker/Anim/100_128.png",
+        "code": ":aim_100_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/100_128.gif"
+      },
+      {
+        "description": "beaming_face_with_smiling_eyes_128",
+        "id": "stic_0010006",
+        "image": "file:///android_asset/editor/sticker/Anim/beaming_face_with_smiling_eyes_128.png",
+        "code": ":aim_beaming_face_with_smiling_eyes_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/beaming_face_with_smiling_eyes_128.gif"
+      },
+      {
+        "description": "hugging_face_128",
+        "id": "stic_0010045",
+        "image": "file:///android_asset/editor/sticker/Anim/hugging_face_128.png",
+        "code": ":aim_hugging_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/hugging_face_128.gif"
+      },
+      {
+        "description": "angry_face_128",
+        "id": "stic_0010001",
+        "image": "file:///android_asset/editor/sticker/Anim/angry_face_128.png",
+        "code": ":aim_angry_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/angry_face_128.gif"
+      },
+      {
+        "description": "crying_face_128",
+        "id": "stic_0010020",
+        "image": "file:///android_asset/editor/sticker/Anim/crying_face_128.png",
+        "code": ":aim_crying_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/crying_face_128.gif"
+      },
+      {
+        "description": "smiling_face_128",
+        "id": "stic_0010071",
+        "image": "file:///android_asset/editor/sticker/Anim/smiling_face_128.png",
+        "code": ":aim_smiling_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smiling_face_128.gif"
+      },
+      {
+        "description": "smiling_face_with_halo_128",
+        "id": "stic_0010072",
+        "image": "file:///android_asset/editor/sticker/Anim/smiling_face_with_halo_128.png",
+        "code": ":aim_smiling_face_with_halo_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smiling_face_with_halo_128.gif"
+      },
+      {
+        "description": "smiling_face_with_horns_128",
+        "id": "stic_0010073",
+        "image": "file:///android_asset/editor/sticker/Anim/smiling_face_with_horns_128.png",
+        "code": ":aim_smiling_face_with_horns_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smiling_face_with_horns_128.gif"
+      },
+      {
+        "description": "smiling_face_with_sunglasses_128",
+        "id": "stic_0010074",
+        "image": "file:///android_asset/editor/sticker/Anim/smiling_face_with_sunglasses_128.png",
+        "code": ":aim_smiling_face_with_sunglasses_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smiling_face_with_sunglasses_128.gif"
+      },
+      {
+        "description": "smiling_face_with_three_hearts_128",
+        "id": "stic_0010075",
+        "image": "file:///android_asset/editor/sticker/Anim/smiling_face_with_three_hearts_128.png",
+        "code": ":aim_smiling_face_with_three_hearts_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smiling_face_with_three_hearts_128.gif"
+      },
+      {
+        "description": "cat_face_128",
+        "id": "stic_0010010",
+        "image": "file:///android_asset/editor/sticker/Anim/cat_face_128.png",
+        "code": ":aim_cat_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/cat_face_128.gif"
+      },
+      {
+        "description": "cold_face_128",
+        "id": "stic_0010014",
+        "image": "file:///android_asset/editor/sticker/Anim/cold_face_128.png",
+        "code": ":aim_cold_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/cold_face_128.gif"
+      },
+      {
+        "description": "confetti_ball_128",
+        "id": "stic_0010016",
+        "image": "file:///android_asset/editor/sticker/Anim/confetti_ball_128.png",
+        "code": ":aim_confetti_ball_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/confetti_ball_128.gif"
+      },
+      {
+        "description": "cow_boy_hat_face_128",
+        "id": "stic_0010017",
+        "image": "file:///android_asset/editor/sticker/Anim/cow_boy_hat_face_128.png",
+        "code": ":aim_cow_boy_hat_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/cow_boy_hat_face_128.gif"
+      },
+      {
+        "description": "dizzy_face_128",
+        "id": "stic_0010023",
+        "image": "file:///android_asset/editor/sticker/Anim/dizzy_face_128.png",
+        "code": ":aim_dizzy_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/dizzy_face_128.gif"
+      },
+      {
+        "description": "dog_face_128",
+        "id": "stic_0010024",
+        "image": "file:///android_asset/editor/sticker/Anim/dog_face_128.png",
+        "code": ":aim_dog_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/dog_face_128.gif"
+      },
+      {
+        "description": "drooling_face_128",
+        "id": "stic_0010025",
+        "image": "file:///android_asset/editor/sticker/Anim/drooling_face_128.png",
+        "code": ":aim_drooling_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/drooling_face_128.gif"
+      },
+      {
+        "description": "exploding_head_128",
+        "id": "stic_0010026",
+        "image": "file:///android_asset/editor/sticker/Anim/exploding_head_128.png",
+        "code": ":aim_exploding_head_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/exploding_head_128.gif"
+      },
+      {
+        "description": "face_screaming_in_fear_128",
+        "id": "stic_0010027",
+        "image": "file:///android_asset/editor/sticker/Anim/face_screaming_in_fear_128.png",
+        "code": ":aim_face_screaming_in_fear_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_screaming_in_fear_128.gif"
+      },
+      {
+        "description": "face_throwing_a_kiss_128",
+        "id": "stic_0010028",
+        "image": "file:///android_asset/editor/sticker/Anim/face_throwing_a_kiss_128.png",
+        "code": ":aim_face_throwing_a_kiss_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_throwing_a_kiss_128.gif"
+      },
+      {
+        "description": "face_with_head_bandage_128",
+        "id": "stic_0010029",
+        "image": "file:///android_asset/editor/sticker/Anim/face_with_head_bandage_128.png",
+        "code": ":aim_face_with_head_bandage_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_with_head_bandage_128.gif"
+      },
+      {
+        "description": "face_with_monocle_128",
+        "id": "stic_0010030",
+        "image": "file:///android_asset/editor/sticker/Anim/face_with_monocle_128.png",
+        "code": ":aim_face_with_monocle_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_with_monocle_128.gif"
+      },
+      {
+        "description": "face_with_open_mouth_vomiting_128",
+        "id": "stic_0010031",
+        "image": "file:///android_asset/editor/sticker/Anim/face_with_open_mouth_vomiting_128.png",
+        "code": ":aim_face_with_open_mouth_vomiting_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_with_open_mouth_vomiting_128.gif"
+      },
+      {
+        "description": "face_with_rolling_eyes_128",
+        "id": "stic_0010032",
+        "image": "file:///android_asset/editor/sticker/Anim/face_with_rolling_eyes_128.png",
+        "code": ":aim_face_with_rolling_eyes_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_with_rolling_eyes_128.gif"
+      },
+      {
+        "description": "face_with_thermometer_128",
+        "id": "stic_0010033",
+        "image": "file:///android_asset/editor/sticker/Anim/face_with_thermometer_128.png",
+        "code": ":aim_face_with_thermometer_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/face_with_thermometer_128.gif"
+      },
+      {
+        "description": "flushed_face_128",
+        "id": "stic_0010037",
+        "image": "file:///android_asset/editor/sticker/Anim/flushed_face_128.png",
+        "code": ":aim_flushed_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/flushed_face_128.gif"
+      },
+      {
+        "description": "ghost_128",
+        "id": "stic_0010038",
+        "image": "file:///android_asset/editor/sticker/Anim/ghost_128.png",
+        "code": ":aim_ghost_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/ghost_128.gif"
+      },
+      {
+        "description": "grimacing_face_128",
+        "id": "stic_0010039",
+        "image": "file:///android_asset/editor/sticker/Anim/grimacing_face_128.png",
+        "code": ":aim_grimacing_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/grimacing_face_128.gif"
+      },
+      {
+        "description": "grinning_squinting_face_128",
+        "id": "stic_0010040",
+        "image": "file:///android_asset/editor/sticker/Anim/grinning_squinting_face_128.png",
+        "code": ":aim_grinning_squinting_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/grinning_squinting_face_128.gif"
+      },
+      {
+        "description": "heart_eyes_128",
+        "id": "stic_0010042",
+        "image": "file:///android_asset/editor/sticker/Anim/heart_eyes_128.png",
+        "code": ":aim_heart_eyes_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/heart_eyes_128.gif"
+      },
+      {
+        "description": "hot_face_128",
+        "id": "stic_0010044",
+        "image": "file:///android_asset/editor/sticker/Anim/hot_face_128.png",
+        "code": ":aim_hot_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/hot_face_128.gif"
+      },
+      {
+        "description": "loudly_crying_face_128",
+        "id": "stic_0010047",
+        "image": "file:///android_asset/editor/sticker/Anim/loudly_crying_face_128.png",
+        "code": ":aim_loudly_crying_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/loudly_crying_face_128.gif"
+      },
+      {
+        "description": "lying_face_128",
+        "id": "stic_0010048",
+        "image": "file:///android_asset/editor/sticker/Anim/lying_face_128.png",
+        "code": ":aim_lying_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/lying_face_128.gif"
+      },
+      {
+        "description": "money_mouth_face_128",
+        "id": "stic_0010054",
+        "image": "file:///android_asset/editor/sticker/Anim/money_mouth_face_128.png",
+        "code": ":aim_money_mouth_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/money_mouth_face_128.gif"
+      },
+      {
+        "description": "nerd_face_128",
+        "id": "stic_0010056",
+        "image": "file:///android_asset/editor/sticker/Anim/nerd_face_128.png",
+        "code": ":aim_nerd_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/nerd_face_128.gif"
+      },
+      {
+        "description": "party_face_128",
+        "id": "stic_0010058",
+        "image": "file:///android_asset/editor/sticker/Anim/party_face_128.png",
+        "code": ":aim_party_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/party_face_128.gif"
+      },
+      {
+        "description": "party_popper_128",
+        "id": "stic_0010059",
+        "image": "file:///android_asset/editor/sticker/Anim/party_popper_128.png",
+        "code": ":aim_party_popper_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/party_popper_128.gif"
+      },
+      {
+        "description": "pile_of_poo_128",
+        "id": "stic_0010060",
+        "image": "file:///android_asset/editor/sticker/Anim/pile_of_poo_128.png",
+        "code": ":aim_pile_of_poo_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/pile_of_poo_128.gif"
+      },
+      {
+        "description": "relieved_face_128",
+        "id": "stic_0010063",
+        "image": "file:///android_asset/editor/sticker/Anim/relieved_face_128.png",
+        "code": ":aim_relieved_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/relieved_face_128.gif"
+      },
+      {
+        "description": "revolving_hearts_128",
+        "id": "stic_0010064",
+        "image": "file:///android_asset/editor/sticker/Anim/revolving_hearts_128.png",
+        "code": ":aim_revolving_hearts_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/revolving_hearts_128.gif"
+      },
+      {
+        "description": "rolling_on_the_floor_laughing_128",
+        "id": "stic_0010066",
+        "image": "file:///android_asset/editor/sticker/Anim/rolling_on_the_floor_laughing_128.png",
+        "code": ":aim_rolling_on_the_floor_laughing_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/rolling_on_the_floor_laughing_128.gif"
+      },
+      {
+        "description": "serious_face_with_symbols_covering_mouth_128",
+        "id": "stic_0010068",
+        "image": "file:///android_asset/editor/sticker/Anim/serious_face_with_symbols_covering_mouth_128.png",
+        "code": ":aim_serious_face_with_symbols_covering_mouth_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/serious_face_with_symbols_covering_mouth_128.gif"
+      },
+      {
+        "description": "shushing_face_128",
+        "id": "stic_0010069",
+        "image": "file:///android_asset/editor/sticker/Anim/shushing_face_128.png",
+        "code": ":aim_shushing_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/shushing_face_128.gif"
+      },
+      {
+        "description": "sleeping_face_128",
+        "id": "stic_0010070",
+        "image": "file:///android_asset/editor/sticker/Anim/sleeping_face_128.png",
+        "code": ":aim_sleeping_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/sleeping_face_128.gif"
+      },
+      {
+        "description": "smirking_face_128",
+        "id": "stic_0010076",
+        "image": "file:///android_asset/editor/sticker/Anim/smirking_face_128.png",
+        "code": ":aim_smirking_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/smirking_face_128.gif"
+      },
+      {
+        "description": "sparkles_128",
+        "id": "stic_0010077",
+        "image": "file:///android_asset/editor/sticker/Anim/sparkles_128.png",
+        "code": ":aim_sparkles_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/sparkles_128.gif"
+      },
+      {
+        "description": "sparkling_heart_128",
+        "id": "stic_0010078",
+        "image": "file:///android_asset/editor/sticker/Anim/sparkling_heart_128.png",
+        "code": ":aim_sparkling_heart_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/sparkling_heart_128.gif"
+      },
+      {
+        "description": "broken_heart_128",
+        "id": "stic_0010009",
+        "image": "file:///android_asset/editor/sticker/Anim/broken_heart_128.png",
+        "code": ":aim_broken_heart_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/broken_heart_128.gif"
+      },
+      {
+        "description": "star_struck_128",
+        "id": "stic_0010080",
+        "image": "file:///android_asset/editor/sticker/Anim/star_struck_128.png",
+        "code": ":aim_star_struck_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/star_struck_128.gif"
+      },
+      {
+        "description": "tears_of_joy_128",
+        "id": "stic_0010081",
+        "image": "file:///android_asset/editor/sticker/Anim/tears_of_joy_128.png",
+        "code": ":aim_tears_of_joy_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/tears_of_joy_128.gif"
+      },
+      {
+        "description": "triumph_face_128",
+        "id": "stic_0010084",
+        "image": "file:///android_asset/editor/sticker/Anim/triumph_face_128.png",
+        "code": ":aim_triumph_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/triumph_face_128.gif"
+      },
+      {
+        "description": "trophy_128",
+        "id": "stic_0010085",
+        "image": "file:///android_asset/editor/sticker/Anim/trophy_128.png",
+        "code": ":aim_trophy_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/trophy_128.gif"
+      },
+      {
+        "description": "unamused_face_128",
+        "id": "stic_0010086",
+        "image": "file:///android_asset/editor/sticker/Anim/unamused_face_128.png",
+        "code": ":aim_unamused_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/unamused_face_128.gif"
+      },
+      {
+        "description": "unicorn_face_128",
+        "id": "stic_0010087",
+        "image": "file:///android_asset/editor/sticker/Anim/unicorn_face_128.png",
+        "code": ":aim_unicorn_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/unicorn_face_128.gif"
+      },
+      {
+        "description": "weary_face_128",
+        "id": "stic_0010090",
+        "image": "file:///android_asset/editor/sticker/Anim/weary_face_128.png",
+        "code": ":aim_weary_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/weary_face_128.gif"
+      },
+      {
+        "description": "winking_face_128",
+        "id": "stic_0010091",
+        "image": "file:///android_asset/editor/sticker/Anim/winking_face_128.png",
+        "code": ":aim_winking_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/winking_face_128.gif"
+      },
+      {
+        "description": "winking_face_with_tongue_128",
+        "id": "stic_0010092",
+        "image": "file:///android_asset/editor/sticker/Anim/winking_face_with_tongue_128.png",
+        "code": ":aim_winking_face_with_tongue_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/winking_face_with_tongue_128.gif"
+      },
+      {
+        "description": "woozy_face_128",
+        "id": "stic_0010097",
+        "image": "file:///android_asset/editor/sticker/Anim/woozy_face_128.png",
+        "code": ":aim_woozy_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/woozy_face_128.gif"
+      },
+      {
+        "description": "zany_face_128",
+        "id": "stic_0010098",
+        "image": "file:///android_asset/editor/sticker/Anim/zany_face_128.png",
+        "code": ":aim_zany_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/zany_face_128.gif"
+      },
+      {
+        "description": "zipper_mouth_face_128",
+        "id": "stic_0010099",
+        "image": "file:///android_asset/editor/sticker/Anim/zipper_mouth_face_128.png",
+        "code": ":aim_zipper_mouth_face_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/zipper_mouth_face_128.gif"
+      },
+      {
+        "description": "man_facepalming_128",
+        "id": "stic_0010049",
+        "image": "file:///android_asset/editor/sticker/Anim/man_facepalming_128.png",
+        "code": ":aim_man_facepalming_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/man_facepalming_128.gif"
+      },
+      {
+        "description": "man_raising_hand_128",
+        "id": "stic_0010050",
+        "image": "file:///android_asset/editor/sticker/Anim/man_raising_hand_128.png",
+        "code": ":aim_man_raising_hand_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/man_raising_hand_128.gif"
+      },
+      {
+        "description": "man_shrugging_128",
+        "id": "stic_0010051",
+        "image": "file:///android_asset/editor/sticker/Anim/man_shrugging_128.png",
+        "code": ":aim_man_shrugging_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/man_shrugging_128.gif"
+      },
+      {
+        "description": "man_tipping_hand_128",
+        "id": "stic_0010052",
+        "image": "file:///android_asset/editor/sticker/Anim/man_tipping_hand_128.png",
+        "code": ":aim_man_tipping_hand_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/man_tipping_hand_128.gif"
+      },
+      {
+        "description": "woman_facepalming_128",
+        "id": "stic_0010093",
+        "image": "file:///android_asset/editor/sticker/Anim/woman_facepalming_128.png",
+        "code": ":aim_woman_facepalming_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/woman_facepalming_128.gif"
+      },
+      {
+        "description": "woman_raising_hand_128",
+        "id": "stic_0010094",
+        "image": "file:///android_asset/editor/sticker/Anim/woman_raising_hand_128.png",
+        "code": ":aim_woman_raising_hand_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/woman_raising_hand_128.gif"
+      },
+      {
+        "description": "woman_shrugging_128",
+        "id": "stic_0010095",
+        "image": "file:///android_asset/editor/sticker/Anim/woman_shrugging_128.png",
+        "code": ":aim_woman_shrugging_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/woman_shrugging_128.gif"
+      },
+      {
+        "description": "woman_tipping_hand_128",
+        "id": "stic_0010096",
+        "image": "file:///android_asset/editor/sticker/Anim/woman_tipping_hand_128.png",
+        "code": ":aim_woman_tipping_hand_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/woman_tipping_hand_128.gif"
+      },
+      {
+        "description": "hear_no_evil_monkey_128",
+        "id": "stic_0010041",
+        "image": "file:///android_asset/editor/sticker/Anim/hear_no_evil_monkey_128.png",
+        "code": ":aim_hear_no_evil_monkey_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/hear_no_evil_monkey_128.gif"
+      },
+      {
+        "description": "see_no_evil_monkey_128",
+        "id": "stic_0010067",
+        "image": "file:///android_asset/editor/sticker/Anim/see_no_evil_monkey_128.png",
+        "code": ":aim_see_no_evil_monkey_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/see_no_evil_monkey_128.gif"
+      },
+      {
+        "description": "speak_no_evil_monkey_128",
+        "id": "stic_0010079",
+        "image": "file:///android_asset/editor/sticker/Anim/speak_no_evil_monkey_128.png",
+        "code": ":aim_speak_no_evil_monkey_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/speak_no_evil_monkey_128.gif"
+      },
+      {
+        "description": "clapping_hands_128",
+        "id": "stic_0010011",
+        "image": "file:///android_asset/editor/sticker/Anim/clapping_hands_128.png",
+        "code": ":aim_clapping_hands_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/clapping_hands_128.gif"
+      },
+      {
+        "description": "backhand_index_pointing_down_128",
+        "id": "stic_0010002",
+        "image": "file:///android_asset/editor/sticker/Anim/backhand_index_pointing_down_128.png",
+        "code": ":aim_backhand_index_pointing_down_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/backhand_index_pointing_down_128.gif"
+      },
+      {
+        "description": "backhand_index_pointing_left_128",
+        "id": "stic_0010003",
+        "image": "file:///android_asset/editor/sticker/Anim/backhand_index_pointing_left_128.png",
+        "code": ":aim_backhand_index_pointing_left_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/backhand_index_pointing_left_128.gif"
+      },
+      {
+        "description": "backhand_index_pointing_right_128",
+        "id": "stic_0010004",
+        "image": "file:///android_asset/editor/sticker/Anim/backhand_index_pointing_right_128.png",
+        "code": ":aim_backhand_index_pointing_right_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/backhand_index_pointing_right_128.gif"
+      },
+      {
+        "description": "backhand_index_pointing_up_128",
+        "id": "stic_0010005",
+        "image": "file:///android_asset/editor/sticker/Anim/backhand_index_pointing_up_128.png",
+        "code": ":aim_backhand_index_pointing_up_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/backhand_index_pointing_up_128.gif"
+      },
+      {
+        "description": "crossed_fingers_128",
+        "id": "stic_0010018",
+        "image": "file:///android_asset/editor/sticker/Anim/crossed_fingers_128.png",
+        "code": ":aim_crossed_fingers_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/crossed_fingers_128.gif"
+      },
+      {
+        "description": "flexed_biceps_128",
+        "id": "stic_0010036",
+        "image": "file:///android_asset/editor/sticker/Anim/flexed_biceps_128.png",
+        "code": ":aim_flexed_biceps_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/flexed_biceps_128.gif"
+      },
+      {
+        "description": "middle_finger_128",
+        "id": "stic_0010053",
+        "image": "file:///android_asset/editor/sticker/Anim/middle_finger_128.png",
+        "code": ":aim_middle_finger_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/middle_finger_128.gif"
+      },
+      {
+        "description": "oncoming_fist_128",
+        "id": "stic_0010057",
+        "image": "file:///android_asset/editor/sticker/Anim/oncoming_fist_128.png",
+        "code": ":aim_oncoming_fist_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/oncoming_fist_128.gif"
+      },
+      {
+        "description": "raising_hands_128",
+        "id": "stic_0010062",
+        "image": "file:///android_asset/editor/sticker/Anim/raising_hands_128.png",
+        "code": ":aim_raising_hands_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/raising_hands_128.gif"
+      },
+      {
+        "description": "thumbs_down_sign_128",
+        "id": "stic_0010082",
+        "image": "file:///android_asset/editor/sticker/Anim/thumbs_down_sign_128.png",
+        "code": ":aim_thumbs_down_sign_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/thumbs_down_sign_128.gif"
+      },
+      {
+        "description": "thumbs_up_sign_128",
+        "id": "stic_0010083",
+        "image": "file:///android_asset/editor/sticker/Anim/thumbs_up_sign_128.png",
+        "code": ":aim_thumbs_up_sign_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/thumbs_up_sign_128.gif"
+      },
+      {
+        "description": "waving_hand_sign_128",
+        "id": "stic_0010089",
+        "image": "file:///android_asset/editor/sticker/Anim/waving_hand_sign_128.png",
+        "code": ":aim_waving_hand_sign_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/waving_hand_sign_128.gif"
+      },
+      {
+        "description": "bomb_128",
+        "id": "stic_0010007",
+        "image": "file:///android_asset/editor/sticker/Anim/bomb_128.png",
+        "code": ":aim_bomb_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/bomb_128.gif"
+      },
+      {
+        "description": "bottle_with_popping_cork_128",
+        "id": "stic_0010008",
+        "image": "file:///android_asset/editor/sticker/Anim/bottle_with_popping_cork_128.png",
+        "code": ":aim_bottle_with_popping_cork_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/bottle_with_popping_cork_128.gif"
+      },
+      {
+        "description": "clinking_beer_mugs_128",
+        "id": "stic_0010012",
+        "image": "file:///android_asset/editor/sticker/Anim/clinking_beer_mugs_128.png",
+        "code": ":aim_clinking_beer_mugs_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/clinking_beer_mugs_128.gif"
+      },
+      {
+        "description": "clinking_glasses_128",
+        "id": "stic_0010013",
+        "image": "file:///android_asset/editor/sticker/Anim/clinking_glasses_128.png",
+        "code": ":aim_clinking_glasses_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/clinking_glasses_128.gif"
+      },
+      {
+        "description": "collision_128",
+        "id": "stic_0010015",
+        "image": "file:///android_asset/editor/sticker/Anim/collision_128.png",
+        "code": ":aim_collision_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/collision_128.gif"
+      },
+      {
+        "description": "crown_128",
+        "id": "stic_0010019",
+        "image": "file:///android_asset/editor/sticker/Anim/crown_128.png",
+        "code": ":aim_crown_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/crown_128.gif"
+      },
+      {
+        "description": "desert_island_128",
+        "id": "stic_0010021",
+        "image": "file:///android_asset/editor/sticker/Anim/desert_island_128.png",
+        "code": ":aim_desert_island_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/desert_island_128.gif"
+      },
+      {
+        "description": "direct_hit_128",
+        "id": "stic_0010022",
+        "image": "file:///android_asset/editor/sticker/Anim/direct_hit_128.png",
+        "code": ":aim_direct_hit_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/direct_hit_128.gif"
+      },
+      {
+        "description": "fire_128",
+        "id": "stic_0010034",
+        "image": "file:///android_asset/editor/sticker/Anim/fire_128.png",
+        "code": ":aim_fire_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/fire_128.gif"
+      },
+      {
+        "description": "firework_128",
+        "id": "stic_0010035",
+        "image": "file:///android_asset/editor/sticker/Anim/firework_128.png",
+        "code": ":aim_firework_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/firework_128.gif"
+      },
+      {
+        "description": "hot_beverage_128",
+        "id": "stic_0010043",
+        "image": "file:///android_asset/editor/sticker/Anim/hot_beverage_128.png",
+        "code": ":aim_hot_beverage_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/hot_beverage_128.gif"
+      },
+      {
+        "description": "light_bulb_128",
+        "id": "stic_0010046",
+        "image": "file:///android_asset/editor/sticker/Anim/light_bulb_128.png",
+        "code": ":aim_light_bulb_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/light_bulb_128.gif"
+      },
+      {
+        "description": "money_with_wings_128",
+        "id": "stic_0010055",
+        "image": "file:///android_asset/editor/sticker/Anim/money_with_wings_128.png",
+        "code": ":aim_money_with_wings_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/money_with_wings_128.gif"
+      },
+      {
+        "description": "pistol_128",
+        "id": "stic_0010061",
+        "image": "file:///android_asset/editor/sticker/Anim/pistol_128.png",
+        "code": ":aim_pistol_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/pistol_128.gif"
+      },
+      {
+        "description": "rocket_128",
+        "id": "stic_0010065",
+        "image": "file:///android_asset/editor/sticker/Anim/rocket_128.png",
+        "code": ":aim_rocket_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/rocket_128.gif"
+      },
+      {
+        "description": "violin_128",
+        "id": "stic_0010088",
+        "image": "file:///android_asset/editor/sticker/Anim/violin_128.png",
+        "code": ":aim_violin_128:",
+        "type": "stic",
+        "url_full": "https://media-cdn.hahalolo.com/sticker/anim/violin_128.gif"
+      }
+    ]
+  }
+
+]

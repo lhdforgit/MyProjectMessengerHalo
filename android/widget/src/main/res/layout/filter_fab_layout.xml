@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<merge
+    android:id="@+id/motionLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?divider"
+    app:layoutDescription="@xml/filter_fab_layout_scene"
+    app:motionDebug="SHOW_ALL">
+
+    <com.halo.widget.bottom_sheet.BottomSheetDrawer
+        android:backgroundTint="@color/primary"
+        app:state_dragged="true"
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/bottomViewContentFr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.halo.widget.bottom_sheet.BottomSheetDrawer>
+
+    <com.halo.widget.bottom_sheet.FilterButton
+        android:id="@+id/filterBtn"
+        app:cardCornerRadius="600dp"
+        app:cardElevation="@dimen/activity_small_s"
+        android:backgroundTint="@color/divider"
+        app:cardBackgroundColor="@color/primary"
+        android:layout_width="@dimen/fabSize"
+        android:layout_height="@dimen/fabSize"
+        app:layout_constraintBottom_toTopOf="@+id/bottomView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomView" />
+
+</merge>

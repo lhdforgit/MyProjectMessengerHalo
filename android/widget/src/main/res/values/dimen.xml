@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <dimen name="fabSize">56dp</dimen>
+    <dimen name="bottom_sheet_handle_thickness">6dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">10dp</dimen>
+    <dimen name="bottom_sheet_extra_padding">4dp</dimen>
+    <dimen name="default_badge_size">16dp</dimen>
+    <dimen name="default_badge_border_size">0.5dp</dimen>
+    <dimen name="rsb_trackDefaultThickness">2dp</dimen>
+    <dimen name="rsb_touchRadius">16dp</dimen>
+    <dimen name="rsb_defaultSidePadding">16dp</dimen>
+
+
+    <!-- dateTitleLayout -->
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="dateTitlePaddingBottom">5dp</dimen>
+    <!-- weekLayout -->
+    <dimen name="weekDaysPaddingBottom">0dp</dimen>
+    <dimen name="text_size_week">15sp</dimen>
+    <!-- weekRowLayout -->
+    <dimen name="day_circle_size_row">36dp</dimen>
+    <dimen name="day_circle_size">36.5dp</dimen>
+    <dimen name="day_circle_text_size_date">8sp</dimen>
+    <dimen name="weekRowMinHeight">44dp</dimen>
+    <dimen name="text_size_date">16sp</dimen>
+    <dimen name="dayOfMonthBoxSize">44dp</dimen>
+    <dimen name="dayOfMonthSize">34dp</dimen>
+    <dimen name="dayOfMonthMinWidth">50dp</dimen>
+    <dimen name="dayOfMonthMinHeight">0dp</dimen>
+    <dimen name="dayOfMonthPaddingBottom">0dp</dimen>
+    <dimen name="dayOfMonthImageSize">4dp</dimen>
+    <dimen name="dayOfMonthImageMarginTop">32dp</dimen>
+    <dimen name="strip_height">28dp</dimen>
+
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="single_and_half_margin">24dp</dimen>
+    <dimen name="triple_margin">48dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="single_margin">16dp</dimen>
+
+    <dimen name="otp_view_item_size">48dp</dimen>
+    <dimen name="otp_view_item_radius">5dp</dimen>
+    <dimen name="otp_view_item_spacing">5dp</dimen>
+    <dimen name="otp_view_item_line_width">2dp</dimen>
+    <dimen name="otp_view_cursor_width">2dp</dimen>
+</resources>

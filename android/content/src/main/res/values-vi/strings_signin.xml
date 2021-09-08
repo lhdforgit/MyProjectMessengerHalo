@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Sign In -->
+    <string name="sign_in_title">Đăng nhập</string>
+    <string name="sign_in_username_hint">Số di động hoặc Email</string>
+    <string name="sign_in_password_hint">Mật khẩu</string>
+    <string name="sign_in_username_error_null">Bạn cần phải nhập số di động hoặc Email</string>
+    <string name="sign_in_username_error_phone_email_regex">Số di động và Email là bắt buộc</string>
+    <string name="sign_in_password_error_null">Mật khẩu là bắt buộc</string>
+    <string name="sign_in_handler_button">Đăng nhập</string>
+    <string name="sign_in_sign_up_handler_button_caption">Bạn chưa có tài khoản?</string>
+    <string name="sign_in_sign_up_handler_button">Đăng ký</string>
+    <string name="sign_in_forgot_password_handler_button">Quên mật khẩu ?</string>
+    <string name="sign_in_choose_vietnamese">Tiếng Việt</string>
+    <string name="sign_in_choose_english">English</string>
+    <string name="sign_in_error_login_message">Thông tin đăng nhập được cung cấp không phù hợp với bất kỳ tài khoản nào. Vui lòng thử lại</string>
+    <string name="sign_in_error_login_positive">Đăng ký</string>
+    <string name="sign_in_error_login_negative">Thử lại</string>
+    <!-- End Sign In -->
+</resources>

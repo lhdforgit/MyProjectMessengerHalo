@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_large">32dp</dimen>
+    <dimen name="activity_vertical_margin_large">32dp</dimen>
+    <dimen name="activity_margin_gradient">48dp</dimen>
+    <dimen name="activity_normal">16sp</dimen>
+    <dimen name="activity_normal_plus">18sp</dimen>
+    <dimen name="activity_small">8sp</dimen>
+    <dimen name="activity_lage">32sp</dimen>
+    <dimen name="activity_normal_x">6sp</dimen>
+
+    <dimen name="activity_normal_s">16dp</dimen>
+    <dimen name="activity_small_s">8dp</dimen>
+    <dimen name="activity_lage_s">32dp</dimen>
+    <dimen name="activity_normal_x_s">6dp</dimen>
+
+    <dimen name="activity_text_size">14sp</dimen>
+
+    <dimen name="divider">0.5dp</dimen>
+    <dimen name="divider_crop_image">1dp</dimen>
+    <dimen name="img_border">0.5dp</dimen>
+    <dimen name="img_border_padding">1dp</dimen>
+    <dimen name="owner_avatar_circle">50dp</dimen>
+    <dimen name="page_avatar_circle">40dp</dimen>
+    <dimen name="sub_height">48dp</dimen>
+    <dimen name="menu_item_height">56dp</dimen>
+    <dimen name="error_img_height">180dp</dimen>
+
+    <dimen name="halo_body2_text_size">15sp</dimen>
+    <dimen name="halo_body1_text_size">17sp</dimen>
+    <dimen name="halo_button_text_size">17sp</dimen>
+    <dimen name="halo_body2_short_text_size">27sp</dimen>
+    <dimen name="halo_body2_text_size_lagger">18sp</dimen>
+    <dimen name="halo_header_short_text_size">25sp</dimen>
+    <dimen name="halo_caption_text_size">13sp</dimen>
+
+    <dimen name="player_control">48dp</dimen>
+
+    <dimen name="feed_vertical_margin">16dp</dimen>
+
+    <!-- List -->
+    <dimen name="list_image_item">40dp</dimen>
+    <dimen name="single_line_item">48dp</dimen>
+    <dimen name="single_line_large_item">56dp</dimen>
+    <dimen name="single_line_drawable_padding_item">32dp</dimen>
+    <dimen name="two_line_item">64dp</dimen>
+    <dimen name="two_line_large_item">72dp</dimen>
+    <dimen name="two_line_drawable_padding_item">16dp</dimen>
+    <dimen name="three_line_item">88dp</dimen>
+    <dimen name="three_line_drawable_padding_item">16dp</dimen>
+    <dimen name="collapsed_expanded_item">48dp</dimen>
+    <dimen name="collapsed_expanded_padding_item">72dp</dimen>
+
+    <!-- Button -->
+    <dimen name="halo_btn_height_small">42dp</dimen>
+    <dimen name="halo_btn_padding_bottom">0dp</dimen>
+    <dimen name="halo_btn_padding_left">16dp</dimen>
+    <dimen name="halo_btn_padding_right">16dp</dimen>
+    <dimen name="halo_btn_padding_top">0dp</dimen>
+    <dimen name="halo_btn_inset">0dp</dimen>
+    <dimen name="halo_btn_pressed_z">4dp</dimen>
+    <dimen name="halo_btn_corner_radius">25dp</dimen>
+    <dimen name="halo_btn_dialog_btn_min_width">64dp</dimen>
+    <dimen name="halo_btn_disabled_elevation">0dp</dimen>
+    <dimen name="halo_btn_disabled_z">0dp</dimen>
+    <dimen name="halo_btn_elevation">0dp</dimen>
+    <dimen name="halo_btn_focused_z">2dp</dimen>
+    <dimen name="halo_btn_hovered_z">2dp</dimen>
+    <dimen name="halo_btn_icon_padding">8dp</dimen>
+    <dimen name="halo_btn_z">0dp</dimen>
+    <dimen name="halo_btn_additional_padding_start_for_icon">-4dp</dimen>
+    <dimen name="halo_btn_additional_padding_end_for_icon">0dp</dimen>
+    <dimen name="halo_btn_stroke_size">1dp</dimen>
+
+    <!-- EditText -->
+    <dimen name="halo_edt_corner_radius">25dp</dimen>
+    <dimen name="halo_edt_form_corner_radius">6dp</dimen>
+    <dimen name="halo_edt_padding_bottom">0dp</dimen>
+    <dimen name="halo_edt_padding_left">16dp</dimen>
+    <dimen name="halo_edt_padding_right">16dp</dimen>
+    <dimen name="halo_edt_padding_top">0dp</dimen>
+
+    <!--drawable padding-->
+    <dimen name="forgotpassword_step2_padding">20dp</dimen>
+
+    <!-- Chips -->
+    <dimen name="default_letter_tile_size">64dp</dimen>
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_label_text_size">13sp</dimen>
+    <dimen name="chip_title_text_size">16sp</dimen>
+    <dimen name="chip_open_elevation">8dp</dimen>
+
+    <!--Product detail-->
+    <dimen name="product_detail_margin_line_max">32dp</dimen>
+    <dimen name="product_detail_margin_line_large">24dp</dimen>
+    <dimen name="product_detail_margin_line">16dp</dimen>
+    <dimen name="product_detail_margin_line_tiny">8dp</dimen>
+    <dimen name="product_detail_margin_line_min">4dp</dimen>
+
+    <!--cart booking-->
+    <dimen name="cart_booking_text_size_lage">24sp</dimen>
+    <dimen name="cart_booking_text_size_normal">18sp</dimen>
+    <dimen name="cart_booking_text_size_normal_x">16sp</dimen>
+    <dimen name="cart_booking_text_size_smail">14sp</dimen>
+
+    <!-- Reaction -->
+    <dimen name="reactions_item_size">32dp</dimen>
+    <dimen name="reactions_item_margin">8dp</dimen>
+    <dimen name="reactions_text_horizontal_padding">12dp</dimen>
+    <dimen name="reactions_text_vertical_padding">4dp</dimen>
+    <dimen name="reactions_text_size">8sp</dimen>
+
+    <!-- Elevation https://material.io/design/environment/elevation.html-->
+    <dimen name="elevation_drawer">16dp</dimen>
+    <dimen name="elevation_app_bar">16dp</dimen>
+    <dimen name="elevation_tab">1dp</dimen>
+    <dimen name="elevation_card">8dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_button">8dp</dimen>
+
+    <!-- Editor -->
+    <dimen name="editor_height">86dp</dimen>
+
+    <dimen name="header_scope">13dp</dimen>
+    <dimen name="tour_editor_title_height">32dp</dimen>
+    <dimen name="tour_editor_hint_height">48dp</dimen>
+    <dimen name="hotel_editor_title_height">32dp</dimen>
+    <dimen name="sub_comm_owner_avatar_size">32dp</dimen>
+    <dimen name="social_count_height">32dp</dimen>
+    <dimen name="media_margin_horizontal">1dp</dimen>
+    <dimen name="media_margin_vertical">0.5dp</dimen>
+
+    <dimen name="overlay_coner_size_large">24dp</dimen>
+    <dimen name="overlay_coner_size">12dp</dimen>
+    <dimen name="overlay_coner_width">12dp</dimen>
+    <dimen name="overlay_coner_pading">-12dp</dimen>
+    <dimen name="boder_overlay_coner_pading">-11.8dp</dimen>
+
+    <dimen name="editor_caption_height">28dp</dimen>
+    <dimen name="editor_bg_height">45dp</dimen>
+    <dimen name="editor_more_bg_height">22.5dp</dimen>
+
+
+    <!--Messenger Style-->
+    <dimen name="messenger_action_bar">64dp</dimen>
+    <dimen name="messenger_action_bar_small">72dp</dimen>
+    <dimen name="messenger_bottom_bar">50dp</dimen>
+    <dimen name="messenger_avatar_medium_size">60dp</dimen>
+    <dimen name="messenger_avatar_small_size">40dp</dimen>
+    <dimen name="messenger_action_bar_button_size">40dp</dimen>
+    <dimen name="messenger_vertical_margin">20dp</dimen>
+    <dimen name="messenger_search_item_height">90dp</dimen>
+    <dimen name="messenger_search_height">45dp</dimen>
+    <dimen name="messenger_search_radius">22dp</dimen>
+    <dimen name="messenger_conversation_height">84dp</dimen>
+
+    <dimen name="messenger_chatkit_text">16sp</dimen>
+    <dimen name="messenger_chatkit_text_status">14sp</dimen>
+    <dimen name="messenger_chatkit_text_date">12.8sp</dimen>
+    <dimen name="messenger_chatkit_text_file">18sp</dimen>
+    <dimen name="messenger_chatkit_text_notification">14sp</dimen>
+    <dimen name="messenger_chatkit_text_time">14sp</dimen>
+    <dimen name="messenger_chatkit_text_username">14sp</dimen>
+    
+    <dimen name="messenger_group_avatar">64dp</dimen>
+    <dimen name="messenger_group_avatar_stroke">2dp</dimen>
+    <dimen name="messenger_group_avatar_margin">-16dp</dimen>
+
+
+    <!--End Messenger Style-->
+
+    <!--Hahalolo Version 2-->
+    <dimen name="action_bar_main">90dp</dimen>
+    <dimen name="toolbar_bar_main">60dp</dimen>
+    <dimen name="action_bar_menu_main">105dp</dimen>
+    <dimen name="action_bar_menu_main_image">50dp</dimen>
+    <dimen name="action_bar_menu_main_image_small">40dp</dimen>
+    <!--=====================Wall=============================================-->
+    <dimen name="stroke_cover">1dp</dimen>
+    <dimen name="wall_radius_cart">10dp</dimen>
+    <dimen name="ic_wall_verify_size">26dp</dimen>
+    <dimen name="ic_wall_edit_avatar_size">28dp</dimen>
+    <dimen name="ic_wall_avatar_size">106dp</dimen>
+
+    <!--=====================End Wall=============================================-->
+    <dimen name="main_menu_header">155dp</dimen>
+    <!--=====================TUTORIAL=============================================-->
+    <dimen name="dot_size">6dp</dimen>
+    <dimen name="dot_radius">4dp</dimen>
+    <!--=====================END TUTORIAL=============================================-->
+    <!--End Hahalolo Version 2-->
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/activity_normal_s"
+        android:paddingTop="@dimen/activity_small_s"
+        android:paddingEnd="@dimen/activity_normal_s"
+        android:paddingBottom="@dimen/activity_small_s">
+
+        <com.hahalolo.incognito.presentation.view.avatar.GroupAvatar
+            android:id="@+id/group_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/name_tv"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            android:text="Hai Dang" />
+
+        <com.hahalolo.incognito.presentation.create.forward.view.IncognitoForwardMessageSendStatus
+            android:id="@+id/status_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="495.616"
+    android:viewportHeight="495.616">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M453.828,380.386l-29.958,11.245l-11.239,-29.943l29.958,-11.245z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M465.04,410.376l-29.968,11.248l14.368,38.304l-104.912,0l0,-279.744l34.352,91.632l29.984,-11.248l-96.336,-256.88l0,488.24l183.088,0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M431.368,320.504l-29.968,11.219l-11.219,-29.968l29.968,-11.219z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M280.528,491.928v-172.64L0,491.928H280.528zM248.528,459.928H113.056l135.472,-83.36V459.928z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88.528,219.928c0.053,-44.161 35.839,-79.947 80,-80h41.376l-20.688,20.688l22.624,22.624l59.312,-59.312L211.84,64.616L189.216,87.24l20.688,20.688h-41.376c-61.823,0.079 -111.921,50.177 -112,112v48h32V219.928z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56.528,299.928h32v32h-32z" />
+</vector>

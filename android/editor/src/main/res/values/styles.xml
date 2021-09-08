@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="Theme.StreamingPlayer" parent="DayNightThemeApp">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.StreamingPlayer.Spherical">
+        <item name="surface_type">spherical_gl_surface_view</item>
+    </style>
+
+    <style name="StartLiveStream" parent="@style/Messenger.ExtendedFloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="minHeight">56dp</item>
+        <item name="android:text">@string/live_stream_start_button</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/app_background_notice</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="StopLiveStream" parent="@style/StartLiveStream">
+        <item name="android:text">@string/live_stream_stop_button</item>
+    </style>
+
+    <style name="InputText" parent="Messenger.Character.H6">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:hint">@string/live_stream_editor_hint</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textColorHint">@color/text_on_primary</item>
+    </style>
+
+    <style name="InputEdt" parent="Messenger.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">200dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:hint">@string/live_stream_editor_hint</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textColorHint">@color/text_on_primary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ImageAction" parent="Messenger.ImageIcon">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <style name="ImageControls" parent="ImageAction">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Scope">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="Back" parent="@style/ImageAction">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="srcCompat">@drawable/ic_close_white_24dp</item>
+    </style>
+
+    <style name="Done" parent="Messenger.Button">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:text">@string/live_stream_done_button</item>
+        <item name="backgroundTint">@color/halo_btn_bg_color_notice_selector</item>
+    </style>
+
+    <style name="RationaleDialogLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/permission_rationale_dialog_corners</item>
+    </style>
+
+    <style name="RationaleDialogDark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/permission_rationale_dialog_corners</item>
+    </style>
+
+    <style name="TextSecure.MediaSendProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@color/core_grey_95</item>
+    </style>
+
+    <declare-styleable name="CameraXFlashState">
+        <attr name="state_flash_auto" format="boolean" />
+        <attr name="state_flash_off" format="boolean" />
+        <attr name="state_flash_on" format="boolean" />
+    </declare-styleable>
+</resources>

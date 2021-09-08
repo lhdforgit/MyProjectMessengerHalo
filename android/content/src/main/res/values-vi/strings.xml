@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <string name="app_copy_right">© 2017 Hahalolo. Đã đăng ký bản quyền.</string>
+
+    <!-- Common -->
+    <string name="read_more">" Xem thêm"</string>
+    <string name="progressActivityErrorButton">Thử lại</string>
+    <string name="keybroad_not_supported_for_gif">Không hỗ trợ định dạng này!</string>
+    <string name="error_message">Xuất hiện lỗi. Vui lòng thử lại</string>
+    <string name="comment_input_no_result">Không có kết quả</string>
+    <string name="comment_input_search">Tìm kiếm</string>
+    <string name="common_search_hint">Tìm kiếm …</string>
+    <string name="common_search_country_hint">Tìm kiếm Quốc gia</string>
+    <string name="common_search_language_hint">Tìm kiếm Ngôn ngữ</string>
+    <string name="common_search_currency_hint">Tìm kiếm Tiền tệ</string>
+    <string name="common_read_less">ít hơn</string>
+    <string name="common_network_retry">Thử lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="save">Lưu</string>
+    <string name="update_last_version_code">Trải nghiệm những tính năng mới nhiều tiện ích, nhanh chống và bảo mật an toàn hơn cho tài khoản của bạn.</string>
+    <string name="update_app_button_title">Cập nhật</string>
+    <string name="update_app_title">Thông báo cập nhật</string>
+    <!-- End Common -->
+
+    <string name="text_view_read_more">xem thêm</string>
+    <string name="text_view_read_hide">ẩn bớt</string>
+    <string name="birth_day">Ngày sinh</string>
+
+    <!-- Search -->
+    <string name="search_friend_hint">Tìm tên…</string>
+    <!-- End Search -->
+
+    <!--Like Detail-->
+    <string name="like_detail_tab_all">Tất cả </string>
+    <!--End Like Detail-->
+
+    <!-- Gallery -->
+    <string name="media_menu_done">Xong</string>
+    <string name="album_name_all">Tất cả</string>
+    <string name="error_over_count">Bạn chỉ có thể chọn tối đa %1$d tập tin</string>
+    <string name="error_file_type">Loại tập tin không được hỗ trợ</string>
+    <string name="error_type_conflict">Không thể chọn hình ảnh và video cùng một lúc</string>
+    <string name="media_grid_gif">GIF</string>
+    <string name="all_media">Tất cả</string>
+    <!-- End Gallery -->
+
+    <!--Update App-->
+    <string name="percent_downdloading_language">Downloading loading language</string>
+    <string name="installing_language">Installing language</string>
+    <!--End Update App-->
+
+
+    <!--Incognito-->
+    <string name="Incognito_info_over_maximum_limit">Không được quá %d kí tự</string>
+    <!--End Incognito-->
+</resources>

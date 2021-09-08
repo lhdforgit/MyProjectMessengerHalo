@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Messenger.Character.H3"
+            android:text="Chuyển tiếp"
+            android:padding="@dimen/activity_normal_s"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.halo.widget.HaloSearchView
+            android:id="@+id/search_view"
+            style="@style/Messenger.SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_normal_s"
+            android:background="@drawable/bg_department_search"
+            app:queryBackground="@drawable/bg_department_search"
+            app:queryHint="@string/common_search_hint"
+            app:searchHintIcon="@drawable/ic_search_dark_20"
+            app:searchIcon="@drawable/ic_mess_search"
+            app:submitBackground="@drawable/search_view_bg" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contact_rec"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</layout>

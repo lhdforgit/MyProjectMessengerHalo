@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_main_remove_history_title">Xóa tìm kiếm</string>
+    <string name="search_main_remove_history_des">Bạn có chắc muốn xóa %s khỏi lịch sử tìm kiếm?</string>
+    <string name="search_main_remove_history_bt_title">Xóa</string>
+    <string name="search_main_remove_all_history_title">Xóa tất cả lịch sử</string>
+    <string name="search_main_remove_all_history_des">Bạn có chắc chắn muốn xóa tất cả lịch sử tìm kiếm? Sau khi xóa dữ liệu sẽ không thể khôi phục.</string>
+    <string name="search_main_remove_all_history_bt_title">Xóa tất cả</string>
+    <string name="search_main_history_title">Tìm kiếm gần đây</string>
+    <string name="search_main_history_empty_caption">Hãy nhập vài từ khóa để tìm kiếm trong Hahalolo.</string>
+    <string name="search_main_empty_title">Không có kết quả phù hợp!</string>
+    <string name="hotel_search_result_title">Trang khách sạn</string>
+    <string name="tour_search_result_tour_page">Trang Tour</string>
+    <string name="product_search_result_title">Trang cửa hàng</string>
+</resources>

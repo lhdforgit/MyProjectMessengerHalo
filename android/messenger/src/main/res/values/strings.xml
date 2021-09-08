@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="chat_message_input_hint" translatable="false">Aa</string>
+    <string name="chat_message_sending">Đang gửi …</string>
+    <string name="chat_message_holder_time_today">Hôm nay, %s</string>
+    <string name="chat_message_room_change">Thay đổi</string>
+    <string name="media_retry_load">thử lại</string>
+    <string name="chat_message_holder_time_yesterday">Hôm qua, %s</string>
+    <string name="chat_message_file_unknow" translatable="false">Unknow</string>
+
+    <string name="chat_message_file_not_exit">Tệp không tồn tại</string>
+    <string name="chat_message_downloading">Đang tải xuống …</string>
+    <string name="chat_message_download">Tải về</string>
+    <string name="chat_message_not_support">Phiên bản tin nhắn chưa hỗ trợ hiển thị</string>
+    <string name="chat_message_resend">Gửi lại</string>
+    <string name="chat_messenger_seen_message">\" đã xem\"</string>
+    <string name="chat_messenger_sending_message">đang gửi</string>
+</resources>

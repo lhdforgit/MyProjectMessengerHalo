@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M20,20m-19.5,0a19.5,19.5 0,1 1,39 0a19.5,19.5 0,1 1,-39 0"
+        android:strokeWidth="1"
+        android:strokeColor="@color/text_body" />
+    <path
+        android:fillColor="@color/text_body"
+        android:pathData="M20.017,10c-4,0 -7.3,3.3 -7.3,7.3c0,1 0.2,2.1 0.6,3c1.7,3.4 3.9,6.6 6.4,9.5c0.1,0.2 0.4,0.2 0.6,0c0,0 0,0 0,0c2.5,-2.9 4.7,-6.1 6.4,-9.5c0.4,-0.9 0.6,-2 0.6,-3C27.317,13.3 24.017,10 20.017,10zM20.017,21.2c-2.1,0 -3.8,-1.7 -3.8,-3.8c0,-2.1 1.7,-3.8 3.8,-3.8c2.1,0 3.8,1.7 3.8,3.8l0,0C23.817,19.5 22.117,21.2 20.017,21.2z" />
+</vector>

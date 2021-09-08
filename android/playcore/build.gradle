@@ -1,0 +1,123 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        buildConfigField 'int', 'VERSION_CODE', "${build_versions.version_code}"
+        buildConfigField 'String', 'VERSION_NAME', "\"${build_versions.version_name}\""
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility'
+                            ,"-XXLanguage:+InlineClasses"
+                            ,"-Xopt-in=kotlin.RequiresOptIn"]
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    /*Hahalolo Module*/
+    implementation project(':constant')
+    implementation project(':di')
+    implementation project(':glideutils')
+    implementation project(':permission')
+    implementation project(':common')
+    implementation project(':themes')
+    implementation project(':content')
+
+    /*Android support*/
+    implementation deps.androidx.app_compat
+    implementation deps.material
+    implementation deps.guava.android
+    implementation deps.constraint_layout
+
+    /*Google Play Service*/
+    implementation deps.google_service.play_core
+    implementation deps.google_service.instantapps
+
+    /*dagger*/
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    /*Lifecycle Android Jetpack*/
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.java8
+    annotationProcessor deps.lifecycle.compiler
+    kapt deps.lifecycle.compiler
+
+    /*Extension*/
+    implementation deps.fragment
+    implementation deps.fragment_ktx
+    implementation deps.core_ktx
+    implementation deps.activity_ktx
+    implementation deps.collection_ktx
+
+    implementation deps.rx.java2
+    implementation deps.rx.android
+    implementation deps.autodispose
+    implementation deps.commons_net
+    implementation deps.okhttp.okhttp
+    implementation deps.gson
+
+    implementation(deps.glide.glide) {
+        exclude group: "com.android.support"
+    }
+    implementation deps.glide.annotations
+    annotationProcessor deps.glide.compiler
+    kapt deps.glide.compiler
+
+    implementation deps.timber
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

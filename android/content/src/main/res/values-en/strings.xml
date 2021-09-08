@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <string name="app_copy_right">© 2017 Hahalolo. All rights reserved.</string>
+
+    <!-- Common -->
+    <string name="progressActivityErrorButton">Try Again</string>
+    <string name="keybroad_not_supported_for_gif">Doesn\'t support this format!</string>
+    <string name="read_more">" See more"</string>
+    <string name="comment_input_no_result">No results</string>
+    <string name="comment_input_search">Search</string>
+    <string name="common_user_token_name_format" translatable="false">%1$s %2$s</string>
+    <string name="common_search_hint">Search …</string>
+    <string name="common_search_country_hint">Search Country</string>
+    <string name="common_search_language_hint">Search Language</string>
+    <string name="common_search_currency_hint">Search Currency</string>
+    <string name="common_read_less">see less</string>
+    <string name="common_network_retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="internal_storage" translatable="false">Internal storage</string>
+    <string name="update_last_version_code">Enable a faster, more secure experience for your account with new features added multiple widgets.</string>
+    <string name="update_app_button_title">Update</string>
+    <string name="update_app_title">Update available</string>
+    <!-- End Common -->
+
+    <string name="text_view_read_more">see more</string>
+    <string name="text_view_read_hide">see less</string>
+    <string name="birth_day">Date of birth</string>
+
+    <!-- Search -->
+    <string name="search_friend_hint">Search name…</string>
+    <!-- End Search -->
+
+    <!--Like Detail-->
+    <string name="like_detail_tab_all">All </string>
+    <!--End Like Detail-->
+
+    <!-- Gallery -->
+    <string name="media_menu_done">Done</string>
+    <string name="album_name_all">"All "</string>
+    <string name="error_over_count">You can only choose up to %1$d files</string>
+    <string name="error_file_type">Unsupported file type</string>
+    <string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+    <string name="media_grid_gif">GIF</string>
+    <string name="all_media">All Media</string>
+    <!-- Gallery -->
+
+    <!--Update App-->
+    <string name="percent_downdloading_language">Đang tải ngôn ngữ</string>
+    <string name="installing_language">Đang cài đặt ngôn ngữ</string>
+    <!--End Update App-->
+
+    <string-array name="allowed_file_mime_types">
+        <item>text/*</item>
+        <item>image/*</item>
+        <!--        <item>audio/*</item>-->
+        <item>video/*</item>
+        <item>application/pdf</item>
+        <item>application/msword</item>
+        <item>application/vnd</item>
+        <item>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</item>
+        <item>application/vnd.openxmlformats-officedocument.spreadsheetml.template</item>
+        <item>application/vnd.openxmlformats-officedocument.presentationml.presentation</item>
+        <item>application/vnd.openxmlformats-officedocument.presentationml.template</item>
+        <item>application/vnd.openxmlformats-officedocument.presentationml.slideshow</item>
+        <item>application/vnd.openxmlformats-officedocument.wordprocessingml.document</item>
+        <item>application/officedocument.wordprocessingml.document</item>
+        <item>application/zip</item>
+        <item>application/x-7z-compressed</item>
+        <item>application/x-tar</item>
+        <item>application/x-rar-compressed</item>
+        <item>application/gzip</item>
+        <item>application/x-bzip</item>
+        <item>application/x-bzip2</item>
+
+    </string-array>
+
+
+    <!--Incognito-->
+    <string name="Incognito_info_over_maximum_limit">The maximum limit is %d characters</string>
+    <!--End Incognito-->
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_normal_s">
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:id="@+id/forward_user_avatar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            tools:src="@drawable/ic_incognito_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/forward_user_name"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:text="Le Hai Dang"
+            app:layout_constraintBottom_toBottomOf="@+id/forward_user_avatar"
+            app:layout_constraintEnd_toStartOf="@+id/forward_message_time"
+            app:layout_constraintStart_toEndOf="@+id/forward_user_avatar"
+            app:layout_constraintTop_toTopOf="@+id/forward_user_avatar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/forward_message_time"
+            style="@style/Incognito.TextView.H7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:text="13:50, 06/11/2020"
+            app:layout_constraintBottom_toBottomOf="@+id/forward_user_avatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/forward_user_name"
+            app:layout_constraintTop_toTopOf="@+id/forward_user_avatar" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/forward_message_file_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_small_s"
+            android:background="@drawable/outline_primary_bg"
+            android:paddingStart="@dimen/activity_normal_s"
+            android:paddingTop="@dimen/activity_small_s"
+            android:paddingEnd="@dimen/activity_normal_s"
+            android:paddingBottom="@dimen/activity_small_s"
+            app:layout_constraintEnd_toStartOf="@+id/forward_message_time"
+            app:layout_constraintStart_toStartOf="@+id/forward_user_name"
+            app:layout_constraintTop_toBottomOf="@+id/forward_user_name">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/forward_message_file_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/ic_incognito_manager_file_doc"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/forward_message_file_title"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_small_s"
+                android:ellipsize="end"
+                android:singleLine="true"
+                tools:text="Thông tin điểm...doc"
+                app:layout_constraintBottom_toTopOf="@+id/forward_message_file_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/forward_message_file_icon"
+                app:layout_constraintTop_toTopOf="@+id/forward_message_file_icon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/forward_message_file_size"
+                style="@style/Incognito.TextView.H7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="500kb"
+                app:layout_constraintBottom_toBottomOf="@+id/forward_message_file_icon"
+                app:layout_constraintStart_toStartOf="@+id/forward_message_file_title"
+                app:layout_constraintTop_toBottomOf="@+id/forward_message_file_title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/forward_message_file_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/ic_incognito_forward_file_menu" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

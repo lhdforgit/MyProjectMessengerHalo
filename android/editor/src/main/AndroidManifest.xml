@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.editor">
+
+    <!-- Declare permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--some devices need read permission to create folders or files-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!--needed by background Rtp service to keep service alive-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!--Optional for play store-->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application>
+        <activity
+            android:name=".mediasend.MediaSendActivity"
+            android:theme="@style/Theme.Halo.SendMedia" />
+        <activity
+            android:name=".mediasend.AvatarSelectionActivity"
+            android:theme="@style/Theme.Halo.SendMedia" />
+        <activity
+            android:name=".mediasend.CoverSelectionActivity"
+            android:theme="@style/Theme.Halo.SendMedia" />
+        <activity
+            android:name=".scribbles.sticker.ImageEditorStickerSelectActivity"
+            android:theme="@style/Theme.Halo.SendMedia" />
+    </application>
+</manifest>

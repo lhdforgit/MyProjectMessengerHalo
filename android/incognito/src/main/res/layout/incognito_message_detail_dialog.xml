@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hahalolo.incognito.presentation.conversation.dialog.view.message.IncognitoMsgItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/msg_item"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.hahalolo.incognito.presentation.conversation.dialog.view.delete.IncognitoMsgRequestDeleteView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/request_delete"
+                android:visibility="gone"
+                />
+
+            <com.hahalolo.incognito.presentation.conversation.dialog.view.action.IncognitoMsgActionView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/action_view"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

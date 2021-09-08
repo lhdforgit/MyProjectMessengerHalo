@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Author Send code-->
+    <string name="input_sms_title">Xác thực số điện thoại</string>
+    <string name="input_sms_caption">Chúng tôi vừa gửi mã xác nhận qua số điện thoại của bạn. Vui lòng kiểm tra và nhập mã đã được gửi đến:</string>
+    <string name="input_sms_hint_">H-</string>
+    <string name="input_sms_hint">Nhập mã bạn đã nhận được</string>
+    <string name="input_sms_handle">XÁC THỰC</string>
+    <string name="send_code_error_wait_few_minutes">Bạn không thể thực hiện gửi mã quá nhanh, bạn vui lòng chờ sau ít phút.</string>
+    <string name="send_code_error_send_body_3_time">Bạn đã thực hiện gửi mã quá 3 lần, vui lòng thực hiện lại thao tác sau 24 giờ.</string>
+    <string name="send_code_error_block_account">Bạn đã thực hiện gửi mã quá nhiều lần, tài khoản của bạn đã bị khoá.</string>
+    <string name="send_code_error_expires">Gửi mã thất bại, vui lòng thử lại sau.</string>
+    <string name="send_code_caption">Bạn chưa nhận được mã xác nhận?</string>
+    <string name="auto_start_alter">Để đảm bảo không bỏ lỡ những sự kiện . Vui lòng cho phép quyền tự khởi động cho ứng dụng hahalolo</string>
+    <string name="auto_start_alter_title">Tự khởi động</string>
+    <string name="Notifify_alter_can_be_deleted">Thông báo này có thể đã bị xoá .</string>
+    <!--End Author Send code-->
+</resources>

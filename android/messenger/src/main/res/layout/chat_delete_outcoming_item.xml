@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/messageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/messageTime"
+            style="@style/Messenger.ChatKit.OutcomingText.Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:gravity="end|bottom">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@id/messageBubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/message_outcoming_bubble_margin_left"
+                app:alignContent="stretch"
+                app:alignItems="stretch"
+                app:flexWrap="wrap"
+                app:justifyContent="flex_end">
+
+                <com.halo.widget.HaloEmojiTextView
+                    android:id="@id/messageText"
+                    style="@style/Messenger.ChatKit.OutcomingText.Removed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic" />
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <View
+                android:id="@+id/overLay"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignStart="@id/messageBubble"
+                android:layout_alignTop="@id/messageBubble"
+                android:layout_alignEnd="@id/messageBubble"
+                android:layout_alignBottom="@id/messageBubble" />
+
+        </RelativeLayout>
+
+        <com.hahalolo.messager.chatkit.view.MessageReaderItem
+            android:id="@+id/messageReaderItem"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="4dp" />
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/live_tv"
+            style="@style/Incognito.TextView.H5.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_incognito_status_live"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đang trực tuyến" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/absent_tv"
+            style="@style/Incognito.TextView.H5.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_incognito_status_absent"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đang vắng mặt" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/busy_tv"
+            style="@style/Incognito.TextView.H5.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_incognito_status_busy"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Đang bận" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_tv"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_incognito_cancels"
+            android:drawablePadding="@dimen/activity_normal_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+</layout>

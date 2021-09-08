@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="tabIndex"
+            type="Integer" />
+    </data>
+
+    <LinearLayout
+        style="@style/Messenger.Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Messenger.AppBar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/app_background">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/navigation_bt"
+                    style="@style/Messenger.ImageIcon"
+                    android:layout_marginStart="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginEnd="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_mess_left" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/toolbar_tv"
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chat_message_gallery_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_marginTop="@dimen/activity_small_s"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_marginBottom="@dimen/activity_small_s"
+            android:orientation="horizontal">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/media_tab"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="@{tabIndex == 1}"
+                android:text="@string/chat_message_gallery_tab_media"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link_tab"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:checked="@{tabIndex == 2}"
+                android:text="@string/chat_message_gallery_tab_link"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/file_tab"
+                style="@style/Messenger.ChipChoice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:checked="@{tabIndex == 3}"
+                android:text="@string/chat_message_gallery_tab_doc"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <com.hahalolo.swipe.SwipeLayout
+            android:id="@+id/swipe_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:show_mode="lay_down">
+
+            <com.hahalolo.swipe.SwipeLayout
+                android:id="@+id/swipe_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:show_mode="lay_down">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/file_shared_rec"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/file_empty_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_empty" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/file_empty_tv"
+                        style="@style/Messenger.Character.H3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/file_empty_img"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:text="@string/chat_message_no_shared_file"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/link_shared_rec"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/link_empty_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_empty" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/link_empty_tv"
+                        style="@style/Messenger.Character.H3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/link_empty_img"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:text="@string/chat_message_no_shared_link"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+            </com.hahalolo.swipe.SwipeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/media_shared_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/media_empty_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_empty" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/media_empty_tv"
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/media_empty_img"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:text="@string/chat_message_no_shared_media"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+        </com.hahalolo.swipe.SwipeLayout>
+    </LinearLayout>
+
+</layout>

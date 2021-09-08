@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <dimen name="crop_area_renderer_edge_size">32dp</dimen>
+    <dimen name="crop_area_renderer_edge_thickness">2dp</dimen>
+
+    <color name="crop_area_renderer_edge_color">#ffffffff</color>
+    <color name="crop_area_renderer_outer_color">#7f000000</color>
+
+</resources>

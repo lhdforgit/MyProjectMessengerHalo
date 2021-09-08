@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Oauth Verify -->
+    <string name="oauth_verify_send_the_code_time">Gửi lại(%s)</string>
+    <string name="oauth_verify_send_the_code">Gửi lại</string>
+    <string name="verify_code_phone_email_caption">Nhập mã chúng tôi đã gửi đến</string>
+    <string name="verify_caption_email">Mã code đã được gửi tới email</string>
+    <string name="verify_caption_phone">Mã code đã được gửi tới số điện thoại</string>
+    <string name="verify_sign_in_another"><u>Đăng nhập bằng tài khoản khác</u></string>
+    <string name="verify_resend_code_caption">Bạn chưa nhận được mã?</string>
+    <string name="verify_confirm">Xác nhận</string>
+    <string name="verify_error_block_account">"Tài khoản của bạn đã bị khoá vì yêu cầu gửi mã quá số lần quy định. "</string>
+    <string name="verify_error_code_time_out">Mã xác nhận đã hết hạn.</string>
+    <string name="verify_input_code">Nhận mã chúng tôi đã gửi đến</string>
+    <string name="verify_cannot_receive_code">Bạn chưa nhận được mã?</string>
+    <string name="verify_birth_hint">Chọn ngày sinh</string>
+    <string name="verify_update">Cập nhật</string>
+    <string name="verify_cancel">Bỏ qua</string>
+    <string name="verify_success">Xác minh tài khoản thành công !</string>
+    <string name="verify_code_requried">Mã xác minh là bắt buộc.</string>
+    <string name="verify_code_error_count">Mã xác minh phải 6 kí tự</string>
+    <string name="verify_code_error_incorrect">Mã xác minh không chính xác</string>
+    <string name="verify_code_timeout">Mã xác minh đã hết hạn</string>
+    <string name="verify_send_code_complete">Gửi mã xác minh thành công!</string>
+    <string name="verify_update_info_title">Bạn có thể hoàn thiện thêm \nthông tin cá nhân</string>
+    <!-- End Oauth Verify -->
+</resources>

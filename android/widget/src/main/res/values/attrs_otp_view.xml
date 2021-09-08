@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--android:textColor: sets the color of the otp text
+    app:otp: sets the otp in the otp view
+    app:length: sets the no of otp box in the otp view
+    app:otp_text_size: sets the otp text size in the otp view
+    app:text_typeface: sets the otp text typeface in the otp view
+    app:hide_otp: sets if the otp entered is to be shown to the user
+    app:hide_otp_drawable: replaces the pin bullet which is shown to the user when hide_otp is enabled
+    app:height: sets the height of each box inside the otp view
+    app:width: sets the width of each box inside the otp view
+    app:box_margin: sets the space between each box in otp view
+    app:box_margin_left: sets the left space between each box in otp view
+    app:box_margin_right: sets the right space between each box in otp view
+    app:box_margin_top: sets the top space of each box in otp view
+    app:box_margin_bottom: sets the bottom space of each box in otp view
+    app:bar_enabled: shows a bar below each otp box to the user
+    app:bar_height: sets the bar height
+    app:bar_margin: sets the bar margin within each box in otp view
+    app:bar_margin_left: sets the bar left margin within each box in otp view
+    app:bar_margin_right: sets the bar right margin within each box in otp view
+    app:bar_margin_top: sets the bar top margin within each box in otp view
+    app:bar_margin_bottom: sets the bar bottom margin within each box in otp view
+    app:bar_active_color: sets the bar color when the cursor is on the box in otp view
+    app:bar_inactive_color: sets the bar color when the cursor is not on the box in otp view
+    app:bar_error_color: sets the bar color for error state in otp view
+    app:bar_success_color: sets the bar color for success state in otp view
+    app:otp_box_background: sets the box background in otp view
+    app:otp_box_background_active: sets the box background when the cursor is on the box in otp view
+    app:otp_box_background_inactive: sets the box background when the cursor is not on the box in otp view
+    app:otp_box_background_error: sets the box background for error state in otp view
+    app:otp_box_background_success: sets the box background for success state in otp view-->
+    <declare-styleable name="OtpTextView">
+        <attr name="android:textColor" />
+        <attr name="otp" format="string" />
+        <attr name="hide_otp" format="boolean" />
+        <attr name="hide_otp_drawable" format="reference" />
+        <attr name="length" format="integer" />
+        <attr name="width" format="dimension" />
+        <attr name="height" format="dimension" />
+        <attr name="box_margin" format="dimension" />
+        <attr name="box_margin_left" format="dimension" />
+        <attr name="box_margin_right" format="dimension" />
+        <attr name="box_margin_top" format="dimension" />
+        <attr name="box_margin_bottom" format="dimension" />
+        <attr name="bar_height" format="dimension" />
+        <attr name="bar_enabled" format="boolean" />
+        <attr name="otp_box_background" format="reference" />
+        <attr name="otp_box_background_active" format="reference" />
+        <attr name="otp_box_background_inactive" format="reference" />
+        <attr name="otp_box_background_success" format="reference" />
+        <attr name="otp_box_background_error" format="reference" />
+        <attr name="bar_margin" format="dimension" />
+        <attr name="bar_margin_bottom" format="dimension" />
+        <attr name="bar_margin_right" format="dimension" />
+        <attr name="bar_margin_left" format="dimension" />
+        <attr name="bar_margin_top" format="dimension" />
+        <attr name="otp_text_size" format="dimension" />
+        <attr name="bar_active_color" format="color" />
+        <attr name="bar_inactive_color" format="color" />
+        <attr name="bar_error_color" format="color" />
+        <attr name="bar_success_color" format="color" />
+        <attr name="text_typeface" format="string" />
+    </declare-styleable>
+</resources>

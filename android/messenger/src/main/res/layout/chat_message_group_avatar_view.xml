@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="countImage"
+            type="Integer" />
+
+        <import type="android.view.View" />
+
+    </data>
+    <RelativeLayout
+        android:id="@+id/group_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/messenger_group_avatar_margin"
+            android:layout_toEndOf="@id/avatar_user_2"
+            android:visibility="@{countImage >= 3 ? View.VISIBLE : View.GONE}">
+
+            <com.halo.widget.shapeimageview.CircleImageView
+                android:id="@+id/avatar_user_3"
+                android:layout_width="@dimen/messenger_group_avatar"
+                android:layout_height="@dimen/messenger_group_avatar"
+                android:layout_centerInParent="true"
+                app:civ_border_color="@android:color/white"
+                app:civ_border_overlay="true"
+                app:civ_border_width="@dimen/messenger_group_avatar_stroke"
+                app:srcCompat="@drawable/ic_avatar_holder" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/count_tv"
+                style="@style/Messenger.Character.H5"
+                android:layout_width="@dimen/messenger_group_avatar"
+                android:layout_height="@dimen/messenger_group_avatar"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/messenger_group_avatar_margin"
+                android:background="@drawable/circle_holder_chat_item"
+                android:gravity="center"
+                android:textColor="@color/text_on_primary"
+                android:visibility="@{countImage >= 4 ? View.VISIBLE : View.GONE}"
+                tools:text="+1" />
+
+        </RelativeLayout>
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:id="@+id/avatar_user_2"
+            android:layout_width="@dimen/messenger_group_avatar"
+            android:layout_height="@dimen/messenger_group_avatar"
+            android:layout_marginStart="@dimen/messenger_group_avatar_margin"
+            android:layout_toEndOf="@id/avatar_user_1"
+            android:visibility="@{countImage >= 2 ? View.VISIBLE : View.GONE}"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_overlay="true"
+            app:civ_border_width="@dimen/messenger_group_avatar_stroke"
+            app:srcCompat="@drawable/ic_avatar_holder" />
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:id="@+id/avatar_user_1"
+            android:layout_width="@dimen/messenger_group_avatar"
+            android:layout_height="@dimen/messenger_group_avatar"
+            android:visibility="@{countImage >= 1 ? View.VISIBLE : View.GONE}"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_overlay="true"
+            app:civ_border_width="@dimen/messenger_group_avatar_stroke"
+            app:srcCompat="@drawable/ic_avatar_holder" />
+    </RelativeLayout>
+</layout>

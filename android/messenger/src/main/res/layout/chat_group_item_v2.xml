@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="lastMsg"
+            type="String" />
+
+        <variable
+            name="timeMsg"
+            type="String" />
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/dialogRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/dialogContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_small_s"
+            android:paddingEnd="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_small_s">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_normal_s">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dialogAvatarGr"
+                    android:layout_width="86dp"
+                    android:layout_height="86dp"
+                    android:layout_margin="1dp"
+                    app:cardCornerRadius="43dp"
+                    app:cardElevation="1dp">
+
+                    <com.hahalolo.messager.presentation.message.view.MutiImageView
+                        android:id="@+id/dialogAvatar_mt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/img_holder" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/onlineIndicator"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignEnd="@id/dialogAvatarGr"
+                    android:layout_alignBottom="@+id/dialogAvatarGr"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/shape_bubble_online"
+                    android:elevation="2dp"
+                    android:visibility="gone"
+                    app:elevation="2dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dialogName"
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:maxLines="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/dialogLastMessageUserAvatar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginEnd="8dp"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/dialogLastMessage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="top"
+                        android:maxLines="1"
+                        android:text="@={lastMsg}"
+                        android:visibility="@{TextUtils.isEmpty(lastMsg) ? View.GONE : View.VISIBLE}" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/dialogDate"
+                        android:text="@={timeMsg}"
+                        android:visibility="@{TextUtils.isEmpty(timeMsg) ? View.GONE : View.VISIBLE}"
+                        style="@style/Messenger.Character.H7.Secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_small_s"
+                        android:ellipsize="end"
+                        android:maxLines="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/dialogUnreadBubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bubble_circle_count_new_message"
+                android:ellipsize="end"
+                android:gravity="center"
+                tool:text ="2"
+                android:textColor="@color/white"
+                android:lines="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+
+
+

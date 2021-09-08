@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_reactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_reaction_view"
+        android:paddingStart="6dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="6dp"
+        android:gravity="center"
+        >
+    </androidx.appcompat.widget.AppCompatTextView>
+</layout>

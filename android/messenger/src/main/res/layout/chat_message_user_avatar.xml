@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/messageUserAvatarGr"
+        android:layout_width="@dimen/message_avatar_gr_size"
+        android:layout_height="@dimen/message_avatar_gr_size"
+        android:layout_marginEnd="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/message_avatar_size"
+            android:layout_height="@dimen/message_avatar_size"
+            android:layout_margin="1dp"
+            app:cardCornerRadius="@dimen/message_avatar_radius"
+            app:cardElevation="0dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/messageUserAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/message_chat_avatar_holder" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/avatar_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/messageUserOnline"
+            android:layout_width="@dimen/message_avatar_online_size"
+            android:layout_height="@dimen/message_avatar_online_size"
+            android:background="@drawable/shape_bubble_online"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="1dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</layout>

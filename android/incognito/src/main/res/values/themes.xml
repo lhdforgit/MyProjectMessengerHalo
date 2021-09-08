@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="IncognitoDayNightThemeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="colorPrimary">@color/incognito_primary</item>
+        <item name="colorPrimaryDark">@color/incognito_primary_dark</item>
+        <item name="colorAccent">@color/incognito_primary</item>
+    </style>
+
+    <style name="IncognitoTheme" parent="IncognitoDayNightThemeApp" />
+
+    <style name="IncognitoTheme.Start" parent="@style/MessengerTheme.Translucent">
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="IncognitoTheme.Login">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="IncognitoTheme.Main">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="IncognitoTheme.Translucent">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

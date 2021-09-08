@@ -1,0 +1,135 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hahalolo.messenger">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application>
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
+        <service android:name="com.hahalolo.messager.bubble.BubbleService"
+            android:exported="true"
+             />
+
+        <activity android:name="com.hahalolo.messager.bubble.BubbleAct">
+
+        </activity>
+
+        <!-- Messenger -->
+        <activity
+            android:name="com.hahalolo.messager.presentation.main.contacts.owner.ChatOwnerAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.Translucent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hahalolo.messager.presentation.group.create.ChatGroupCreateAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.hahalolo.messager.presentation.write_message.ChatWriteMessageAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.main.ChatAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.message.ChatMessageAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.group.name.ChatChangeGroupNameAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hahalolo.messager.presentation.group.member.ChatGroupMemberAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme" />
+        <activity
+            android:name="com.hahalolo.messager.presentation.search.ChatSearchAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hahalolo.messager.presentation.group.detail.ChatGroupDetailAct"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.group.gallery.ChatRoomGalleryAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.suggest.ContactSuggestAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hahalolo.messager.presentation.main.ChatAct" />
+        </activity>
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.takeImage.ChatTakeImageAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.hahalolo.messager.presentation.download.ChatDownloadFileAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan"/>
+
+    </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        tools:ignore="ManifestOrder" />
+</manifest>

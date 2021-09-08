@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="copied_text">Đã sao chép.</string>
+    <string name="copied_link_notify">Đã sao chép liên kết.</string>
+    <string name="clipboard_copy">%s đã được sao chép vào clipboard</string>
+    <string name="percent_downdloading_language">Đang tải ngôn ngữ</string>
+    <string name="installing_language">Đang cài đặt ngôn ngữ</string>
+
+</resources>

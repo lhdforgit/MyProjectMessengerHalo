@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">alp-api.hahalolo.com</domain>
+        <domain includeSubdomains="true">esapi.hahalolo.com</domain>
+        <domain includeSubdomains="true">msgr-gw-dev.hlapis.com</domain>
+        <domain includeSubdomains="true">jitsi.halo.com</domain>
+        <trust-anchors>
+            <!-- Trust a debug certificate in addition to the system certificates -->
+            <certificates src="system" />
+            <certificates src="@raw/hahalolo" />
+            <certificates src="@raw/hpapis" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

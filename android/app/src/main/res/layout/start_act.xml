@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isVi"
+            type="Boolean" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.halo.widget.shapeimageview.ImageScaleView
+                android:id="@+id/header_bg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="matrix"
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:matrixType="bottom_center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/start_app_img" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.45" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/start_tv"
+                style="@style/Messenger.Character.H1.Dark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:gravity="center_horizontal"
+                android:text="Xin chào"
+                app:layout_constraintBottom_toTopOf="@+id/caption_tv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/guideline" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/caption_tv"
+                style="@style/Messenger.Character.H6.Secondary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:gravity="center_horizontal"
+                android:text="Bạn muốn dùng tài khoản nào, Hahalolo hay Ẩn danh?"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/start_tv" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/hahalolo_bt"
+                style="@style/Messenger.Button"
+                android:layout_width="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Tài khoản Hahalolo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/caption_tv" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/incognito_bt"
+                style="@style/Messenger.Button.Light"
+                android:layout_width="0dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Ẩn danh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hahalolo_bt" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingTop="40dp"
+                android:paddingBottom="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/incognito_bt">
+
+                <LinearLayout
+                    android:id="@+id/language_wr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:divider="@color/divider"
+                    android:dividerPadding="10dp"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/lang_vi"
+                        style="@style/Messenger.Character.H6.Dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right|end"
+                        android:padding="8dp"
+                        android:textColor="@{isVi ? @color/primary : @color/text_secondary}"
+                        android:text="Tiếng Việt"
+                        tools:ignore="RtlHardcoded" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/lang_en"
+                        style="@style/Messenger.Character.H6.Dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|left|start"
+                        android:padding="8dp"
+                        android:textColor="@{isVi ? @color/primary : @color/text_secondary}"
+                        android:text="English"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

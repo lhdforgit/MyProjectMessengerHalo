@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.giphy.sdk.core">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application />
+
+</manifest>

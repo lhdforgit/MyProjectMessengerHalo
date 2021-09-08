@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_incognito_msg_input"
+        >
+
+        <View
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+
+
+        <com.hahalolo.incognito.presentation.conversation.view.sticker.gif.IncognitoMsgGifView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gif_view"
+            />
+
+        <LinearLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/activity_vertical_margin">
+
+            <com.hahalolo.incognito.presentation.conversation.view.IncognitoMessageEditText
+                android:id="@+id/messageInput"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_height="wrap_content"
+                style="@style/Incognito.EditText.BackgroundWhite"
+                android:maxLines="5"
+                android:singleLine="false"
+                android:hint="Nhập tin nhắn"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_sticker"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackground"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_incognito_input_sticker" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_file"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackground"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_incognito_input_file" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_haha"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackground"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_incognito_input_haha" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_send"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="?attr/selectableItemBackground"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_incognito_input_send"
+                />
+
+        </LinearLayout>
+
+        <com.hahalolo.incognito.presentation.conversation.view.sticker.IncognitoMessageStickerHeaderView
+            android:layout_width="match_parent"
+            android:id="@+id/header_sticker"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_keybroad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+           >
+            <com.hahalolo.incognito.presentation.conversation.view.sticker.IncognitoMessageStickerView
+                android:id="@+id/sticker_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</layout>

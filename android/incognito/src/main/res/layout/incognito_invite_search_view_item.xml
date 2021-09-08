@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.halo.widget.HaloSearchView
+            android:id="@+id/search_view"
+            style="@style/Incognito.SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:background="@drawable/bg_incognito_search_view"
+            android:textAlignment="center"
+            app:queryBackground="@drawable/bg_incognito_search_view"
+            app:queryHint="Tìm kiếm"
+            app:submitBackground="@drawable/search_view_bg" />
+
+    </LinearLayout>
+</layout>

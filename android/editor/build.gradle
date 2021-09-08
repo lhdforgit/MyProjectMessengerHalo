@@ -1,0 +1,171 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        buildConfigField 'int', 'VERSION_CODE', "${build_versions.version_code}"
+        buildConfigField 'String', 'VERSION_NAME', "\"${build_versions.version_name}\""
+
+        vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path file('jni/Android.mk')
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility',"-XXLanguage:+InlineClasses"]
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+
+    implementation project(':data')
+    implementation project(':widget')
+    implementation project(':common')
+    implementation project(':constant')
+    implementation project(':glideutils')
+    implementation project(':sticker')
+    implementation project(':stream')
+    implementation project(':di')
+    implementation project(':permission')
+    implementation project(':themes')
+    implementation project(':content')
+    implementation project(':materialdialog')
+    implementation project(':player')
+    implementation project(':playcore')
+
+    implementation deps.androidx.app_compat
+    implementation deps.material
+    implementation deps.constraint_layout
+    implementation deps.androidx.concurrent
+
+    /*Square Open Source*/
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.okhttp.okhttp_logging_interceptor
+    implementation deps.okhttp.okhttp
+    implementation deps.timber
+    implementation deps.rxbinding.rxbinding
+    implementation deps.rxbinding.rxbinding_core
+    implementation deps.rxbinding.rxbinding_appcompat
+    implementation deps.rxbinding.rxbinding_recyclerview
+    implementation deps.rxbinding.rxbinding_swiperefreshlayout
+    implementation deps.rxbinding.rxbinding_viewpage
+    implementation deps.rxbinding.rxbinding_material
+
+    /*Paging Android Jetpack*/
+    implementation deps.paging
+
+    implementation(deps.glide.glide) {
+        exclude group: "com.android.support"
+    }
+    implementation deps.glide.annotations
+
+    implementation deps.guava.android
+
+    implementation deps.gson
+
+    implementation deps.rx.java2
+    implementation deps.rx.android
+
+    implementation deps.work.work_runtime
+    implementation deps.work.work_runtime_ktx
+    implementation deps.work.work_rxjava2
+
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.runtime_ktx
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.java8
+    annotationProcessor deps.lifecycle.compiler
+
+    implementation deps.lottie
+
+    implementation deps.exoplayer
+
+    implementation deps.camera.camera2
+    implementation deps.camera.core
+    implementation deps.camera.lifecycle
+
+    implementation deps.kotlinx_coroutines_core
+
+    implementation deps.core_ktx
+    implementation deps.fragment
+    implementation deps.fragment_ktx
+    implementation deps.activity_ktx
+
+    implementation deps.eventbus
+
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    implementation deps.face_detection
+
+    annotationProcessor deps.glide.compiler
+    kapt deps.glide.compiler
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation 'com.makeramen:roundedimageview:2.1.0'
+}
+
+
+

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.halo"
+    android:installLocation="auto">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/hahalolo_app_name">
+        <dist:delivery>
+            <dist:on-demand />
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <!-- Permission -->
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <!--
+    Apps wanting to use foreground services must now request the FOREGROUND_SERVICE permission first.
+    This is a normal permission, so the system automatically grants it to the requesting ```app.
+    Starting a foreground service without the permission throws a SecurityException.
+    -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!--
+    Fatal Exception: java.lang.RuntimeException: Unable to stop activity
+    {com.hahalolo.android.social/com.halo.presentation.startapp.signin.SignInAct}:
+    java.lang.SecurityException: get application info: Neither user 1010187 nor current process has android.permission.INTERACT_ACROSS_USERS.
+    Fix bug Xiaomi error https://stackoverflow.com/questions/28134128/android-permission-interact-across-users-full/45057190
+    -->
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel="signature" />
+    <!-- Support screen -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <!-- Require hardware -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- ================== NOTES ================== -->
+
+    <!--
+     https://stackoverflow.com/questions/48072438/java-lang-illegalstateexception-only-fullscreen-opaque-activities-can-request-o
+     Nêú sử dụng android:theme="@style/TranslucentWindow"
+     <item name="android:windowIsTranslucent">true</item>
+     <item name="android:windowBackground">@android:color/transparent</item>
+     Thì không được sử dụng android:screenOrientation="portrait" trong activity.
+     Phải sử dụng android:configChanges="orientation|screenSize"
+     Vì ở android 28 sẽ xảy ra lỗi
+     -->
+
+    <!-- ================== END NOTES ================== -->
+
+    <!--https://developer.android.com/about/versions/10/privacy/changes-->
+    <application
+        android:name=".presentation.MessApplication"
+        android:allowBackup="true"
+        tools:replace="android:allowBackup"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/hahalolo_app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/MessengerTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity"
+        tools:targetApi="q">
+        <!-- Google Play Service -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key" />
+        <!--
+        Update: This is no longer a bug or a workaround, it is required if your app targets API Level 28 (Android 9.0)
+        or above and uses the Google Maps SDK for Android 16.0.0 or below (or if your app uses the Apache HTTP Legacy library).
+        It is now included in the official docs. The public issue has been closed as intended behavior.
+
+        This is a bug on the Google Play Services side, until it's fixed,
+        you should be able to workaround by adding this to your AndroidManifest.xml inside the <application> tag:
+        -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <!-- Google Vision -->
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+        <!-- Start App -->
+        <activity
+            android:name=".presentation.startapp.start.LauncherAct"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--Sử dụng cho việc gọi từ App Hahalolo.-->
+            <intent-filter>
+                <action android:name="com.hahalolo.android.halome" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.startapp.start.StartAct"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.Start" />
+        <activity
+            android:name=".presentation.startapp.signin.SignInAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.Login"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".presentation.startapp.haslogin.SignInHasLoginAct"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.Login"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Receiving simple data from other apps -->
+        <!-- https://developer.android.com/training/sharing/receive.html -->
+        <activity
+            android:name=".presentation.startapp.share.ShareHandlerAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/MessengerTheme.TranslucentWindow">
+            <intent-filter android:label="@string/hahalolo_app_name">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/hahalolo_app_name">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/hahalolo_app_name">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter android:label="@string/hahalolo_app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/hahalolo_app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- https://medium.com/@muratcanbur/intro-to-deep-linking-on-android-1b9fe9e38abd -->
+        <!-- https://developer.android.com/training/app-links -->
+        <activity
+            android:name=".presentation.startapp.deeplink.DeepLinkHandlerAct"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/MessengerTheme.TranslucentWindow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="details?id=com.hahalolo.android.halome"
+                    android:scheme="market" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hahalolo.com"
+                    android:pathPrefix="/post"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hahalolo.com"
+                    android:pathPrefix="/tour"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hahalolo.com"
+                    android:pathPrefix="/u"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hahalolo.com"
+                    android:pathPrefix="/p"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hahalolo.com"
+                    android:pathPrefix="/flights"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".presentation.common.language.LanguageAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme" />
+
+        <activity
+            android:name=".presentation.gallery.MediaAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme" />
+
+        <!-- Media -->
+        <activity
+            android:name=".presentation.mediaviewer.MediaViewerAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme.MediaViewer" />
+
+
+        <!-- Search -->
+        <activity
+            android:name=".presentation.search.general.SearchAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.setting.SettingAct"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MessengerTheme" />
+
+        <!-- Provider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public" />
+        </provider>
+
+        <!-- WorkManager -->
+        <provider
+            android:name="androidx.work.impl.WorkManagerInitializer"
+            android:authorities="${applicationId}.workmanager-init"
+            tools:node="remove" />
+
+        <!-- restart app -->
+        <activity android:name=".presentation.common.language.v2.ProcessPhoenix" />
+    </application>
+
+</manifest>

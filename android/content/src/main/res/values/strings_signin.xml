@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Sign In -->
+    <string name="sign_in_title">Log in</string>
+    <string name="sign_in_username_hint">"Phone number or email "</string>
+    <string name="sign_in_password_hint">Password</string>
+    <string name="sign_in_username_error_null">Phone number or email is required</string>
+    <string name="sign_in_username_error_phone_email_regex">Phone number or Email is required</string>
+    <string name="sign_in_password_error_null">Password is required</string>
+    <string name="sign_in_handler_button">Log in</string>
+    <string name="sign_in_sign_up_handler_button_caption">Do not have an account?</string>
+    <string name="sign_in_sign_up_handler_button">Sign up</string>
+    <string name="sign_in_forgot_password_handler_button">Forgot password ?</string>
+    <string name="sign_in_choose_vietnamese">Tiếng Việt</string>
+    <string name="sign_in_choose_english">English</string>
+    <string name="sign_in_error_login_message">The login information provided does not match any accounts. Please try again</string>
+    <string name="sign_in_error_login_positive">Sign up</string>
+    <string name="sign_in_error_login_negative">Try again</string>
+    <!-- End Sign In -->
+</resources>

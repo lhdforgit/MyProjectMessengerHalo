@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="incognito_primary">#1767fd</color>
+    <color name="incognito_primary_light">#659BFF</color>
+    <color name="incognito_primary_dark">#003ec9</color>
+    <color name="incognito_text_primary">@color/incognito_primary</color>
+    <color name="incognito_text_notice">#ff0000</color>
+    <color name="incognito_icon_tint_primary">@color/incognito_primary</color>
+    <color name="incognito_icon_tint_notice">@color/incognito_text_notice</color>
+    <color name="incognito_background_divider">#E9E9E9</color>
+    <color name="incognito_menu_circle_cancel">#666666</color>
+    <color name="incognito_menu_circle_item_1">#659BFF</color>
+    <color name="incognito_menu_circle_item_2">#4E8CFF</color>
+    <color name="incognito_menu_circle_item_3">#387DFF</color>
+    <color name="incognito_menu_circle_item_4">#1767fd</color>
+    <color name="incognito_bottom_sheet_background_divider">#80666666</color>
+
+
+    <color name="incognitoMsgBubbleInComing">#E9E9E9</color>
+    <color name="incognitoMsgBubbleOutComing">#D9E7FF</color>
+
+</resources>

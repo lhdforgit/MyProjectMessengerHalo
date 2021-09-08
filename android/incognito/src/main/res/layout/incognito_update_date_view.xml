@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Ngày sinh" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_incognito_public"
+                android:drawablePadding="@dimen/activity_small_s"
+                android:text="Công khai" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginStart="@dimen/activity_normal_s">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/day_tv"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:background="@drawable/bg_incognito_border_common_all"
+                android:drawableEnd="@drawable/ic_incognito_extend"
+                android:padding="@dimen/activity_normal_s"
+                android:text="Ngày" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/month_tv"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:background="@drawable/bg_incognito_border_common_all"
+                android:drawableEnd="@drawable/ic_incognito_extend"
+                android:padding="@dimen/activity_normal_s"
+                android:text="Tháng" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/year_tv"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_incognito_border_common_all"
+                android:drawableEnd="@drawable/ic_incognito_extend"
+                android:padding="@dimen/activity_normal_s"
+                android:text="Năm" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/save_btn"
+            style="@style/Incognito.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:gravity="center"
+            android:text="Lưu"
+            android:textColor="#1767FD"
+            android:textSize="@dimen/activity_normal_plus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_tv"
+            style="@style/Incognito.TextView.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_normal_s"
+            android:gravity="center"
+            android:text="Hủy"
+            android:textSize="@dimen/activity_normal_plus" />
+
+    </LinearLayout>
+
+</layout>

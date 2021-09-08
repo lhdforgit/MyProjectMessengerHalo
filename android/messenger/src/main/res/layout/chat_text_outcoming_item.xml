@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/messageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/messageTime"
+            style="@style/Messenger.ChatKit.OutcomingText.Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textSize="12sp" />
+
+        <com.hahalolo.swipe.SwipeLayout
+            android:id="@+id/messageSwipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:leftEdgeSwipeOffset="0dp"
+            app:rightEdgeSwipeOffset="0dp"
+            app:show_mode="lay_down"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/messageSwipeQuote"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:alpha="0"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:src="@drawable/ic_quote"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_vertical_margin"
+                android:gravity="end|bottom"
+                >
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@id/messageBubble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/message_outcoming_bubble_margin_left"
+                    android:layout_marginEnd="0dp"
+                    app:alignContent="stretch"
+                    app:alignItems="stretch"
+                    app:flexWrap="wrap"
+                    app:justifyContent="flex_end">
+
+                    <com.hahalolo.messager.chatkit.holder.view.ChatMessageTextView
+                        android:id="@+id/messageText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.hahalolo.messager.chatkit.view.MessageLinkView
+                        android:layout_marginTop="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/messageLink"
+                        />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <View
+                    android:id="@+id/overLay"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignStart="@id/messageBubble"
+                    android:layout_alignTop="@id/messageBubble"
+                    android:layout_alignEnd="@id/messageBubble"
+                    android:layout_alignBottom="@id/messageBubble" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/messageErrorRemove"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignTop="@id/overLay"
+                    android:layout_alignEnd="@id/overLay"
+                    android:visibility="gone"
+                    android:layout_gravity="end"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_remove_red" />
+
+                <LinearLayout
+                    android:id="@+id/messageSending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/overLay"
+                    android:layout_toStartOf="@id/overLay"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/pbHeaderProgress"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginEnd="4dp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/Messenger.ChatKit.OutcomingText.Status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chat_message_sending"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/messageSendError"
+                    style="@style/Messenger.ChatKit.OutcomingText.Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/overLay"
+                    android:layout_marginEnd="4dp"
+                    android:layout_toStartOf="@id/overLay"
+                    android:text="@string/media_retry_load"
+                    android:textColor="@color/badges"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/messageStatusEdit"
+                    android:layout_width="20dp"
+                    android:visibility="gone"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@id/overLay"
+                    android:layout_marginEnd="4dp"
+                    android:layout_toStartOf="@id/overLay"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/ic_edit_msg" />
+
+                <com.hahalolo.messager.chatkit.view.ChatReactionView
+                    android:visibility="gone"
+                    android:id="@+id/messageReactionItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/overLay"
+                    android:layout_alignEnd="@id/overLay"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="-8dp" />
+            </RelativeLayout>
+        </com.hahalolo.swipe.SwipeLayout>
+
+        <com.hahalolo.messager.chatkit.view.MessageReaderItem
+            android:visibility="gone"
+            android:id="@+id/messageReaderItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin" />
+    </LinearLayout>
+
+</layout>

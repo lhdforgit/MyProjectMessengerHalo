@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+  <attr name="keepAspectRatio"
+      format="boolean"/>
+  <attr name="isFlipHorizontal"
+      format="boolean"/>
+  <attr name="isFlipVertical"
+      format="boolean"/>
+<!--  FILL, ADJUST-->
+  <attr name="aspectRatioMode" format="enum">
+    <enum name="adjust" value="0"/>
+    <enum name="fill" value="1"/>
+    <enum name="adjust_rotate" value="2"/>
+    <enum name="fill_rotate" value="3"/>
+  </attr>
+
+  <declare-styleable name="OpenGlView">
+    <attr name="AAEnabled"
+        format="boolean"/>
+    <attr name="numFilters"
+        format="integer"/>
+    <attr name="keepAspectRatio"/>
+    <attr name="aspectRatioMode"/>
+    <attr name="isFlipHorizontal"/>
+    <attr name="isFlipVertical"/>
+  </declare-styleable>
+
+  <declare-styleable name="LightOpenGlView">
+    <attr name="keepAspectRatio"/>
+    <attr name="aspectRatioMode"/>
+    <attr name="isFlipHorizontal"/>
+    <attr name="isFlipVertical"/>
+  </declare-styleable>
+
+  <attr name="conversation_list_toolbar_background" format="reference" />
+  <attr name="mediapicker_image_outline" format="reference" />
+  <attr name="conversation_transport_sms_indicator" format="reference" />
+  <attr name="tooltip_default_color" format="reference|color" />
+  <attr name="dialog_background_color" format="reference|color" />
+  <attr name="conversation_icon_attach_video" format="reference" />
+  <attr name="camera_button_style" />
+
+  <declare-styleable name="VerticalSlideColorPicker">
+    <attr name="pickerBorderColor" format="color" />
+    <attr name="pickerBorderWidth" format="dimension" />
+    <attr name="pickerColors" format="reference" />
+  </declare-styleable>
+
+  <declare-styleable name="ThumbnailView">
+    <attr name="thumbnail_radius" format="dimension" />
+    <attr name="thumbnail_fit" format="enum">
+      <enum name="center_crop" value="0" />
+      <enum name="fit_center" value="1" />
+    </attr>
+    <attr name="thumbnail_control" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="OutlinedThumbnailView">
+    <attr name="otv_cornerRadius" format="dimension|reference" />
+    <attr name="otv_borderColor" format="color|reference" />
+  </declare-styleable>
+
+  <declare-styleable name="CameraButtonView">
+    <attr name="imageCaptureSize" format="dimension" />
+    <attr name="recordSize" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="CameraXView">
+    <attr format="enum" name="scaleType">
+      <enum name="centerCrop" value="0"/>
+      <enum name="centerInside" value="1"/>
+    </attr>
+    <attr format="enum" name="lensFacing">
+      <enum name="none" value="0"/>
+      <enum name="front" value="1"/>
+      <enum name="back" value="2"/>
+    </attr>
+    <attr format="enum" name="captureMode">
+      <enum name="image" value="0"/>
+      <enum name="video" value="1"/>
+      <enum name="mixed" value="2"/>
+    </attr>
+    <attr format="enum" name="flash">
+      <enum name="auto" value="1"/>
+      <enum name="on" value="2"/>
+      <enum name="off" value="4"/>
+    </attr>
+
+    <attr format="boolean" name="pinchToZoomEnabled"/>
+  </declare-styleable>
+
+  <declare-styleable name="PreviewView">
+    <attr format="enum" name="implementationMode">
+      <enum name="surfaceView" value="0"/>
+      <enum name="textureView" value="1"/>
+    </attr>
+  </declare-styleable>
+</resources>

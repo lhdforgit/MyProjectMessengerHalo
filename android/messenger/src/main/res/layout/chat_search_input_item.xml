@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/layout_search_input"
+            android:layout_marginTop="@dimen/messenger_vertical_margin"
+            android:layout_marginBottom="@dimen/messenger_vertical_margin"
+            android:layout_marginStart="@dimen/messenger_vertical_margin"
+            android:layout_marginEnd="@dimen/messenger_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/messenger_search_view_bg"
+            android:layout_height="@dimen/messenger_search_height"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <com.halo.widget.HaloEditText
+                android:id="@+id/search_tv"
+                style="@style/Messenger.EditText.Search"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:hint="@string/common_search_hint"
+                android:textSize="17sp"
+                tools:ignore="RtlHardcoded"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_close"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:visibility="invisible"
+                android:padding="@dimen/activity_small_s"
+                android:src="@drawable/ic_close"
+                app:srcCompat="@drawable/ic_close"
+                />
+        </LinearLayout>
+    </FrameLayout>
+</layout>

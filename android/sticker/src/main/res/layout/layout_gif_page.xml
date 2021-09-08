@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.halo.widget.HaloEditText
+        android:id="@+id/input_search"
+        style="@style/Messenger.EditText.Background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="1dp"
+        android:hint="search"
+        android:imeOptions="actionSearch"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gif_rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0.5dp" />
+
+        <RelativeLayout
+            android:id="@+id/loading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/text_body"
+                android:foregroundTint="@color/text_body"
+                android:gravity="center"
+                android:progressBackgroundTint="@color/text_body"
+                android:progressTint="#000000"
+                android:secondaryProgressTint="@color/text_body"
+
+                />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/no_result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_background"
+            android:gravity="center"
+            android:text="No result" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

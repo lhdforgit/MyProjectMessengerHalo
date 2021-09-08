@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.halo.widget.HaloEditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/divider" />
+
+        <View
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/giphy_gr"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.halo.widget.sticker.gif_gr.GiphyView
+                android:id="@+id/giphy_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/quote_gr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.hahalolo.messager.chatkit.view.MessageQuoteInputView
+                android:id="@+id/message_quote_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingEnd="@dimen/activity_vertical_margin">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/select_image_camera_bt"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_chat_message_camera_photo" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/select_image_gallery_bt"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_chat_message_photo_upload" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/select_file_bt"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="12dp"
+                app:srcCompat="@drawable/ic_chat_message_file_upload" />
+
+            <com.hahalolo.messager.chatkit.view.input.MessageInput
+                android:id="@+id/message_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:inputHint="@string/chat_message_input_hint" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider_line" />
+
+        <LinearLayout
+            android:id="@+id/tab_sticker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="@dimen/halo_btn_height_small"
+                android:layout_marginEnd="16dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/gif_card_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="1dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="6dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ic_chat_gifcard_2021" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sticker_bt"
+                style="@style/Messenger.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/halo_btn_height_small"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/chat_message_input_sticker"
+                android:textSize="12sp"
+                tools:ignore="RtlHardcoded" />
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="@dimen/halo_btn_height_small"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/giphy_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="1dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ic_giphy" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>
+

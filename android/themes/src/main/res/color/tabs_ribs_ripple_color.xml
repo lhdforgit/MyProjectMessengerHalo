@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Selected. -->
+
+    <item android:alpha="0.08" android:color="@color/app_background" android:state_pressed="true" android:state_selected="true" />
+    <item android:alpha="0.16" android:color="@color/app_background" android:state_focused="true" android:state_hovered="true" android:state_selected="true" />
+    <item android:alpha="0.12" android:color="@color/app_background" android:state_focused="true" android:state_selected="true" />
+    <item android:alpha="0.04" android:color="@color/app_background" android:state_hovered="true" android:state_selected="true" />
+    <item android:alpha="0.00" android:color="@color/app_background" android:state_selected="true" />
+
+    <!-- Unselected. -->
+
+    <item android:alpha="0.08" android:color="@color/text_secondary" android:state_pressed="true" />
+    <item android:alpha="0.16" android:color="@color/text_secondary" android:state_focused="true" android:state_hovered="true" />
+    <item android:alpha="0.12" android:color="@color/text_secondary" android:state_focused="true" />
+    <item android:alpha="0.04" android:color="@color/text_secondary" android:state_hovered="true" />
+    <item android:alpha="0.00" android:color="@color/text_secondary" />
+
+</selector>

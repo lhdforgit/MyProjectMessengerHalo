@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active tab -->
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/app_background" />
+            <stroke android:width="2dp" android:color="@color/primary" />
+        </shape>
+    </item>
+    <!-- Inactive tab -->
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/app_background" />
+            <stroke android:width="0dp" android:color="@color/primary" />
+        </shape>
+    </item>
+    <!-- Pressed tab -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/app_background" />
+            <stroke android:width="2dp" android:color="@color/primary" />
+        </shape>
+    </item>
+    <!-- Selected tab (using d-pad) -->
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/app_background" />
+            <stroke android:width="2dp" android:color="@color/primary" />
+        </shape>
+    </item>
+    <!-- Default -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/app_background" />
+            <stroke android:width="2dp" android:color="@color/primary" />
+        </shape>
+    </item>
+</selector>

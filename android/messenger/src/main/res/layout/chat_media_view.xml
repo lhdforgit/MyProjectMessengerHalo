@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/media_iv"
+            android:layout_width="match_parent"
+            android:background="@color/img_holder"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/video_media_iv"
+            android:layout_width="48dp"
+            android:layout_centerInParent="true"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_play_video"
+            app:srcCompat="@drawable/ic_play_video"
+        />
+    </RelativeLayout>
+
+</layout>

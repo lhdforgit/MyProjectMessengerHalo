@@ -1,0 +1,90 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        buildConfigField 'int', 'VERSION_CODE', "${build_versions.version_code}"
+        buildConfigField 'String', 'VERSION_NAME', "\"${build_versions.version_name}\""
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility', "-XXLanguage:+InlineClasses"]
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation project(':di')
+    implementation project(':data')
+    implementation project(':common')
+
+    /* Android */
+    implementation deps.androidx.app_compat
+
+    /* Firebase Message */
+    implementation platform(deps.firebase.bom)
+    implementation deps.firebase.firebase_messaging
+    implementation deps.firebase.firebase_analytics
+
+    /* Work Manager Android Jetpack */
+    implementation deps.work.work_runtime
+    implementation deps.work.work_runtime_ktx
+    implementation deps.work.work_rxjava2
+    implementation deps.work.work_gcm
+    implementation deps.work.work_multiprocess
+
+    /* Dagger */
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    /* Kotlin */
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation deps.kotlinx_coroutines_core
+}

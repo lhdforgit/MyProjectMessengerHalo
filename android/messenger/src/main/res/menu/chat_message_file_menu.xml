@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/detail_bt"
+        android:title="@string/chat_message_file_detail"/>
+    <item
+        android:id="@+id/download_bt"
+        android:title="@string/chat_message_download"/>
+</menu>

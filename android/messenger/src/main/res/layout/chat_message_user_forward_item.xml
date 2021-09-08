@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="requestManager"
+            type="com.bumptech.glide.RequestManager" />
+
+        <variable
+            name="send"
+            type="boolean" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_avatar"
+            app:glideTransform="@{1}"
+            app:requestManager="@{requestManager}"
+            app:size="@{com.halo.common.utils.ThumbImageUtils.Size.AVATAR_LARGE}"
+            app:typeSize="@{com.halo.common.utils.ThumbImageUtils.TypeSize._1_1}"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/username_tv"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingEnd="@dimen/activity_vertical_margin"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                style="@style/Messenger.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:visibility="@{send?View.GONE:View.VISIBLE}" />
+
+            <Button
+                android:visibility="@{send?View.VISIBLE:View.GONE}"
+                style="@style/Messenger.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Undo" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <attr name="shape_type" format="enum" >
+            <enum name="RECTAGE" value="0"/>
+            <enum name="OVAL" value="1"/>
+            <enum name="CIRCLE" value="2"/>
+            <enum name="DRAWABLE" value="3"/>
+            <enum name="AVATAR" value="4"/>
+        </attr>
+        <attr name="oval_radius" format="integer"/>
+        <attr name="ratio_radius" format="float"/>
+        <attr name="drawable_res" format="reference"/>
+        <attr name="boder" format="boolean"/>
+        <attr name="shadow" format="boolean"/>
+        <attr name="boder_width" format="integer"/>
+        <attr name="boder_color" format="color"/>
+    </declare-styleable>
+</resources>

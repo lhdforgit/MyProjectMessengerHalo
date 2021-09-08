@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Notification -->
+    <string name="notification_accept_friend">%1$s đã xác nhận lời mời kết bạn của bạn. Hãy viết gì đó lên dòng thời gian của %2$s</string>
+    <string name="notification_comment_post">%s đã bình luận trong bài viết của bạn %s</string>
+    <string name="notification_like_post">%s đã bày tỏ cảm xúc về một bài viết của bạn %s</string>
+    <string name="notification_share_post"> %s đã chia sẻ bài viết của bạn </string>
+    <string name="notification_title">Thông báo</string>
+    <string name="notification_comment_comment_post">%1$s đã phản hồi trong bình luận của bạn %2$s</string>
+    <string name="post">bài viết</string>
+    <string name="notification_like_a_comment">%s đã bày tỏ cảm xúc về bình luận của bạn %s </string>
+    <string name="notification_create_post">%s đã đề cập bạn trong một bài viết</string>
+    <string name="noti_page_request_cancel_order_user">Đơn hàng %s đã được trang %s yêu cầu huỷ, và đang chờ xác nhận từ hệ thống</string>
+    <string name="notification_user_react_tour">%1$s đã bày tỏ cảm xúc về tour %2$s</string>
+    <string name="notification_user_react_shop">%1$s đã bày tỏ cảm xúc về cửa hàng %2$s</string>
+    <string name="notification_user_react_hotel">%1$s đã bày tỏ cảm xúc về khách sạn %2$s</string>
+    <string name="notification_user_react_page">%1$s đã bày tỏ cảm xúc về trang %2$s</string>
+    <string name="notification_user_grad_post">Bạn vừa tặng điểm 10 bài viết của %s</string>
+    <string name="notification_user_receive_grad">%s vừa tặng điểm 10 cho bài viết của bạn</string>
+    <string name="notification_user_receive_grad_wallet_not_exists">%s vừa tặng điểm 10 cho bài viết của bạn. Vui lòng tạo tài khoản thanh toán cá nhân để nhận</string>
+    <string name="notification_invite_like_page">%1$s đã mời bạn Haha trang %2$s</string>
+    <string name="noti_usr_req_join_pag">%1$s đã gửi yêu cầu tham gia trang %2$s của bạn</string>
+    <string name="noti_pag_inv_usr">Trang %s đã mời bạn làm thành viên</string>
+    <string name="noti_usr_acce_inv">%1$s đã tham gia trang %2$s của bạn</string>
+    <string name="noti_pag_appr_req_join">Yêu cầu tham gia trang %s của bạn đã được chấp thuận</string>
+    <string name="notification_friend_mention_user_in_comment">%s đã đề cập bạn trong một bình luận</string>
+    <string name="notification_user_react_comment_user_tagged">%s đã bày tỏ cảm xúc về bình luận mà bạn được đề cập %s</string>
+    <string name="notification_user_react_post_user_tagged">%s đã bày tỏ cảm xúc về bài viết mà bạn được đề cập</string>
+    <string name="notification_perple_react_user_photo">%s đã bày tỏ cảm xúc về ảnh của bạn</string>
+    <string name="notification_perple_react_user_video">%s đã bày tỏ cảm xúc về video của bạn</string>
+    <string name="notification_perple_comment_user_photo">%s đã bình luận về ảnh của bạn</string>
+    <string name="notification_perple_comment_user_video">%s đã bình luận về video của bạn</string>
+    <string name="notification_business_verity_has_devy">Yêu cầu xác thực thông tin tài khoản kinh doanh %s đã bị từ chối</string>
+    <string name="noti_business_send_verify_info">Tài khoản kinh doanh %s gửi yêu cầu xác thực thông tin kinh doanh</string>
+    <string name="noti_business_has_verified">Yêu cầu xác thực thông tin của doanh nghiệp %s đã được duyệt</string>
+    <string name="noti_request_verify_business_infor_has_approved">Yêu cầu xác thực thông tin tài khoản kinh doanh %s đã được phê duyệt</string>
+    <string name="noti_request_verify_business_infor_has_denied">Yêu cầu xác thực thông tin tài khoản kinh doanh %s đã bị từ chối</string>
+    <string name="noti_business_change_role_employee">Vai trò của bạn trong trang %s đã được thay đổi</string>
+    <string name="noti_action_accpted">Bạn đã chấp nhận yêu cầu</string>
+    <string name="noti_guider_decline_page_invite">" %1$s đã từ chối lời mời làm Hướng dẫn viên cho trang %2$s của bạn"</string>
+    <string name="noti_guider_accept_page_invite">" %1$s đã chấp nhận lời mời làm Hướng dẫn viên cho trang %2$s của bạn"</string>
+    <string name="noti_add_user_into_business">%s đã mời bạn làm việc cho tài khoản kinh doanh của họ trên Hahalolo</string>
+    <string name="noti_employee_accept_busi_invite">%s đã chấp nhận lời mời tham gia tài khoản kinh doanh của bạn</string>
+    <string name="noti_employee_reject_busi_invite">%s đã từ chối lời mời tham gia tài khoản kinh doanh của bạn</string>
+    <string name="halo_noti_share_post">%s đã chia sẻ bài viết của bạn</string>
+    <string name="noti_page_invite_guider">" %s đã mời bạn làm hướng dẫn viên cho Trang"</string>
+    <string name="notify_business_accept">Bạn đã đồng ý tham gia doanh nghiệp</string>
+    <string name="noti_accept_invite_like_page">Bạn đã Haha trang này</string>
+    <string name="notify_page_accept">Bạn đã đồng ý haha trang</string>
+    <string name="noti_ti_deny_invite_like_page">Bạn đã từ chối lời mời này</string>
+    <string name="noti_order_has_confirmed_by_page">Đơn hàng %1$s đã được trang %2$s xác nhận thành công</string>
+    <string name="noti_user_request_cancel_order">Đơn hàng %1$s của trang %2$s đã được yêu cầu huỷ. Vui lòng chờ thông báo xác nhận huỷ của trang</string>
+    <string name="noti_user_request_cancel_order_of_page">Đơn hàng %1$s của trang %2$s đã được yêu cầu huỷ. Vui lòng xác nhận yêu cầu huỷ</string>
+    <string name="noti_page_request_cancel_order_need_info_refund">Đơn hàng %1$s đã được trang %2$s yêu cầu huỷ. Vui lòng nhập thông tin để được hoàn tiền</string>
+    <string name="noti_page_request_cancel_order">Đơn hàng %1$s đã được trang %2$s yêu cầu huỷ</string>
+    <string name="noti_request_cancel_has_confirmed">Yêu cầu huỷ đơn hàng %1$s đã được xác nhận</string>
+    <string name="noti_request_cancel_has_confirmed_by_page">Yêu cầu hủy đơn hàng %1$s đã được trang %2$s xác nhận</string>
+    <string name="noti_halo_confirmed_cancel_order">Đơn hàng %1$s của trang %2$s đã được xác nhận huỷ thành công, và đang trong quá trình hoàn tất</string>
+    <string name="noti_halo_confirmed_cancel_order_of_page">Đơn hàng %1$s của trang %2$s đã được xác nhận huỷ thành công, và đang trong quá trình hoàn tất</string>
+    <string name="noti_order_has_cancelled">Bạn đã hoàn tất huỷ đơn hàng %s</string>
+    <string name="noti_order_of_page_has_cancelled">Đã hoàn tất quy trình huỷ cho đơn hàng %1$s của trang %2$s</string>
+    <string name="noti_system_request_cancel_order_need_info_refund">Đơn hàng %1$s của trang %2$s đã được Hahalolo yêu cầu huỷ. Vui lòng nhập thông tin để được hoàn tiền</string>
+    <string name="noti_system_request_cancel_order">Đơn hàng %1$s đã được Hahalolo yêu cầu huỷ</string>
+    <string name="noti_system_has_canceled_order">Đơn hàng %1$s đã bị hệ thống huỷ bởi quá thời hạn xác nhận của trang %2$s, và đang trong quá trình hoàn tất.</string>
+    <string name="noti_system_has_canceled_order_of_page">Đơn hàng %1$s đã bị hệ thống huỷ bởi quá thời hạn xác nhận của trang %2$s.</string>
+    <string name="noti_order_has_confirmed_need_pay">Đơn hàng %s đã được trang %s xác nhận thành công. Vui lòng thanh toán đơn hàng</string>
+    <string name="notification_hide">Ẩn thông báo này</string>
+    <string name="notification_chanelId">HaloChanelId</string>
+    <string name="noti_user_comment_prod">Có một bình luận mới vào sản phẩm của trang %s</string>
+    <string name="noti_accept">Bạn đã đồng ý</string>
+    <string name="noti_deny">Bạn đã từ chối</string>
+    <string name="noti_btn_accept">Đồng ý</string>
+    <string name="noti_btn_deny">Từ chối</string>
+    <string name="noti_order_has_confirmed">Đơn hàng %s đã được trang %s xác nhận thành công</string>
+    <string name="noti_user_review_page">Trang %1$s vừa có 1 đánh giá mới từ %2$s</string>
+    <string name="noti_user_react_review">%1$s vừa bày tỏ cảm xúc về đánh giá của bạn</string>
+    <string name="noti_user_comm_review">%1$s vừa bình luận vào đánh giá của bạn</string>
+    <string name="noti_stopped_livestream_success">LiveStream đã kết thúc</string>
+    <string name="noti_started_livestream_success">Đã phát liveStream</string>
+    <string name="noti_user_started_livestream">%1$s đã phát trực tiếp</string>
+    <string name="noti_user_stopped_livestream">%1$s ngừng phát trực tiếp</string>
+    <string name="noti_inst_tour_prepay_success">Bạn đã đặt và trả trước %1$s cho đơn hàng tour trả góp %2$s</string>
+    <string name="noti_usr_inv_usr_join_pag_evt">%1$s đã mời bạn tham dự sự kiện %2$s</string>
+    <string name="noti_usr_join_pag_evt">%1$s đã tham dự sự kiện %2$s</string>
+    <string name="noti_usr_acce_inv_pag_evt">%1$s đã đồng ý tham dự sự kiện %2$s</string>
+    <string name="noti_usr_intersted_pag_evt">%1$s đã quan tâm sự kiện %2$s</string>
+    <string name="noti_usr_inv_join_pag">%1$s đã mời bạn làm thành viên của trang %2$s</string>
+    <string name="noti_user_react_user_img">%1$s đã bày tỏ cảm xúc về hình ảnh của bạn</string>
+    <string name="noti_user_react_user_vid">%1$s đã bày tỏ cảm xúc về video của bạn</string>
+    <string name="noti_user_comment_user_vid">"%1$s đã bình luận về video của bạn "</string>
+    <string name="noti_user_comment_user_img">"%1$s đã bình luận về hình ảnh của bạn "</string>
+    <string name="noti_halo_create_order_success">Đơn hàng %s đã được tạo thành công</string>
+    <string name="noti_halo_create_order_success_of_page">Đơn hàng %1$s của trang %2$s đã được tạo thành công</string>
+    <string name="noti_halo_paid_order_success">Đơn hàng %s đã được thanh toán thành công</string>
+    <string name="noti_halo_paid_order_success_page">Đơn hàng %1$s của trang %2$s đã được thanh toán thành công</string>
+    <string name="friend_sent_request">đã gửi yêu cầu kết bạn</string>
+    <string name="friend_request_confirm">Đồng ý</string>
+    <!-- End Notification -->
+</resources>

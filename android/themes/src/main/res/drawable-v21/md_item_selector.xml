@@ -1,0 +1,22 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/md_item_shape" />
+
+    <item>
+        <selector>
+            <item android:state_activated="true">
+                <color android:color="@color/text_body" />
+            </item>
+        </selector>
+    </item>
+
+</ripple>

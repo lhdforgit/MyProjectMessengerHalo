@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textview.MaterialTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Messenger.Character.H5.Light"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_margin="1dp"
+    android:background="@drawable/fastscroll_default_bubble"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:visibility="invisible"
+    tools:text="A"
+    tools:visibility="visible" />

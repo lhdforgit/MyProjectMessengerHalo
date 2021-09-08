@@ -1,0 +1,40 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="23.005dp"
+    android:height="19.303dp"
+    android:viewportWidth="23.005"
+    android:viewportHeight="19.303">
+  <path
+      android:pathData="M5.187,5.389a3,3 0,1 0,6 0v-1.778a3,3 0,1 0,-6 0Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/icon_tint_body"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M13.301,3.5a2.5,2.5 0,1 0,5 0a2.5,2.5 0,1 0,-5 0z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/icon_tint_body"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M13.077,11.104A6,6 0,0 1,22.485 14.814a0.99,0.99 0,0 1,-0.99 1.15h-4.9"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/icon_tint_body"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M8.432,10.803h0a8,8 0,0 1,7.92 6.863,1.006 1.006,0 0,1 -1,1.137L1.511,18.803a1.006,1.006 0,0 1,-1 -1.137A8,8 0,0 1,8.432 10.803Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1"
+      android:fillColor="#00000000"
+      android:strokeColor="@color/icon_tint_body"
+      android:strokeLineCap="round"/>
+</vector>

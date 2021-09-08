@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_point_at_a_barcode">Hướng máy ảnh của bạn vào mã vạch</string>
+    <string name="barcode_copy_keyboard">Copy</string>
+    <string name="barcode_open_link">Mở liên kết</string>
+    <string name="barcode_qr_code_not_found">Không tìm thấy mã QR</string>
+    <string name="barcode_qr_code_saved">Lưu mã QR thành công</string>
+    <string name="barcode_scan_qr_code">Quét mã QR</string>
+    <string name="barcode_save_qr_code">Lưu mã QR</string>
+    <string name="barcode_my_qr_code">Mã QR của tôi</string>
+    <string name="barcode_scan_image_available">Quét ảnh có sẵn</string>
+</resources>

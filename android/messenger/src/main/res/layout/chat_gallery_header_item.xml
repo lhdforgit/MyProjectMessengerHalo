@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isGroup"
+            type="Boolean" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/layout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.hahalolo.messager.chatkit.view.avatar.AvatarDetailGroupChat
+                    android:id="@+id/avatar_gr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/name_group_tv"
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/activity_normal_s"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:layout_marginEnd="@dimen/activity_normal_s"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    tools:text="Group name" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status_user"
+                    style="@style/Messenger.Character.H6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_normal_s"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/activity_normal_s"
+                    android:paddingEnd="@dimen/activity_normal_s"
+                    tools:text="Status user" />
+
+                <include
+                    android:id="@+id/menu_group"
+                    layout="@layout/chat_group_detail_menu_view"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/nick_name_chat_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nick_name_tv"
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chat_message_nickname_title" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7.Secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_vertical_margin"
+                android:background="@drawable/divider_top_bg"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:text="@string/chat_message_setting_title"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/add_user_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s"
+                android:visibility="@{isGroup ? View.VISIBLE : View.GONE}">
+
+                <TextView
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chat_message_add_people" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_members_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s"
+                android:visibility="@{isGroup ? View.VISIBLE : View.GONE}">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/chat_message_members" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/count_members_tv"
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="@{isGroup ? View.GONE : View.VISIBLE}">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7.Secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_top_bg"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:text="@string/chat_message_private_action"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/create_group_chat_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/create_group_tv"
+                    style="@style/Messenger.Character.H3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Create group with ..." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_file_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_small_s"
+            android:paddingEnd="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_small_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/chat_message_share_file" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="@{isGroup ? View.VISIBLE : View.GONE}">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/delete_group_bt"
+                style="@style/Messenger.Character.H5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_normal_s"
+                android:text="@string/chat_message_delete_conversation"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/change_name_bt"
+                style="@style/Messenger.Character.H3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s"
+                android:text="@string/chat_message_change_name" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/leave_group_bt"
+                style="@style/Messenger.Character.H3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_small_s"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_small_s"
+                android:text="@string/chat_message_leave_group" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/media_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Messenger.Character.H7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_normal_s"
+                android:text="@string/chat_message_media" />
+
+            <LinearLayout
+                android:id="@+id/share_media_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_normal_s"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:text="@string/chat_message_share_media" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/share_link_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_normal_s"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_normal_s"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/chat_message_share_link" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

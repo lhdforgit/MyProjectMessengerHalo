@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="copied_text">Copied.</string>
+    <string name="copied_link_notify">Copied link.</string>
+    <string name="clipboard_copy">%s copied to clipboard</string>
+    <string name="percent_downdloading_language">Downloading loading language</string>
+    <string name="installing_language">Installing language</string>
+
+
+</resources>

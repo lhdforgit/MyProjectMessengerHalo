@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <item name="loader_id_media_store_data" type="id" />
+    <item name="notification_editor_id" type="id" />
+    <item name="logo" type="id" />
+</resources>

@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="168dp"
+    android:viewportWidth="300"
+    android:viewportHeight="168">
+  <path
+      android:pathData="M0,0v119.2C42.1,149.3 93.8,167 149.5,167c56.2,0 108.2,-18 150.5,-48.6V0H0z"
+      android:fillColor="#F6F6F6"/>
+</vector>

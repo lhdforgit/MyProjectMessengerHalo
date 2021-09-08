@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--A primary color is the color displayed most frequently across your app's screens and components.-->
+    <!--Your primary color can be used to make a color theme for your app, including dark and light primary color variants.-->
+    <!--A secondary color provides more ways to accent and distinguish your product. Having a secondary color is optional, and should be applied sparingly to accent select parts of your UI.
+    If you don’t have a secondary color, your primary color can also be used to accent elements.
+    Secondary colors are best for:
+    - Floating action buttons
+    - Selection controls, like sliders and switches
+    - Highlighting selected text
+    - Progress bars
+    - Links and headlines-->
+    <color name="primary">#24A8D8</color>
+    <color name="primary_light">#C2F9FF</color>
+    <color name="primary_dark">#0079a6</color>
+
+    <!--Surface, background, and error colors-->
+    <color name="app_background">#ffffff</color>
+    <color name="app_background_divider">#F2F2F2</color>
+    <color name="app_background_transparent">#b9ffffff</color>
+    <color name="app_background_focus">#0AC46B</color>
+    <color name="app_background_notice">#FF3F34</color>
+    <color name="app_background_holder">#F2F2F2</color>
+    <color name="app_text_alter">#FF0406</color>
+    <color name="app_ic_toolbar_white">#555555</color>
+
+    <!--Surface colors affect surfaces of components, such as cards, sheets, and menus.-->
+    <!--The background color appears behind scrollable content. The baseline background and surface color is #FFFFFF.-->
+    <!--Error color indicates errors in components, such as invalid text in a text field. The baseline error color is #FF3F34.-->
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--Typography and iconography colors-->
+
+    <color name="badges">#FF3F34</color>
+
+    <!--Divider line color-->
+    <color name="divider">#EBEBEB</color>
+    <color name="text_input_divider">#E0E0E0</color>
+
+    <!--Holder color when Glide loading or error-->
+    <color name="img_holder">#f2f4f6</color>
+    <color name="border">#f0f1f2</color>
+
+    <color name="search_bg">#fdfdfd</color>
+    <color name="notification">#F2F8FC</color>
+
+    <!--Core App Text Color-->
+    <color name="text_primary">@color/primary</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_focus">#0AC46B</color>
+    <color name="text_notice">#FF3F34</color>
+    <color name="text_dark">#000000</color>
+    <color name="text_body">#000000</color>
+    <color name="text_secondary">#555555</color>
+    <color name="text_light">#888888</color>
+    <color name="text_lighter">#999999</color>
+
+    <!--Core App Tint Icon Color-->
+    <color name="icon_tint_primary">@color/text_primary</color>
+    <color name="icon_tint_on_primary">@color/text_on_primary</color>
+    <color name="icon_tint_body">@color/text_secondary</color>
+    <color name="icon_tint_dark">@color/text_dark</color>
+
+    <!--Button Hahalolo-->
+    <color name="button_outline_stroke">#EBEBEB</color>
+    <color name="button_outline_text">@color/text_secondary</color>
+
+    <!--Reaction-->
+    <color name="reaction_like">@color/primary</color>
+    <color name="reaction_love">#f25268</color>
+    <color name="reaction_haha">#ffd972</color>
+    <color name="reaction_wow">#ffd972</color>
+    <color name="reaction_sorry">#ffd972</color>
+    <color name="reaction_angry">#f7836c</color>
+
+    <!--EditText-->
+    <color name="editor_background">#F1F6F8</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#EBEBEB</color>
+
+    <!--Messenger Style-->
+    <color name="messenger_search_background">#F0F0F0</color>
+    <color name="messenger_search_border">#999999</color>
+    <color name="messenger_text_primary">@color/primary</color>
+    <color name="messenger_text_on_primary">#FFFFFF</color>
+    <color name="messenger_text_focus">#0AC46B</color>
+    <color name="messenger_text_notice">#FF3F34</color>
+    <color name="messenger_text_dark">#000000</color>
+    <color name="messenger_text_body">#000000</color>
+    <color name="messenger_text_secondary">#888888</color>
+    <color name="messenger_text_light">#999999</color>
+    <color name="messenger_text_lighter">#999999</color>
+
+    <color name="messenger_conversation_mess">#888888</color>
+    <color name="messenger_conversation_mess_unread">#000000</color>
+    <color name="messenger_conversation_mess_time">#888888</color>
+    <color name="messenger_suggestion_button">#F6F6F6</color>
+    <color name="messenger_suggestion_button_text">#333333</color>
+
+    <color name="messenger_conversation_swipe_background">#DDDDDD</color>
+    <color name="messenger_conversation_background">#FFFFFF</color>
+
+    <color name="messenger_incoming_bubble_text">#F0F0F0</color>
+    <color name="messenger_incoming_bubble_pressed_text">#F0F0F0</color>
+    <color name="messenger_incoming_bubble_selected_text">#F0F0F0</color>
+
+    <color name="messenger_incoming_bubble_quote_text">#E5E5E5</color>
+    <color name="messenger_incoming_bubble_quote_tick_text">#D0D0D0</color>
+
+    <color name="messenger_outcoming_bubble_text">#DBF4FD</color>
+    <color name="messenger_outcoming_bubble_pressed_text">#DBF4FD</color>
+    <color name="messenger_outcoming_bubble_selected_text">#DBF4FD</color>
+
+    <color name="messenger_outcoming_bubble_quote_text">#3DAFD8</color>
+    <color name="messenger_outcoming_bubble_quote_tick_text">#D0D0D0</color>
+
+    <color name="messenger_text_date_color">#888888</color>
+    <color name="messenger_text_notification_color">#888888</color>
+
+    <color name="messenger_incoming_text_color">#000000</color>
+    <color name="messenger_incoming_text_link_color">@color/primary</color>
+    <color name="messenger_incoming_text_removed_color">#88000000</color>
+    <color name="messenger_incoming_text_time_color">#888888</color>
+    <color name="messenger_incoming_text_file_color">#000000</color>
+    <color name="messenger_incoming_text_username_color">#888888</color>
+
+    <color name="messenger_outcoming_text_color">#000000</color>
+    <color name="messenger_outcoming_text_link_color">@color/primary</color>
+    <color name="messenger_outcoming_text_removed_color">#88000000</color>
+    <color name="messenger_outcoming_text_time_color">#888888</color>
+    <color name="messenger_outcoming_text_file_color">#000000</color>
+    <color name="messenger_outcoming_text_status_color">#888888</color>
+
+    <color name="messenger_create_group_bg_color">#F6F6F6</color>
+    <color name="messenger_new_message_count_bg_color">#FF0406</color>
+    <color name="messenger_input_quote_bg_color">#FFFFFF</color>
+
+    <!--End Messenger Style-->
+
+    <color name="bg_sticker_tab_selected_color">#F6F6F6</color>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="owner"
+            type="boolean" />
+
+        <variable
+            name="notFriend"
+            type="boolean" />
+
+        <variable
+            name="isPage"
+            type="boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/messenger_conversation_height"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="@dimen/messenger_vertical_margin"
+        android:paddingLeft="@dimen/messenger_vertical_margin"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/messenger_vertical_margin"
+        android:paddingRight="@dimen/messenger_vertical_margin"
+        android:paddingBottom="12dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="@dimen/messenger_avatar_medium_size"
+            android:layout_height="@dimen/messenger_avatar_medium_size"
+            android:background="@drawable/circle_avatar"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/info_gr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/barrier"
+            app:layout_constraintStart_toEndOf="@+id/avatar_img"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/username_tv"
+                style="@style/Messenger.TextView.ConversationName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/caption_tv"
+                style="@style/Messenger.Character.H7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username_tv" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- If user is owner, is friendly, hide this -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/add_friend_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:scaleType="centerInside"
+            android:visibility="@{(notFriend &amp;&amp; !owner &amp;&amp; !isPage)? android.view.View.VISIBLE : android.view.View.GONE}"
+            app:layout_constraintBottom_toBottomOf="@id/avatar_img"
+            app:layout_constraintEnd_toStartOf="@+id/chat_friend_iv"
+            app:layout_constraintTop_toTopOf="@id/avatar_img"
+            app:srcCompat="@drawable/ic_add_friend" />
+
+        <!-- If user is owner hide this -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/chat_friend_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:visibility="@{owner ||isPage? android.view.View.GONE : android.view.View.VISIBLE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_message" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="left"
+            app:constraint_referenced_ids="add_friend_iv,chat_friend_iv" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

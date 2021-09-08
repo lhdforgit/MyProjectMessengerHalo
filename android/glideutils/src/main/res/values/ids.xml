@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <item name="tag_glide" type="id" />
+    <item name="tag_view_lifecycle_manager" type="id" />
+    <item name="tag_view_lifecycle_bind_fragment" type="id" />
+</resources>

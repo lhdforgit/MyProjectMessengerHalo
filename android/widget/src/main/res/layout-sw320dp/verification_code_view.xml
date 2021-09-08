@@ -1,0 +1,193 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_zero"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="0"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:cardCornerRadius="3dp"
+            tools:text="0" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_one"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="1"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:elevation="2dp"
+            tools:text="1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_two"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="2"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:elevation="2dp"
+            tools:text="2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_three"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="3"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:elevation="2dp"
+            tools:text="3" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_four"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="4"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:elevation="2dp"
+            tools:text="4" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/code_five"
+            style="@style/Messenger.Character.H5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edit_text_vertify"
+            android:contentDescription="5"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:hint="*"
+            android:imeOptions="actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:elevation="2dp"
+            tools:text="5" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "222632457252",
+    "firebase_url": "https://messenger-sandbox-6ae38.firebaseio.com",
+    "project_id": "messenger-sandbox-6ae38",
+    "storage_bucket": "messenger-sandbox-6ae38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222632457252:android:76358fa7e0b01c64a8d4b1",
+        "android_client_info": {
+          "package_name": "com.hahalolo.android.halome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222632457252-5e7r9ao3numnicr3c8p8fohsofh7r58r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANw5GKiAdVKFtCLIY7xnOETgNtYZ-qNpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222632457252-5e7r9ao3numnicr3c8p8fohsofh7r58r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222632457252-8t96bpj6eca7bu6gb6jdjnf0hqtkumdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hahalolo.ios.social"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222632457252:android:4bf692c5d62c62fba8d4b1",
+        "android_client_info": {
+          "package_name": "com.hahalolo.android.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222632457252-5e7r9ao3numnicr3c8p8fohsofh7r58r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANw5GKiAdVKFtCLIY7xnOETgNtYZ-qNpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222632457252-5e7r9ao3numnicr3c8p8fohsofh7r58r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222632457252-8t96bpj6eca7bu6gb6jdjnf0hqtkumdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hahalolo.ios.social"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

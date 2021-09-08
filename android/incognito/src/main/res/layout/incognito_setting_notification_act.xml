@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/wrapper"
+            style="@style/Incognito.Wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout style="@style/Incognito.AppBar">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Incognito.Toolbar.White.Nav"
+                    app:title="Cài đặt thông báo" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:layout_marginBottom="-16dp"
+                            android:text="Thông báo tài khoản" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            style="@style/Incognito.Switch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hiển thị thông báo đến tài khoản khi có tin nhắn mới" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:layout_marginBottom="-16dp"
+                            android:text="Thông báo thiết bị" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            style="@style/Incognito.Switch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Thông báo ở màn hình sẽ được bật/tắt theo từng thiết bị, cài đặt này chỉ áp dụng trên thiết bị đang thao tác" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:layout_marginBottom="-16dp"
+                            android:text="Xem trước tin nhắn" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            style="@style/Incognito.Switch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Thông báo ở màn hình sẽ hiển thị hoặc ẩn nội dung tin nhắn" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/activity_small_s"
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/app_background_divider" />
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:layout_marginEnd="@dimen/activity_normal_s"
+                            android:layout_marginBottom="-16dp"
+                            android:text="Âm thanh" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            style="@style/Incognito.Switch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Phát âm thanh khi có tin nhắn mới" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/activity_small_s"
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/app_background_divider" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tin nhắn mới" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tin nhắn được đề cập" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tin nhắn được thả cảm xúc" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        style="@style/Incognito.Switch.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Thông báo nhóm" />
+
+                </LinearLayout>
+
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    </LinearLayout>
+
+</layout>

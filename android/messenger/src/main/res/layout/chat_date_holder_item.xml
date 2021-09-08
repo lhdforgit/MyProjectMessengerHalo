@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingStart="@dimen/activity_normal_s"
+        android:paddingTop="@dimen/activity_small_s"
+        android:paddingEnd="@dimen/activity_normal_s"
+        android:paddingBottom="@dimen/activity_small_s">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/messageText"
+            style="@style/Messenger.ChatKit.Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_chat_date_holder_item"
+            android:gravity="center_horizontal"
+            android:paddingStart="@dimen/activity_normal_s"
+            android:paddingTop="4dp"
+            android:paddingEnd="@dimen/activity_normal_s"
+            android:paddingBottom="4dp" />
+
+    </RelativeLayout>
+</layout>

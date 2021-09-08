@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/download_bt"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_gallery_menu_download"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/view_bt"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_gallery_menu_view"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/copy_bt"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_gallery_menu_copy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/remove_bt"
+        android:icon="@drawable/ic_media_viewer_save"
+        android:title="@string/chat_message_gallery_menu_delete"
+        app:showAsAction="never" />
+
+</menu>

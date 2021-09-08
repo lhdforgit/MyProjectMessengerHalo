@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Mã QR" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_incognito_profile_qr_code" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Tên hiển thị" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Le Hai Dang" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Giới tính" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Ngày sinh" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="24-11-1996" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?actionBarItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Địa chỉ" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thành phố Thủ Đức" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

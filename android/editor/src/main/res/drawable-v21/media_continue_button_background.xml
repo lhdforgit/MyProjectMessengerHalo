@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/transparent_white_20">
+
+    <item android:id="@+id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent_black" />
+            <size
+                android:width="@dimen/conversation_compose_height"
+                android:height="@dimen/conversation_compose_height" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?colorPrimary" />
+            <size
+                android:width="@dimen/conversation_compose_height"
+                android:height="@dimen/conversation_compose_height" />
+        </shape>
+    </item>
+</ripple>

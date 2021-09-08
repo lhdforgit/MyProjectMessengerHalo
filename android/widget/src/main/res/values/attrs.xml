@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <declare-styleable name="BottomDrawer">
+        <attr name="should_draw_under_status_bar" format="boolean" />
+        <attr name="should_draw_content_under_handle_view" format="boolean" />
+        <attr name="bottom_sheet_corner_radius" format="dimension" />
+        <attr name="bottom_sheet_extra_padding" format="dimension" />
+        <attr name="bottom_drawer_background" format="reference" />
+        <attr name="content_view" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomDrawerV3">
+        <attr name="should_draw_under_status_bar_v3" format="boolean" />
+        <attr name="should_draw_content_under_handle_view_v3" format="boolean" />
+        <attr name="bottom_sheet_corner_radius_v3" format="dimension" />
+        <attr name="bottom_sheet_extra_padding_v3" format="dimension" />
+        <attr name="bottom_drawer_background_v3" format="reference" />
+        <attr name="content_view_v3" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomDrawerDialog">
+        <attr name="is_cancelable_on_touch_outside" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EllipsizeTextView">
+        <attr name="ellipsize_text" format="string|reference" />
+        <attr name="ellipsize_index" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ReadMoreTextView">
+        <attr name="trimExpandedText" format="string" />
+        <attr name="trimCollapsedText" format="string" />
+        <attr name="trimLength" format="integer" />
+        <attr name="showTrimExpandedText" format="boolean" />
+        <attr name="colorClickableText" format="color" />
+        <attr name="trimLines" format="integer" />
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0" />
+            <enum name="trimModeLength" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="siArrowPosition">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="siBorderType">
+        <enum name="stroke" value="0" />
+        <enum name="fill" value="1" />
+    </attr>
+    <attr name="siStrokeCap">
+        <enum name="butt" value="0" />
+        <enum name="round" value="1" />
+        <enum name="square" value="2" />
+    </attr>
+    <attr name="siStrokeJoin">
+        <enum name="bevel" value="0" />
+        <enum name="miter" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="LoopingViewPager">
+        <attr name="isInfinite" format="boolean" />
+        <attr name="autoScroll" format="boolean" />
+        <attr name="wrap_content" format="boolean" />
+        <attr name="scrollInterval" format="integer" />
+        <attr name="viewpagerAspectRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="HaloAspectRatioImageView">
+        <attr name="ari_ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PreventButton">
+        <attr name="isPrevent" format="boolean" />
+        <attr name="prevent_color" format="color" />
+        <attr name="lickable_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiStateView">
+        <attr name="msv_loadingView" format="reference" />
+        <attr name="msv_emptyView" format="reference" />
+        <attr name="msv_errorView" format="reference" />
+        <attr name="msv_viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="error" value="1" />
+            <enum name="empty" value="2" />
+            <enum name="loading" value="3" />
+        </attr>
+        <attr name="msv_animateViewChanges" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressActivity">
+        <attr name="loadingProgressBarWidth" format="dimension" />
+        <attr name="loadingProgressBarHeight" format="dimension" />
+        <attr name="loadingProgressBarColor" format="color" />
+        <attr name="loadingBackgroundColor" format="color" />
+
+        <attr name="emptyImageWidth" format="dimension" />
+        <attr name="emptyImageHeight" format="dimension" />
+        <attr name="emptyTitleTextSize" format="dimension" />
+        <attr name="emptyContentTextSize" format="dimension" />
+        <attr name="emptyTitleTextColor" format="color" />
+        <attr name="emptyContentTextColor" format="color" />
+        <attr name="emptyBackgroundColor" format="color" />
+
+        <attr name="errorImageWidth" format="dimension" />
+        <attr name="errorImageHeight" format="dimension" />
+        <attr name="errorTitleTextSize" format="dimension" />
+        <attr name="errorContentTextSize" format="dimension" />
+        <attr name="errorTitleTextColor" format="color" />
+        <attr name="errorContentTextColor" format="color" />
+        <attr name="errorButtonTextColor" format="color" />
+        <attr name="errorButtonBackgroundColor" format="color" />
+        <attr name="errorBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ShowHidePasswordEditText">
+        <attr name="drawable_hide" format="integer" />
+        <attr name="drawable_show" format="integer" />
+        <attr name="tint_color" format="color" />
+        <attr name="additionalTouchTargetSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationBadge">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="nbBackground" format="reference" />
+        <attr name="nbAnimationEnabled" format="boolean" />
+        <attr name="nbAnimationDuration" format="integer" />
+        <attr name="nbMaxTextLength" format="integer" />
+        <attr name="nbEllipsizeText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LinkViewStyle">
+        <attr name="socialViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LinkView">
+
+        <!-- Determine whether each feature should be turned on/off.
+             Default is all true. -->
+        <attr name="socialFlags">
+            <flag name="hashtag" value="1" />
+            <flag name="mention" value="2" />
+            <flag name="hyperlink" value="4" />
+        </attr>
+
+        <!-- Color of each feature.
+             If particular feature is not enabled, this value will be ignored.
+             Default is color accent of current theme. -->
+        <attr name="hashtagColor" format="color" />
+        <attr name="mentionColor" format="color" />
+        <attr name="hyperlinkColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RatioGroup">
+        <attr name="ratio_group" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+    <attr name="fontPath" format="string" />
+
+    <declare-styleable name="StateLayout">
+        <attr name="sl_loading_view" format="reference" />
+        <attr name="sl_empty_view" format="reference" />
+        <attr name="sl_error_view" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="rsb_trackColor" format="color" />
+        <attr name="rsb_trackSelectedColor" format="color" />
+        <attr name="rsb_trackThickness" format="dimension" />
+        <attr name="rsb_sidePadding" format="dimension" />
+        <attr name="rsb_touchRadius" format="dimension" />
+        <attr name="rsb_trackSelectedThickness" format="dimension" />
+        <attr name="rsb_minThumbOffsetVertical" format="dimension" />
+        <attr name="rsb_maxThumbOffsetVertical" format="dimension" />
+        <attr name="rsb_minThumbOffsetHorizontal" format="dimension" />
+        <attr name="rsb_maxThumbOffsetHorizontal" format="dimension" />
+        <attr name="rsb_minThumbDrawable" format="reference" />
+        <attr name="rsb_maxThumbDrawable" format="reference" />
+        <attr name="rsb_minRange" format="integer" />
+        <attr name="rsb_max" format="integer" />
+        <attr name="rsb_initialMinThumbValue" format="integer" />
+        <attr name="rsb_initialMaxThumbValue" format="integer" />
+        <attr name="rsb_trackRoundedCaps" format="boolean" />
+        <attr name="rsb_trackSelectedRoundedCaps" format="boolean" />
+    </declare-styleable>
+
+
+    <attr name="title" format="string" />
+    <attr name="hint_edit" format="string" />
+    <declare-styleable name="EditTextChangePassword">
+        <attr name="title" />
+        <attr name="hint_edit" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextChangeNameDisplay">
+        <attr name="title" />
+        <attr name="hint_edit" />
+    </declare-styleable>
+
+    <declare-styleable name="MessengerSettingTextView">
+        <attr name="text_setting" format="string" />
+        <attr name="icon_setting" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DateRangeMonthView">
+        <attr name="title_color" format="color" />
+        <attr name="week_color" format="color" />
+        <attr name="range_color" format="color" />
+        <attr name="selected_date_circle_color" format="color" />
+        <attr name="selected_date_color" format="color" />
+        <attr name="default_date_color" format="color" />
+        <attr name="range_date_color" format="color" />
+        <attr name="disable_date_color" format="color" />
+        <attr name="enable_time_selection" format="boolean" />
+        <attr name="text_size_title" format="dimension" />
+        <attr name="text_size_week" format="dimension" />
+        <attr name="text_size_date" format="dimension" />
+        <attr name="header_bg" format="integer" />
+        <attr name="calendar_tag" format="string" />
+        <attr name="week_offset" format="integer" />
+        <attr name="editable" format="boolean" />
+        <attr name="date_selection_mode" format="enum">
+            <enum name="free_range" value="0" />
+            <enum name="single" value="1" />
+            <enum name="fixed_range" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="HaloLinearLayout">
+        <attr name="isValid" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HaloEditTextVerifySite">
+        <attr name="title" />
+        <attr name="text" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="error" format="string" />
+        <attr name="required" format="boolean" />
+        <attr name="icon_end" format="reference|color" />
+        <attr name="enabled_input" format="boolean" />
+        <attr name="phone_type" format="boolean" />
+        <attr name="email_type" format="boolean" />
+        <attr name="address_type" format="boolean" />
+        <attr name="file_type" format="boolean" />
+        <attr name="maxLength" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="HaloTextViewVerifySite">
+        <attr name="title" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleMenu">
+        <!-- Array of menu buttons-->
+        <attr name="menu_icons" format="reference" />
+        <!-- Array of menu Item Ids -->
+        <attr name="menu_item_ids" format="reference" />
+        <!-- Array of menu background colors -->
+        <attr name="menu_background_color" format="reference" />
+        <attr name="menu_radius" format="dimension" />
+        <attr name="menu_open_duration" format="integer" />
+        <attr name="menu_close_duration" format="integer" />
+        <attr name="menu_orientation" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="arc_left" value="2" />
+            <enum name="arc_right" value="3" />
+            <enum name="half_circle" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ImageScaleView">
+        <attr name="matrixType" format="enum">
+            <enum name="top_center" value="0" />
+            <enum name="bottom_center" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="chat_message_sending">Sending…</string>
+    <string name="chat_message_holder_time_today">Today,  %s</string>
+    <string name="chat_message_room_change">Change</string>
+    <string name="media_retry_load">retry</string>
+    <string name="chat_message_holder_time_yesterday">Yesterday, %s</string>
+    <string name="chat_message_file_not_exit">The file does not exist</string>
+    <string name="chat_message_downloading">Downloading…</string>
+    <string name="chat_message_download">Download</string>
+    <string name="chat_message_not_support">The message version does not yet support display</string>
+    <string name="chat_message_resend">Resend</string>
+</resources>

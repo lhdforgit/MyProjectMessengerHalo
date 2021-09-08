@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_background"
+            android:padding="16dp"
+            >
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xóa ở phía bạn"
+                android:paddingStart="16dp"
+                style="@style/Incognito.TextView.H5"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/delete_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                style="@style/Incognito.TextView.H7"
+                android:text="Tin nhắn này chỉ đc xóa ở phía bạn, những thành viên còn lại trong cuộc trò chuyện vẫn thấy tin nhắn này"
+                />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_revoke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thu hồi tin nhắn"
+                android:paddingStart="16dp"
+                style="@style/Incognito.TextView.H5"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/revoke_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                style="@style/Incognito.TextView.H7"
+                android:text="Bạn sẽ thu hồi tin nhắn này đối với tất cả thành viên trong cuộc trò chuyện. Họ sẽ thấy rằng bạn đã thu hồi tin nhắn này"
+                />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:background="@color/app_background"
+            android:id="@+id/btn_agree"
+            android:padding="16dp"
+            android:text="Đồng ý"
+            style="@style/Incognito.TextView.H5.Primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/radio_group"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:id="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@id/btn_agree"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E9E9E9"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:background="@color/app_background"
+            android:id="@+id/btn_cancel"
+            style="@style/Incognito.TextView.H5.Normal"
+            android:padding="16dp"
+            android:text="Hủy"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

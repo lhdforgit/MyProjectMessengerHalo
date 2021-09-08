@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_video_player_zoom_out"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/ic_video_player_zoom_in"
+        android:maxLevel="2" />
+
+</level-list>

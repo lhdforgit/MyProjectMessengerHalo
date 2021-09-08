@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Media Viewer-->
+    <string name="media_viewer_save_to">Lưu tại </string>
+    <string name="media_viewer_coppy_failed">Sao chép thất bại!</string>
+    <string name="media_viewer_create">Tạo mới</string>
+    <string name="media_viewer_media_error">Media lỗi, vui lòng kiểm tra lại!</string>
+    <string name="media_viewer_edit">Cập nhật</string>
+    <!--End Media Viewer-->
+</resources>

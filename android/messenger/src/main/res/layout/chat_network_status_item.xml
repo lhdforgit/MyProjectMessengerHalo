@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ProgressBar
+            android:id="@+id/av_loading"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:padding="@dimen/activity_small"
+            />
+    </LinearLayout>
+
+</layout>

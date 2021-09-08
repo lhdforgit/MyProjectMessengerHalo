@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<com.halo.widget.materialdialogs.internal.main.DialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/md_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.halo.widget.materialdialogs.internal.title.DialogTitleLayout
+        android:id="@+id/md_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/md_icon_title"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <com.halo.widget.materialdialogs.internal.rtl.RtlTextView
+            android:id="@+id/md_text_title"
+            style="@style/MD_Dialog_Title_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:text="Use Google's location service?" />
+
+    </com.halo.widget.materialdialogs.internal.title.DialogTitleLayout>
+
+    <com.halo.widget.materialdialogs.internal.button.DialogActionButtonLayout
+        android:id="@+id/md_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/md_checkbox_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:visibility="gone" />
+
+        <com.halo.widget.materialdialogs.internal.button.DialogActionButton
+            android:id="@+id/md_button_positive"
+            style="@style/MD_ActionButton"
+            tools:text="Agree" />
+
+        <com.halo.widget.materialdialogs.internal.button.DialogActionButton
+            android:id="@+id/md_button_negative"
+            style="@style/MD_ActionButton"
+            tools:text="Disagree" />
+
+        <com.halo.widget.materialdialogs.internal.button.DialogActionButton
+            android:id="@+id/md_button_neutral"
+            style="@style/MD_ActionButton"
+            tools:text="Idk" />
+
+    </com.halo.widget.materialdialogs.internal.button.DialogActionButtonLayout>
+
+</com.halo.widget.materialdialogs.internal.main.DialogLayout>

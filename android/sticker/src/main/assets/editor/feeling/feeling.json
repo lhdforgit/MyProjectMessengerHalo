@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "feel_0001",
+    "code": ":feeling_amused:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92d.png",
+    "utf_8": "0x1f92d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Amused"
+      },
+      {
+        "key": "vi",
+        "value": "Thú vị"
+      }
+    ]
+  },
+  {
+    "id": "feel_0002",
+    "code": ":feeling_alone:",
+    "image": "file:///android_asset/editor/feeling/icon/1f614.png",
+    "utf_8": "0x1f614",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Alone"
+      },
+      {
+        "key": "vi",
+        "value": "Chỉ có một mình"
+      }
+    ]
+  },
+  {
+    "id": "feel_0003",
+    "code": ":feeling_hopeful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f339.png",
+    "utf_8": "0x1f339",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Hopeful"
+      },
+      {
+        "key": "vi",
+        "value": "Đầy hy vọng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0004",
+    "code": ":feeling_pumped:",
+    "image": "file:///android_asset/editor/feeling/icon/1f606.png",
+    "utf_8": "0x1f606",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Pumped"
+      },
+      {
+        "key": "vi",
+        "value": "Phấn khích"
+      }
+    ]
+  },
+  {
+    "id": "feel_0005",
+    "code": ":feeling_lovely:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60d.png",
+    "utf_8": "0x1f60d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Lovely"
+      },
+      {
+        "key": "vi",
+        "value": "Đáng yêu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0006",
+    "code": ":feeling_glad:",
+    "image": "file:///android_asset/editor/feeling/icon/1f604.png",
+    "utf_8": "0x1f604",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Glad"
+      },
+      {
+        "key": "vi",
+        "value": "Vui vẻ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0007",
+    "code": ":feeling_sorry:",
+    "image": "file:///android_asset/editor/feeling/icon/1f625.png",
+    "utf_8": "0x1f625",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Sorry"
+      },
+      {
+        "key": "vi",
+        "value": "Hối tiếc"
+      }
+    ]
+  },
+  {
+    "id": "feel_0008",
+    "code": ":feeling_wonderful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60e.png",
+    "utf_8": "0x1f60e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Wonderful"
+      },
+      {
+        "key": "vi",
+        "value": "Tuyệt vời"
+      }
+    ]
+  },
+  {
+    "id": "feel_0009",
+    "code": ":feeling_peaceful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60c.png",
+    "utf_8": "0x1f60c",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Peaceful"
+      },
+      {
+        "key": "vi",
+        "value": "Thanh thản"
+      }
+    ]
+  },
+  {
+    "id": "feel_0010",
+    "code": ":feeling_curious:",
+    "image": "file:///android_asset/editor/feeling/icon/1f9d0.png",
+    "utf_8": "0x1f9d0",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Curious"
+      },
+      {
+        "key": "vi",
+        "value": "Tò mò"
+      }
+    ]
+  },
+  {
+    "id": "feel_0011",
+    "code": ":feeling_lame:",
+    "image": "file:///android_asset/editor/feeling/icon/1f611.png",
+    "utf_8": "0x1f611",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Lame"
+      },
+      {
+        "key": "vi",
+        "value": "Chẳng đâu vào đâu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0012",
+    "code": ":feeling_sad:",
+    "image": "file:///android_asset/editor/feeling/icon/1f641.png",
+    "utf_8": "0x1f641",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Sad"
+      },
+      {
+        "key": "vi",
+        "value": "Buồn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0013",
+    "code": ":feeling_tired:",
+    "image": "file:///android_asset/editor/feeling/icon/1f634.png",
+    "utf_8": "0x1f634",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Tired"
+      },
+      {
+        "key": "vi",
+        "value": "Mệt mỏi"
+      }
+    ]
+  },
+  {
+    "id": "feel_0014",
+    "code": ":feeling_happy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f970.png",
+    "utf_8": "0x1f970",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Happy"
+      },
+      {
+        "key": "vi",
+        "value": "Hạnh phúc"
+      }
+    ]
+  },
+  {
+    "id": "feel_0015",
+    "code": ":feeling_excited:",
+    "image": "file:///android_asset/editor/feeling/icon/1f929.png",
+    "utf_8": "0x1f929",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Excited"
+      },
+      {
+        "key": "vi",
+        "value": "Hào hứng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0016",
+    "code": ":feeling_relaxed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60c.png",
+    "utf_8": "0x1f60c",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Relaxed"
+      },
+      {
+        "key": "vi",
+        "value": "Thư giản"
+      }
+    ]
+  },
+  {
+    "id": "feel_0017",
+    "code": ":feeling_explosive:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92f.png",
+    "utf_8": "0x1f92f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Explosive"
+      },
+      {
+        "key": "vi",
+        "value": "Bùng nổ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0018",
+    "code": ":feeling_lost:",
+    "image": "file:///android_asset/editor/feeling/icon/1f627.png",
+    "utf_8": "0x1f627",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Lost"
+      },
+      {
+        "key": "vi",
+        "value": "Hoang mang"
+      }
+    ]
+  },
+  {
+    "id": "feel_0019",
+    "code": ":feeling_depressed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f614.png",
+    "utf_8": "0x1f614",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Depressed"
+      },
+      {
+        "key": "vi",
+        "value": "Chán nản"
+      }
+    ]
+  },
+  {
+    "id": "feel_0020",
+    "code": ":feeling_drained:",
+    "image": "file:///android_asset/editor/feeling/icon/1f912.png",
+    "utf_8": "0x1f912",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Drained"
+      },
+      {
+        "key": "vi",
+        "value": "Kiệt sức"
+      }
+    ]
+  },
+  {
+    "id": "feel_0021",
+    "code": ":feeling_cute:",
+    "image": "file:///android_asset/editor/feeling/icon/1f618.png",
+    "utf_8": "0x1f618",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Cute"
+      },
+      {
+        "key": "vi",
+        "value": "Dễ thương"
+      }
+    ]
+  },
+  {
+    "id": "feel_0022",
+    "code": ":feeling_worried:",
+    "image": "file:///android_asset/editor/feeling/icon/1f630.png",
+    "utf_8": "0x1f630",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Worried"
+      },
+      {
+        "key": "vi",
+        "value": "Lo lắng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0023",
+    "code": ":feeling_crazy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92a.png",
+    "utf_8": "0x1f92a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Crazy"
+      },
+      {
+        "key": "vi",
+        "value": "Điên"
+      }
+    ]
+  },
+  {
+    "id": "feel_0024",
+    "code": ":feeling_annoyed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f624.png",
+    "utf_8": "0x1f624",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Annoyed"
+      },
+      {
+        "key": "vi",
+        "value": "Bực mình"
+      }
+    ]
+  },
+  {
+    "id": "feel_0025",
+    "code": ":feeling_disappointed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61e.png",
+    "utf_8": "0x1f61e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Disappointed"
+      },
+      {
+        "key": "vi",
+        "value": "Thất vọng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0026",
+    "code": ":feeling_lonely:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61f.png",
+    "utf_8": "0x1f61f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Lonely"
+      },
+      {
+        "key": "vi",
+        "value": "Cô đơn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0027",
+    "code": ":feeling_great:",
+    "image": "file:///android_asset/editor/feeling/icon/1f600.png",
+    "utf_8": "0x1f600",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Great"
+      },
+      {
+        "key": "vi",
+        "value": "Thật tuyệt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0028",
+    "code": ":feeling_drunk:",
+    "image": "file:///android_asset/editor/feeling/icon/1f974.png",
+    "utf_8": "0x1f974",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Drunk"
+      },
+      {
+        "key": "vi",
+        "value": "Say"
+      }
+    ]
+  },
+  {
+    "id": "feel_0029",
+    "code": ":feeling_cold:",
+    "image": "file:///android_asset/editor/feeling/icon/1f976.png",
+    "utf_8": "0x1f976",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Cold"
+      },
+      {
+        "key": "vi",
+        "value": "Lạnh"
+      }
+    ]
+  },
+  {
+    "id": "feel_0030",
+    "code": ":feeling_warm:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60a.png",
+    "utf_8": "0x1f60a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Warm"
+      },
+      {
+        "key": "vi",
+        "value": "Ấm áp"
+      }
+    ]
+  },
+  {
+    "id": "feel_0031",
+    "code": ":feeling_sleepy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f634.png",
+    "utf_8": "0x1f634",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Dleepy"
+      },
+      {
+        "key": "vi",
+        "value": "Buồn ngủ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0032",
+    "code": ":feeling_thankfull:",
+    "image": "file:///android_asset/editor/feeling/icon/1f600.png",
+    "utf_8": "0x1f600",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Thankful"
+      },
+      {
+        "key": "vi",
+        "value": "Biết ơn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0033",
+    "code": ":feeling_beautiful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f478-1f3fc.png",
+    "utf_8": "0x1f478",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Beautiful"
+      },
+      {
+        "key": "vi",
+        "value": "Xinh đẹp"
+      }
+    ]
+  },
+  {
+    "id": "feel_0034",
+    "code": ":feeling_awesome:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61d.png",
+    "utf_8": "0x1f61d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Awesome"
+      },
+      {
+        "key": "vi",
+        "value": "Rất tuyệt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0035",
+    "code": ":feeling_inspired:",
+    "image": "file:///android_asset/editor/feeling/icon/1f917.png",
+    "utf_8": "0x1f917",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Inspired"
+      },
+      {
+        "key": "vi",
+        "value": "Đầy cảm hứng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0036",
+    "code": ":feeling_hungry:",
+    "image": "file:///android_asset/editor/feeling/icon/1f62b.png",
+    "utf_8": "0x1f62b",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Hungry"
+      },
+      {
+        "key": "vi",
+        "value": "Đói"
+      }
+    ]
+  },
+  {
+    "id": "feel_0037",
+    "code": ":feeling_cool:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60e.png",
+    "utf_8": "0x1f60e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Cool"
+      },
+      {
+        "key": "vi",
+        "value": "Thật phong cách"
+      }
+    ]
+  },
+  {
+    "id": "feel_0038",
+    "code": ":feeling_dizzy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f635.png",
+    "utf_8": "0x1f635",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Dizzy"
+      },
+      {
+        "key": "vi",
+        "value": "Chóng mặt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0039",
+    "code": ":feeling_energized:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61b.png",
+    "utf_8": "0x1f61b",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Energized"
+      },
+      {
+        "key": "vi",
+        "value": "Tràn đầy sinh lực"
+      }
+    ]
+  },
+  {
+    "id": "feel_0040",
+    "code": ":feeling_bad:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61f.png",
+    "utf_8": "0x1f61f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Bad"
+      },
+      {
+        "key": "vi",
+        "value": "Tồi tệ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0041",
+    "code": ":feeling_blessed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f607.png",
+    "utf_8": "0x1f607",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Blessed"
+      },
+      {
+        "key": "vi",
+        "value": "Có phúc"
+      }
+    ]
+  },
+  {
+    "id": "feel_0042",
+    "code": ":feeling_content:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Content"
+      },
+      {
+        "key": "vi",
+        "value": "Mãn nguyện"
+      }
+    ]
+  },
+  {
+    "id": "feel_0043",
+    "code": ":feeling_funny:",
+    "image": "file:///android_asset/editor/feeling/icon/1f973.png",
+    "utf_8": "0x1f973",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Funny"
+      },
+      {
+        "key": "vi",
+        "value": "Vui nhộn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0044",
+    "code": ":feeling_nostalgic:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61f.png",
+    "utf_8": "0x1f61f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Nostalgic"
+      },
+      {
+        "key": "vi",
+        "value": "Nhớ nhà"
+      }
+    ]
+  },
+  {
+    "id": "feel_0045",
+    "code": ":feeling_sore:",
+    "image": "file:///android_asset/editor/feeling/icon/1f915.png",
+    "utf_8": "0x1f915",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Sore"
+      },
+      {
+        "key": "vi",
+        "value": "Đau nhức"
+      }
+    ]
+  },
+  {
+    "id": "feel_0046",
+    "code": ":feeling_loved:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60d.png",
+    "utf_8": "0x1f60d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Loved"
+      },
+      {
+        "key": "vi",
+        "value": "Được yêu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0047",
+    "code": ":feeling_stuffed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f922.png",
+    "utf_8": "0x1f922",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Stuffed"
+      },
+      {
+        "key": "vi",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "id": "feel_0048",
+    "code": ":feeling_emotional:",
+    "image": "file:///android_asset/editor/feeling/icon/1f622.png",
+    "utf_8": "0x1f622d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Emotional"
+      },
+      {
+        "key": "vi",
+        "value": "Xúc động"
+      }
+    ]
+  },
+  {
+    "id": "feel_0049",
+    "code": ":feeling_stressed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f629.png",
+    "utf_8": "0x1f629",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Stressed"
+      },
+      {
+        "key": "vi",
+        "value": "Căng thẳng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0050",
+    "code": ":feeling_confused:",
+    "image": "file:///android_asset/editor/feeling/icon/1f616.png",
+    "utf_8": "0x1f616",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Confused"
+      },
+      {
+        "key": "vi",
+        "value": "Bối rối"
+      }
+    ]
+  },
+  {
+    "id": "feel_0051",
+    "code": ":feeling_sick:",
+    "image": "file:///android_asset/editor/feeling/icon/1f637.png",
+    "utf_8": "0x1f637",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Sick"
+      },
+      {
+        "key": "vi",
+        "value": "Ốm yếu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0052",
+    "code": ":feeling_naked:",
+    "image": "file:///android_asset/editor/feeling/icon/1f636.png",
+    "utf_8": "0x1f636",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Naked"
+      },
+      {
+        "key": "vi",
+        "value": "Trống rỗng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0053",
+    "code": ":feeling_pained:",
+    "image": "file:///android_asset/editor/feeling/icon/1f623.png",
+    "utf_8": "0x1f623",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Pained"
+      },
+      {
+        "key": "vi",
+        "value": "Đau đớn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0054",
+    "code": ":feeling_stuck:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61e.png",
+    "utf_8": "0x1f61e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Stuck"
+      },
+      {
+        "key": "vi",
+        "value": "Bế tắc"
+      }
+    ]
+  },
+  {
+    "id": "feel_0055",
+    "code": ":feeling_incomplete:",
+    "image": "file:///android_asset/editor/feeling/icon/1f622.png",
+    "utf_8": "0x1f622",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Incomplete"
+      },
+      {
+        "key": "vi",
+        "value": "Thiếu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0056",
+    "code": ":feeling_blissful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60a.png",
+    "utf_8": "0x1f60a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Blissful"
+      },
+      {
+        "key": "vi",
+        "value": "Sung sướng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0057",
+    "code": ":feeling_confident:",
+    "image": "file:///android_asset/editor/feeling/icon/1f603.png",
+    "utf_8": "0x1f603",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Confident"
+      },
+      {
+        "key": "vi",
+        "value": "Tự tin"
+      }
+    ]
+  },
+  {
+    "id": "feel_0058",
+    "code": ":feeling_special:",
+    "image": "file:///android_asset/editor/feeling/icon/1f929.png",
+    "utf_8": "0x1f929",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Special"
+      },
+      {
+        "key": "vi",
+        "value": "Đặc biệt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0059",
+    "code": ":feeling_fortunate:",
+    "image": "file:///android_asset/editor/feeling/icon/1f911.png",
+    "utf_8": "0x1f911",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Fortunate"
+      },
+      {
+        "key": "vi",
+        "value": "May mắn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0060",
+    "code": ":feeling_stupid:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92a.png",
+    "utf_8": "0x1f92a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Stupid"
+      },
+      {
+        "key": "vi",
+        "value": "Ngốc nghếch"
+      }
+    ]
+  },
+  {
+    "id": "feel_0061",
+    "code": ":feeling_hyper:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61d.png",
+    "utf_8": "0x1f61d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Hyper"
+      },
+      {
+        "key": "vi",
+        "value": "Kích động"
+      }
+    ]
+  },
+  {
+    "id": "feel_0062",
+    "code": ":feeling_stodgy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f610.png",
+    "utf_8": "0x1f610",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Stodgy"
+      },
+      {
+        "key": "vi",
+        "value": "Tẻ nhạt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0063",
+    "code": ":feeling_broken",
+    "image": "file:///android_asset/editor/feeling/icon/1f62d.png",
+    "utf_8": "0x1f62d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Broken"
+      },
+      {
+        "key": "vi",
+        "value": "Gục ngã"
+      }
+    ]
+  },
+  {
+    "id": "feel_0064",
+    "code": ":feeling_yucky:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92e.png",
+    "utf_8": "0x1f92e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Yucky"
+      },
+      {
+        "key": "vi",
+        "value": "Kinh tởm"
+      }
+    ]
+  },
+  {
+    "id": "feel_0065",
+    "code": ":feeling_useless:",
+    "image": "file:///android_asset/editor/feeling/icon/1f62a.png",
+    "utf_8": "0x1f62a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Useless"
+      },
+      {
+        "key": "vi",
+        "value": "Vô dụng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0066",
+    "code": ":feeling_heartbroken:",
+    "image": "file:///android_asset/editor/feeling/icon/1f62d.png",
+    "utf_8": "0x1f62d",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Heartbroken"
+      },
+      {
+        "key": "vi",
+        "value": "Đau khổ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0067",
+    "code": ":feeling_normal:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Normal"
+      },
+      {
+        "key": "vi",
+        "value": "Bình thường"
+      }
+    ]
+  },
+  {
+    "id": "feel_0068",
+    "code": ":feeling_pissed_off:",
+    "image": "file:///android_asset/editor/feeling/icon/1f620.png",
+    "utf_8": "0x1f620",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Pissed off"
+      },
+      {
+        "key": "vi",
+        "value": "Tức giận"
+      }
+    ]
+  },
+  {
+    "id": "feel_0069",
+    "code": ":feeling_silly:",
+    "image": "file:///android_asset/editor/feeling/icon/1f644.png",
+    "utf_8": "0x1f644",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Silly"
+      },
+      {
+        "key": "vi",
+        "value": "Ngớ ngẩn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0070",
+    "code": ":feeling_old:",
+    "image": "file:///android_asset/editor/feeling/icon/1f474.png",
+    "utf_8": "0x1f474",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Old"
+      },
+      {
+        "key": "vi",
+        "value": "Già nua"
+      }
+    ]
+  },
+  {
+    "id": "feel_0071",
+    "code": ":feeling_scared:",
+    "image": "file:///android_asset/editor/feeling/icon/1f628.png",
+    "utf_8": "0x1f628",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Scared"
+      },
+      {
+        "key": "vi",
+        "value": "Sợ hãi"
+      }
+    ]
+  },
+  {
+    "id": "feel_0072",
+    "code": ":feeling_hurt:",
+    "image": "file:///android_asset/editor/feeling/icon/1f629.png",
+    "utf_8": "0x1f629",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Hurt"
+      },
+      {
+        "key": "vi",
+        "value": "Bị tổn thương"
+      }
+    ]
+  },
+  {
+    "id": "feel_0073",
+    "code": "::feeling_upset:",
+    "image": "file:///android_asset/editor/feeling/icon/1f615.png",
+    "utf_8": "0x1f615",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Upset"
+      },
+      {
+        "key": "vi",
+        "value": "Khó chịu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0074",
+    "code": ":feeling_mad:",
+    "image": "file:///android_asset/editor/feeling/icon/1f92c.png",
+    "utf_8": "0x1f92c",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Mad"
+      },
+      {
+        "key": "vi",
+        "value": "Tức điên"
+      }
+    ]
+  },
+  {
+    "id": "feel_0075",
+    "code": ":feeling_helpless:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61f.png",
+    "utf_8": "0x1f61f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Helpless"
+      },
+      {
+        "key": "vi",
+        "value": "Bất lực"
+      }
+    ]
+  },
+  {
+    "id": "feel_0076",
+    "code": ":feeling_unimportant:",
+    "image": "file:///android_asset/editor/feeling/icon/1f610.png",
+    "utf_8": "0x1f610",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Unimportant"
+      },
+      {
+        "key": "vi",
+        "value": "Không quan trọng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0077",
+    "code": ":feeling_pissed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f621.png",
+    "utf_8": "0x1f621",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Pissed"
+      },
+      {
+        "key": "vi",
+        "value": "Phẫn nộ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0078",
+    "code": ":feeling_refreshed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f62e.png",
+    "utf_8": "0x1f62e",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Refreshed"
+      },
+      {
+        "key": "vi",
+        "value": "Mới mẻ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0079",
+    "code": ":feeling_free:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Free"
+      },
+      {
+        "key": "vi",
+        "value": "Tự do"
+      }
+    ]
+  },
+  {
+    "id": "feel_0080",
+    "code": ":feeling_shocked:",
+    "image": "file:///android_asset/editor/feeling/icon/1f640.png",
+    "utf_8": "0x1f640",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Shocked"
+      },
+      {
+        "key": "vi",
+        "value": "Sốc"
+      }
+    ]
+  },
+  {
+    "id": "feel_0081",
+    "code": ":feeling_pretty:",
+    "image": "file:///android_asset/editor/feeling/icon/1f618.png",
+    "utf_8": "0x1f618",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Pretty"
+      },
+      {
+        "key": "vi",
+        "value": "Xinh xắn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0082",
+    "code": ":feeling_spooky:",
+    "image": "file:///android_asset/editor/feeling/icon/1f631.png",
+    "utf_8": "0x1f631",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Spooky"
+      },
+      {
+        "key": "vi",
+        "value": "Hoảng sợ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0083",
+    "code": ":feeling_bored:",
+    "image": "file:///android_asset/editor/feeling/icon/1f615.png",
+    "utf_8": "0x1f615",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Bored"
+      },
+      {
+        "key": "vi",
+        "value": "Buồn tẻ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0084",
+    "code": ":feeling_disgusted:",
+    "image": "file:///android_asset/editor/feeling/icon/1f612.png",
+    "utf_8": "0x1f612",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Disgusted"
+      },
+      {
+        "key": "vi",
+        "value": "Chán ghét"
+      }
+    ]
+  },
+  {
+    "id": "feel_0085",
+    "code": ":feeling_irritated:",
+    "image": "file:///android_asset/editor/feeling/icon/1f620.png",
+    "utf_8": "0x1f620",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Irritated"
+      },
+      {
+        "key": "vi",
+        "value": "Cáu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0086",
+    "code": ":feeling_overwhelmed:",
+    "image": "file:///android_asset/editor/feeling/icon/1f635.png",
+    "utf_8": "0x1f635",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Overwhelmed"
+      },
+      {
+        "key": "vi",
+        "value": "Choáng ngợp"
+      }
+    ]
+  },
+  {
+    "id": "feel_0087",
+    "code": ":feeling_unsure:",
+    "image": "file:///android_asset/editor/feeling/icon/1f914.png",
+    "utf_8": "0x1f914",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Unsure"
+      },
+      {
+        "key": "vi",
+        "value": "Không chắc chắn"
+      }
+    ]
+  },
+  {
+    "id": "feel_0088",
+    "code": ":feeling_miserable:",
+    "image": "file:///android_asset/editor/feeling/icon/1f629.png",
+    "utf_8": "0x1f629",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Miserable"
+      },
+      {
+        "key": "vi",
+        "value": "Khổ sở"
+      }
+    ]
+  },
+  {
+    "id": "feel_0089",
+    "code": ":feeling_chill:",
+    "image": "file:///android_asset/editor/feeling/icon/1f616.png",
+    "utf_8": "0x1f616",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Chill"
+      },
+      {
+        "key": "vi",
+        "value": "Rùng mình"
+      }
+    ]
+  },
+  {
+    "id": "feel_0090",
+    "code": ":feeling_determined:",
+    "image": "file:///android_asset/editor/feeling/icon/1f913.png",
+    "utf_8": "0x1f913",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Determined"
+      },
+      {
+        "key": "vi",
+        "value": "Quyết đoán"
+      }
+    ]
+  },
+  {
+    "id": "feel_0091",
+    "code": ":feeling_good:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Good"
+      },
+      {
+        "key": "vi",
+        "value": "Tốt"
+      }
+    ]
+  },
+  {
+    "id": "feel_0092",
+    "code": ":feeling_joyful:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60a.png",
+    "utf_8": "0x1f60a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Joyful"
+      },
+      {
+        "key": "vi",
+        "value": "Hân hoan"
+      }
+    ]
+  },
+  {
+    "id": "feel_0093",
+    "code": ":feeling_regret:",
+    "image": "file:///android_asset/editor/feeling/icon/1f634.png",
+    "utf_8": "0x1f634",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Regret"
+      },
+      {
+        "key": "vi",
+        "value": "Hối hận"
+      }
+    ]
+  },
+  {
+    "id": "feel_0094",
+    "code": ":feeling_lazy:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60c.png",
+    "utf_8": "0x1f60c",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Lazy"
+      },
+      {
+        "key": "vi",
+        "value": "Lười biếng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0095",
+    "code": ":feeling_hot:",
+    "image": "file:///android_asset/editor/feeling/icon/1f975.png",
+    "utf_8": "0x1f975",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Hot"
+      },
+      {
+        "key": "vi",
+        "value": "Nóng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0096",
+    "code": ":feeling_nice:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Nice"
+      },
+      {
+        "key": "vi",
+        "value": "Dễ chịu"
+      }
+    ]
+  },
+  {
+    "id": "feel_0097",
+    "code": ":feeling_terrible:",
+    "image": "file:///android_asset/editor/feeling/icon/1f631.png",
+    "utf_8": "0x1f631",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Terrible"
+      },
+      {
+        "key": "vi",
+        "value": "Kinh khủng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0098",
+    "code": ":feeling_uncomfortable:",
+    "image": "file:///android_asset/editor/feeling/icon/1f613.png",
+    "utf_8": "0x1f613",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Uncomfortable"
+      },
+      {
+        "key": "vi",
+        "value": "Không thoải mái"
+      }
+    ]
+  },
+  {
+    "id": "feel_0099",
+    "code": ":feeling_worthless:",
+    "image": "file:///android_asset/editor/feeling/icon/1f910.png",
+    "utf_8": "0x1f910",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Worthless"
+      },
+      {
+        "key": "vi",
+        "value": "Chẳng được tích sự gì"
+      }
+    ]
+  },
+  {
+    "id": "feel_0100",
+    "code": ":feeling_scared:",
+    "image": "file:///android_asset/editor/feeling/icon/1f628.png",
+    "utf_8": "0x1f628",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Scared"
+      },
+      {
+        "key": "vi",
+        "value": "Lo sợ"
+      }
+    ]
+  },
+  {
+    "id": "feel_0101",
+    "code": ":feeling_proud:",
+    "image": "file:///android_asset/editor/feeling/icon/1f60a.png",
+    "utf_8": "0x1f60a",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Proud"
+      },
+      {
+        "key": "vi",
+        "value": "Tự hào"
+      }
+    ]
+  },
+  {
+    "id": "feel_0102",
+    "code": ":feeling_guilty:",
+    "image": "file:///android_asset/editor/feeling/icon/1f61f.png",
+    "utf_8": "0x1f61f",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Guilty"
+      },
+      {
+        "key": "vi",
+        "value": "Tội lỗi"
+      }
+    ]
+  },
+  {
+    "id": "feel_0103",
+    "code": ":feeling_satisfied:",
+    "image": "file:///android_asset/editor/feeling/icon/1f642.png",
+    "utf_8": "0x1f642",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Satisfied"
+      },
+      {
+        "key": "vi",
+        "value": "Hài lòng"
+      }
+    ]
+  },
+  {
+    "id": "feel_0104",
+    "code": ":feeling_comfortable:",
+    "image": "file:///android_asset/editor/feeling/icon/1f601.png",
+    "utf_8": "0x1f601",
+    "type": "feel",
+    "langs": [
+      {
+        "key": "en",
+        "value": "Comfortable"
+      },
+      {
+        "key": "vi",
+        "value": "Thoải mái"
+      }
+    ]
+  }
+]

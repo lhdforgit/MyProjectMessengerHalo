@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Error notification -->
+    <string name="error_positive_action_ok">Đồng ý</string>
+    <string name="error_bad_request_title">Yêu cầu bị gián đoạn</string>
+    <string name="error_bad_request_message">Máy chủ không thể hoặc sẽ không phản hồi yêu cầu vì lỗi thông tin khách hàng không minh bạch</string>
+    <string name="error_unauthorized_title">Xác thực bị từ chối</string>
+    <string name="error_unauthorized_message">Phiên đăng nhập của bạn đã hết hạn. Vui lòng đăng nhập lại</string>
+    <string name="error_forbidden_title">Chặn</string>
+    <string name="error_forbidden_message">Yêu cầu hợp lệ nhưng không được chấp thuận từ phía server. Người dùng không được cấp đủ quyền cần thiết để truy cập, hoặc cần 1 tài khoản khác có đủ quyền hạn truy cập</string>
+    <string name="error_not_found_title">Không tìm thấy</string>
+    <string name="error_not_found_message">Dữ liệu được yêu cầu không thể tìm thấy nhưng có lẽ sẽ khả dụng trong tương lai</string>
+    <string name="error_not_allowed_title">Phương án không được cho phép</string>
+    <string name="error_not_allowed_message">Phương án yêu cầu không được hỗ trợ cho khu vực dữ liệu đã yêu cầu</string>
+    <string name="error_not_accepttable_title">Không chấp nhận</string>
+    <string name="error_not_accepttable_message">Khu vực dữ liệu được đề xuất chỉ có thể tạo ra nội dung không cho phép Thanh tiêu đề "Đồng Ý" gửi yêu cầu</string>
+    <string name="error_error_invalid_tour_installment_booking">Thời gian khởi hành Tour bạn chọn ngắn hơn hoặc dài hơn quy định của chúng tôi, bạn vui lòng chọn Tour có thời gian khởi hành phù hợp</string>
+    <string name="error_proxy_require_title">Yêu cầu xác thực proxy</string>
+    <string name="error_proxy_require_message">Đầu tiên khách hàng phải tự xác thực bằng proxy.</string>
+    <string name="error_request_timeout_message">Hết thời gian đề xuất</string>
+    <string name="error_network_request_failed_message">Đã xảy ra lỗi kết nối</string>
+    <string name="error_internal_message">Xuất hiện lỗi. Vui lòng thử lại</string>
+    <string name="error_email_exist_message">Địa chỉ email hoặc số điện thoại đã được sử dụng bởi một tài khoản khác</string>
+    <string name="error_phone_exist_message">Số điện thoại đã được sử dụng bởi một tài khoản khác</string>
+    <string name="retry">"Thử lại "</string>
+    <string name="error_occurred">"Có gì đó không đúng . Vui lòng thử lại "</string>
+    <string name="error">Lỗi</string>
+    <string name="back">Trở về</string>
+    <string name="error_absurd_name_title">Tên không hợp lệ</string>
+    <string name="error_absurd_name_message">Tên chứa từ không hợp lệ.</string>
+    <string name="error_forgot_pass_wait_24h">Bạn đã yêu cầu quá lần quy định. Thử lại sau 24h</string>
+
+    <!-- End Error notification -->
+</resources>

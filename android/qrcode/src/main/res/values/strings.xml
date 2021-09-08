@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_key_enable_auto_search" translatable="false">pkeas</string>
+    <string name="pref_key_confirmation_time_in_manual_search" translatable="false">ctims</string>
+    <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias</string>
+    <string name="pref_key_object_detector_enable_multiple_objects" translatable="false">odemo</string>
+    <string name="pref_key_object_detector_enable_classification" translatable="false">odec</string>
+    <string name="pref_key_barcode_reticle_width" translatable="false">barcode_brw</string>
+    <string name="pref_key_barcode_reticle_height" translatable="false">barcode_brh</string>
+    <string name="pref_key_enable_barcode_size_check" translatable="false">barcode_ebsc</string>
+    <string name="pref_key_minimum_barcode_width" translatable="false">barcode_mbw</string>
+    <string name="pref_key_delay_loading_barcode_result" translatable="false">barcode_dlbr</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="prompt_point_at_a_barcode">Point your camera at a barcode</string>
+    <string name="barcode_copy_keyboard">Copy</string>
+    <string name="barcode_open_link">Open Link</string>
+    <string name="barcode_qr_code_not_found">QR code not found</string>
+    <string name="barcode_qr_code_saved">Successfully saved QR code</string>
+    <string name="barcode_scan_qr_code">Scan QR code</string>
+    <string name="barcode_save_qr_code">Save QR code</string>
+    <string name="barcode_my_qr_code">My QR Code</string>
+    <string name="barcode_scan_image_available">Scan photo</string>
+</resources>

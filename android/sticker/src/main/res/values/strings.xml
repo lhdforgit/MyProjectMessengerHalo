@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <string name="editor_felling_language">vi</string>
+
+    <string name="emoji_category_recent" translatable="false">Recent</string>
+    <string name="emoji_backspace" translatable="false">Backspace</string>
+
+    <string name="emoji_google_category_smileysandpeople">Faces</string>
+    <string name="emoji_google_category_animalsandnature">Nature</string>
+    <string name="emoji_google_category_foodanddrink">Food</string>
+    <string name="emoji_google_category_activities">Activities</string>
+    <string name="emoji_google_category_travelandplaces">Places</string>
+    <string name="emoji_google_category_objects">Objects</string>
+    <string name="emoji_google_category_symbols">Symbols</string>
+    <string name="emoji_google_category_flags">Flags</string>
+</resources>

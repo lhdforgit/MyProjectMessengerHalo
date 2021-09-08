@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="56dp"
+        android:paddingEnd="56dp"
+        android:theme="@style/Messenger"
+        android:gravity="center"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/message_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bubble_message_right"
+            style="@style/Messenger.ChatKit.OutcomingText"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            />
+    </RelativeLayout>
+</layout>

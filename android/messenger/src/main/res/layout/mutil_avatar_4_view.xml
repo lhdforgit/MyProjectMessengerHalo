@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="1dp"
+            android:background="@drawable/bg_chat_message_avatar"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:padding="1dp"
+            android:background="@drawable/bg_chat_message_avatar"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:padding="1dp"
+            android:background="@drawable/bg_chat_message_avatar"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:padding="1dp"
+            android:background="@drawable/bg_chat_message_avatar"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Messenger.Character.H6"
+            android:id="@+id/count_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/image_4"
+            android:layout_alignStart="@id/image_4"
+            android:layout_alignEnd="@id/image_4"
+            android:layout_alignBottom="@id/image_4"
+            android:background="@drawable/bg_chat_message_avatar_count"
+            android:textColor="@color/text_on_primary"
+            android:gravity="center"
+            tool:text="5+" />
+    </RelativeLayout>
+</layout>

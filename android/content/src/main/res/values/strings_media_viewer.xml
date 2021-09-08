@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Media Viewer-->
+    <string name="media_viewer_save_to">Save to</string>
+    <string name="media_viewer_coppy_failed">Copy failed!</string>
+    <string name="media_viewer_create">Create</string>
+    <string name="media_viewer_media_error">Media error, please check again</string>
+    <string name="media_viewer_edit">Update</string>
+    <!--End Media Viewer-->
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_chat_setting">
+        <item>#F5B748 </item>
+        <item>#0BCF8E</item>
+        <item>#EA7E7E</item>
+        <item>#089FCF</item>
+        <item>#D97DD9</item>
+        <item>#FFEDAF</item>
+        <item>#B260EF</item>
+        <item>#FF7BD1</item>
+        <item>ic_green_effect</item>
+        <item>ic_pink_effect</item>
+        <item>ic_purple_effect</item>
+        <item>ic_blue_effect</item>
+    </string-array>
+</resources>

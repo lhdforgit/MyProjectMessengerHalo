@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/wrapper"
+        style="@style/Incognito.Wrapper">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Incognito.AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Incognito.Toolbar.White.Nav">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H3"
+                    android:text="Thông tin nhóm"
+                    android:layout_gravity="center"
+                    android:textColor="@color/text_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/incognito_profile_group_header_view" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+                <com.hahalolo.incognito.presentation.setting.view.IncognitoProfileGalleryView
+                    android:id="@+id/gallery_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/member_tv"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="?actionBarItemBackground"
+                    android:drawableStart="@drawable/ic_incognito_profile_view_member"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Xem thành viên" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_profile_hide_conversation"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Ẩn cuộc trò chuyện" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Incognito.TextView.H5.Notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_profile_delete_conversation"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Xóa cuộc trò chuyện"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Incognito.TextView.H5.Notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_profile_leave_conversation"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Rời khỏi cuộc trò chuyện" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activity_small_s"
+                    android:background="@color/incognito_background_divider" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/app_background" />
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

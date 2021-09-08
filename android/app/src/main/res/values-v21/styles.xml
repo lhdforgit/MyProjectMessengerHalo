@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="Halo.ParalaxAppbar" parent="Messenger.AppBar.NoElevation">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">#29000000</item>
+        <item name="android:statusBarColor">#29000000</item>
+        <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.BottomDrawer.LargeComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.BottomDrawer.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.BottomDrawer" parent="ShapeAppearanceOverlay.TopLeftCut">
+        <item name="cornerSizeTopLeft">@dimen/minimized_sheet_top_left_radius</item>
+    </style>
+
+    <dimen name="minimized_sheet_top_left_radius">20dp</dimen>
+
+    <style name="Plain" parent="BottomDialogTheme">
+        <item name="bottom_sheet_extra_padding">0dp</item>
+        <item name="should_draw_under_status_bar">false</item>
+
+    </style>
+    <style name="Pull" parent="BottomDialogTheme">
+        <item name="bottom_sheet_extra_padding">0dp</item>
+        <item name="bottom_sheet_corner_radius">26dp</item>
+        <item name="should_draw_content_under_handle_view">true</item>
+    </style>
+
+    <style name="Rotate" parent="BottomDialogTheme">
+        <item name="bottom_sheet_extra_padding">0dp</item>
+        <item name="bottom_sheet_corner_radius">26dp</item>
+        <item name="should_draw_content_under_handle_view">true</item>
+    </style>
+
+    <style name="Plain_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+    </style>
+
+    <style name="Pull_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">6dp</item>
+    </style>
+
+    <style name="Rotate_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="bottom_sheet_corner_radius_v3">6dp</item>
+        <item name="should_draw_content_under_handle_view_v3">true</item>
+    </style>
+
+    <style name="NothingTop_v3" parent="BottomDialogThemeV3">
+        <item name="bottom_sheet_extra_padding_v3">0dp</item>
+        <item name="should_draw_under_status_bar_v3">false</item>
+        <item name="bottom_sheet_corner_radius_v3">0dp</item>
+    </style>
+
+</resources>

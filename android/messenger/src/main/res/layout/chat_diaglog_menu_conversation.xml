@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isGroup"
+            type="Boolean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_normal_s" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/noti_conversation_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:paddingStart="@dimen/activity_lage_s"
+            android:paddingTop="@dimen/activity_normal_s"
+            android:paddingEnd="@dimen/activity_lage_s"
+            android:paddingBottom="@dimen/activity_normal_s"
+            tools:text="Tắt thông báo tin nhắn" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/list_member_tv"
+            style="@style/Messenger.Character.H6"
+            isVisible="@{isGroup, default = false}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:paddingStart="@dimen/activity_lage_s"
+            android:paddingTop="@dimen/activity_normal_s"
+            android:paddingEnd="@dimen/activity_lage_s"
+            android:paddingBottom="@dimen/activity_normal_s"
+            android:text="@string/chat_message_members" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/add_member_tv"
+            style="@style/Messenger.Character.H6"
+            isVisible="@{isGroup, default = false}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:paddingStart="@dimen/activity_lage_s"
+            android:paddingTop="@dimen/activity_normal_s"
+            android:paddingEnd="@dimen/activity_lage_s"
+            android:paddingBottom="@dimen/activity_normal_s"
+            android:text="@string/chat_message_add_people" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/leave_group_tv"
+            style="@style/Messenger.Character.H6"
+            isVisible="@{isGroup, default = false}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:paddingStart="@dimen/activity_lage_s"
+            android:paddingTop="@dimen/activity_normal_s"
+            android:paddingEnd="@dimen/activity_lage_s"
+            android:paddingBottom="@dimen/activity_normal_s"
+            android:text="@string/chat_message_leave_group"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/remove_conversation_tv"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:paddingStart="@dimen/activity_lage_s"
+            android:paddingTop="@dimen/activity_normal_s"
+            android:paddingEnd="@dimen/activity_lage_s"
+            android:paddingBottom="@dimen/activity_normal_s"
+            android:text="@string/chat_message_delete_conversation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_normal_s" />
+    </LinearLayout>
+</layout>

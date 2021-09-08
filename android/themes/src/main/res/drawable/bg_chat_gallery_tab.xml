@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_border_gallery_tab_select" android:state_selected="true" />
+    <item android:drawable="@drawable/bg_border_gallery_tab_un_select" android:state_selected="false" />
+</selector>

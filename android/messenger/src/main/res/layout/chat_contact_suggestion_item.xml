@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="sended"
+            type="Boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/messenger_vertical_margin"
+        android:paddingLeft="@dimen/messenger_vertical_margin"
+        android:paddingTop="15dp"
+        android:paddingEnd="@dimen/messenger_vertical_margin"
+        android:paddingRight="@dimen/messenger_vertical_margin"
+        android:paddingBottom="15dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/avatar_iv"
+            android:layout_width="@dimen/messenger_avatar_small_size"
+            android:layout_height="@dimen/messenger_avatar_small_size"
+            android:background="@drawable/circle_holder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/conversation_name_tv"
+            style="@style/Messenger.TextView.ConversationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/avatar_iv"
+            app:layout_constraintEnd_toStartOf="@+id/add_bt"
+            app:layout_constraintStart_toEndOf="@+id/avatar_iv"
+            app:layout_constraintTop_toTopOf="@+id/avatar_iv"
+            tool:text="David Simon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_bt"
+            style="@style/Messenger.Button.Suggestion"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/chat_message_contact_suggest_action"
+            android:visibility="@{sended ? View.GONE : View.VISIBLE}"
+            app:layout_constraintBottom_toBottomOf="@id/avatar_iv"
+            app:layout_constraintEnd_toStartOf="@+id/chat"
+            app:layout_constraintTop_toTopOf="@+id/avatar_iv" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            app:layout_constraintBottom_toBottomOf="@id/avatar_iv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/avatar_iv"
+            app:srcCompat="@drawable/ic_mess_suggest_chat" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

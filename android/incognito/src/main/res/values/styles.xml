@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Style of Incognito-->
+    <style name="Incognito" />
+
+    <style name="Incognito.Wrapper" parent="Messenger.Wrapper">
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+    <style name="Incognito.AppBar" parent="Messenger.AppBar" />
+
+    <style name="Incognito.AppBar.NoElevation" parent="Messenger.AppBar.NoElevation" />
+
+    <style name="Incognito.Toolbar" parent="Messenger.Toolbar" />
+
+    <style name="Incognito.Toolbar.White" parent="Messenger.Toolbar.White" />
+
+    <style name="Incognito.Toolbar.White.Nav">
+        <item name="navigationIcon">@drawable/ic_incognito_toolbar</item>
+    </style>
+
+    <style name="Incognito.TextView" parent="Messenger.TextView" />
+
+    <style name="Incognito.TextView.H1" parent="Messenger.Character.H1" />
+
+    <style name="Incognito.TextView.H2" parent="Messenger.Character.H2" />
+
+    <style name="Incognito.TextView.H2.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Incognito.TextView.H3" parent="Messenger.Character.H3" />
+
+    <style name="Incognito.TextView.H3.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Incognito.TextView.H4" parent="Messenger.Character.H4" />
+
+    <style name="Incognito.TextView.H4.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Incognito.TextView.H4.Notice" >
+        <item name="android:textColor">@color/incognito_text_notice</item>
+    </style>
+
+    <style name="Incognito.TextView.H4.Primary" >
+        <item name="android:textColor">@color/incognito_text_primary</item>
+    </style>
+
+    <style name="Incognito.TextView.H5" parent="Messenger.Character.H5" />
+
+    <style name="Incognito.TextView.H5.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Incognito.TextView.H5.Notice">
+        <item name="android:textColor">@color/incognito_text_notice</item>
+    </style>
+
+    <style name="Incognito.TextView.H5.Notice.Normal">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Incognito.TextView.H5.Primary">
+        <item name="android:textColor">@color/incognito_text_primary</item>
+    </style>
+
+    <style name="Incognito.TextView.H5.Primary.Normal">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Incognito.TextView.H5.Normal" parent="Messenger.Character.H5.Normal" />
+
+    <style name="Incognito.TextView.H5.OneLine" parent="Messenger.Character.H5.Dark.OneLine" />
+
+    <style name="Incognito.TextView.H6" parent="Messenger.Character.H6" />
+
+    <style name="Incognito.TextView.H6.Notice">
+        <item name="android:textColor">@color/incognito_text_notice</item>
+    </style>
+
+    <style name="Incognito.TextView.H6.Dark" parent="Messenger.Character.H6.Dark" />
+
+    <style name="Incognito.TextView.H6.Bold" parent="Messenger.Character.H6.Bold" />
+
+    <style name="Incognito.TextView.H6.OneLine" parent="Messenger.Character.H6.OneLine" />
+
+    <style name="Incognito.TextView.H7" parent="Messenger.Character.H7" />
+
+    <style name="Incognito.TextView.H7.Secondary.OneLine" parent="Messenger.Character.H7.Secondary.OneLine"/>
+
+    <style name="Incognito.TextView.H7.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Incognito.TextView.H7.OneLine" parent="Messenger.Character.H7.Dark.OneLine" />
+
+    <style name="Incognito.TextView.H7.Bold.Online">
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Incognito.Character.ticket" parent="Messenger.Character.ticket" />
+
+    <!-- START Button-->
+    <style name="Incognito.Button" parent="Messenger.Button" />
+
+    <style name="Incognito.OutlinedButton" parent="Messenger.OutlinedButton"/>
+
+    <!-- END Button-->
+
+    <!-- START EditText-->
+
+    <style name="Incognito.EditText" parent="Messenger.EditText" />
+
+    <style name="Incognito.EditText.Background" parent="Messenger.EditText.Background" />
+
+    <style name="Incognito.EditText.BackgroundWhite" parent="Messenger.EditText.BackgroundWhite" />
+
+    <style name="Incognito.EditText.Background.OneLine" parent="Messenger.EditText.Background.OneLine" />
+
+    <style name="Incognito.EditText.Outline" parent="Messenger.EditText.Outline"/>
+
+    <!-- END EditText-->
+
+    <style name="Incognito.TabLayout" parent="@style/Widget.MaterialComponents.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="tabIndicatorColor">?colorPrimary</item>
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <style name="Incognito.TabLayoutText" parent="Incognito.TabLayout">
+        <item name="tabMinWidth">100dp</item>
+        <item name="tabTextAppearance">@style/Incognito.TextView.H5</item>
+        <item name="android:elevation">@dimen/elevation_tab</item>
+    </style>
+
+    <!--END TabLayout-->
+
+    <!--START Search View-->
+    <style name="Incognito.SearchView" parent="Messenger.SearchView" />
+
+    <style name="Incognito.SearchView.Background">
+        <item name="android:background">@drawable/bg_incognito_search_view</item>
+        <item name="queryBackground">@drawable/bg_incognito_search_view</item>
+        <item name="submitBackground">@drawable/bg_incognito_search_view</item>
+    </style>
+
+    <style name="Incognito.BottomNavigation" parent="Messenger.BottomNavigation" >
+        <item name="background">@color/app_background</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Incognito.Switch">
+        <item name="android:textAppearance">@style/Incognito.TextView.H6</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:thumb">@drawable/incognito_switch_setting_thumb</item>
+        <item name="track">@drawable/incognito_switch_setting_track</item>
+        <item name="android:paddingTop">@dimen/activity_normal_s</item>
+        <item name="android:paddingBottom">@dimen/activity_normal_s</item>
+        <item name="android:layout_marginStart">@dimen/activity_normal_s</item>
+        <item name="android:layout_marginEnd">@dimen/activity_normal_s</item>
+        <item name="android:background">@drawable/bg_incognito_switch_bottom_divider</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+    <style name="Incognito.Switch.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Incognito.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_small_s</item>
+        <item name="android:background">@color/app_background_divider</item>
+    </style>
+
+    <style name="Incognito.Divider.BottomSheet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:height">@dimen/activity_small_s</item>
+        <item name="android:background">@color/incognito_bottom_sheet_background_divider</item>
+    </style>
+
+
+    <!--START Messenger ChatKit-->
+
+    <style name="Incognito.ChatKit" parent="Messenger.Character.H6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Incognito.ChatKit.Notification">
+        <item name="android:textColor">@color/messenger_text_notification_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_notification</item>
+    </style>
+
+    <style name="Incognito.ChatKit.Date">
+        <item name="android:textColor">@color/messenger_text_date_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_date</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText">
+        <item name="android:textColor">@color/messenger_incoming_text_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text</item>
+        <item name="android:textColorLink">@color/messenger_incoming_text_link_color</item>
+    </style>
+
+    <style name="Incognito.ChatKit.EditQuote">
+        <item name="android:textColor">@color/messenger_incoming_text_time_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText.Quote">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText.File">
+        <item name="android:textColor">@color/messenger_incoming_text_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_file</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText.Removed">
+        <item name="android:textColor">@color/messenger_incoming_text_removed_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText.Time">
+        <item name="android:textColor">@color/messenger_incoming_text_time_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_time</item>
+    </style>
+
+    <style name="Incognito.ChatKit.IncomingText.UserName">
+        <item name="android:textColor">@color/messenger_incoming_text_username_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_username</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText">
+        <item name="android:textColor">@color/messenger_outcoming_text_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text</item>
+        <item name="android:textColorLink">@color/messenger_outcoming_text_link_color</item>
+        <item name="android:autoLink">web</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText.Quote">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText.Removed">
+        <item name="android:textColor">@color/messenger_outcoming_text_removed_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText.Status">
+        <item name="android:textColor">@color/messenger_outcoming_text_status_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_status</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText.Time">
+        <item name="android:textColor">@color/messenger_outcoming_text_time_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_time</item>
+    </style>
+
+    <style name="Incognito.ChatKit.OutcomingText.File">
+        <item name="android:textColor">@color/messenger_outcoming_text_file_color</item>
+        <item name="android:textSize">@dimen/messenger_chatkit_text_file</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Incognito.TextView.ConversationMess" >
+        <item name="android:textColor">@color/messenger_conversation_mess</item>
+        <item name="fontFamily">@font/muli_regular</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="Incognito.TextView.ConversationMess.Unread">
+        <item name="android:textColor">@color/messenger_conversation_mess_unread</item>
+        <item name="fontFamily">@font/muli_medium</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="Incognito.TextView.ConversationTime">
+        <item name="android:textColor">@color/messenger_conversation_mess_time</item>
+    </style>
+
+    <!--END Messenger ChatKit-->
+
+
+    <style name="Incognito.Dialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

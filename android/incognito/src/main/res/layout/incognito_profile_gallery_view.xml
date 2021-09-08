@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_background"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_normal_s">
+
+        <LinearLayout
+            android:id="@+id/group_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_incognito_profile_gallery" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/Incognito.TextView.H5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:text="Quản lý tập tin" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/navigate_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?selectableItemBackgroundBorderless"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_incognito_navigate_right" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/invisible_view"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/description_tv"
+            style="@style/Incognito.TextView.H7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:text="Xem ảnh, liên kết, tập tin đã chia sẻ"
+            app:layout_constraintStart_toEndOf="@+id/invisible_view"
+            app:layout_constraintTop_toBottomOf="@+id/group_menu" />
+
+
+        <LinearLayout
+            android:id="@+id/image_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/group_menu"
+            app:layout_constraintStart_toEndOf="@+id/invisible_view"
+            app:layout_constraintTop_toBottomOf="@+id/description_tv" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

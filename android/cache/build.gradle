@@ -1,0 +1,147 @@
+/*
+ * Copyright 10/10/2018 Hahalolo. All rights reserved.
+ *
+ * https://help.hahalolo.com/commercial_terms/
+ */
+
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        buildConfigField 'int', 'VERSION_CODE', "${build_versions.version_code}"
+        buildConfigField 'String', 'VERSION_NAME', "\"${build_versions.version_name}\""
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard/proguard-rules.pro',
+                    'proguard/proguard-appcompat-v7.pro',
+                    'proguard/proguard-google-play-services.pro',
+                    'proguard/gson.pro',
+                    'proguard/retrofit.pro',
+                    'proguard/okhttp3.pro',
+                    'proguard/okio.pro',
+                    'proguard/reactive.pro',
+                    'proguard/coroutines.pro',
+                    'proguard/fabric.pro',
+                    'proguard/giphy.pro',
+                    'proguard/dagger.pro',
+                    'proguard/glide.pro',
+                    'proguard/guava.pro',
+                    'proguard/eventbus.pro',
+                    'proguard/mqtt.pro',
+                    'proguard/webkit.pro'
+        }
+
+        debug {
+            minifyEnabled true
+            proguardFiles = buildTypes.release.proguardFiles
+        }
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        mock {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility'
+                            ,"-XXLanguage:+InlineClasses"
+                            ,"-Xopt-in=kotlin.RequiresOptIn"]
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+
+    implementation project(':constant')
+    implementation project(':common')
+
+    implementation deps.androidx.annotations
+
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+    annotationProcessor deps.dagger.android_support_compiler
+    kapt deps.dagger.android_support_compiler
+    annotationProcessor deps.dagger.compiler
+    kapt deps.dagger.compiler
+
+    implementation deps.paging_ktx
+
+    implementation deps.guava.android
+
+    implementation deps.room.runtime
+    implementation deps.room.rxjava2
+    implementation deps.room.guava
+    implementation deps.room.ktx
+    annotationProcessor deps.room.compiler
+    kapt deps.room.compiler
+
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.java8
+
+    implementation deps.gson
+
+    implementation deps.rx.java2
+    implementation deps.rx.android
+
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.okhttp.okhttp_logging_interceptor
+    implementation deps.okhttp.okhttp
+    implementation deps.timber
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation deps.kotlinx_coroutines_core
+}
+
+
+

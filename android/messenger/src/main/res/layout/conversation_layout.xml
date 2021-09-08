@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="name"
+            type="String" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="newMsg"
+            type="boolean" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/BubbleLightThemes">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp">
+
+            <com.hahalolo.messager.bubble.conversation.detail.gallery.BubbleGalleryLayout
+                android:id="@+id/gallery_layout"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.hahalolo.messager.bubble.conversation.message.ConversationMessageLayout
+                android:id="@+id/messageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="visible" />
+
+            <com.hahalolo.messager.bubble.conversation.detail.ConversationDetailLayout
+                android:id="@+id/detail_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.home.ConversationHomeLayout
+                android:id="@+id/homeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.detail.friend.BubbleFriendLayout
+                android:id="@+id/friend_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.detail.member.BubbleMemberLayout
+                android:id="@+id/member_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.dialog.HaloDialogCustomView
+                android:id="@+id/halo_dialog_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.view.react_detail.bubble.BubbleBottomReactDetailView
+                android:id="@+id/react_detail_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <com.hahalolo.messager.bubble.conversation.view.reader_detail.bubble.BubbleBottomReaderDetailView
+                android:id="@+id/reader_detail_view"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <com.hahalolo.messager.bubble.conversation.view.ChatGroupAvatarMenuView
+                android:id="@+id/avatar_menu_view"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </FrameLayout>
+</layout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/Messenger.Wrapper">
+
+        <com.google.android.material.appbar.AppBarLayout style="@style/Messenger.AppBar.NoElevation">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                style="@style/Messenger.Toolbar"
+                app:navigationIcon="@drawable/ic_back_navigation"
+                app:title="@string/main_menu_setting_more" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/sound_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Messenger.Character.H6.Dark"
+                    android:text="@string/setting_app_video_sound"
+                    android:minHeight="48dp" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/bubble_chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Messenger.Character.H6.Dark"
+                    android:text="@string/setting_app_bubble_chat"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

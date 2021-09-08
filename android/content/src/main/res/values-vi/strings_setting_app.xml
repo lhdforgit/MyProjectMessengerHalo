@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_app_video_sound">Bật tiếng khi video trên Bảng tin bắt đầu</string>
+    <string name="setting_app_bubble_chat">Bật chế độ Bóng Chat</string>
+</resources>

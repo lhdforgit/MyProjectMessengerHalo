@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <attr name="md_divider_color" format="color" />
+    <attr name="md_item_selector" format="reference" />
+    <attr name="md_button_selector" format="reference" />
+    <attr name="md_background_color" format="color" />
+    <attr name="md_color_title" format="color" />
+    <attr name="md_color_content" format="color" />
+    <attr name="md_corner_radius" format="dimension" />
+    <attr name="md_font_title" format="reference" />
+    <attr name="md_font_body" format="reference" />
+    <attr name="md_font_button" format="reference" />
+</resources>

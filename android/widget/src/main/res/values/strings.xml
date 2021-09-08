@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="mention" translatable="false">Mention</string>
+    <string name="cancel">Cancel</string>
+    <string name="done" translatable="false">Done</string>
+    <string name="title_time_picker" translatable="false">Select Time</string>
+    <string name="select_time" translatable="false">Select a Time</string>
+    <string name="congratulations" translatable="false">Congratulations</string>
+    <string name="success_body" translatable="false">Transaction is successful</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <attr name="theme_type" format="color" />
+
+    <declare-styleable name="InputPatternView">
+        <attr name="indicatorDrawable" format="integer" />
+        <attr name="isMustEnable" format="boolean" />
+        <attr name="mustText" format="string" />
+    </declare-styleable>
+
+</resources>

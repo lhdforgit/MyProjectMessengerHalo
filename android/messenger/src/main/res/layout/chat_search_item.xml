@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/messenger_search_item_height"
+        android:paddingStart="@dimen/messenger_vertical_margin"
+        android:paddingLeft="@dimen/messenger_vertical_margin"
+        android:paddingEnd="@dimen/messenger_vertical_margin"
+        android:paddingRight="@dimen/messenger_vertical_margin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/messenger_search_view_bg"
+            android:layout_height="@dimen/messenger_search_height">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/search_tv"
+                style="@style/Messenger.Character.H7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawableStart="@drawable/ic_mess_search"
+                android:drawableLeft="@drawable/ic_mess_search"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/common_search_hint"
+                android:textSize="17sp"
+                tools:ignore="RtlHardcoded" />
+        </FrameLayout>
+    </FrameLayout>
+</layout>

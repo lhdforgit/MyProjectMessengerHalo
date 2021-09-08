@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/item_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_background"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_normal_s">
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_holder" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_gravity="center"
+            tools:ignore="UselessLeaf">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/username_tv"
+                style="@style/Messenger.TextView.ConversationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duc thang"
+                tools:ignore="HardcodedText" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/feeling_tv"
+                style="@style/Incognito.TextView.H6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Được nha"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:text="12:10"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</layout>

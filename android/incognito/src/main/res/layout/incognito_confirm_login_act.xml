@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="indicator"
+            type="Boolean" />
+    </data>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        style="@style/Incognito.Wrapper"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="58dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_incognito_confirm_login" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            style="@style/Incognito.TextView.H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Sẻ chia công việc" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/description_tv"
+            style="@style/Incognito.TextView.H6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Nhập mã OTP để hoàn tất đăng nhập" />
+
+        <com.halo.widget.otp.OtpTextView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_body"
+            app:bar_active_color="@color/black"
+            app:bar_enabled="true"
+            app:bar_error_color="@color/text_notice"
+            app:bar_height="2dp"
+            app:bar_inactive_color="@color/divider"
+            app:bar_margin_bottom="0dp"
+            app:bar_margin_left="2dp"
+            app:bar_margin_right="2dp"
+            app:bar_success_color="@color/text_focus"
+            app:box_margin="0dp"
+            app:height="40dp"
+            app:hide_otp="false"
+            android:layout_gravity="center_horizontal"
+            app:length="6"
+            app:otp=""
+            app:otp_text_size="20dp"
+            app:width="40dp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            isVisible="@{indicator}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin_large"
+            android:layout_marginEnd="@dimen/activity_vertical_margin_large"
+            android:indeterminate="true" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/time_resent_tv"
+            android:layout_marginTop="16dp"
+            style="@style/Messenger.Character.H6.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:text="(00:30)" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="32dp"
+            android:id="@+id/resent_bt"
+            style="@style/Incognito.Button"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin_large"
+            android:layout_marginEnd="@dimen/activity_vertical_margin_large"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/oauth_verify_send_the_code" />
+
+    </LinearLayout>
+</layout>

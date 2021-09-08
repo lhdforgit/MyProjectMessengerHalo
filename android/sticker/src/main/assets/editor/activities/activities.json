@@ -1,0 +1,35 @@
+[
+  {
+    "id": "act_0001",
+    "image": "file:///android_asset/editor/activities/icon/plane.png",
+    "type": "act",
+    "langs": [
+      {
+        "key": "vi",
+        "value": "Đang đi tới ..."
+      }
+    ]
+  },
+  {
+    "id": "act_0002",
+    "image": "file:///android_asset/editor/activities/icon/food.png",
+    "type": "act",
+    "langs": [
+      {
+        "key": "vi",
+        "value": "Đang ăn tại ..."
+      }
+    ]
+  },
+  {
+    "id": "act_0003",
+    "image": "file:///android_asset/editor/activities/icon/drinking.png",
+    "type": "act",
+    "langs": [
+      {
+        "key": "vi",
+        "value": "Đang uống tại ..."
+      }
+    ]
+  }
+]

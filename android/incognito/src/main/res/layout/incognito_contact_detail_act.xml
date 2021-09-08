@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/wrapper"
+        style="@style/Incognito.Wrapper">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Incognito.AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Incognito.Toolbar.White.Nav"
+                app:title="Thông tin liên hệ" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/activity_normal_s">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/avatar_img"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/activity_normal_s"
+                        android:padding="4dp"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                        app:srcCompat="@drawable/ic_dummy_page"
+                        app:strokeColor="@color/green_500"
+                        app:strokeWidth="2dp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/username_tv"
+                        style="@style/Incognito.TextView.H4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="Luôn Vui Tươi" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/email_tv"
+                        style="@style/Incognito.TextView.H6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="luonvuituoi@hahalolo.com" />
+
+
+                    <LinearLayout
+                        android:id="@+id/info_contact_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/add_name"
+                            style="@style/Incognito.TextView.H7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/activity_small_s"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_incognito_profile_edit_name_bg"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:gravity="center"
+                            android:text="Đặt tên gợi nhớ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/profile"
+                            style="@style/Incognito.TextView.H7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/activity_small_s"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_incognito_profile_halo_bg"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:gravity="center"
+                            android:text="Trang Hahalolo"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/off_noti"
+                            style="@style/Incognito.TextView.H7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/activity_small_s"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_incognito_profile_turn_of_noti_bg"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:gravity="center"
+                            android:text="Tắt thông báo" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/divider"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Mã QR" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_incognito_profile_qr_code" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Tên hiển thị" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Luôn Vui Tươi" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Giới tính" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Khác" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Ngày sinh" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="24-11-1996" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Địa chỉ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Thành phố Cô Lô Nhuê" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/divider"/>
+
+                <com.hahalolo.incognito.presentation.setting.view.IncognitoProfileGalleryView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/share_code"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Chia sẻ mã QR"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/create_group"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_incognito_profile_create_group"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Tạo nhóm" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/add_group"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Thêm vào nhóm"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/hide_chat"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Ẩn cuộc trò chuyện"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/delete_chat"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Xóa cuộc trò chuyện"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/unfriend"
+                    style="@style/Incognito.TextView.H5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableEnd="@drawable/ic_incognito_navigate_right"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Hủy kết bạn"/>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Menu Main -->
+    <string name="main_menu_newsfeed">Newsfeed</string>
+    <string name="main_menu_experience">Experience</string>
+    <string name="main_menu_ticket">Flights</string>
+    <string name="main_menu_tour">Tour</string>
+    <string name="main_menu_hotel">Hotel</string>
+    <string name="main_menu_device_logged">Device is logged in</string>
+    <string name="main_menu_view_more">View more</string>
+    <string name="main_menu_setting_more">Settings</string>
+    <string name="menu_community_page_title">Community Site</string>
+    <!-- End Menu Main -->
+
+    <!-- CONTACT -->
+    <string name="main_contact_incognito">Contacts</string>
+    <!-- End CONTACT -->
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Start Chat Message-->
+    <plurals name="chat_message_there_are_count_unread_message" >
+        <item quantity="one" formatted="true">Có %d tin nhắn chưa đọc</item>
+        <item quantity="other" formatted="true">Có %d tin nhắn chưa đọc</item>
+    </plurals>
+    <!--End Chat Message-->
+</resources>

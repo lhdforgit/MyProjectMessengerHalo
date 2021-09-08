@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_background"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Messenger.Character.H7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:text="@string/chat_message_create_group_friend_title"
+            android:textSize="20sp" />
+
+        <com.halo.widget.HaloSearchView
+            android:id="@+id/search_view"
+            style="@style/Messenger.SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            android:background="@drawable/bg_department_search"
+            app:queryBackground="@drawable/bg_department_search"
+            app:queryHint="@string/common_search_hint"
+            app:searchHintIcon="@drawable/ic_search_dark_20"
+            app:searchIcon="@drawable/ic_mess_search"
+            app:submitBackground="@drawable/search_view_bg" />
+    </LinearLayout>
+</layout>

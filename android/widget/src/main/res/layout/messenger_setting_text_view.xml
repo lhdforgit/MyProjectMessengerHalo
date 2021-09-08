@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_normal_s">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/icon_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            tools:srcCompat="@drawable/ic_messenger_setting_status_online" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_tv"
+            style="@style/Messenger.Character.H5.Normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/ic_next_right_dark"
+            android:drawablePadding="@dimen/activity_normal_s"
+            tools:text="Trạng thái hoạt động" />
+    </LinearLayout>
+</layout>

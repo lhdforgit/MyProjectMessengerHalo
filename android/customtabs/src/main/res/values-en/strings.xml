@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="action_button_toast_text">Action Button Clicked with URL: %s</string>
+    <string name="menu_item_toast_text">Menu Item Clicked with URL: %s</string>
+    <string name="toolbar_toast_text">Toolbar Clicked with URL: %s</string>
+    <string name="unknown_toast_text">Unknown Action Clicked with URL: %s</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_main_remove_history_title">Delete history</string>
+    <string name="search_main_remove_history_des">Are you sure you want to delete %s from your search history</string>
+    <string name="search_main_remove_history_bt_title">Delete</string>
+    <string name="search_main_remove_all_history_title">Delete all history</string>
+    <string name="search_main_remove_all_history_des">Are you sure you want to delete all search history? After deleting data, it cannot be restored.</string>
+    <string name="search_main_remove_all_history_bt_title">Delete all</string>
+    <string name="search_main_history_title">Recent search</string>
+    <string name="search_main_history_empty_caption">Enter a few keywords to search for in Hahalolo.</string>
+    <string name="search_main_empty_title">No matching results!</string>
+    <string name="hotel_search_result_title">Hotel page</string>
+    <string name="tour_search_result_tour_page">Tour page</string>
+    <string name="product_search_result_title">Shop page</string>
+</resources>

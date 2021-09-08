@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/pick_avatar_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.halo.widget.shapeimageview.CircleImageView
+                    android:id="@+id/avatar_img"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_dummy_personal_circle"
+                    android:layout_margin="@dimen/activity_small_s"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/ic_incognito_new_image" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.halo.widget.HaloEditText
+                android:id="@+id/group_name_edt"
+                style="@style/Incognito.EditText.Background"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_weight="1"
+                android:hint="Đặt tên nhóm..." />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/bg_incognito_top_divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/create_bt"
+            style="@style/Messenger.Character.H4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:text="Tạo"
+            android:textColor="@color/incognito_primary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/bg_incognito_top_divider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cancel_bt"
+            style="@style/Messenger.Character.H5.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:text="Hủy" />
+
+    </LinearLayout>
+</layout>

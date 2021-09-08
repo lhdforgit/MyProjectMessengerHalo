@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isPage"
+            type="boolean" />
+
+        <!--Được gửi lời mời, chờ xác nhận-->
+        <variable
+            name="wait"
+            type="boolean" />
+        <!--Xác nhận đã là bạn bè-->
+        <variable
+            name="friend"
+            type="boolean" />
+        <!--Đã gửi lời mời, chờ xác nhận-->
+        <variable
+            name="send"
+            type="boolean" />
+        <!--Đã theo dõi người dùng-->
+        <variable
+            name="follow"
+            type="boolean" />
+
+        <variable
+            name="owner"
+            type="boolean" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_divider"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_normal_s">
+
+        <com.halo.widget.shapeimageview.CircleImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/circle_holder" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:layout_marginEnd="@dimen/activity_normal_s"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/username_tv"
+                style="@style/Messenger.Character.H5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                tools:text="Le Hai Dang" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/caption_tv"
+                style="@style/Messenger.Character.H7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Khách sạn" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?selectableItemBackgroundBorderless"
+            android:visibility="@{owner || friend || wait || send || isPage? View.GONE : View.VISIBLE}"
+            app:srcCompat="@drawable/ic_personal_wall_add_friend" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/un_add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?selectableItemBackgroundBorderless"
+            android:visibility="@{(send &amp;&amp; !isPage) ? View.VISIBLE : View.GONE}"
+            app:srcCompat="@drawable/ic_personal_wall_menu_sended" />
+
+        <!-- If user is owner hide this -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/chat_friend_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/activity_normal_s"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:visibility="@{owner ||isPage? android.view.View.GONE : android.view.View.VISIBLE}"
+            app:srcCompat="@drawable/ic_personal_wall_messenger" />
+    </LinearLayout>
+</layout>

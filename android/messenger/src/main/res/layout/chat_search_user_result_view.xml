@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="isEmpty"
+            type="Boolean" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Chat.TextView.H5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Liên hệ" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Chat.TextView.H6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_normal_s"
+            android:text="• Không tìm thấy kết quả"
+            android:visibility="@{isEmpty ? View.VISIBLE : View.GONE}" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:visibility="@{isEmpty ? View.GONE : View.VISIBLE}" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/action_bt"
+            style="@style/Messenger.TextButton.H6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/activity_normal_s"
+            android:text="More"
+            android:visibility="@{isEmpty ? View.GONE : View.VISIBLE}" />
+
+    </LinearLayout>
+</layout>

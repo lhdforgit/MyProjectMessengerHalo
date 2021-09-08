@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c).
+  ~ TT-Technologies IT-Service GmbH
+  -->
+
+<resources>
+    <color name="chip_surface_color_dark">#9A000000</color>
+    <color name="reticle_ripple">#9AFFFFFF</color>
+    <color name="barcode_reticle_background">#99000000</color>
+    <color name="barcode_reticle_stroke">#40000000</color>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <string-array
+        name="bank_list_name_hand_note">
+        <item>Ngân hàng Nông nghiệp và Phát triển Nông thôn (Agribank)</item>
+        <item>Ngân hàng TMCP Bắc Á</item>
+        <item>Ngân hàng Đầu tư và Phát triển Việt Nam (BIDV)</item>
+        <item>Ngân hàng TMCP Xuất Nhập Khẩu (Eximbank)</item>
+        <item>Ngân hàng TMCP Hàng Hải (MariTimeBank )</item>
+        <item>Ngân hàng TMCP Sài Gòn Thương Tín (Sacombank)</item>
+        <item>Ngân hàng TMCP Sài Gòn Công thương</item>
+        <item>Ngân hàng TMCP Nam Việt (NaviBank)</item>
+        <item>Ngân Hàng TMCP Xăng Dầu Petrolimex (PGBank)</item>
+        <item>Ngân hàng TMCP Dầu Khí (GPBank)</item>
+        <item>Ngân hàng TMCP Công Thương (VietinBank)</item>
+        <item>Ngân hàng TMCP Kỹ Thương (Techcombank)</item>
+        <item>Ngân hàng TMCP Tiên Phong (TienPhong Bank)</item>
+        <item>Ngân hàng TMCP Việt Á (VietA Bank)</item>
+        <item>Ngân hàng TMCP Quốc tế (VIB)</item>
+        <item>Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)</item>
+        <item>Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)</item>
+        <item>Ngân hàng TMCP Đông Á (DongA Bank)</item>
+        <item>Ngân hàng TMCP Quân Đội (MB)</item>
+        <item>Ngân hàng TMCP Á Châu (ACB)</item>
+        <item>Ngân hàng TMCP Phát Triển Nhà TP. Hồ Chí Minh (HDBank)</item>
+        <item>Ngân hàng TMCP Việt Nam Thịnh Vượng  (VPBank)</item>
+        <item>Ngân hàng TMCP Đại Dương (OceanBank)</item>
+        <item>Ngân hàng TMCP Sài Gòn - Hà Nội</item>
+        <item>Ngân hàng TMCP Đông Nam Á (SeABank)</item>
+        <item>Ngân Hàng Phương Đông Việt Nam (OCB)</item>
+        <item>Ngân hàng TMCP An Bình</item>
+        <item>Ngân hàng Nam Á (NamABank)</item>
+        <item>Ngân hàng Thương Mại Cổ Phần Sài Gòn - Saigon Commercial Bank</item>
+        <item>Ngân hàng trách nhiệm hữu hạn Indovina</item>
+        <item>WeChat Pay</item>
+        <item>Viettel post</item>
+    </string-array>
+
+    <string-array name="bank_list_code_hand_note">
+        <item>AGB</item>
+        <item>BAB</item>
+        <item>BIDV</item>
+        <item>EXB</item>
+        <item>MSB</item>
+        <item>STB</item>
+        <item>SGB</item>
+        <item>NVB</item>
+        <item>PGB</item>
+        <item>GPB</item>
+        <item>ICB</item>
+        <item>TCB</item>
+        <item>TPB</item>
+        <item>VAB</item>
+        <item>VIB</item>
+        <item>VCB</item>
+        <item>VCBPAY</item>
+        <item>DAB</item>
+        <item>MB</item>
+        <item>ACB</item>
+        <item>HDB</item>
+        <item>VPB</item>
+        <item>OJB</item>
+        <item>SHB</item>
+        <item>SEA</item>
+        <item>OCB</item>
+        <item>ABB</item>
+        <item>NAB</item>
+        <item>SCB</item>
+        <item>IVB</item>
+        <item>WCP</item>
+        <item>VIETTELPOST</item>
+    </string-array>
+</resources>

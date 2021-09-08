@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/status_bt"
+            style="@style/Messenger.Character.H6"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_forward_message_send"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Gửi"
+            android:textColor="@color/primary" />
+
+    </FrameLayout>
+</layout>

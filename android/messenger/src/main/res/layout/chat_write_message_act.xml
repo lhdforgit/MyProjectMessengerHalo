@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="searching"
+            type="boolean" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/wrapper"
+        style="@style/Messenger.Wrapper">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_normal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Messenger.Character.H5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_normal"
+                    android:layout_marginEnd="@dimen/activity_normal"
+                    android:layout_marginBottom="@dimen/activity_normal"
+                    android:text="@string/chat_message_write_message_send_to" />
+
+<!--                <androidx.appcompat.widget.AppCompatEditText-->
+<!--                    android:id="@+id/searchView"-->
+<!--                    style="@style/Messenger.EditText.BackgroundWhite"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/activity_normal"-->
+<!--                    android:layout_marginBottom="@dimen/activity_normal"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:hint="@string/chat_message_write_message_input_name_or_group"-->
+<!--                    android:imeOptions="actionSearch"-->
+<!--                    android:inputType="text" />-->
+
+               <com.halo.widget.HaloCustomSearchView
+                   android:id="@+id/searchView"
+                   style="@style/Messenger.EditText.BackgroundWhite"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/activity_normal"
+                   android:layout_marginBottom="@dimen/activity_normal"
+                   android:layout_weight="1"
+                   app:queryHint="@string/chat_message_write_message_input_name_or_group"
+                   android:imeOptions="actionSearch"
+                   android:inputType="text"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/clear_search_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/activity_small"
+                    android:src="@drawable/ic_remove"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/create_group"
+                style="@style/Messenger.TextView.ConversationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/messenger_create_group_bg_color"
+                android:drawableStart="@drawable/ic_mess_create_group"
+                android:drawablePadding="@dimen/activity_normal"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_normal"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_normal"
+                android:text="@string/chat_message_create_new_group_btn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/users_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{!searching ? View.VISIBLE : View.GONE}"/>
+
+                <com.hahalolo.messager.presentation.write_message.view.ChatWriteMessageSearchResultView
+                    android:id="@+id/user_search_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{searching ? View.VISIBLE : View.GONE}" />
+
+                <LinearLayout
+                    android:id="@+id/empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/empty_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="45dp"
+                        app:srcCompat="@drawable/contact_empty" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/empty_tv"
+                        style="@style/Messenger.TextView.Notify"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/messenger_vertical_margin"
+                        android:text="@{searching? @string/chat_message_search_friend_list_empty : @string/chat_message_friend_list_empty}" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/create_mess_bt"
+                        style="@style/Messenger.Button.Suggestion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Them ban"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/error"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/error_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/error_network_request_failed" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        android:id="@+id/loading_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/error_network_request_failed" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Messenger.AppBar.NoElevation">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Messenger.Toolbar.Small"
+                app:layout_scrollFlags="scroll|enterAlways|snap">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/app_background">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/navigation_bt"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="@dimen/messenger_vertical_margin"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/activity_small"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_message_back" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/avatar_iv"
+                        style="@style/Messenger.Character.H3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chat_message_write_message_title"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

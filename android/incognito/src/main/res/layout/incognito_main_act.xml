@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="mess"
+            type="Boolean" />
+
+        <variable
+            name="contact"
+            type="Boolean" />
+
+        <variable
+            name="group"
+            type="Boolean" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        style="@style/Incognito.Wrapper"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Incognito.AppBar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/Incognito.Toolbar.White"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize">
+
+                <com.halo.widget.shapeimageview.CircleImageView
+                    android:id="@+id/owner_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/community_avatar_holder" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/title_tv"
+                    style="@style/Incognito.TextView.H2.Dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/qr_code"
+                    isGone="@{group}"
+                    android:layout_width="56dp"
+                    android:background="@color/transparent"
+                    android:layout_height="56dp"
+                    android:scaleType="centerInside"
+                    android:tint="#000"
+                    android:src="@drawable/ic_incognito_main_qr_code"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/add_contact"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/add_contact"
+                    isVisible="@{!mess &amp;&amp; !group}"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_incognito_add_contact"
+                    android:tint="#000"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/create_mess"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/create_mess"
+                    isVisible="@{mess}"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_incognito_edit_contacts"
+                    android:tint="#000"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/create_group"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/create_group"
+                    isVisible="@{group}"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@color/transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_incognito_main_create_group"
+                    android:tint="#000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.halo.widget.HaloEmptySubmitSearchView
+            android:id="@+id/search_view"
+            style="@style/Incognito.SearchView.Background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            app:queryHint="@string/search_hint" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                style="@style/Incognito.BottomNavigation"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="72dp"
+                android:elevation="0dp"
+                app:elevation="0dp"
+                app:itemIconSize="56dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                app:menu="@menu/incognito_bottom_navigation_menu" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/main_menu"
+                android:visibility="gone"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_incognito_main_menu_item" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

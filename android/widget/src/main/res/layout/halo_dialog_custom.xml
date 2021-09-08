@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_normal_s">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_tv"
+                style="@style/Messenger.Character.H6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/activity_normal_s" />
+
+            <LinearLayout
+                android:id="@+id/content_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_normal_s" />
+
+            <LinearLayout
+                android:id="@+id/group_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/activity_lage_s"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:layout_marginEnd="@dimen/activity_lage_s"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/primary_bt"
+                    style="@style/Messenger.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:backgroundTint="#D6F3FC"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    android:textColor="#24A8D8"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:text="Primary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/success_bt"
+                    style="@style/Messenger.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:backgroundTint="#E1F4EA"
+                    android:textColor="#0AC46B"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:text="Success" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/warning_bt"
+                    style="@style/Messenger.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:backgroundTint="#FFEFEF"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    android:textColor="#FF3F34"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:text="Error" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cancel_bt"
+                    style="@style/Messenger.TextButton.H6"
+                    android:background="?selectableItemBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    tools:text="Text" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

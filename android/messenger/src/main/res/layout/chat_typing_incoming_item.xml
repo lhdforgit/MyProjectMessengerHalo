@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+    <LinearLayout
+        android:id="@+id/messageGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/messageTime"
+            android:layout_gravity="center"
+            style="@style/Messenger.ChatKit.IncomingText.Time"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="16dp">
+
+            <com.hahalolo.messager.chatkit.holder.view.ChatMessageUserAvatar
+                android:id="@+id/messageUserAvatarGr"
+                android:layout_width="@dimen/message_avatar_gr_size"
+                android:layout_height="@dimen/message_avatar_gr_size"
+                android:layout_alignBottom="@id/messageBubble"
+                android:layout_marginEnd="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/messageUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/messageBubble"
+                style="@style/Messenger.ChatKit.IncomingText.UserName"
+                android:textSize="12sp"
+                app:layout_alignSelf="center" />
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@id/messageBubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/messageUserName"
+                android:layout_marginEnd="@dimen/message_incoming_bubble_margin_right"
+                android:layout_toEndOf="@id/messageUserAvatarGr"
+                android:orientation="vertical"
+                app:alignContent="stretch"
+                app:alignItems="stretch"
+                app:flexWrap="wrap"
+                app:justifyContent="flex_end">
+
+                <com.halo.widget.HaloEmojiTextView
+                    style="@style/Messenger.ChatKit.IncomingText.Removed"
+                    android:id="@id/messageText"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+        </RelativeLayout>
+        <com.hahalolo.messager.chatkit.view.MessageReaderItem
+            android:id="@+id/messageReaderItem"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+</layout>

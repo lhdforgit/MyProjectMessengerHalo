@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!-- Oauth Verify -->
+    <string name="oauth_verify_send_the_code_time">Resend code(%s)</string>
+    <string name="oauth_verify_send_the_code">Resend code</string>
+    <string name="verify_code_phone_email_caption">Enter the code we sent you</string>
+    <string name="verify_caption_email">The code has been sent to the email</string>
+    <string name="verify_caption_phone">The code has been sent to the phone number</string>
+    <string name="verify_sign_in_another"><u>Sign in with a different account</u></string>
+    <string name="verify_resend_code_caption">Did not get the code?</string>
+    <string name="verify_confirm">confirm</string>
+    <string name="verify_error_block_account">Your account has been locked because the number of attempts to send a code exceeds the specified number of times</string>
+    <string name="verify_error_code_time_out">Verification code has expired</string>
+    <string name="verify_input_code">Get the code we sent to</string>
+    <string name="verify_cannot_receive_code">You have not received the confirmation code?</string>
+    <string name="verify_birth_hint">Choose the date of birth</string>
+    <string name="verify_update">Update</string>
+    <string name="verify_cancel">Ignore</string>
+    <string name="verify_success">Successful account verification!</string>
+    <string name="verify_code_requried">Verification code is required</string>
+    <string name="verify_code_error_count">Verification code must be 6 characters</string>
+    <string name="verify_code_error_incorrect">Incorrect verification code</string>
+    <string name="verify_code_timeout">Verification code has expired</string>
+    <string name="verify_send_code_complete">Send verification code successfully!</string>
+    <string name="verify_update_info_title">You can further complete \ personal information</string>
+    <!-- End Oauth Verify -->
+</resources>

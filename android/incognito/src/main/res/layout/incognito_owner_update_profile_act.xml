@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/wrapper"
+        style="@style/Incognito.Wrapper">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            style="@style/Incognito.AppBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Incognito.Toolbar.White.Nav"
+                app:title="Thay đổi hồ sơ" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/avatar_img"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_margin="@dimen/activity_normal_s"
+                        android:padding="4dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                        app:srcCompat="@drawable/ic_dummy_page"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/new_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="@+id/avatar_img"
+                        app:layout_constraintEnd_toEndOf="@+id/avatar_img"
+                        app:srcCompat="@drawable/ic_incognito_new_image"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/username_tv"
+                        style="@style/Incognito.TextView.H4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/activity_normal_s"
+                        android:singleLine="true"
+                        android:text="Luôn Vui Tươi"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/avatar_img"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/email"
+                        style="@style/Incognito.TextView.H6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="luonvuituoi@hahalolo.com"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/username_tv"
+                        tools:ignore="MissingConstraints" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Tên hiển thị" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/name_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="Luôn Vui Tươi" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Giới tính" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/gender_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="Nam" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Ngày sinh" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/date_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="10-02-1997" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Số điện thoại" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/phone_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="0351489421" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Email" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/email_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="luonvuituoi@hahalolo.com" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?actionBarItemBackground"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/activity_normal_s">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/Incognito.TextView.H6.Bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Địa chỉ" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/address_tv"
+                            style="@style/Incognito.TextView.H6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/activity_normal_s"
+                            android:drawableEnd="@drawable/ic_incognito_edit_v2"
+                            android:drawablePadding="@dimen/activity_normal_s"
+                            android:text="Thành phố Cô Lô Nhuê, Việt Nam" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

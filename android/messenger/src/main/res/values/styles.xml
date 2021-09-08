@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+
+    <style name="Chat" />
+
+    <style name="Chat.Wrapper" parent="Messenger.Wrapper">
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+    <style name="Chat.AppBar" parent="Messenger.AppBar" />
+
+    <style name="Chat.Toolbar.White" parent="Messenger.Toolbar.White" />
+
+    <style name="Chat.Toolbar.White.Nav">
+        <item name="navigationIcon">@drawable/ic_chat_toolbar</item>
+    </style>
+
+    <style name="Chat.TextView.H3.Dark" parent="Messenger.Character.H3.Dark" />
+
+    <style name="Chat.TextView.H4" parent="Messenger.Character.H4" />
+
+    <style name="Chat.TextView.H5" parent="Messenger.Character.H5" />
+
+    <style name="Chat.TextView.H6" parent="Messenger.Character.H6" />
+
+    <style name="Chat.TextView.H6.Bold" parent="Messenger.Character.H6.Bold" />
+
+    <style name="Chat.TextView.H7" parent="Messenger.Character.H7" />
+
+    <style name="Chat.TextView.H7.Secondary.OneLine" parent="Messenger.Character.H7.Secondary.OneLine"/>
+
+    <style name="Chat.TextView.H7.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Chat.TextView.H7.OneLine" parent="Messenger.Character.H7.Dark.OneLine" />
+
+    <style name="Chat.TextView.H7.Bold.Online">
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ChatTheme" parent="DayNightThemeApp">
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="ChatMessageInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatHeaderTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChatWhoIsTyping">
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ChatSendButton">
+        <item name="android:maxLines">5</item>
+    </style>
+
+    <style name="ChatInputEditText">
+        <item name="android:background">@null</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ChatMessageLayoutOutcoming">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:gravity">end|right</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="ChatMessageLayoutIncoming">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:gravity">end|right</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="ChatHeaderLayout">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Media">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/img_holder</item>
+        <item name="android:cropToPadding">true</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="Chat.Switch">
+        <item name="android:textAppearance">@style/Chat.TextView.H6</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:thumb">@drawable/chat_switch_setting_thumb</item>
+        <item name="track">@drawable/chat_switch_setting_track</item>
+        <item name="android:paddingTop">@dimen/activity_normal_s</item>
+        <item name="android:paddingBottom">@dimen/activity_normal_s</item>
+        <item name="android:layout_marginStart">@dimen/activity_normal_s</item>
+        <item name="android:layout_marginEnd">@dimen/activity_normal_s</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+</resources>

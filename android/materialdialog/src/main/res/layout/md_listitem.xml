@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MD_ListItem">
+
+    <com.halo.widget.materialdialogs.internal.rtl.RtlTextView
+        android:id="@+id/md_title"
+        style="@style/MD_ListItemText"
+        tools:text="Item" />
+</LinearLayout>

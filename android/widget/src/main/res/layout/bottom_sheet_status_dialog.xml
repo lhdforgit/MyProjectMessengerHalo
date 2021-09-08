@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_normal_s">
+
+            <LinearLayout
+                android:id="@+id/content_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_normal_s">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status_online_tv"
+                    style="@style/Messenger.Character.H6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_status_online_two"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Đang trực tuyến" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status_absent_tv"
+                    style="@style/Messenger.Character.H6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_status_absent"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Đăng vắng mặt" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status_busy_tv"
+                    style="@style/Messenger.Character.H6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_status_busy"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Đang bận" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/status_update_tv"
+                    style="@style/Messenger.Character.H6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_status_update_status"
+                    android:drawablePadding="@dimen/activity_normal_s"
+                    android:padding="@dimen/activity_normal_s"
+                    android:text="Đăng dòng trạng thái" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_status_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_normal_s"
+                android:layout_marginTop="@dimen/activity_small_s"
+                android:layout_marginEnd="@dimen/activity_normal_s"
+                android:background="@drawable/ic_message_border_common_all"
+                android:hint="Luôn Vui Tươi"
+                android:padding="@dimen/activity_normal_s"
+                android:visibility="visible"/>
+
+            <LinearLayout
+                android:id="@+id/group_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/activity_lage_s"
+                android:layout_marginTop="@dimen/activity_normal_s"
+                android:layout_marginEnd="@dimen/activity_lage_s"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/primary_bt"
+                    style="@style/Messenger.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:backgroundTint="#C2F9FF"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    android:textColor="?colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:text="Primary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cancel_bt"
+                    style="@style/Messenger.TextButton.H6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="@dimen/activity_normal_s"
+                    android:minWidth="236dp"
+                    android:minHeight="44dp"
+                    android:textSize="15sp"
+                    tools:text="Text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

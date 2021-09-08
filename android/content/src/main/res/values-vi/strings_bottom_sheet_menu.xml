@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <!--Bottom Sheet Menu-->
+    <string name="bottom_sheet_menu_media_save_video">Lưu</string>
+    <string name="bottom_sheet_menu_media_save_video_caption">Thêm vào danh sách đã lưu</string>
+    <string name="bottom_sheet_menu_media_send_comment">Gửi nhận xét cho bài đăng này</string>
+    <string name="bottom_sheet_menu_media_send_comment_caption">Bạn có thể báo cáo bài đăng này khi nhận xét được gửi</string>
+    <string name="bottom_sheet_menu_media_hide_post">Ẩn bài đăng này</string>
+    <string name="bottom_sheet_menu_media_hide_post_caption">Ẩn bài đăng tương tự</string>
+    <string name="bottom_sheet_menu_media_follow">Theo dõi</string>
+    <string name="bottom_sheet_menu_media_follow_caption">Xem thêm video và bài đăng</string>
+    <string name="bottom_sheet_menu_media_copy_path">Sao chép đường dẫn này</string>
+    <string name="bottom_sheet_menu_media_delete_media">Xóa</string>
+    <string name="bottom_sheet_menu_media_save_to_phone">Lưu vào điện thoại</string>
+    <!--End Bottom Sheet Menu-->
+
+    <!--Bottom Sheet Menu incognito-->
+    <string name="bottom_sheet_menu_incognito_reply">Trả lời</string>
+    <string name="bottom_sheet_menu_incognito_copy">Sao chép</string>
+    <string name="bottom_sheet_menu_incognito_forward">Chuyển tiếp</string>
+    <string name="bottom_sheet_menu_incognito_edit">Chỉnh sửa</string>
+    <string name="bottom_sheet_menu_incognito_save">Ghim tin nhắn</string>
+    <string name="bottom_sheet_menu_incognito_tick">Đánh dấu tin nhắn</string>
+    <string name="bottom_sheet_menu_incognito_delete">Xóa tin nhắn</string>
+    <string name="bottom_sheet_menu_incognito_cancel">Hủy</string>
+    <!--End Bottom Sheet Menu Incognito-->
+</resources>

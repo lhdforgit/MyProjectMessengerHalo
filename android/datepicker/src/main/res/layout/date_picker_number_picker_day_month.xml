@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<NumberPicker android:id="@+id/number_picker"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64dip"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dip"
+    android:layout_marginRight="6dip"
+    android:layout_marginStart="6dip"
+    android:layout_marginEnd="6dip"
+    android:focusable="true"
+    android:focusableInTouchMode="true" />

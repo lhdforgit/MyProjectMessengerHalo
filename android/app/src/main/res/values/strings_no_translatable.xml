@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 10/10/2018 Hahalolo. All rights reserved.
+  ~
+  ~ https://help.hahalolo.com/commercial_terms/
+  -->
+
+<resources>
+    <string name="hahalolo_app_name" translatable="false">Messenger</string>
+    <!-- Transition Name -->
+    <string name="drawer_open" translatable="false">Open</string>
+    <string name="drawer_close" translatable="false">Close</string>
+
+    <string name="map_api_key" translatable="false">AIzaSyDGBUwDntnuFpVUPjqejyzI3uo59HF_0Wc</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/bubble_head_bg"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/bg_shadow_circle"
+            android:gravity="center">
+
+            <com.hahalolo.messager.chatkit.view.avatar.MutilAvatarView
+                android:id="@+id/bubble_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bubble_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_message"
+                android:padding="8dp"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/bubble_notifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/bubble_notification"
+                android:paddingStart="5.25dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="5.25dp"
+                android:paddingBottom="1.25dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/bubble_notifications_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bubble_icon_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_bubble_logo"
+                android:layout_marginBottom="0.5dp"
+                android:layout_marginStart="0.5dp"
+                android:layout_marginEnd="0.5dp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

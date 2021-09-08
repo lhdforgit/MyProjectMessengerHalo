@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_small_s"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/link_view"
+            style="@style/Incognito.TextView.H5.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E7F3FF"
+            android:drawableStart="@drawable/ic_incognito_link_invite_friend"
+            android:drawableEnd="@drawable/ic_incognito_right_invite_friend"
+            android:drawablePadding="@dimen/activity_small_s"
+            android:padding="@dimen/activity_normal_s"
+            android:text="Gửi link mời cho bạn bè" />
+
+    </LinearLayout>
+</layout>
